@@ -109,6 +109,27 @@ article .markdown {
   border-radius: 2px;
 }
 
+/* Coined-term parenthetical: 譯名（English）, injected by VerseReader */
+.verse-term-en {
+  font-size: 0.75em;
+  color: var(--ifm-color-emphasis-600);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* Verse layout */
+.verse-row { display: flex; gap: 0.5rem; align-items: flex-start; padding: 0.4rem 0; }
+.verse-body { flex: 1 1 auto; min-width: 0; }
+.verse-num { font-size: 0.7em; color: var(--ifm-color-primary); margin-inline-end: 0.35em; user-select: none; }
+.verse-parallel { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 640px) { .verse-parallel { grid-template-columns: 1fr; } }
+.verse-actions { flex: 0 0 auto; display: flex; flex-direction: column; gap: 0.2rem; opacity: 0.35; transition: opacity 0.15s; }
+.verse-row:hover .verse-actions { opacity: 1; }
+.verse-action-btn { background: none; border: none; cursor: pointer; font-size: 0.9rem; padding: 0.1rem; line-height: 1; }
+.verse-toolbar { position: sticky; top: var(--ifm-navbar-height); z-index: 5; display: flex; gap: 1rem; justify-content: space-between; padding: 0.5rem 0; background: var(--ifm-background-color); border-bottom: 1px solid var(--ifm-color-emphasis-200); margin-bottom: 0.5rem; }
+.verse-lang-btn, .verse-mode-btn { background: none; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 4px; padding: 0.2rem 0.6rem; margin-inline-end: 0.25rem; cursor: pointer; font-size: 0.85rem; }
+.verse-lang-btn.active, .verse-mode-btn.active { background: var(--ifm-color-primary); color: #fff; border-color: var(--ifm-color-primary); }
+
 /* --------------------------------------------------------------------------
  * Plate images
  * -------------------------------------------------------------------------- */

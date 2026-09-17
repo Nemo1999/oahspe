@@ -26,7 +26,10 @@ def _build_img_id_to_plate_id() -> dict[str, int]:
     return {p["img_id"]: p["id"] for p in data if p.get("img_id")}
 
 SESSION = requests.Session()
-SESSION.headers["User-Agent"] = "oahspe-scraper/1.0 (+https://github.com/Nemo1999/oahspe)"
+SESSION.headers["User-Agent"] = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
 
 # ---------------------------------------------------------------------------
 # Book table: maps (file_start, file_end) ranges to book slug + title.
@@ -87,7 +90,14 @@ def chapter_within_book(n: int) -> int:
 def slugify_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
+HTML_CACHE = Path(__file__).parent / ".htmlcache"
+
 def fetch(url: str) -> BeautifulSoup:
+    """Cache-first: read scripts/.htmlcache/<file>.htm if present (Cloudflare blocks
+    plain requests; prefetch via a real browser into the cache). Else HTTP fallback."""
+    cached = HTML_CACHE / url.rsplit("/", 1)[-1]
+    if cached.exists():
+        return BeautifulSoup(cached.read_text(encoding="utf-8"), "html.parser")
     resp = SESSION.get(url, timeout=30)
     resp.raise_for_status()
     return BeautifulSoup(resp.text, "html.parser")
@@ -102,9 +112,10 @@ def extract_chapter(
     """Parse a chapter page into the canonical JSON structure."""
     body = soup.find("body") or soup
 
-    # Collect all visible text blocks in document order
+    # Collect visible text blocks in document order.
+    # Skip <center> (nav breadcrumb + image alignment, never verse content).
     paragraphs = []
-    for tag in body.find_all(["p", "blockquote", "h1", "h2", "h3", "center"]):
+    for tag in body.find_all(["p", "blockquote", "h1", "h2", "h3"]):
         text = tag.get_text(" ", strip=True)
         if text:
             paragraphs.append((tag, text))
@@ -112,6 +123,8 @@ def extract_chapter(
     # Split paragraphs into preamble and verses.
     # A verse starts with a digit followed by a period at the beginning.
     verse_re = re.compile(r"^(\d+)\.\s+(.*)", re.DOTALL)
+    page_re = re.compile(r"^p\.\s*\d+\s*$", re.I)          # page marker "p. 6"
+    chap_re = re.compile(r"^Chapter\s+[\dIVXLCivxlc]+\s*$")  # redundant "Chapter I"
     preamble_parts = []
     raw_verses = []  # list of (verse_num, text, img_src_or_none)
     in_verses = False
@@ -127,11 +140,14 @@ def extract_chapter(
             raw_img = img.get("src") if img else None
             raw_verses.append((vnum, vtext, raw_img))
         elif not in_verses:
+            # Drop page markers, redundant title/chapter headings
+            if page_re.match(text) or chap_re.match(text):
+                continue
+            if text.strip().lower() == book_title.lower():
+                continue
             preamble_parts.append(text)
 
     preamble = " ".join(preamble_parts).strip()
-    # Remove leading page-number artifacts (e.g. "p. 37")
-    preamble = re.sub(r"^(p\.\s*\d+\s*)?", "", preamble).strip()
 
     chapter_id = f"{book_slug}.{chapter_num}"
     title_str = f"{book_title} — Chapter {chapter_num}"

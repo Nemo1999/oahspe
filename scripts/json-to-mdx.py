@@ -16,14 +16,29 @@ DOCS_DIR = ROOT / "site" / "docs"
 # Template helpers
 # ---------------------------------------------------------------------------
 
-def chapter_mdx(chapter: dict) -> str:
+GLOSSARY_JSON = ROOT / "content" / "glossary" / "terms.json"
+
+
+def load_glossary() -> dict:
+    """Return {term: {translit, slug}} for parenthetical injection. Empty if none yet."""
+    if not GLOSSARY_JSON.exists():
+        return {}
+    out = {}
+    for t in json.loads(GLOSSARY_JSON.read_text()):
+        out[t["term"]] = {"translit": t.get("translit", {}), "slug": t.get("slug", "")}
+    return out
+
+
+def chapter_mdx(chapter: dict, glossary: dict) -> str:
     cid = chapter["id"]
     title = chapter["title"]
-    book_slug = chapter["book"]
-    chapter_num = chapter["chapter"]
-    sidebar_label = f"Chapter {chapter_num}"
+    sidebar_label = f"Chapter {chapter['chapter']}"
 
-    # Inline chapter data as a JSON.parse template literal — safe in JSX/MDX
+    # Only ship glossary entries whose term actually appears in this chapter.
+    used = set()
+    for v in chapter["verses"]:
+        used.update(v.get("glossary_terms") or [])
+    chapter_gloss = {k: glossary[k] for k in used if k in glossary}
 
     return f"""---
 id: {cid}
@@ -34,16 +49,16 @@ custom_edit_url: null
 
 import VerseReader from '@site/src/components/VerseReader';
 
-<VerseReader chapter={{{JSON_PROP(chapter)}}} />
+<VerseReader chapter={{{JS_PROP(chapter)}}} glossary={{{JS_PROP(chapter_gloss)}}} />
 """
 
-def JSON_PROP(chapter: dict) -> str:
-    """Emit chapter as a JSX backtick-template-literal JSON.parse() expression."""
-    # Correct escape order: backslashes first, then backticks, then bare $ that would
+def JS_PROP(obj) -> str:
+    """Emit obj as a JSX backtick-template-literal JSON.parse() expression."""
+    # Correct escape order: backslashes first, then backticks, then bare ${ that would
     # start a JS template expression.
-    s = json.dumps(chapter, ensure_ascii=False)
+    s = json.dumps(obj, ensure_ascii=False)
     s = s.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
-    return "{JSON.parse(`" + s + "`)}"
+    return "JSON.parse(`" + s + "`)"
 
 
 def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path]) -> str:
@@ -108,6 +123,9 @@ def main():
 
     generated = 0
     slug_to_title = {b["slug"]: b["title"] for b in books_data}
+    glossary = load_glossary()
+
+    book_dirs = sorted(d for d in CONTENT_DIR.iterdir() if d.is_dir())
 
     for book_dir in tqdm(book_dirs, desc="Books", unit="book"):
         slug = book_dir.name
@@ -124,7 +142,7 @@ def main():
             chapter = json.loads(ch_path.read_text())
             num = chapter["chapter"]
             out_path = out_book_dir / f"{num:02d}.mdx"
-            out_path.write_text(chapter_mdx(chapter), encoding="utf-8")
+            out_path.write_text(chapter_mdx(chapter, glossary), encoding="utf-8")
             generated += 1
 
         # Book index
