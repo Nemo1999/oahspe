@@ -1,0 +1,16 @@
+{
+  "name": "oahspe",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "python3 scripts/scrape-sacred-texts.py",
+    "translate": "python3 scripts/translate.py",
+    "glossary": "python3 scripts/build-glossary.py",
+    "plates": "python3 scripts/extract-plates.py",
+    "validate": "python3 scripts/validate.py",
+    "prebuild": "npm run validate && python3 scripts/json-to-mdx.py",
+    "build": "cd site && npm run build",
+    "start": "cd site && npm run start",
+    "serve": "cd site && npm run serve"
+  }
+}

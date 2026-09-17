@@ -1,0 +1,182 @@
+/**
+ * Custom CSS for Oahspe Docusaurus site.
+ * Reader-optimised: larger base font, comfortable line-height, CJK-friendly stack.
+ */
+
+/* --------------------------------------------------------------------------
+ * Design tokens
+ * -------------------------------------------------------------------------- */
+:root {
+  /* Brand palette – light mode */
+  --ifm-color-primary: #4a6fa5;
+  --ifm-color-primary-dark: #3d5e8e;
+  --ifm-color-primary-darker: #375585;
+  --ifm-color-primary-darkest: #2d456d;
+  --ifm-color-primary-light: #5780b6;
+  --ifm-color-primary-lighter: #6088bb;
+  --ifm-color-primary-lightest: #7b9fc9;
+
+  /* Typography */
+  --ifm-font-size-base: 18px;
+  --ifm-line-height-base: 1.8;
+  --ifm-font-family-base:
+    'Georgia', 'Noto Serif', 'Noto Serif CJK TC', 'Noto Serif CJK SC',
+    'Source Han Serif', 'Yu Mincho', 'Hiragino Mincho ProN',
+    serif;
+  --ifm-font-family-monospace:
+    'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace;
+
+  /* Reading width */
+  --ifm-container-width: 1100px;
+  --ifm-container-width-xl: 1280px;
+
+  /* Code blocks */
+  --ifm-code-font-size: 85%;
+
+  /* Spacing */
+  --ifm-leading: 1.8;
+}
+
+/* --------------------------------------------------------------------------
+ * Dark mode tokens
+ * -------------------------------------------------------------------------- */
+[data-theme='dark'] {
+  --ifm-color-primary: #7b9fc9;
+  --ifm-color-primary-dark: #6088bb;
+  --ifm-color-primary-darker: #5780b6;
+  --ifm-color-primary-darkest: #4a6fa5;
+  --ifm-color-primary-light: #8db0d6;
+  --ifm-color-primary-lighter: #96b7da;
+  --ifm-color-primary-lightest: #b0cbe6;
+
+  --ifm-background-color: #0f0f1a;
+  --ifm-background-surface-color: #1a1a2e;
+  --ifm-navbar-background-color: #1a1a2e;
+  --ifm-footer-background-color: #0f0f1a;
+}
+
+/* --------------------------------------------------------------------------
+ * Reading layout – cap prose width
+ * -------------------------------------------------------------------------- */
+.markdown,
+article .markdown {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+/* Keep full-width for index/landing pages */
+.container > .row > .col:first-child:last-child .markdown {
+  max-width: none;
+}
+
+/* --------------------------------------------------------------------------
+ * Typography refinements
+ * -------------------------------------------------------------------------- */
+.markdown p,
+.markdown li {
+  line-height: var(--ifm-line-height-base);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  font-family: var(--ifm-font-family-base);
+  letter-spacing: 0.01em;
+}
+
+/* Verse numbers (added by our custom components) */
+.verse-number {
+  font-size: 0.7em;
+  color: var(--ifm-color-primary);
+  vertical-align: super;
+  margin-inline-end: 0.25em;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.verse-number:hover {
+  text-decoration: underline;
+}
+
+/* Highlight for active/linked verse */
+.verse-highlight {
+  background-color: color-mix(in srgb, var(--ifm-color-primary) 15%, transparent);
+  border-inline-start: 3px solid var(--ifm-color-primary);
+  padding-inline-start: 0.5em;
+  margin-inline-start: -0.5em;
+  border-radius: 2px;
+}
+
+/* --------------------------------------------------------------------------
+ * Plate images
+ * -------------------------------------------------------------------------- */
+.plate-figure {
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.plate-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+}
+
+.plate-figure figcaption {
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem;
+}
+
+/* --------------------------------------------------------------------------
+ * Bookmarks page
+ * -------------------------------------------------------------------------- */
+.bookmarks-page h1 {
+  margin-bottom: 1.5rem;
+}
+
+.bookmark-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.bookmark-item:last-child {
+  border-bottom: none;
+}
+
+.bookmark-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* --------------------------------------------------------------------------
+ * CJK / language specific
+ * -------------------------------------------------------------------------- */
+:lang(zh-Hant),
+:lang(zh-Hans) {
+  --ifm-font-family-base:
+    'Noto Serif CJK TC', 'Noto Serif CJK SC', 'Source Han Serif TC',
+    'Source Han Serif SC', 'FangSong', 'STSong', 'SimSun', serif;
+  line-break: strict;
+  overflow-wrap: break-word;
+}
+
+:lang(ja) {
+  --ifm-font-family-base:
+    'Noto Serif CJK JP', 'Source Han Serif', 'Yu Mincho', 'Hiragino Mincho ProN',
+    'MS Mincho', serif;
+  line-break: strict;
+  overflow-wrap: break-word;
+}

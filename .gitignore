@@ -1,0 +1,9 @@
+node_modules/
+.docusaurus/
+build/
+site/build/
+site/.docusaurus/
+__pycache__/
+.env
+*.pyc
+.DS_Store

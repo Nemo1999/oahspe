@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Generate Docusaurus MDX pages from chapter JSON files."""
+
+import json
+import sys
+from pathlib import Path
+
+from tqdm import tqdm
+
+ROOT = Path(__file__).parent.parent
+CONTENT_DIR = ROOT / "content" / "books"
+BOOKS_JSON = ROOT / "content" / "meta" / "books.json"
+DOCS_DIR = ROOT / "site" / "docs"
+
+# ---------------------------------------------------------------------------
+# Template helpers
+# ---------------------------------------------------------------------------
+
+def chapter_mdx(chapter: dict) -> str:
+    cid = chapter["id"]
+    title = chapter["title"]
+    book_slug = chapter["book"]
+    chapter_num = chapter["chapter"]
+    sidebar_label = f"Chapter {chapter_num}"
+
+    # Inline chapter data as a JSON.parse template literal — safe in JSX/MDX
+
+    return f"""---
+id: {cid}
+title: "{title}"
+sidebar_label: "{sidebar_label}"
+custom_edit_url: null
+---
+
+import VerseReader from '@site/src/components/VerseReader';
+
+<VerseReader chapter={{{JSON_PROP(chapter)}}} />
+"""
+
+def JSON_PROP(chapter: dict) -> str:
+    """Emit chapter as a JSX backtick-template-literal JSON.parse() expression."""
+    # Correct escape order: backslashes first, then backticks, then bare $ that would
+    # start a JS template expression.
+    s = json.dumps(chapter, ensure_ascii=False)
+    s = s.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
+    return "{JSON.parse(`" + s + "`)}"
+
+
+def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path]) -> str:
+    chapters = [json.loads(p.read_text()) for p in chapter_files]
+    chapter_links = "\n".join(
+        f"- [{c['title']}](./{c['chapter']:02d})" for c in chapters
+    )
+    return f"""---
+id: {book_slug}
+title: "{book_title}"
+sidebar_label: "{book_title}"
+custom_edit_url: null
+---
+
+# {book_title}
+
+{chapter_links}
+"""
+
+
+def top_index_mdx(books: list[dict]) -> str:
+    book_links = "\n".join(
+        f"- [{b['title']}](./{b['slug']}/)" for b in books
+    )
+    return f"""---
+id: index
+title: "Oahspe — A Kosmon Bible"
+sidebar_label: "All Books"
+custom_edit_url: null
+---
+
+# Oahspe
+
+A Kosmon Bible in the Words of Jehovih and his Angel Embassadors (1882)
+
+## Books
+
+{book_links}
+"""
+
+
+def main():
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+
+    books_data: list[dict] = []
+    if BOOKS_JSON.exists():
+        books_data = json.loads(BOOKS_JSON.read_text())
+
+    if not CONTENT_DIR.exists():
+        print(f"ERROR: {CONTENT_DIR} does not exist. Run scrape-sacred-texts.py first.")
+        sys.exit(1)
+
+    book_dirs = sorted(d for d in CONTENT_DIR.iterdir() if d.is_dir())
+    if not book_dirs:
+        print("No book directories found. Run scrape-sacred-texts.py first.")
+        sys.exit(1)
+
+    generated = 0
+    slug_to_title = {b["slug"]: b["title"] for b in books_data}
+
+    for book_dir in tqdm(book_dirs, desc="Books", unit="book"):
+        slug = book_dir.name
+        title = slug_to_title.get(slug, slug.replace("-", " ").title())
+        chapter_files = sorted(book_dir.glob("chapter-*.json"))
+        if not chapter_files:
+            continue
+
+        out_book_dir = DOCS_DIR / slug
+        out_book_dir.mkdir(parents=True, exist_ok=True)
+
+        # Per-chapter MDX
+        for ch_path in tqdm(chapter_files, desc=slug, unit="ch", leave=False):
+            chapter = json.loads(ch_path.read_text())
+            num = chapter["chapter"]
+            out_path = out_book_dir / f"{num:02d}.mdx"
+            out_path.write_text(chapter_mdx(chapter), encoding="utf-8")
+            generated += 1
+
+        # Book index
+        idx_path = out_book_dir / "index.mdx"
+        idx_path.write_text(book_index_mdx(slug, title, chapter_files), encoding="utf-8")
+        generated += 1
+
+    # Top-level index
+    top_idx = DOCS_DIR / "index.mdx"
+    # Build book list from actual dirs present
+    present_books = [
+        b for b in books_data
+        if (CONTENT_DIR / b["slug"]).is_dir() and sorted((CONTENT_DIR / b["slug"]).glob("chapter-*.json"))
+    ]
+    if not present_books:
+        present_books = [
+            {"slug": d.name, "title": d.name.replace("-", " ").title()}
+            for d in book_dirs
+            if sorted(d.glob("chapter-*.json"))
+        ]
+    top_idx.write_text(top_index_mdx(present_books), encoding="utf-8")
+    generated += 1
+
+    print(f"\nGenerated {generated} MDX files under {DOCS_DIR}")
+
+
+if __name__ == "__main__":
+    main()
