@@ -290,26 +290,26 @@
     "slug": "corpor",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "柯珀",
+      "zh_hans": "柯珀",
+      "ja": "コルペル"
     },
     "source_def": "Whatever has length and. breadth and thickness, and is perceptible to sight, hearing and feeling. Ethe is the solvent of it, 572.1.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "凡具有長度、寬度與厚度，並可為視覺、聽覺及觸覺所感知者。以太（Ethe）為其溶劑。572.1。",
+      "zh_hans": "凡具有长度、宽度与厚度，并可为视觉、听觉及触觉所感知者。以太（Ethe）为其溶剂。572.1。",
+      "ja": "長さ、幅、厚みを有し、視覚・聴覚・触覚によって知覚されうるすべてのもの。エセ（Ethe）はその溶媒である。572.1。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "Oahspe's term for gross physical matter—the visible, tangible substance of the corporeal world, as distinct from the unseen etherean and atmospherean realms. In verse 5 it appears as the spelling 'Corper', the seen and 'impotent' entity paired with the unseen 'potent' one.",
+      "zh_hant": "奧阿斯佩用以指稱粗重的物質——即有形世界中可見、可觸的實體，與不可見的以太界及大氣界相對。第五節中以「Corper」拼寫，指那「可見」而「無能」的實體，與「不可見」而「有能」者相配。",
+      "zh_hans": "奥阿斯佩用以指称粗重的物质——即有形世界中可见、可触的实体，与不可见的以太界及大气界相对。第五节中以「Corper」拼写，指那「可见」而「无能」的实体，与「不可见」而「有能」者相配。",
+      "ja": "オアスペにおいて粗大な物質を指す語。すなわち有形世界における見ゆる・触れうる実体であり、見えざるエセ界・大気界と対をなす。第五節では「Corper」と綴られ、「見ゆる」ゆえに「力なき」実体として、「見えざる」「力あるもの」と対置される。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "jehovih.1"
   },
   {
     "term": "Corporean",
@@ -1428,5 +1428,36 @@
     "cross_refs": [],
     "locked": false,
     "first_seen": null
+  },
+  {
+    "term": "Jehovih",
+    "slug": "jehovih",
+    "category": "name",
+    "translit": {
+      "zh_hant": "耶霍維",
+      "zh_hans": "耶霍维",
+      "ja": "ジェホヴィ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The Creator, the All Person, the All One—the supreme being of Oahspe. The name is said to derive from the sound of the wind, E-O-Ih. Deliberately rendered by sound (not as Yahweh/耶和華/エホバ) to mark it as a distinct being.",
+      "zh_hant": "造物主、全位格者、全一者——奧阿斯佩中的至高存在。該名據說源自風所發之聲「E-O-Ih」。本譯名刌意依聲而譯（而非作耶和華），以標明其為一獨立而不同的存在。",
+      "zh_hans": "造物主、全位格者、全一者——奥阿斯佩中的至高存在。该名据说源自风所发之声「E-O-Ih」。本译名刌意依声而译（而非作耶和华），以标明其为一独立而不同的存在。",
+      "ja": "造物主、全なる位格、全一者——オアスペにおける至高の存在。この名は風の発する音「E-O-Ih」に由来するとされる。ヤハウェ（エホバ）とは区別される独自の存在であることを示すため、意図的に音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.1.3",
+      "jehovih.1.7"
+    ],
+    "cross_refs": [
+      "corpor"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.1.3"
   }
 ]

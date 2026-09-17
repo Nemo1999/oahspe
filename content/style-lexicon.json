@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "en": "the QUICKENER",
+    "category": "verb",
+    "zh_hant": "喚醒者",
+    "zh_hans": "唤醒者",
+    "ja": "喚び起こす者",
+    "note": "Jehovih as the one who awakens/gives life; spiritual quickening sense, not literal 'speeds up'. Paired with Mover/Creator/Destroyer as divine titles.",
+    "locked": true,
+    "first_seen": "jehovih.1.4"
+  },
+  {
+    "en": "By virtue of My presence",
+    "category": "phrase",
+    "zh_hant": "因我臨在",
+    "zh_hans": "因我臨在",
+    "ja": "我が臨在によりて",
+    "note": "Recurring formula asserting that existence/life flows from Jehovih's presence.",
+    "locked": true,
+    "first_seen": "jehovih.1.4"
+  },
+  {
+    "en": "I am FIRST and LAST",
+    "category": "phrase",
+    "zh_hant": "我是「最先」與「最末」",
+    "zh_hans": "我是「最先」与「最末」",
+    "ja": "我は「最初」にして「最後」なり",
+    "note": "Divine self-declaration of encompassing all time; rendered reverently, distinct from biblical Alpha/Omega phrasing.",
+    "locked": true,
+    "first_seen": "jehovih.1.4"
+  }
+]

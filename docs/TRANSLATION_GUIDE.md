@@ -111,8 +111,12 @@ Entry shape:
 1. Read `terms.json` + `style-lexicon.json` fully before translating.
 2. For every verse: translate into all 3 languages honoring **every** locked entry verbatim.
 3. Populate `glossary_terms` with the canonical English headwords present in the verse.
-4. Collect **new** proposals (terms + lexicon) with full entry data.
-5. Return verses + proposals. Do NOT edit existing entries; if you believe one is wrong, add a `conflict_note` in your output — the orchestrator surfaces it, but the locked value stands unless a human changes it.
+4. **Two kinds of dictionary work — distinguish them:**
+   - **FILL** — a term already exists in `terms.json` (from Oahspe's own glossary) but its `translit`/`source_def_literal`/`editor_note` are `null`. If that term appears in this chapter, fill those null fields (coin the transliteration per §2, write the literal translation + editor note). Return these under `fill_glossary`, keyed by `slug`.
+   - **COIN** — a name/coined-term NOT in `terms.json` at all. Create a full new entry. Return under `new_glossary`.
+   - Never overwrite a field that is already non-null (locked). Only fill nulls or add new entries.
+5. Collect distinctive verbs/formulaic phrases (per §4b threshold) as `new_lexicon`.
+6. Return verses + proposals. If you believe a non-null locked value is wrong, add a `conflict_note`; the locked value stands unless a human changes it.
 
 ---
 
@@ -125,7 +129,8 @@ A single JSON object:
   "verses": [
     { "id": "jehovih.1.1", "zh_hant": "...", "zh_hans": "...", "ja": "...", "glossary_terms": ["Jehovih"] }
   ],
-  "new_glossary": [ { ...terms.json entry... } ],
+  "fill_glossary": [ { "slug": "jehovih", "translit": {...}, "source_def_literal": {...}, "editor_note": {...} } ],
+  "new_glossary": [ { ...full terms.json entry for a newly coined term... } ],
   "new_lexicon":  [ { ...style-lexicon.json entry... } ],
   "conflict_notes": []
 }

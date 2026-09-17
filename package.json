@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "scrape": "python3 scripts/scrape-sacred-texts.py",
-    "translate": "python3 scripts/translate.py",
     "glossary": "python3 scripts/build-glossary.py",
     "plates": "python3 scripts/extract-plates.py",
     "validate": "python3 scripts/validate.py",
