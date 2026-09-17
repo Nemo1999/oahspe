@@ -92,14 +92,19 @@ def main():
     if BOOKS_JSON.exists():
         books_data = json.loads(BOOKS_JSON.read_text())
 
-    if not CONTENT_DIR.exists():
-        print(f"ERROR: {CONTENT_DIR} does not exist. Run scrape-sacred-texts.py first.")
-        sys.exit(1)
-
-    book_dirs = sorted(d for d in CONTENT_DIR.iterdir() if d.is_dir())
-    if not book_dirs:
-        print("No book directories found. Run scrape-sacred-texts.py first.")
-        sys.exit(1)
+    if not CONTENT_DIR.exists() or not any(
+        list(d.glob("chapter-*.json")) for d in CONTENT_DIR.iterdir() if d.is_dir()
+    ) if CONTENT_DIR.exists() else True:
+        # No content yet — write a placeholder index so the build doesn't fail
+        placeholder = DOCS_DIR / "index.md"
+        if not placeholder.exists():
+            placeholder.write_text(
+                "# Oahspe\n\nContent is being prepared. "
+                "Run `npm run scrape` to populate the book content.\n",
+                encoding="utf-8",
+            )
+        print("No chapter content found — placeholder index written. Run scrape-sacred-texts.py first.")
+        sys.exit(0)
 
     generated = 0
     slug_to_title = {b["slug"]: b["title"] for b in books_data}
