@@ -15,6 +15,16 @@ BASE_URL = "https://archive.sacred-texts.com/oah/oah/"
 ROOT = Path(__file__).parent.parent
 BOOKS_JSON = ROOT / "content" / "meta" / "books.json"
 CONTENT_DIR = ROOT / "content" / "books"
+PLATES_JSON = ROOT / "content" / "meta" / "plates.json"
+
+
+def _build_img_id_to_plate_id() -> dict[str, int]:
+    """Load plates.json and return {img_id: plate_integer_id}. Graceful on missing file."""
+    if not PLATES_JSON.exists():
+        return {}
+    data = json.loads(PLATES_JSON.read_text())
+    return {p["img_id"]: p["id"] for p in data if p.get("img_id")}
+
 SESSION = requests.Session()
 SESSION.headers["User-Agent"] = "oahspe-scraper/1.0 (+https://github.com/Nemo1999/oahspe)"
 
@@ -82,30 +92,28 @@ def fetch(url: str) -> BeautifulSoup:
     resp.raise_for_status()
     return BeautifulSoup(resp.text, "html.parser")
 
-def extract_chapter(soup: BeautifulSoup, book_slug: str, chapter_num: int, book_title: str):
+def extract_chapter(
+    soup: BeautifulSoup,
+    book_slug: str,
+    chapter_num: int,
+    book_title: str,
+    img_lookup: dict[str, int],
+):
     """Parse a chapter page into the canonical JSON structure."""
     body = soup.find("body") or soup
 
     # Collect all visible text blocks in document order
-    # Strategy: walk all <p> and <blockquote> and text nodes
     paragraphs = []
     for tag in body.find_all(["p", "blockquote", "h1", "h2", "h3", "center"]):
         text = tag.get_text(" ", strip=True)
         if text:
             paragraphs.append((tag, text))
 
-    # Detect plate references from img tags
-    plate_refs = []
-    for img in body.find_all("img"):
-        src = img.get("src", "") or img.get("name", "")
-        if src:
-            plate_refs.append(src)
-
     # Split paragraphs into preamble and verses.
     # A verse starts with a digit followed by a period at the beginning.
     verse_re = re.compile(r"^(\d+)\.\s+(.*)", re.DOTALL)
     preamble_parts = []
-    raw_verses = []  # list of (verse_num, text, plate_ref)
+    raw_verses = []  # list of (verse_num, text, img_src_or_none)
     in_verses = False
 
     for tag, text in paragraphs:
@@ -114,30 +122,37 @@ def extract_chapter(soup: BeautifulSoup, book_slug: str, chapter_num: int, book_
             in_verses = True
             vnum = int(m.group(1))
             vtext = m.group(2).strip()
-            # Check for image nearby
+            # Capture img src immediately adjacent to this verse paragraph
             img = tag.find("img")
-            pref = img["src"] if img and img.get("src") else None
-            raw_verses.append((vnum, vtext, pref))
+            raw_img = img.get("src") if img else None
+            raw_verses.append((vnum, vtext, raw_img))
         elif not in_verses:
             preamble_parts.append(text)
 
     preamble = " ".join(preamble_parts).strip()
-    # Remove repeated book/chapter header lines from preamble
+    # Remove leading page-number artifacts (e.g. "p. 37")
     preamble = re.sub(r"^(p\.\s*\d+\s*)?", "", preamble).strip()
 
     chapter_id = f"{book_slug}.{chapter_num}"
     title_str = f"{book_title} — Chapter {chapter_num}"
 
     verses = []
-    for vnum, vtext, pref in raw_verses:
+    for vnum, vtext, raw_img in raw_verses:
+        # Resolve img src to integer plate id; None if unrecognised or absent
+        plate_ref: int | None = None
+        if raw_img:
+            # Sacred Texts img src values look like "img/03700.jpg" or just "03700.jpg"
+            stem = re.sub(r"^img/", "", raw_img).removesuffix(".jpg")
+            plate_ref = img_lookup.get(stem)
         verses.append({
             "id": f"{chapter_id}.{vnum}",
+            "verse_number": vnum,
             "en": vtext,
             "zh_hant": None,
             "zh_hans": None,
             "ja": None,
             "glossary_terms": [],
-            "plate_ref": pref,
+            "plate_ref": plate_ref,
             "notes": [],
         })
 
@@ -183,6 +198,9 @@ def main():
     build_books_json()
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
 
+    img_lookup = _build_img_id_to_plate_id()
+    print(f"Loaded {len(img_lookup)} plate img_id mappings.")
+
     chapter_urls = collect_chapter_urls()
 
     skipped = 0
@@ -202,7 +220,7 @@ def main():
 
         try:
             soup = fetch(url)
-            chapter_data = extract_chapter(soup, book_slug, chapter_num, book_title)
+            chapter_data = extract_chapter(soup, book_slug, chapter_num, book_title, img_lookup)
             out_path.write_text(json.dumps(chapter_data, indent=2, ensure_ascii=False))
         except Exception as e:
             errors.append(f"oah{file_no}: {e}")

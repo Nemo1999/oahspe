@@ -5,7 +5,7 @@ import ImagePlate from './ImagePlate';
 // ---- types ------------------------------------------------------------------
 
 export interface VerseData {
-  chapter_verse: string;     // e.g. "1:1"
+  id: string;               // e.g. "jehovih.1.3" (book-slug.chapter.verse)
   verse_number: number;
   text: {
     en: string;
@@ -13,7 +13,7 @@ export interface VerseData {
     zh_cn?: string;
     ja?: string;
   };
-  plate_ref?: number;        // plate id when verse references a plate
+  plate_ref?: number;        // integer plate id when verse references a plate
   glossary_terms?: string[]; // terms appearing in this verse
 }
 
@@ -90,7 +90,7 @@ const VerseRow = React.memo(function VerseRow({
   onBookmarkToggle,
   chapterPath,
 }: VerseRowProps) {
-  const anchorId = `v${verse.chapter_verse}`;
+  const anchorId = verse.id;
   const isBookmarked = bookmarks.has(anchorId);
 
   const handleShare = useCallback(() => {
@@ -113,7 +113,6 @@ const VerseRow = React.memo(function VerseRow({
   const enText  = verse.text.en;
   const cjkText = lang !== 'en' ? getVerseText(verse, lang) : null;
 
-  return (
     <div id={anchorId} className="verse-row">
       <div className="verse-body">
         {displayMode === 'single' || lang === 'en' ? (
@@ -252,7 +251,7 @@ export default function VerseReader({ chapter }: VerseReaderProps): React.ReactE
       <div className="verse-list">
         {chapter.verses.map((verse) => (
           <VerseRow
-            key={verse.chapter_verse}
+            key={verse.id}
             verse={verse}
             lang={lang}
             displayMode={displayMode}

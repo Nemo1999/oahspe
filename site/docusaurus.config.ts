@@ -17,7 +17,7 @@ const config: Config = {
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: { hooks: { onBrokenMarkdownLinks: 'warn' } },
 
   i18n: {
     defaultLocale: 'en',
@@ -93,27 +93,8 @@ const config: Config = {
           { tagName: 'link', rel: 'apple-touch-icon', href: '/oahspe/img/icon-192.png' },
         ],
         swCustom: require.resolve('./swCustom.js'),
-        swRegister: true,
         injectManifestConfig: {
           globPatterns: ['**/*.{js,jsx,ts,tsx,css,json,html,woff2}'],
-        },
-        workbox: {
-          runtimeCaching: [
-            {
-              urlPattern: /\/static\/plates\/full\//,
-              handler: 'CacheFirst' as const,
-              options: {
-                cacheName: 'plates-full-cache',
-                expiration: {
-                  maxEntries: 200,
-                  maxAgeSeconds: 60 * 60 * 24 * 365, // 1 year
-                },
-                cacheableResponse: {
-                  statuses: [0, 200],
-                },
-              },
-            },
-          ],
         },
       } as PwaPluginOptions,
     ],
