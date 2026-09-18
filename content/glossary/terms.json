@@ -1018,26 +1018,26 @@
     "slug": "nirvanian",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "涅槃主長",
+      "zh_hans": "涅槃主长",
+      "ja": "ニルヴァニア首長"
     },
     "source_def": "One of a council who and appoint the Orians their places,",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "議會成員之一，他們為奧利安們指定位分。",
+      "zh_hans": "议会成员之一，他们为奥利安们指定位分。",
+      "ja": "オリアンたちにその場所を任ずる議会の一員。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe's etherean hierarchy, a Nirvanian Chief ranks next above an Orian Chief; one of a council in the etherean worlds who appoint the Orians to their places. 'Nirvanian' is transliterated by sound; 'Chief' rendered as 主長 (zh) / 首長 (ja), consistent with the Orian Chiefs entry.",
+      "zh_hant": "在奧阿斯佩的以太界位階中，涅槃主長位階高於奧利安主長；為以太界諸世界中一議會的成員，負責為奧利安們指定其位分。「涅槃」依聲音音譯，「主長／首長」與奧利安主長條目一致。",
+      "zh_hans": "在奥阿斯佩的以太界位阶中，涅槃主长位阶高于奥利安主长；为以太界诸世界中一议会的成员，负责为奥利安们指定其位分。「涅槃」依声音音译，「主长／首长」与奥利安主长条目一致。",
+      "ja": "オアスペのエセ界の位階において、ニルヴァニア首長はオリアン首長よりさらに高き位にある。エセ界の諸世界の議会の一員であり、オリアンたちにその場所を任ずる。「ニルヴァニア」は音訳、「首長」はオリアン首長の条目と一致させた。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "hints.1"
   },
   {
     "term": "Oe'tan",
@@ -1070,26 +1070,26 @@
     "slug": "orian",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "奧利安",
+      "zh_hans": "奥利安",
+      "ja": "オリアン"
     },
     "source_def": "A ruler over etherean worlds:",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "統治以太界諸世界的治理者。",
+      "zh_hans": "统治以太界诸世界的治理者。",
+      "ja": "エセ界の諸世界を治める支配者。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "A ruler over etherean worlds in Oahspe's cosmology; appointed to his place by the council of Nirvanian Chiefs. Related to the Orian Chiefs, the highest administrators of the etherean roadways. 'Orian' transliterated by sound, consistent with the Orian Chiefs entry.",
+      "zh_hant": "在奧阿斯佩宇宙論中，統治以太界諸世界的治理者；由涅槃主長議會指定其位分。與奧利安主長相關，後者為以太界諸天道的最高行政者。「奧利安」依聲音音譯，與奧利安主長條目一致。",
+      "zh_hans": "在奥阿斯佩宇宙论中，统治以太界诸世界的治理者；由涅槃主长议会指定其位分。与奥利安主长相关，后者为以太界诸天道的最高行政者。「奥利安」依声音音译，与奥利安主长条目一致。",
+      "ja": "オアスペの宇宙論において、エセ界の諸世界を治める支配者。ニルヴァニア首長の議会によってその場所を任ぜられる。エセ界の天道の最高行政者たるオリアン首長と関連する。「オリアン」は音訳、オリアン首長の条目と一致させた。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "hints.1"
   },
   {
     "term": "Sar'gis",
@@ -3528,5 +3528,692 @@
     ],
     "locked": true,
     "first_seen": "voice-of-man.1"
+  },
+  {
+    "term": "Chinvat",
+    "slug": "chinvat",
+    "category": "term",
+    "translit": {
+      "zh_hant": "欽瓦特",
+      "zh_hans": "钦瓦特",
+      "ja": "チンヴァト"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, the boundary or bridge between atmospherea and etherea—the outermost limit of the earth's vortex, beyond which lie the etherean worlds. Listed here among the etherean terms. A coined Oahspe term rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，指大氣界與以太界之間的界限或橋樑——即大地渦旋的最外緣，越過此界即為以太界諸世界。此處列於以太界諸詞之中。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，指大气界与以太界之间的界限或桥梁——即大地涡旋的最外缘，越过此界即为以太界诸世界。此处列于以太界诸词之中。奥阿斯佩的造词，依声音音译。",
+      "ja": "オアスペにおいて、大気界とエセ界との間の境界または橋——すなわち大地の渦の最外縁であり、これを越えればエセ界の諸世界がある。ここではエセ界の諸語のうちに列せられる。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.7"
+    ],
+    "cross_refs": [
+      "etherea",
+      "atmospherea",
+      "vortex"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Eolin",
+    "slug": "eolin",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄奧林",
+      "zh_hans": "厄奥林",
+      "ja": "エオリン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the divine names by which man has named the Creator (Jehovih); a variant sound of the wind-name E-O-Ih. Rendered by sound, distinct from Jehovih itself.",
+      "zh_hant": "人用以稱呼造物主（耶霍維）的諸神聖之名之一；乃風之名「E-O-Ih」的一種變音。依聲音音譯，與耶霍維本名有別。",
+      "zh_hans": "人用以称呼造物主（耶霍维）的诸神圣之名之一；乃风之名「E-O-Ih」的一种变音。依声音音译，与耶霍维本名有别。",
+      "ja": "人が造物主（ジェホヴィ）を名づけた神聖なる名の一つ。風の名「E-O-Ih」の変音である。音によって訳し、ジェホヴィそのものとは区別する。"
+    },
+    "appears_in": [
+      "hints.1.18"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "e-o-ih"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "E-O-IH",
+    "slug": "e-o-ih",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄-奧-伊",
+      "zh_hans": "厄-奥-伊",
+      "ja": "エ・オ・イ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The primal wind-sound from which the name Jehovih is said to derive; one of the divine names by which man has named the Creator. Rendered by sound as three syllables.",
+      "zh_hant": "據說耶霍維之名即由此原初的風聲衍生而來；乃人用以稱呼造物主的諸神聖之名之一。依聲音音譯為三個音節。",
+      "zh_hans": "据说耶霍维之名即由此原初的风声衍生而来；乃人用以称呼造物主的诸神圣之名之一。依声音音译为三个音节。",
+      "ja": "ジェホヴィの名がこれより由来するとされる原初の風の音。人が造物主を名づけた神聖なる名の一つ。三つの音節として音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.18"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "eolin"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Eloih",
+    "slug": "eloih",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄洛伊",
+      "zh_hans": "厄洛伊",
+      "ja": "エロイ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the divine names by which man has named the Creator (Jehovih); a variant of the wind-name E-O-Ih. Rendered by sound, deliberately distinct from the Hebrew Elohim.",
+      "zh_hant": "人用以稱呼造物主（耶霍維）的諸神聖之名之一；乃風之名「E-O-Ih」的一種變體。依聲音音譯，刻意與希伯來語「以羅欣（Elohim）」有別。",
+      "zh_hans": "人用以称呼造物主（耶霍维）的诸神圣之名之一；乃风之名「E-O-Ih」的一种变体。依声音音译，刻意与希伯来语「以罗欣（Elohim）」有别。",
+      "ja": "人が造物主（ジェホヴィ）を名づけた神聖なる名の一つ。風の名「E-O-Ih」の変形である。ヘブライ語のエロヒムとは意図的に区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.18"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "e-o-ih"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Egoquim",
+    "slug": "egoquim",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄果基姆",
+      "zh_hans": "厄果基姆",
+      "ja": "エゴキム"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the divine names by which man has named the Creator (Jehovih); the North American Indian form, related to the O-pah-e-go-quim of the Algonquin union. Rendered by sound.",
+      "zh_hant": "人用以稱呼造物主（耶霍維）的諸神聖之名之一；乃北美印第安人的形式，與阿爾岡昆聯合體的「奧-帕-厄-果-基姆」相關。依聲音音譯。",
+      "zh_hans": "人用以称呼造物主（耶霍维）的诸神圣之名之一；乃北美印第安人的形式，与阿尔冈昆联合体的「奥-帕-厄-果-基姆」相关。依声音音译。",
+      "ja": "人が造物主（ジェホヴィ）を名づけた神聖なる名の一つ。北アメリカ・インディアンの形であり、アルゴンキンの連合体の「オ・パ・エ・ゴ・キム」に関連する。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.18"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "algonquin"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Ormazd",
+    "slug": "ormazd",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧爾瑪茲德",
+      "zh_hans": "奥尔玛兹德",
+      "ja": "オルマズド"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the divine names by which man has named the Creator (Jehovih); the Persian/Zarathustrian form (cf. Ahura Mazda). Rendered by sound, distinct from the conventional Ahura Mazda transliteration.",
+      "zh_hant": "人用以稱呼造物主（耶霍維）的諸神聖之名之一；乃波斯／查拉圖斯特拉的形式（參阿胡拉·瑪茲達）。依聲音音譯，與慣用的阿胡拉·瑪茲達音譯有別。",
+      "zh_hans": "人用以称呼造物主（耶霍维）的诸神圣之名之一；乃波斯／查拉图斯特拉的形式（参阿胡拉·玛兹达）。依声音音译，与惯用的阿胡拉·玛兹达音译有别。",
+      "ja": "人が造物主（ジェホヴィ）を名づけた神聖なる名の一つ。ペルシア／ザラツストラの形（アフラ・マズダを参照）。慣用のアフラ・マズダの音訳とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.18"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "zarathustra"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Anuhasaj",
+    "slug": "anuhasaj",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿努哈薩基",
+      "zh_hans": "阿努哈萨基",
+      "ja": "アヌハサジ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, the archetypal 'False Lord God'—an angel who assumed a kingdom in atmospherea, denied Jehovih, and professed himself to be the Creator, though born of woman. He first made the titles Lord, God, Lord God, De'yus, Zeus, Joss and Ho'Joss worshipful on earth in place of the Great Spirit. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，那原型式的「偽主神」——一位在大氣界僭據王國的天使，否認耶霍維，自稱為造物主，儘管其乃婦人所生。他最先使「衆主」「神」「主神」「德尤斯」「宙斯」「約斯」與「霍-約斯」等名號在大地上取代大靈而受人敬拜。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，那原型式的「伪主神」——一位在大气界僭据王国的天使，否认耶霍维，自称为造物主，尽管其乃妇人所生。他最先使「众主」「神」「主神」「德尤斯」「宙斯」「约斯」与「霍-约斯」等名号在大地上取代大灵而受人敬拜。依声音音译。",
+      "ja": "オアスペにおける原型的な「偽りの主なる神」——大気界に王国を僭取し、ジェホヴィを否み、自らを造物主と称した天使。されど女より生まれし者であった。彼こそ、大霊に代えて「衆主」「神」「主なる神」「デユス」「ゼウス」「ジョス」「ホ・ジョス」なる名号を地上において最初に礼拝せしめた者。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.28"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "lord",
+      "de-yus",
+      "zeus",
+      "joss",
+      "ho-joss"
+    ],
+    "locked": true,
+    "first_seen": "hints.1.28"
+  },
+  {
+    "term": "De'yus",
+    "slug": "de-yus",
+    "category": "name",
+    "translit": {
+      "zh_hant": "德尤斯",
+      "zh_hans": "德尤斯",
+      "ja": "デユス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the false worshipful names Anuhasaj made current on earth in place of the Great Spirit; glossed in the text as Dyaus and Deity. An assumed divine title claimed by the self-styled Lord God, not a name for the true Creator. Rendered by sound, distinct from the conventional Zeus/Deity spellings.",
+      "zh_hant": "阿努哈薩基使之在大地上流行、取代大靈的偽神聖名號之一；文中釋為「德亞烏斯」與「神祇」。乃自立為主神者所僭取的神聖名號，並非真造物主之名。依聲音音譯，與慣用的宙斯／神祇拼法有別。",
+      "zh_hans": "阿努哈萨基使之在大地上流行、取代大灵的伪神圣名号之一；文中释为「德亚乌斯」与「神祇」。乃自立为主神者所僭取的神圣名号，并非真造物主之名。依声音音译，与惯用的宙斯／神祇拼法有别。",
+      "ja": "アヌハサジが大霊に代えて地上に広めた偽りの礼拝の名の一つ。本文ではデヤウス、神格と釈される。真の造物主の名ではなく、自ら主なる神を称する者が僭取した神聖なる称号。慣用のゼウス／神格の表記とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.28"
+    ],
+    "cross_refs": [
+      "anuhasaj",
+      "zeus",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "hints.1.28"
+  },
+  {
+    "term": "Zeus",
+    "slug": "zeus",
+    "category": "name",
+    "translit": {
+      "zh_hant": "宙斯",
+      "zh_hans": "宙斯",
+      "ja": "ゼウス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the false worshipful names Anuhasaj made current on earth in place of the Great Spirit; the Greek form of the self-styled Lord God's assumed title. Not the true Creator. Rendered by sound.",
+      "zh_hant": "阿努哈薩基使之在大地上流行、取代大靈的偽神聖名號之一；乃自立為主神者所僭取名號的希臘形式。並非真造物主。依聲音音譯。",
+      "zh_hans": "阿努哈萨基使之在大地上流行、取代大灵的伪神圣名号之一；乃自立为主神者所僭取名号的希腊形式。并非真造物主。依声音音译。",
+      "ja": "アヌハサジが大霊に代えて地上に広めた偽りの礼拝の名の一つ。自ら主なる神を称する者が僭取した称号のギリシア形。真の造物主にあらず。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.28"
+    ],
+    "cross_refs": [
+      "anuhasaj",
+      "de-yus",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "hints.1.28"
+  },
+  {
+    "term": "Joss",
+    "slug": "joss",
+    "category": "name",
+    "translit": {
+      "zh_hant": "約斯",
+      "zh_hans": "约斯",
+      "ja": "ジョス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the false worshipful names Anuhasaj made current on earth in place of the Great Spirit; the self-styled Lord God's assumed title. Not the true Creator. Rendered by sound.",
+      "zh_hant": "阿努哈薩基使之在大地上流行、取代大靈的偽神聖名號之一；乃自立為主神者所僭取的名號。並非真造物主。依聲音音譯。",
+      "zh_hans": "阿努哈萨基使之在大地上流行、取代大灵的伪神圣名号之一；乃自立为主神者所僭取的名号。并非真造物主。依声音音译。",
+      "ja": "アヌハサジが大霊に代えて地上に広めた偽りの礼拝の名の一つ。自ら主なる神を称する者が僭取した称号。真の造物主にあらず。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.28"
+    ],
+    "cross_refs": [
+      "anuhasaj",
+      "ho-joss",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "hints.1.28"
+  },
+  {
+    "term": "Ho'Joss",
+    "slug": "ho-joss",
+    "category": "name",
+    "translit": {
+      "zh_hant": "霍-約斯",
+      "zh_hans": "霍-约斯",
+      "ja": "ホ・ジョス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the false worshipful names Anuhasaj made current on earth in place of the Great Spirit; a compound form of Joss claimed by the self-styled Lord God. Not the true Creator. Rendered by sound.",
+      "zh_hant": "阿努哈薩基使之在大地上流行、取代大靈的偽神聖名號之一；乃約斯的複合形式，由自立為主神者所僭取。並非真造物主。依聲音音譯。",
+      "zh_hans": "阿努哈萨基使之在大地上流行、取代大灵的伪神圣名号之一；乃约斯的复合形式，由自立为主神者所僭取。并非真造物主。依声音音译。",
+      "ja": "アヌハサジが大霊に代えて地上に広めた偽りの礼拝の名の一つ。自ら主なる神を称する者が僭取したジョスの複合形。真の造物主にあらず。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.28"
+    ],
+    "cross_refs": [
+      "anuhasaj",
+      "joss",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "hints.1.28"
+  },
+  {
+    "term": "Looeamong",
+    "slug": "looeamong",
+    "category": "name",
+    "translit": {
+      "zh_hant": "魯埃阿蒙",
+      "zh_hans": "鲁埃阿蒙",
+      "ja": "ルーエアモン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the four self-styled false Gods (Triunes) who founded the great earthly religions; Looeamong assumed the name and worship of Kriste (Christ). Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，創立大地上諸大宗教的四位自立為神的偽神（三合一者）之一；魯埃阿蒙僭取了克利斯特（基利斯特）之名與敬拜。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，创立大地上诸大宗教的四位自立为神的伪神（三合一者）之一；鲁埃阿蒙僭取了克利斯特（基利斯特）之名与敬拜。依声音音译。",
+      "ja": "オアスペにおいて、地上の大いなる諸宗教を創始した四つの自称偽りの神（三合一なる者ら）の一つ。ルーエアモンはクリステ（クリスト）の名と礼拝を僭取した。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "kriste",
+      "christ",
+      "triunes"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Kriste",
+    "slug": "kriste",
+    "category": "name",
+    "translit": {
+      "zh_hant": "克利斯特",
+      "zh_hans": "克利斯特",
+      "ja": "クリステ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, the assumed divine name and title behind the worship of Christ, taken by the false God Looeamong; glossed in the text as equivalent to Christ. Rendered by sound as a variant spelling, distinct from the locked 'Christ' (基利斯特/クリスト).",
+      "zh_hant": "在奧阿斯佩中，基利斯特信仰背後所僭取的神聖名號，由偽神魯埃阿蒙所取；文中釋為與基利斯特相當。依聲音音譯，作為異拼形式，與已鎖定的「基利斯特（Christ）」有別。",
+      "zh_hans": "在奥阿斯佩中，基利斯特信仰背后所僭取的神圣名号，由伪神鲁埃阿蒙所取；文中释为与基利斯特相当。依声音音译，作为异拼形式，与已锁定的「基利斯特（Christ）」有别。",
+      "ja": "オアスペにおいて、クリスト崇拝の背後にあり偽りの神ルーエアモンが僭取した神聖なる名号。本文ではクリストに相当すると釈される。異綴りとして音によって訳し、確定済みの「クリスト（Christ）」とは区別する。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "looeamong",
+      "christ"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Kabalactes",
+    "slug": "kabalactes",
+    "category": "name",
+    "translit": {
+      "zh_hant": "卡巴拉克特斯",
+      "zh_hans": "卡巴拉克特斯",
+      "ja": "カバラクテス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the four self-styled false Gods (Triunes); Kabalactes assumed the name and worship of Buddha. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，四位自立為神的偽神（三合一者）之一；卡巴拉克特斯僭取了布達之名與敬拜。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，四位自立为神的伪神（三合一者）之一；卡巴拉克特斯僭取了布达之名与敬拜。依声音音译。",
+      "ja": "オアスペにおいて、四つの自称偽りの神（三合一なる者ら）の一つ。カバラクテスはブダの名と礼拝を僭取した。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "buddha",
+      "triunes"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Ennocissa",
+    "slug": "ennocissa",
+    "category": "name",
+    "translit": {
+      "zh_hant": "恩諾西薩",
+      "zh_hans": "恩诺西萨",
+      "ja": "エンノシッサ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the four self-styled false Gods (Triunes); Ennocissa assumed the name and worship of Brahma. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，四位自立為神的偽神（三合一者）之一；恩諾西薩僭取了布拉瑪之名與敬拜。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，四位自立为神的伪神（三合一者）之一；恩诺西萨僭取了布拉玛之名与敬拜。依声音音译。",
+      "ja": "オアスペにおいて、四つの自称偽りの神（三合一なる者ら）の一つ。エンノシッサはブラマの名と礼拝を僭取した。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "brahma",
+      "triunes"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Thoth",
+    "slug": "thoth",
+    "category": "name",
+    "translit": {
+      "zh_hant": "托特",
+      "zh_hans": "托特",
+      "ja": "トト"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, a self-styled false God who assumed the name and worship of Gabriel; associated with the founding of Mohammedanism. Rendered by sound, distinct from Thothma the pyramid-builder.",
+      "zh_hant": "在奧阿斯佩中，一位自立為神的偽神，僭取了伽百列之名與敬拜；與伊斯蘭教的創立相關。依聲音音譯，與建造金字塔的托特瑪有別。",
+      "zh_hans": "在奥阿斯佩中，一位自立为神的伪神，僭取了伽百列之名与敬拜；与伊斯兰教的创立相关。依声音音译，与建造金字塔的托特玛有别。",
+      "ja": "オアスペにおいて、ガブリエルの名と礼拝を僭取した自称偽りの神。イスラム教の創始に関連する。ピラミッドの建造者トトマとは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "gabriel",
+      "triunes",
+      "mohammed"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Gabriel",
+    "slug": "gabriel",
+    "category": "name",
+    "translit": {
+      "zh_hant": "伽百列",
+      "zh_hans": "伽百列",
+      "ja": "ガブリエル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, the assumed divine name and worship taken by the false God Thoth, connected with the founding of Mohammedanism; not the true archangel but a self-styled title. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，偽神托特所僭取的神聖名號與敬拜，與伊斯蘭教的創立相關；並非真正的大天使，而是自立的名號。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，伪神托特所僭取的神圣名号与敬拜，与伊斯兰教的创立相关；并非真正的大天使，而是自立的名号。依声音音译。",
+      "ja": "オアスペにおいて、偽りの神トトが僭取した神聖なる名号と礼拝であり、イスラム教の創始に関連する。真の大天使ではなく、自ら称した名号。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.34"
+    ],
+    "cross_refs": [
+      "thoth",
+      "triunes"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "The Triunes",
+    "slug": "triunes",
+    "category": "term",
+    "translit": {
+      "zh_hant": "三合一者",
+      "zh_hans": "三合一者",
+      "ja": "三合一なる者ら"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, the four self-styled false Gods (Looeamong, Kabalactes, Ennocissa, Thoth) who founded the great earthly religions; the founders of the Trinity and of the Father, Son and Holy Ghost, and of Mohammedanism. Rendered semantically as 'the three-in-one ones', a descriptive title referring to the Trinity doctrine they established.",
+      "zh_hant": "在奧阿斯佩中，創立大地上諸大宗教的四位自立為神的偽神（魯埃阿蒙、卡巴拉克特斯、恩諾西薩、托特）；三位一體以及聖父、聖子、聖靈教義的創立者，亦為伊斯蘭教的創立者。依語義譯作「三合一者」，此描述性稱謂指其所立的三位一體教義。",
+      "zh_hans": "在奥阿斯佩中，创立大地上诸大宗教的四位自立为神的伪神（鲁埃阿蒙、卡巴拉克特斯、恩诺西萨、托特）；三位一体以及圣父、圣子、圣灵教义的创立者，亦为伊斯兰教的创立者。依语义译作「三合一者」，此描述性称谓指其所立的三位一体教义。",
+      "ja": "オアスペにおいて、地上の大いなる諸宗教を創始した四つの自称偽りの神（ルーエアモン、カバラクテス、エンノシッサ、トト）。三位一体、ならびに父・子・聖霊の教義の創始者であり、イスラム教の創始者でもある。彼らが立てた三位一体の教義を指す描写的称号として、意味により「三合一なる者ら」と訳した。"
+    },
+    "appears_in": [
+      "hints.1.36"
+    ],
+    "cross_refs": [
+      "looeamong",
+      "kabalactes",
+      "ennocissa",
+      "thoth"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Ashtaroth",
+    "slug": "ashtaroth",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿施塔羅",
+      "zh_hans": "阿施塔罗",
+      "ja": "アシュタロト"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, a great false Goddess of the lower heavens; together with the false God Baal she was overcome and cast into hell by Looeamong (the founder of Christianity) through his warrior servant Thoth. Rendered by sound, distinct from the conventional Astarte transliteration.",
+      "zh_hant": "在奧阿斯佩中，低層天堂的一位偉大的偽女神；她與偽神巴力一同被魯埃阿蒙（基督教的創立者）藉其戰士僕役托特所擊敗，並被投入地獄。依聲音音譯，與慣用的阿斯塔特音譯有別。",
+      "zh_hans": "在奥阿斯佩中，低层天堂的一位伟大的伪女神；她与伪神巴力一同被鲁埃阿蒙（基督教的创立者）借其战士仆役托特所击败，并被投入地狱。依声音音译，与惯用的阿斯塔特音译有别。",
+      "ja": "オアスペにおいて、低き天の偉大なる偽りの女神。偽りの神バアルとともに、ルーエアモン（キリスト教の創始者）によってその戦士の僕トトを通じて打ち負かされ、地獄へと投げ込まれた。慣用のアスタルテの音訳とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.45"
+    ],
+    "cross_refs": [
+      "baal",
+      "looeamong",
+      "thoth"
+    ],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Sayawan",
+    "slug": "sayawan",
+    "category": "name",
+    "translit": {
+      "zh_hant": "薩亞萬",
+      "zh_hans": "萨亚万",
+      "ja": "サヤワン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the lesser self-styled false Godheads of the lower heavens; the founder of Swedenborgism. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，低層天堂中一位較小的自立偽神格；斯威登堡教的創立者。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，低层天堂中一位较小的自立伪神格；斯威登堡教的创立者。依声音音译。",
+      "ja": "オアスペにおいて、低き天のより小さな自称偽りの神格の一つ。スウェーデンボルグ教の創始者。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.46"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Piad",
+    "slug": "piad",
+    "category": "name",
+    "translit": {
+      "zh_hant": "皮阿德",
+      "zh_hans": "皮阿德",
+      "ja": "ピアド"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the lesser self-styled false Godheads of the lower heavens; the founder of Mormonism. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，低層天堂中一位較小的自立偽神格；摩門教的創立者。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，低层天堂中一位较小的自立伪神格；摩门教的创立者。依声音音译。",
+      "ja": "オアスペにおいて、低き天のより小さな自称偽りの神格の一つ。モルモン教の創始者。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.46"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "term": "Lowgannus",
+    "slug": "lowgannus",
+    "category": "name",
+    "translit": {
+      "zh_hant": "洛甘努斯",
+      "zh_hans": "洛甘努斯",
+      "ja": "ロウガンヌス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the lesser self-styled false Godheads of the lower heavens; the founder of Shakerism. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，低層天堂中一位較小的自立偽神格；震教的創立者。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，低层天堂中一位较小的自立伪神格；震教的创立者。依声音音译。",
+      "ja": "オアスペにおいて、低き天のより小さな自称偽りの神格の一つ。シェーカー教の創始者。音によって訳した。"
+    },
+    "appears_in": [
+      "hints.1.46"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "hints.1"
   }
 ]

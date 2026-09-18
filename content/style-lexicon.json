@@ -628,5 +628,35 @@
     "note": "The confessional image of warlike man exalting himself above the Creator's works, presuming to cut down what Jehovih created alive as though pruning the divine vineyard; a self-indictment in the 'Voice of Man' lament.",
     "locked": true,
     "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "Etherean Cycles",
+    "category": "phrase",
+    "zh_hant": "以太界的諸週期",
+    "zh_hans": "以太界的诸周期",
+    "ja": "エセ界の諸循環",
+    "note": "The great dan'ha cycles of etherean time through which the earth and her heavens pass; recurring organizational term tying the etherean administration to Oahspe's chronology. Rendered consistently with 'etherean worlds'.",
+    "locked": true,
+    "first_seen": "hints.1"
+  },
+  {
+    "en": "To Whom none can attain forever",
+    "category": "phrase",
+    "zh_hant": "乃無人能永遠企及者",
+    "zh_hans": "乃无人能永远企及者",
+    "ja": "誰一人としてとこしえに到達しえぬ者",
+    "note": "Divine attribute closing the litany of the Creator's names: the Creator is infinite, never to be fully reached or comprehended even in eternity. Elevated, reverential register.",
+    "locked": true,
+    "first_seen": "hints.1.18"
+  },
+  {
+    "en": "The False Lord God",
+    "category": "phrase",
+    "zh_hant": "偽主神",
+    "zh_hans": "伪主神",
+    "ja": "偽りの主なる神",
+    "note": "Title for angels (archetypally Anuhasaj) who assume kingdoms in atmospherea, deny Jehovih, and profess themselves the Creator though born of woman; the counterfeit of the true divine title, foundational to Oahspe's account of false religion. Rendered 偽主神 / 偽りの主なる神, tying 主神 to the locked 'Lord'.",
+    "locked": true,
+    "first_seen": "hints.1.28"
   }
 ]
