@@ -22,6 +22,7 @@ CONTENT_DIR = ROOT / "content" / "books"
 TERMS_JSON = ROOT / "content" / "glossary" / "terms.json"
 LEXICON_JSON = ROOT / "content" / "style-lexicon.json"
 GUIDE_MD = ROOT / "docs" / "TRANSLATION_GUIDE.md"
+RESULT_DIR = ROOT / "content" / "books" / ".trans"
 
 LANG_KEYS = ("zh_hant", "zh_hans", "ja")
 
@@ -38,6 +39,14 @@ def chapter_path(book: str, chapter: int) -> Path:
     return CONTENT_DIR / book / f"chapter-{chapter:02d}.json"
 
 
+def read_result(book: str, chapter: int) -> dict:
+    """Read an agent-written result file (file handoff avoids output-token/IRC limits)."""
+    p = RESULT_DIR / f"ch{chapter}.json"
+    if not p.exists():
+        raise FileNotFoundError(p)
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
 def build_prompt(book: str, chapter: int) -> str:
     """Assemble the full self-contained instruction for one chapter's subagent."""
     guide = GUIDE_MD.read_text(encoding="utf-8")
@@ -52,13 +61,33 @@ def build_prompt(book: str, chapter: int) -> str:
         {"id": v["id"], "verse_number": v["verse_number"], "en": v["en"]}
         for v in chap["verses"]
     ]
+    # Build an explicit LOCKED table — the single most-missed rule is reusing prior
+    # transliterations verbatim in the verse TEXT (not just the dictionary).
+    locked_rows = []
+    for t in terms:
+        tl = t.get("translit", {})
+        if any(tl.get(l) for l in LANG_KEYS):
+            locked_rows.append(
+                f"  {t['term']}  →  zh_hant={tl.get('zh_hant')}  zh_hans={tl.get('zh_hans')}  ja={tl.get('ja')}"
+            )
+    for e in lexicon:
+        locked_rows.append(
+            f"  \"{e['en']}\"  →  zh_hant={e.get('zh_hant')}  zh_hans={e.get('zh_hans')}  ja={e.get('ja')}"
+        )
+    locked_block = "\n".join(locked_rows) if locked_rows else "  (none yet — this is the first chapter)"
 
     return f"""You are translating one chapter of the Oahspe Bible. Follow the guideline EXACTLY.
 
 === TRANSLATION GUIDELINE (authoritative) ===
 {guide}
 
-=== CURRENT GLOSSARY (terms.json) — reader-facing, LOCKED where non-null ===
+=== ⚠ LOCKED TRANSLITERATIONS — you MUST use these EXACT characters in the verse text ===
+These names/terms were fixed by earlier chapters. Reproduce them CHARACTER-FOR-CHARACTER
+wherever they occur. Do NOT re-coin, paraphrase, or pick different characters. Do NOT put
+them in fill_glossary/new_glossary again (they are already complete).
+{locked_block}
+
+=== CURRENT GLOSSARY (terms.json) — reader-facing; fill only NULL fields ===
 {json.dumps(terms, ensure_ascii=False, indent=1)}
 
 === CURRENT STYLE-LEXICON (style-lexicon.json) — internal, LOCKED where present ===
@@ -70,7 +99,6 @@ Preamble (context only, do NOT translate into the verses array):
 
 Verses ({len(src_verses)} total):
 {json.dumps(src_verses, ensure_ascii=False, indent=1)}
-
 === YOUR TASK ===
 Translate every verse into zh_hant, zh_hans, ja per the guideline (register: elevated
 modern vernacular / である調; names transliterated by sound per §2; existing locked
@@ -79,7 +107,10 @@ entries reused verbatim; clean strings, NO baked parenthetical).
 Distinguish FILL (fill null fields of an existing terms.json entry, keyed by slug) from
 COIN (a brand-new entry). Collect distinctive verbs / formulaic phrases into new_lexicon.
 
-Return ONLY a single JSON object, no markdown fences, no commentary, matching:
+Write your result — a single JSON object — using your Write tool to this EXACT path:
+  {RESULT_DIR}/ch{chapter}.json
+Do NOT return the JSON in your chat reply (it is large and gets truncated). After writing,
+reply only with the word "written". The JSON object must match:
 {{
   "chapter_id": "{chap['id']}",
   "verses": [{{"id": "...", "zh_hant": "...", "zh_hans": "...", "ja": "...", "glossary_terms": ["..."]}}],
@@ -179,6 +210,31 @@ def merge_result(book: str, chapter: int, result: dict) -> dict:
     LEXICON_JSON.write_text(json.dumps(lexicon, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     return report
+
+def verify_locked(result: dict) -> list[str]:
+    """Detect consistency drift BEFORE merge: for every verse term that has a locked
+    transliteration, that exact string must appear in the verse text. Returns a list of
+    human-readable violations (empty = clean). This catches an agent paraphrasing a
+    locked name (e.g. 柯珀 → 珂珀) in the verse body."""
+    terms = load_json(TERMS_JSON, [])
+    locked = {}
+    for t in terms:
+        tl = t.get("translit", {})
+        if any(tl.get(l) for l in LANG_KEYS):
+            locked[t["term"]] = tl
+    violations = []
+    for v in result.get("verses", []):
+        for term in v.get("glossary_terms", []) or []:
+            tl = locked.get(term)
+            if not tl:
+                continue
+            for lang in LANG_KEYS:
+                want = tl.get(lang)
+                if want and want not in (v.get(lang) or ""):
+                    violations.append(
+                        f"{v['id']} [{lang}]: term {term!r} locked as {want!r} not found in text"
+                    )
+    return violations
 
 
 def parse_agent_json(raw: str) -> dict:

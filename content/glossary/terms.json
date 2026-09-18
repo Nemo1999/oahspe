@@ -316,26 +316,26 @@
     "slug": "corporean",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "柯珀人",
+      "zh_hans": "柯珀人",
+      "ja": "コルペル人"
     },
     "source_def": "A man of the earth in contradistinction from an angel, who is a man of Es, 7. chap. ii., v. 1.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "大地之人，與天使相對而言，天使乃埃斯之人。第七章第二節第一句。",
+      "zh_hans": "大地之人，与天使相对而言，天使乃埃斯之人。第七章第二节第一句。",
+      "ja": "大地の人であり、天使と対比される。天使はエスの人である。第七章第二節第一句。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "An inhabitant of Corpor—corporeal, earth-dwelling humankind, as opposed to the es'eans (spirits/angels) who dwell in the unseen Es. Coined from 'Corpor' + '-ean'.",
+      "zh_hant": "柯珀的居民——即有形的、居於大地的人類，與居於不可見之埃斯的埃斯人（靈／天使）相對。由「Corpor」加「-ean」構成。",
+      "zh_hans": "柯珀的居民——即有形的、居于大地的人类，与居于不可见之埃斯的埃斯人（灵／天使）相对。由「Corpor」加「-ean」构成。",
+      "ja": "コルペルの住民、すなわち有形にして大地に住まう人類。見えざるエスに住まうエス人（霊・天使）と対をなす。「Corpor」に「-ean」を付して造られた語。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "jehovih.2"
   },
   {
     "term": "Crucify",
@@ -1459,5 +1459,250 @@
     ],
     "locked": true,
     "first_seen": "jehovih.1.3"
+  },
+  {
+    "term": "Es",
+    "slug": "es",
+    "category": "term",
+    "translit": {
+      "zh_hant": "埃斯",
+      "zh_hans": "埃斯",
+      "ja": "エス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Oahspe's name for the unseen worlds—the spiritual realm as a whole, comprising both etherea and atmospherea, in contrast to the seen substance Corpor. Its inhabitants are es'eans (spirits, angels).",
+      "zh_hant": "奧阿斯佩對不可見諸世界的稱謂——即整體的靈界，涵蓋以太界與大氣界二者，與可見的物質柯珀相對。其居民為埃斯人（靈、天使）。",
+      "zh_hans": "奥阿斯佩对不可见诸世界的称谓——即整体的灵界，涵盖以太界与大气界二者，与可见的物质柯珀相对。其居民为埃斯人（灵、天使）。",
+      "ja": "見えざる諸世界に対するオアスペの呼称。すなわち霊界全体であり、エセ界と大気界の両者を含み、見ゆる物質コルペルと対をなす。その住民はエス人（霊・天使）である。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "corpor",
+      "ethe",
+      "etherea",
+      "atmospherea"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Es'ean",
+    "slug": "es-ean",
+    "category": "term",
+    "translit": {
+      "zh_hant": "埃斯人",
+      "zh_hans": "埃斯人",
+      "ja": "エス人"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An inhabitant of Es—a being of the unseen worlds, also called a spirit or angel, as distinct from a corporean of the seen world.",
+      "zh_hant": "埃斯的居民——不可見諸世界的存有，亦稱為靈或天使，與可見世界的柯珀人相對。",
+      "zh_hans": "埃斯的居民——不可见诸世界的存有，亦称为灵或天使，与可见世界的柯珀人相对。",
+      "ja": "エスの住民。見えざる諸世界の存在であり、霊または天使とも呼ばれ、見ゆる世界のコルペル人と対をなす。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "es",
+      "corporean",
+      "spirit",
+      "angel"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Ethe",
+    "slug": "ethe",
+    "category": "term",
+    "translit": {
+      "zh_hant": "以太",
+      "zh_hans": "以太",
+      "ja": "エセ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The most rarified and subtle of all created substances, the material of the etherean worlds; it penetrates and exists within all things, even corporeal worlds, and is the solvent of Corpor. Rendered 以太/エセ consistently with the Corpor entry.",
+      "zh_hant": "一切受造物質中最為稀薄、精微者，以太界諸世界的質料；它滲透並存於萬物之中，甚至存於有形世界，是柯珀的溶劑。譯名「以太／エセ」與柯珀條目保持一致。",
+      "zh_hans": "一切受造物质中最为稀薄、精微者，以太界诸世界的质料；它渗透并存于万物之中，甚至存于有形世界，是柯珀的溶剂。译名「以太／エセ」与柯珀条目保持一致。",
+      "ja": "一切の被造物質のうち最も希薄かつ精妙なるもの。エセ界の諸世界の質料であり、有形世界をも含む万物の中に浸透して存し、コルペルの溶媒である。訳名「以太／エセ」はコルペル条目と一致させた。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "corpor",
+      "etherea",
+      "es"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Etherea",
+    "slug": "etherea",
+    "category": "term",
+    "translit": {
+      "zh_hant": "以太界",
+      "zh_hans": "以太界",
+      "ja": "エセ界"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The highest of the three kinds of worlds—the ethereal heavens, composed of Ethe, situated in the all-highest places, independent and surpassing all others in potency and majesty. One of the two divisions of Es.",
+      "zh_hant": "三種世界中最高者——由以太構成的以太諸天，位於至高之處，獨立自主，在權能與威嚴上凌駕一切。埃斯的兩大區分之一。",
+      "zh_hans": "三种世界中最高者——由以太构成的以太诸天，位于至高之处，独立自主，在权能与威严上凌驾一切。埃斯的两大区分之一。",
+      "ja": "三種の世界のうち最も高きもの。エセより成るエセの諸天であり、至高の場所に位し、独立して権能と威厳において一切に勝る。エスの二大区分の一。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "ethe",
+      "atmospherea",
+      "es"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Atmospherea",
+    "slug": "atmospherea",
+    "category": "term",
+    "translit": {
+      "zh_hant": "大氣界",
+      "zh_hans": "大气界",
+      "ja": "大気界"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The intermediate of the three kinds of worlds—shapeless, in process of condensation or dissolution, lying between the etherean and corporeal worlds. One of the two divisions of Es; its three densities are A'ji, Ji'ay and Nebulæ. Rendered 大氣界/大気界 consistently with the Corpor entry.",
+      "zh_hant": "三種世界中的中間者——空無定形，處於凝聚或消散的過程中，介於以太界與有形世界之間。埃斯的兩大區分之一；其三種密度為阿基、基埃與星雲。譯名「大氣界／大気界」與柯珀條目保持一致。",
+      "zh_hans": "三种世界中的中间者——空无定形，处于凝聚或消散的过程中，介于以太界与有形世界之间。埃斯的两大区分之一；其三种密度为阿基、基埃与星云。译名「大气界／大気界」与柯珀条目保持一致。",
+      "ja": "三種の世界のうち中間なるもの。形なく、凝縮または溶解の過程にあり、エセ界と有形世界の間に位する。エスの二大区分の一であり、その三段階の密度はアジ・ジアイ・星雲である。訳名「大気界」はコルペル条目と一致させた。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "etherea",
+      "corpor",
+      "es",
+      "a-ji",
+      "ji-ay",
+      "nebul"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "A'ji",
+    "slug": "a-ji",
+    "category": "term",
+    "translit": {
+      "zh_hant": "阿基",
+      "zh_hans": "阿基",
+      "ja": "アジ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the three densities of atmospherean worlds; a semi-dense nebulous substance. Sound-based transliteration.",
+      "zh_hant": "大氣界世界三種密度之一；一種半濃密的星雲狀物質。依聲音音譯。",
+      "zh_hans": "大气界世界三种密度之一；一种半浓密的星云状物质。依声音音译。",
+      "ja": "大気界の世界の三段階の密度の一。半ば濃密な星雲状の物質。音に基づく音訳。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "atmospherea",
+      "ji-ay",
+      "nebul"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Ji'ay",
+    "slug": "ji-ay",
+    "category": "term",
+    "translit": {
+      "zh_hant": "基埃",
+      "zh_hans": "基埃",
+      "ja": "ジアイ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the three densities of atmospherean worlds, intermediate between A'ji and Nebulæ. Sound-based transliteration.",
+      "zh_hant": "大氣界世界三種密度之一，介於阿基與星雲之間。依聲音音譯。",
+      "zh_hans": "大气界世界三种密度之一，介于阿基与星云之间。依声音音译。",
+      "ja": "大気界の世界の三段階の密度の一。アジと星雲の中間にある。音に基づく音訳。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "atmospherea",
+      "a-ji",
+      "nebul"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Nebulæ",
+    "slug": "nebul",
+    "category": "term",
+    "translit": {
+      "zh_hant": "星雲",
+      "zh_hans": "星云",
+      "ja": "星雲"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the three densities of atmospherean worlds—the most diffuse. Rendered by meaning (星雲/nebula) rather than transliteration, as it is an ordinary astronomical word Oahspe adopts.",
+      "zh_hant": "大氣界世界三種密度之一——最為瀰散者。因其為奧阿斯佩沿用的普通天文學用語，故依意義譯為「星雲」，而非音譯。",
+      "zh_hans": "大气界世界三种密度之一——最为弥散者。因其为奥阿斯佩沿用的普通天文学用语，故依意义译为「星云」，而非音译。",
+      "ja": "大気界の世界の三段階の密度の一、最も拡散したもの。オアスペが用いる通常の天文学用語であるため、音訳ではなく意味により「星雲」と訳した。"
+    },
+    "appears_in": [],
+    "cross_refs": [
+      "atmospherea",
+      "a-ji",
+      "ji-ay"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.2"
   }
 ]

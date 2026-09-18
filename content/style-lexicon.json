@@ -28,5 +28,45 @@
     "note": "Divine self-declaration of encompassing all time; rendered reverently, distinct from biblical Alpha/Omega phrasing.",
     "locked": true,
     "first_seen": "jehovih.1.4"
+  },
+  {
+    "en": "I commanded man to name them",
+    "category": "phrase",
+    "zh_hant": "我命人為它們命名",
+    "zh_hans": "我命人为它们命名",
+    "ja": "我は人に命じてこれらに名を付けしめた",
+    "note": "Recurring creation-and-naming formula in this chapter; Jehovih creates, man names. Keep consistent across verses 1, 4, 8.",
+    "locked": true,
+    "first_seen": "jehovih.2.1"
+  },
+  {
+    "en": "the seen and the unseen worlds",
+    "category": "phrase",
+    "zh_hant": "可見與不可見的諸世界",
+    "zh_hans": "可见与不可见的诸世界",
+    "ja": "見ゆる世界と見えざる世界",
+    "note": "Core cosmological pairing (Corpor vs Es); 'seen/unseen' rendered 可見/不可見 and 見ゆる/見えざる throughout.",
+    "locked": true,
+    "first_seen": "jehovih.2.1"
+  },
+  {
+    "en": "etherean worlds",
+    "category": "phrase",
+    "zh_hant": "以太界諸世界",
+    "zh_hans": "以太界诸世界",
+    "ja": "エセ界の諸世界",
+    "note": "Standard rendering for Jehovih's highest worlds; ties to the Etherea/Ethe entries.",
+    "locked": true,
+    "first_seen": "jehovih.2.2"
+  },
+  {
+    "en": "corporeal body",
+    "category": "phrase",
+    "zh_hant": "有形的軀體",
+    "zh_hans": "有形的躯体",
+    "ja": "有形の身体",
+    "note": "'corporeal' consistently rendered 有形 / 有形の, tying man's flesh to Corpor.",
+    "locked": true,
+    "first_seen": "jehovih.2.2"
   }
 ]
