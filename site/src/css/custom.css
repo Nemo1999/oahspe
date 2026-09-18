@@ -201,3 +201,27 @@ article .markdown {
   line-break: strict;
   overflow-wrap: break-word;
 }
+
+/* --------------------------------------------------------------------------
+ * Glossary page (custom, reads content/glossary/terms.json)
+ * -------------------------------------------------------------------------- */
+.glossary-controls { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; margin: 1rem 0; }
+.glossary-search { flex: 1 1 320px; padding: 0.5rem 0.75rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 6px; font-size: 1rem; background: var(--ifm-background-color); color: var(--ifm-font-color-base); }
+.glossary-filter { display: flex; gap: 0.25rem; }
+.glossary-filter-btn { padding: 0.4rem 0.8rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 6px; background: none; cursor: pointer; font-size: 0.9rem; color: var(--ifm-font-color-base); }
+.glossary-filter-btn.active { background: var(--ifm-color-primary); color: #fff; border-color: var(--ifm-color-primary); }
+.glossary-count { color: var(--ifm-color-emphasis-600); font-size: 0.85rem; }
+.glossary-list { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+.glossary-card { border: 1px solid var(--ifm-color-emphasis-200); border-radius: 8px; padding: 1rem; background: var(--ifm-card-background-color, var(--ifm-background-surface-color)); }
+.glossary-card-head { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline; margin-bottom: 0.5rem; }
+.glossary-term { font-size: 1.2rem; font-weight: 700; }
+.glossary-translit { display: flex; gap: 0.6rem; font-size: 0.95rem; color: var(--ifm-color-primary); }
+.glossary-cat { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.1rem 0.4rem; border-radius: 4px; margin-inline-start: auto; }
+.glossary-cat-name { background: color-mix(in srgb, var(--ifm-color-primary) 20%, transparent); }
+.glossary-cat-term { background: var(--ifm-color-emphasis-200); }
+.glossary-label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ifm-color-emphasis-600); margin-top: 0.5rem; }
+.glossary-source p { margin: 0.25rem 0; }
+.glossary-source-lit { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.9rem; color: var(--ifm-color-emphasis-700); }
+.glossary-note { border-inline-start: 3px solid var(--ifm-color-primary); padding-inline-start: 0.6rem; margin-top: 0.5rem; background: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent); }
+.glossary-note p { margin: 0.2rem 0; font-size: 0.92rem; }
+.glossary-appears { margin-top: 0.5rem; font-size: 0.8rem; color: var(--ifm-color-emphasis-600); }

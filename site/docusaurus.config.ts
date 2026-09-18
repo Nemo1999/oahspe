@@ -98,12 +98,6 @@ const config: Config = {
         },
       } as PwaPluginOptions,
     ],
-    [
-      'docusaurus-plugin-glossary',
-      {
-        glossaryFilePath: '../content/glossary/terms.json',
-      },
-    ],
   ],
 
   themeConfig: {
@@ -128,6 +122,8 @@ const config: Config = {
           to: '/',
           position: 'left',
         },
+        { to: '/glossary', label: 'Glossary', position: 'left' },
+        { to: '/bookmarks', label: 'Bookmarks', position: 'left' },
         { to: '/blog', label: 'Notes', position: 'left' },
         {
           type: 'search',
@@ -153,6 +149,8 @@ const config: Config = {
           title: 'Text',
           items: [
             { label: 'Read Online', to: '/' },
+            { label: 'Glossary', to: '/glossary' },
+            { label: 'Bookmarks', to: '/bookmarks' },
             { label: 'Notes', to: '/blog' },
           ],
         },

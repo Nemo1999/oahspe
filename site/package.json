@@ -11,18 +11,17 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.6.0",
-    "@docusaurus/preset-classic": "^3.6.0",
     "@docusaurus/plugin-pwa": "^3.6.0",
-    "docusaurus-plugin-glossary": "latest",
+    "@docusaurus/preset-classic": "^3.6.0",
+    "clsx": "latest",
     "react": "^18",
-    "react-dom": "^18",
-    "clsx": "latest"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.6.0",
     "@docusaurus/tsconfig": "^3.6.0",
-    "typescript": "^5",
-    "pagefind": "latest"
+    "pagefind": "latest",
+    "typescript": "^5"
   },
   "engines": {
     "node": ">=18.0"
