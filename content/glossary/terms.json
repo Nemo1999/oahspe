@@ -1866,5 +1866,68 @@
     ],
     "locked": true,
     "first_seen": "jehovih.4"
+  },
+  {
+    "term": "Ha'k",
+    "slug": "ha-k",
+    "category": "term",
+    "translit": {
+      "zh_hant": "哈克",
+      "zh_hans": "哈克",
+      "ja": "ハク"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The primeval darkness or ignorance in which early man (Asu/Adam) dwelled before awakening into higher spiritual awareness; the state of the first corporeal man, who lived as a beast, unaware of the unseen realms. A coined Oahspe term rendered by sound.",
+      "zh_hant": "早期人類（阿蘇/Adam）在覺醒至更高靈性意識之前所居的原始黑暗或蒙昧；即第一個有形之人的狀態，他如同走獸而活，對不可見的諸界渾然不知。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "早期人类（阿苏/Adam）在觉醒至更高灵性意识之前所居的原始黑暗或蒙昧；即第一个有形之人的状态，他如同走兽而活，对不可见的诸界浑然不知。奥阿斯佩的造词，依声音音译。",
+      "ja": "初期の人（アスゥ/Adam）が高次の霊的気づきへと目覚める前に住まえる原初の闇または無知の状態。最初の有形の人の状態であり、彼は獣のごとく生き、見えざる諸界を知らなかった。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.6.11"
+    ],
+    "cross_refs": [
+      "se-mu",
+      "corpor"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.6"
+  },
+  {
+    "term": "Asu",
+    "slug": "asu",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿蘇",
+      "zh_hans": "阿苏",
+      "ja": "アスゥ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The first corporeal man, living as a beast in ha'k, before spiritual development; identified in parentheses with 'Adam' in the text. A coined Oahspe name rendered by sound.",
+      "zh_hant": "第一個有形之人，在靈性發展之前如走獸般居於哈克之中；文中括注對應「Adam」。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "第一个有形之人，在灵性发展之前如走兽般居于哈克之中；文中括注对应「Adam」。奥阿斯佩的造词，依声音音译。",
+      "ja": "霊的発達の前にハクのうちに獣のごとく住まえる最初の有形の人。テキスト中でカッコ書きにより「Adam」と同定される。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.6.11"
+    ],
+    "cross_refs": [
+      "ha-k",
+      "se-mu",
+      "corpor"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.6"
   }
 ]

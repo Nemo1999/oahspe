@@ -214,22 +214,33 @@ def merge_result(book: str, chapter: int, result: dict) -> dict:
 
     return report
 
-def verify_locked(result: dict) -> list[str]:
-    """Detect consistency drift BEFORE merge: for every verse term that has a locked
-    transliteration, that exact string must appear in the verse text. Returns a list of
-    human-readable violations (empty = clean). This catches an agent paraphrasing a
-    locked name (e.g. 柯珀 → 珂珀) in the verse body."""
+def verify_locked(result: dict, book: str | None = None, chapter: int | None = None) -> list[str]:
+    """Detect consistency drift BEFORE merge: when a verse's ENGLISH source actually
+    contains a locked term, that term's locked transliteration MUST appear in the
+    translated text. Catches paraphrase drift (柯珀→珂珀) without false-flagging verses
+    that merely reference a being obliquely (e.g. 'Thy Father' tagged as Jehovih)."""
     terms = load_json(TERMS_JSON, [])
     locked = {}
     for t in terms:
         tl = t.get("translit", {})
         if any(tl.get(l) for l in LANG_KEYS):
             locked[t["term"]] = tl
+    # Map verse id → source English, to gate on actual term presence.
+    src_en = {}
+    if book and chapter is not None:
+        chap = load_json(chapter_path(book, chapter), None)
+        if chap:
+            src_en = {v["id"]: (v.get("en") or "") for v in chap["verses"]}
     violations = []
     for v in result.get("verses", []):
+        en_src = src_en.get(v["id"], "")
         for term in v.get("glossary_terms", []) or []:
             tl = locked.get(term)
             if not tl:
+                continue
+            # Only enforce when the term name really occurs in the source verse as a
+            # whole word (so 'Corpor' is not matched inside 'corporeal').
+            if src_en and not re.search(rf"\b{re.escape(term)}\b", en_src, re.I):
                 continue
             for lang in LANG_KEYS:
                 want = tl.get(lang)

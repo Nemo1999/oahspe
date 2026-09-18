@@ -158,5 +158,75 @@
     "note": "Formulaic theological declaration that all living creatures are part of Jehovih's own being; echoes scriptural register throughout Oahspe.",
     "locked": true,
     "first_seen": "jehovih.5.13"
+  },
+  {
+    "en": "comprehended the earth",
+    "category": "phrase",
+    "zh_hant": "理解了大地",
+    "zh_hans": "理解了大地",
+    "ja": "大地を理解した",
+    "note": "The moment of intellectual/spiritual awakening when man grasps the physical world and looks beyond it; marks the threshold between beast-man and spirit-seeking man.",
+    "locked": true,
+    "first_seen": "jehovih.6.1"
+  },
+  {
+    "en": "his spirit had crystallized into separateness",
+    "category": "phrase",
+    "zh_hant": "他的靈魂已結晶而成獨立之體",
+    "zh_hans": "他的灵魂已结晶而成独立之体",
+    "ja": "その霊は結晶して独立の体をなした",
+    "note": "Theological phrase for the soul's attainment of individual spiritual identity, capable of ascending apart from the corporeal body; loaded spiritual term in Oahspe.",
+    "locked": true,
+    "first_seen": "jehovih.6.4"
+  },
+  {
+    "en": "the unreal hath become the real",
+    "category": "phrase",
+    "zh_hant": "那不真實的已成真實",
+    "zh_hans": "那不真实的已成真实",
+    "ja": "不実のものは実となりぬ",
+    "note": "Man's confession that the unseen spiritual realm, once dismissed, is now revealed as the only true reality; counterpart to the locked 'the seen and the unseen worlds'.",
+    "locked": true,
+    "first_seen": "jehovih.6.7"
+  },
+  {
+    "en": "joint heirs in heaven",
+    "category": "phrase",
+    "zh_hant": "在天上共同承受業業的人",
+    "zh_hans": "在天上共同承受业业的人",
+    "ja": "天において共同の相続人となるべき者たち",
+    "note": "Theological phrase for the new race (man) who shares in the etherean inheritance alongside the guardian angels; marks the transition from Asu to the new joint-heir race.",
+    "locked": true,
+    "first_seen": "jehovih.6.19"
+  },
+  {
+    "en": "guardian angels",
+    "category": "phrase",
+    "zh_hant": "守護天使",
+    "zh_hans": "守护天使",
+    "ja": "守護天使",
+    "note": "Angels assigned to walk beside and watch over the new race born of the first union; a recurring divine role in Oahspe's cosmology.",
+    "locked": true,
+    "first_seen": "jehovih.6.19"
+  },
+  {
+    "en": "birth-right to My etherean worlds",
+    "category": "phrase",
+    "zh_hant": "進入我的以太界諸世界的生來權利",
+    "zh_hans": "进入我的以太界诸世界的生来权利",
+    "ja": "我がエセ界の諸世界への生得の権利",
+    "note": "The congenital spiritual inheritance granted to mankind through the quickening of the new race's seed; closely tied to 'etherean worlds' and 'quickened into life'.",
+    "locked": true,
+    "first_seen": "jehovih.6.20"
+  },
+  {
+    "en": "the first race",
+    "category": "phrase",
+    "zh_hant": "第一個種族",
+    "zh_hans": "第一个种族",
+    "ja": "第一の種族",
+    "note": "Recurring designation for Asu, the purely corporeal first humanity, as distinct from the new race (man) born of angel-Asu union. Formulaic in ch. 6.",
+    "locked": true,
+    "first_seen": "jehovih.6.18"
   }
 ]
