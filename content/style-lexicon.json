@@ -228,5 +228,145 @@
     "note": "Recurring designation for Asu, the purely corporeal first humanity, as distinct from the new race (man) born of angel-Asu union. Formulaic in ch. 6.",
     "locked": true,
     "first_seen": "jehovih.6.18"
+  },
+  {
+    "en": "partake of the first fruits of mortality and immortality",
+    "category": "phrase",
+    "zh_hant": "初嘗死亡與永生之果",
+    "zh_hans": "初尝死亡与永生之果",
+    "ja": "死と不死の初穂にあずかる",
+    "note": "Formulaic phrase for angels descending to share in the transitional moment between mortal and immortal life; theologically loaded and recurs in describing dan'ha events.",
+    "locked": true,
+    "first_seen": "jehovih.7.1"
+  },
+  {
+    "en": "etherean hosts of the Most High",
+    "category": "phrase",
+    "zh_hant": "至高者的以太界眾軍",
+    "zh_hans": "至高者的以太界众军",
+    "ja": "至高者のエセ界の軍勢",
+    "note": "Formal title for the companies of etherean angels descending during dan'ha; 'the Most High' = Jehovih; recurring reverential formula for these visitations.",
+    "locked": true,
+    "first_seen": "jehovih.7.2"
+  },
+  {
+    "en": "bound spirits of the lower heaven",
+    "category": "phrase",
+    "zh_hant": "低層天堂的束縛之靈",
+    "zh_hans": "低层天堂的束缚之灵",
+    "ja": "低き天に縛られた霊",
+    "note": "Angels who, having mingled with mortals and produced offspring, are bound to the lower heaven until they redeem their lineage; a key theological consequence in chapter 7.",
+    "locked": true,
+    "first_seen": "jehovih.7.7"
+  },
+  {
+    "en": "redeem them in wisdom and power",
+    "category": "phrase",
+    "zh_hant": "在智慧與能力上救贖他們",
+    "zh_hans": "在智慧与能力上救赎他们",
+    "ja": "知恵と力において彼らを贖う",
+    "note": "The condition placed on bound angels: elevating their descendants through successive generations before regaining higher-heaven inheritance; theologically loaded.",
+    "locked": true,
+    "first_seen": "jehovih.7.7"
+  },
+  {
+    "en": "heaven of the earth",
+    "category": "phrase",
+    "zh_hant": "大地的天堂",
+    "zh_hans": "大地的天堂",
+    "ja": "大地の天",
+    "note": "The organized lower heaven attached to and traveling with the earth; synonymous with 'lower heaven' / 低層天堂 / 低き天 in this context; an Oahspe cosmological institution.",
+    "locked": true,
+    "first_seen": "jehovih.7.8"
+  },
+  {
+    "en": "Brides and Bridegrooms to Jehovih",
+    "category": "phrase",
+    "zh_hant": "耶霍維的新娘與新郎",
+    "zh_hans": "耶霍维的新娘与新郎",
+    "ja": "ジェホヴィへの花嫁と花婿",
+    "note": "Formulaic title for angels prepared in wisdom and strength who ascend to the etherean kingdoms at the end of a dominion; marks them as belonging wholly to Jehovih. Recurring in ch. 7.",
+    "locked": true,
+    "first_seen": "jehovih.7.16"
+  },
+  {
+    "en": "a Harvest unto Me",
+    "category": "phrase",
+    "zh_hant": "歸於我的豐收",
+    "zh_hans": "归于我的丰收",
+    "ja": "我への豊穣の収穫",
+    "note": "Theological term for the cohort of prepared angels who ascend to etherea at a dan; Jehovih names the collective ascension a 'Harvest'. Recurs in ch. 7.",
+    "locked": true,
+    "first_seen": "jehovih.7.18"
+  },
+  {
+    "en": "emancipated worlds",
+    "category": "phrase",
+    "zh_hant": "解脫之諸世界",
+    "zh_hans": "解脱之诸世界",
+    "ja": "解放された諸世界",
+    "note": "Refers to the higher, free etherean worlds (as opposed to the bound lower heaven); only reachable at the appointed dans. Theologically loaded in ch. 7.",
+    "locked": true,
+    "first_seen": "jehovih.7.19"
+  },
+  {
+    "en": "lesser cycles",
+    "category": "phrase",
+    "zh_hant": "小週期",
+    "zh_hans": "小周期",
+    "ja": "小なる循環",
+    "note": "The individual dans (200, 400, 500, 600-year spans) within the larger dan'ha; called 'lesser' because they serve prophecy tables rather than marking full cosmic epochs.",
+    "locked": true,
+    "first_seen": "jehovih.7.18"
+  },
+  {
+    "en": "joint procreators",
+    "category": "phrase",
+    "zh_hant": "共同成為創生者",
+    "zh_hans": "共同成为创生者",
+    "ja": "共に生を産む者",
+    "note": "Describes the angels who procreated with the asuans; Jehovih's term for the action by which they produced the new race capable of immortality. Theologically loaded, non-condemning.",
+    "locked": true,
+    "first_seen": "jehovih.7.21"
+  },
+  {
+    "en": "ascending grade of life / descending grade of life",
+    "category": "phrase",
+    "zh_hant": "上升等第 / 下降等第",
+    "zh_hans": "上升等第 / 下降等第",
+    "ja": "上昇の段階 / 下降の段階",
+    "note": "Paired cosmological terms marking the spiritual trajectory of lineages: those who cohabit with their own kind rise, those who cohabit with asuans descend. Recurring moral framework in ch. 7.",
+    "locked": true,
+    "first_seen": "jehovih.7.22"
+  },
+  {
+    "en": "first resurrection",
+    "category": "phrase",
+    "zh_hant": "初等復活",
+    "zh_hans": "初等复活",
+    "ja": "初等の復活",
+    "note": "The lowest stage of resurrection in the lower heaven, where newly dead spirits are first received and assigned to labor and schooling according to their grade; Oahspe's ordinal for the first step in the ascent of the spirit.",
+    "locked": true,
+    "first_seen": "jehovih.7.28"
+  },
+  {
+    "en": "sons of God",
+    "category": "phrase",
+    "zh_hant": "神的兒子",
+    "zh_hans": "神的儿子",
+    "ja": "神の子",
+    "note": "Title given to kings and emperors who are raised to dominion over mortals by Jehovih's God; parallels the title given to God and the Lords as Jehovih's sons, extending the divine family concept into corporeal governance.",
+    "locked": true,
+    "first_seen": "jehovih.7.34"
+  },
+  {
+    "en": "born into the es world",
+    "category": "phrase",
+    "zh_hant": "誕入埃斯世界",
+    "zh_hans": "诞入埃斯世界",
+    "ja": "エス世界に生まれ出る",
+    "note": "The transition of a mortal's spirit into the unseen Es realm at death, rendered as a 'birth' into spirit life; mirrors the corporeal birth idiom and marks the beginning of the spirit's heavenly journey.",
+    "locked": true,
+    "first_seen": "jehovih.7.26"
   }
 ]

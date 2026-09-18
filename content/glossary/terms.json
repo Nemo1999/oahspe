@@ -1929,5 +1929,234 @@
     ],
     "locked": true,
     "first_seen": "jehovih.6"
+  },
+  {
+    "term": "Dan'ha",
+    "slug": "dan-ha",
+    "category": "term",
+    "translit": {
+      "zh_hant": "但哈",
+      "zh_hans": "但哈",
+      "ja": "但哈"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The cyclic etherean light that the earth passes through every 3,000 years, marking a period when the boundary between the corporeal and spiritual worlds thins; during dan'ha, recently deceased spirits can appear in corporeal form to mortals. A coined Oahspe term rendered by sound.",
+      "zh_hant": "大地每三千年一次所穿越的週期性以太界之光，標誌著有形世界與靈性世界之間的界限趨於薄弱的時期；在但哈期間，新近辭世的靈魂能以有形形貌向凡人顯現。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "大地每三千年一次所穿越的周期性以太界之光，标志着有形世界与灵性世界之间的界限趋于薄弱的时期；在但哈期间，新近辞世的灵魂能以有形形貌向凡人显现。奥阿斯佩的造词，依声音音译。",
+      "ja": "大地が三千年ごとに通過する周期的なエセ界の光。有形の世界と霊の世界との境が薄まる時期を印す。但哈の間、新たに死を迎えた霊は有形の姿をまとって人の前に現れることができる。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.7.1",
+      "jehovih.7.4"
+    ],
+    "cross_refs": [
+      "etherea",
+      "corpor",
+      "es"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7"
+  },
+  {
+    "term": "Hored",
+    "slug": "hored",
+    "category": "name",
+    "translit": {
+      "zh_hant": "霍雷德",
+      "zh_hans": "霍雷德",
+      "ja": "ホレド"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The name of the first heavenly kingdom of God established in the firmament of this earth; the seat of God's Council and throne in the lower heaven. A coined Oahspe place-name rendered by sound.",
+      "zh_hant": "在這大地的穹蒼中所建立的神的第一個天界王國之名；神的議會與王座在低層天堂中的所在地。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "在这大地的穹苍中所建立的神的第一个天界王国之名；神的议会与王座在低层天堂中的所在地。奥阿斯佩的造词，依声音音译。",
+      "ja": "この地の大空に設立された神の最初の天の王国の名。低き天における神の議会と玉座の座所。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.7.11"
+    ],
+    "cross_refs": [
+      "first heaven",
+      "atmospherea"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7"
+  },
+  {
+    "term": "Ashar",
+    "slug": "ashar",
+    "category": "term",
+    "translit": {
+      "zh_hant": "阿沙爾",
+      "zh_hans": "阿沙尔",
+      "ja": "アシャル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An angel officer appointed by God within the lower heaven; one of the ranked roles within the heavenly organizational structure. A coined Oahspe term rendered by sound.",
+      "zh_hant": "神在低層天堂中所委任的天使官員；天界組織結構中的位階之一。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "神在低层天堂中所委任的天使官员；天界组织结构中的位阶之一。奥阿斯佩的造词，依声音音译。",
+      "ja": "低き天において神によって任命される天使の役職。天の組織構造における位階の一つ。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.7.9"
+    ],
+    "cross_refs": [
+      "first heaven"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7"
+  },
+  {
+    "term": "Asaph",
+    "slug": "asaph",
+    "category": "term",
+    "translit": {
+      "zh_hant": "阿薩夫",
+      "zh_hans": "阿萨夫",
+      "ja": "アサフ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An angel officer appointed by God within the lower heaven; one of the ranked roles within the heavenly organizational structure, traditionally associated with gathering or receiving the spirits of the dead. A coined Oahspe term rendered by sound.",
+      "zh_hant": "神在低層天堂中所委任的天使官員；天界組織結構中的位階之一，傳統上與收接死者靈魂相關。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "神在低层天堂中所委任的天使官员；天界组织结构中的位阶之一，传统上与收接死者灵魂相关。奥阿斯佩的造词，依声音音译。",
+      "ja": "低き天において神によって任命される天使の役職。天の組織構造における位階の一つであり、伝統的に死者の霊を受け集めることと関連する。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.7.9"
+    ],
+    "cross_refs": [
+      "first heaven",
+      "ashar"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7"
+  },
+  {
+    "term": "Es'enaur",
+    "slug": "es-enaur",
+    "category": "term",
+    "translit": {
+      "zh_hant": "埃斯那爾",
+      "zh_hans": "埃斯那尔",
+      "ja": "エスエナウル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An angel officer or choir role appointed by God within the lower heaven; associated with music and harmonious praise in the heavenly realm. A coined Oahspe term, compound of Es + enaur; rendered by sound.",
+      "zh_hant": "神在低層天堂中所委任的天使官員或詩班角色；與天界的音樂和諧頌讚相關。奧阿斯佩的造詞，由埃斯加enaur構成；依聲音音譯。",
+      "zh_hans": "神在低层天堂中所委任的天使官员或诗班角色；与天界的音乐和谐颂赞相关。奥阿斯佩的造词，由埃斯加enaur构成；依声音音译。",
+      "ja": "低き天において神によって任命される天使の役職または詠唱の役。天の領域における音楽と調和の称賛に関連する。エス＋エナウルの複合語であるオアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.7.9"
+    ],
+    "cross_refs": [
+      "first heaven",
+      "es"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7"
+  },
+  {
+    "term": "Dan",
+    "slug": "dan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "但",
+      "zh_hans": "但",
+      "ja": "但"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A subdivision of the larger dan'ha cycle; Jehovih ordains seven dans within each dan'ha. Each dan spans roughly 200–600 years and marks a harvest period when prepared angels ascend to etherea via the etherean ships. The word means 'light'. Rendered by sound (single character 但, sharing the dan'ha root).",
+      "zh_hant": "較大的但哈週期之細分；耶霍維在每個但哈中規定七個但。每個但大約跨越二百至六百年，標誌著預備好的天使藉以太界飛船升進以太界的豐收時期。此詞意為「光」。依聲音音譯（單字「但」，與但哈共用根字）。",
+      "zh_hans": "较大的但哈周期之细分；耶霍维在每个但哈中规定七个但。每个但大约跨越二百至六百年，标志着预备好的天使借以太界飞船升进以太界的丰收时期。此词意为「光」。依声音音译（单字「但」，与但哈共用根字）。",
+      "ja": "より大きな但哈の循環の細分。ジェホヴィは各但哈のうちに七つの但を定める。各但はおよそ二百年から六百年に及び、準備の整った天使たちがエセ界の船によってエセ界へ昇進する収穫の時期を印す。この語は「光」を意味する。音によって訳した（一字「但」、但哈と語根を共有する）。"
+    },
+    "appears_in": [
+      "jehovih.7.14",
+      "jehovih.7.17",
+      "jehovih.7.18",
+      "jehovih.7.19",
+      "jehovih.7.23"
+    ],
+    "cross_refs": [
+      "dan-ha",
+      "etherea"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7.14"
+  },
+  {
+    "term": "Lord / Lords",
+    "slug": "lord",
+    "category": "term",
+    "translit": {
+      "zh_hant": "衆主",
+      "zh_hans": "众主",
+      "ja": "衆主"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe's hierarchy, a Lord is a commissioned God of the land (earth surface), the lowest rank of Jehovih's commissioned Gods, subordinate to the over-arching God of the lower heaven. Lords dwell among mortals and serve their resurrection. Rendered 衆主 (zh) / 衆主 (ja) — 衆 (plural/collective) + 主 (lord/master) — to capture both the plural sense and the scriptural register, while avoiding confusion with the Abrahamic Lord (主 alone).",
+      "zh_hant": "在奧阿斯佩的位階中，衆主是受命的土地之神（大地表面），是耶霍維受命諸神中最低的位階，隸屬於低層天堂的上位神之下。衆主居於凡人之間，服事他們的升進。譯為「衆主」——衆（衆多／集合）加主（主宰）——以兼顧複數意義與經典語氣，並避免與亞伯拉罕宗教中「主」（單字）相混。",
+      "zh_hans": "在奥阿斯佩的位阶中，众主是受命的土地之神（大地表面），是耶霍维受命诸神中最低的位阶，隶属于低层天堂的上位神之下。众主居于凡人之间，服事他们的升进。译为「众主」——众（众多／集合）加主（主宰）——以兼顾复数意义与经典语气，并避免与亚伯拉罕宗教中「主」（单字）相混。",
+      "ja": "オアスペの位階において、衆主は大地の神（大地の表面）として委任された者であり、ジェホヴィの委任した諸神のうちで最も低き位階である。上位の低き天の神に従属し、人の間に住まいてその昇進に仕える。「衆主」と訳す——衆（複数・集合）＋主（主人・支配者）——複数の意と経典的な語調を兼ね備え、アブラハムの宗教における「主」（単字）との混同を避ける。"
+    },
+    "appears_in": [
+      "jehovih.7.13",
+      "jehovih.7.14",
+      "jehovih.7.15",
+      "jehovih.7.16",
+      "jehovih.7.17",
+      "jehovih.7.18",
+      "jehovih.7.20",
+      "jehovih.7.23"
+    ],
+    "cross_refs": [
+      "first heaven",
+      "hored"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.7.13"
   }
 ]
