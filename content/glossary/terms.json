@@ -1122,26 +1122,26 @@
     "slug": "satan",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "薩坦",
+      "zh_hans": "萨坦",
+      "ja": "サタン"
     },
     "source_def": "The chief of the seven tetracts, the captain of the selfish passions.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "七魔首之領袖，自私情慾之統帥。",
+      "zh_hans": "七魔首之领袖，自私情欲之统帅。",
+      "ja": "七つのテトラクトの長にして、自己中心の情念の頭。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe, Satan is not a literal devil but the personification of selfish desire—the captain of the selfish passions, chief of the seven tetracts. Here he is invoked as one who relishes the shedding of a brother's blood, embodying the self-serving impulse toward war. Rendered by sound (薩坦/サタン), distinct in Chinese from the conventional 撒但, to mark it as Oahspe's own moral-symbolic figure rather than the received devil.",
+      "zh_hant": "在奧阿斯佩中，薩坦並非字面意義的魔鬼，而是自私慾望的人格化——自私情慾的統帥，七魔首之領袖。此處他被喚起，作為以兄弟之血為美味者，體現了趨向戰爭的自利衝動。依聲音音譯（薩坦），在中文中刻意與慣用的「撒但」有別，以標明其為奧阿斯佩自身的道德象徵性形象，而非既有的魔鬼。",
+      "zh_hans": "在奥阿斯佩中，萨坦并非字面意义的魔鬼，而是自私欲望的人格化——自私情欲的统帅，七魔首之领袖。此处他被唤起，作为以兄弟之血为美味者，体现了趋向战争的自利冲动。依声音音译（萨坦），在中文中刻意与惯用的「撒但」有别，以标明其为奥阿斯佩自身的道德象征性形象，而非既有的魔鬼。",
+      "ja": "オアスペにおいてサタンは文字どおりの悪魔ではなく、自己中心の欲望の人格化——自己中心の情念の頭にして、七つのテトラクトの長である。ここでは兄弟の血の流れを美味とする者として呼び起こされ、戦いへと向かう利己の衝動を体現する。音によって訳した（サタン）。既存の悪魔ではなく、オアスペ独自の道徳的・象徴的な形象であることを示す。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "voice-of-man.1"
   },
   {
     "term": "Selfishness per se",
@@ -3466,5 +3466,67 @@
     ],
     "locked": true,
     "first_seen": "oahspe-intro.1.25"
+  },
+  {
+    "term": "Christ",
+    "slug": "christ",
+    "category": "name",
+    "translit": {
+      "zh_hant": "基利斯特",
+      "zh_hans": "基利斯特",
+      "ja": "クリスト"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In this confession, one of the divine names man invented to found a great idolatry and divide the earth; the object of Christian worship. Rendered by sound (基利斯特/クリスト), deliberately distinct from the conventional 基督 so as not to conflate it with the received Christian tradition, and marking it as one of the 'four great heads of the Beast' in Oahspe's view.",
+      "zh_hant": "在此懺悔中，人為奠立一大偶像崇拜、分裂大地而捏造的諸神之名之一；乃基利斯特信徒敬拜的對象。依聲音音譯（基利斯特），刻意與慣用的「基督」有別，以免與既有的基督教傳統混同，並標明其在奧阿斯佩觀點中乃「那獸的四個巨大的頭」之一。",
+      "zh_hans": "在此忏悔中，人为奠立一大偶像崇拜、分裂大地而捏造的诸神之名之一；乃基利斯特信徒敬拜的对象。依声音音译（基利斯特），刻意与惯用的「基督」有别，以免与既有的基督教传统混同，并标明其在奥阿斯佩观点中乃「那兽的四个巨大的头」之一。",
+      "ja": "この懺悔において、人が一大偶像崇拝を立て大地を分かたんがために捏ね上げた諸神の名の一つ。クリスト教徒の礼拝の対象。慣用の基督とは意図的に区別し、既存のキリスト教の伝統と混同せぬよう、音によって訳した（クリスト）。オアスペの見地における「獣の四つの大いなる頭」の一つであることを示す。"
+    },
+    "appears_in": [
+      "voice-of-man.1.30"
+    ],
+    "cross_refs": [
+      "four great heads of the Beast",
+      "beast"
+    ],
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "term": "Mohammed",
+    "slug": "mohammed",
+    "category": "name",
+    "translit": {
+      "zh_hant": "穆罕默德",
+      "zh_hans": "穆罕默德",
+      "ja": "モハメッド"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In this confession, the prophet of one of the four great idolatries man founded to divide the earth; those who profess 'there is but one God and Mohammed is his prophet' are said to gain indulgence without sin. Rendered by sound, marking it as one of the 'four great heads of the Beast' in Oahspe's view.",
+      "zh_hant": "在此懺悔中，人為分裂大地所奠立的四大偶像崇拜之一的先知；凡稱認「獨有一神，而穆罕默德是其先知」者，據說便可蒙寬赦而無罪。依聲音音譯，標明其在奧阿斯佩觀點中乃「那獸的四個巨大的頭」之一。",
+      "zh_hans": "在此忏悔中，人为分裂大地所奠立的四大偶像崇拜之一的先知；凡称认「独有一神，而穆罕默德是其先知」者，据说便可蒙宽赦而无罪。依声音音译，标明其在奥阿斯佩观点中乃「那兽的四个巨大的头」之一。",
+      "ja": "この懺悔において、人が大地を分かたんがために立てた四つの大いなる偶像崇拝の一つの預言者。「ただ一なる神ありて、モハメッドはその預言者なり」と告白する者は罪なくして赦しを得るとされる。音によって訳し、オアスペの見地における「獣の四つの大いなる頭」の一つであることを示す。"
+    },
+    "appears_in": [
+      "voice-of-man.1.30"
+    ],
+    "cross_refs": [
+      "four great heads of the Beast",
+      "beast"
+    ],
+    "locked": true,
+    "first_seen": "voice-of-man.1"
   }
 ]

@@ -568,5 +568,65 @@
     "note": "Oahspe's stated aim: that mortals may hear the Creator's voice and see His heavens while still alive and fully conscious, not merely after death or in trance. A signature promise of the book's purpose.",
     "locked": true,
     "first_seen": "oahspe-intro.1.24"
+  },
+  {
+    "en": "the officers of death",
+    "category": "phrase",
+    "zh_hant": "死亡的官員們",
+    "zh_hans": "死亡的官员们",
+    "ja": "死の役人たち",
+    "note": "The military officers of the warring ruler, ironically titled as functionaries of death; part of the confessional 'Voice of Man' lament over the glorification of warfare.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "In the pretense of enforcing peace I hewed my way in flesh and blood",
+    "category": "phrase",
+    "zh_hant": "在強制施行和平的偽裝之下，我在血肉之中殺出了一條血路",
+    "zh_hans": "在强制施行和平的伪装之下，我在血肉之中杀出了一条血路",
+    "ja": "平和を強いるという偽りの装いのもとで、我は血と肉のうちに己が道を斬り開いた",
+    "note": "The confession that war is waged under the false pretext of establishing peace; ties to Oahspe's theme of enforced religion/order as the dominion of the Beast (self). Theologically loaded self-indictment in the 'Voice of Man' lament.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "THOU SHALT NOT KILL",
+    "category": "phrase",
+    "zh_hant": "不可殺人",
+    "zh_hans": "不可杀人",
+    "ja": "汝、殺すなかれ",
+    "note": "Jehovih's commandment, invoked in the 'Voice of Man' confession where warlike man set patriotism above the divine prohibition against killing. Rendered as a concise imperative commandment in elevated register.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "an igneous fatuous",
+    "category": "phrase",
+    "zh_hant": "虛妄如鬼火的東西",
+    "zh_hans": "虚妄如鬼火的东西",
+    "ja": "鬼火のごとく虚しきもの",
+    "note": "The 'ignis fatuus' (will-o'-the-wisp) image applied to the kingdom man creates for patriotism's sake—an illusory, deceptive light leading men astray. Rendered with the 鬼火/鬼火 (marsh-light) figure to preserve the sense of a delusive, empty thing.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "war was a necessary evil to prevent a too populous world",
+    "category": "phrase",
+    "zh_hant": "戰爭是防止世界人口過多所必需的惡",
+    "zh_hans": "战争是防止世界人口过多所必需的恶",
+    "ja": "戦いは世界が人あまりに多くなるを防ぐために必要なる悪である",
+    "note": "A self-justifying falsehood in the 'Voice of Man' confession—the pretext that war is needed to check overpopulation; theologically loaded as one of warlike man's excuses before Jehovih.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
+  },
+  {
+    "en": "a pruning knife in Thy vineyard",
+    "category": "phrase",
+    "zh_hant": "祢葡萄園中的一把修枝刀",
+    "zh_hans": "祢葡萄园中的一把修枝刀",
+    "ja": "祢の葡萄園における剪定の刃",
+    "note": "The confessional image of warlike man exalting himself above the Creator's works, presuming to cut down what Jehovih created alive as though pruning the divine vineyard; a self-indictment in the 'Voice of Man' lament.",
+    "locked": true,
+    "first_seen": "voice-of-man.1"
   }
 ]
