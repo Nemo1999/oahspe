@@ -82,26 +82,26 @@
     "slug": "algonquin",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "阿爾岡昆",
+      "zh_hans": "阿尔冈昆",
+      "ja": "アルゴンキン"
     },
     "source_def": "The United States of the North American Indians before their destruction by the Christians, O-pah-Egoquim, 369.48.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "北美印第安人在被基督徒毀滅之前的合眾國，奧-帕-厄果基姆，369.48。",
+      "zh_hans": "北美印第安人在被基督徒毁灭之前的合众国，奥-帕-厄果基姆，369.48。",
+      "ja": "キリスト教徒によって滅ぼされる前の北アメリカ・インディアンの合衆国。オ・パ・エゴキム。369.48。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "Oahspe's name for the union of North American Indian nations established by Ea-wah-tah, also called O-pah-e-go-quim; the model of independent nations united in one that later informed the formation of the United States of America. Rendered by sound.",
+      "zh_hant": "奧阿斯佩對厄阿-瓦-塔所建立的北美印第安諸邦聯合體的稱謂，亦稱奧-帕-厄-果-基姆；此由眾多獨立邦國聯合為一的模式，後來影響了美利堅合眾國的締造。依聲音音譯。",
+      "zh_hans": "奥阿斯佩对厄阿-瓦-塔所建立的北美印第安诸邦联合体的称谓，亦称奥-帕-厄-果-基姆；此由众多独立邦国联合为一的模式，后来影响了美利坚合众国的缔造。依声音音译。",
+      "ja": "エア・ワ・タによって確立された北アメリカ・インディアン諸国の連合体に対するオアスペの呼称であり、オ・パ・エ・ゴ・キムとも呼ばれる。独立せる諸国が一つに結合するというその模範は、後のアメリカ合衆国の形成に影響を与えた。音によって訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "prophets.1"
   },
   {
     "term": "Angel",
@@ -992,26 +992,26 @@
     "slug": "iz-zerlites",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "伊茲-澤爾人",
+      "zh_hans": "伊兹-泽尔人",
+      "ja": "イズゼル人"
     },
     "source_def": "(442.12; 612, 613) Isaerites.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "（442.12；612, 613）伊薩爾人。",
+      "zh_hans": "（442.12；612, 613）伊萨尔人。",
+      "ja": "（442.12；612, 613）イサエル人。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "Oahspe's name for the ancient Hebrews, founded by Abram (Abraham); also called Isaerites/Israelites. A pre-modern designation of the migrant people who left their homeland for religion's sake. Rendered by sound.",
+      "zh_hant": "奧阿斯佩對古希伯來人的稱謂，由阿布拉姆（亞伯拉罕）所創立；亦稱伊薩爾人／以色列人。指為宗教之故而離開故土的遷徙民族的古代名稱。依聲音音譯。",
+      "zh_hans": "奥阿斯佩对古希伯来人的称谓，由阿布拉姆（亚伯拉罕）所创立；亦称伊萨尔人／以色列人。指为宗教之故而离开故土的迁徙民族的古代名称。依声音音译。",
+      "ja": "オアスペにおける古代ヘブライ人の呼称であり、アブラム（アブラハム）によって創立された。イサエル人／イスラエル人とも呼ばれる。宗教のために故郷を離れた移住の民の古き名称。音によって訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "prophets.1"
   },
   {
     "term": "Nirvanian",
@@ -2505,5 +2505,871 @@
     "cross_refs": [],
     "locked": true,
     "first_seen": "general-statement.1.9"
+  },
+  {
+    "term": "Zarathustra",
+    "slug": "zarathustra",
+    "category": "name",
+    "translit": {
+      "zh_hant": "查拉圖斯特拉",
+      "zh_hans": "查拉图斯特拉",
+      "ja": "ザラツストラ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Persian lawgiver of enormous size and neither sex (an i-e-su), living in the cycle of Fragapatti about 8,900 years ago—the earliest of all historical characters in Oahspe. Erroneously called Zoraaster (Zoroaster); the pronunciation hint given is 'Zoa-raaster'. Rendered by sound, distinct from the conventional Zoroaster spelling.",
+      "zh_hant": "一位波斯立法者，身量巨大且無男女之性別（乃一伊-厄-蘇），生於弗拉伽帕提的週期中，距今約八千九百年前——是奧阿斯佩中一切史載人物裡年代最久遠者。被誤稱為佐拉斯特（瑣羅亞斯德）；書中所給的讀音提示為「佐阿-拉斯特」。依聲音音譯，與慣用的瑣羅亞斯德拼法有別。",
+      "zh_hans": "一位波斯立法者，身量巨大且无男女之性别（乃一伊-厄-苏），生于弗拉伽帕提的周期中，距今约八千九百年前——是奥阿斯佩中一切史载人物里年代最久远者。被误称为佐拉斯特（琐罗亚斯德）；书中所给的读音提示为「佐阿-拉斯特」。依声音音译，与惯用的琐罗亚斯德拼法有别。",
+      "ja": "身量きわめて巨大にして男女いずれの性別も持たぬ（イ・エ・スゥなる）ペルシアの立法者。フラガパッティの循環のうちに今より約八千九百年前に生き、オアスペにおけるあらゆる史上の人物のうちで最も古き者。誤ってゾラースター（ゾロアスター）と呼ばれる。本文の発音の手がかりは「ゾア・ラースター」。慣用のゾロアスター表記とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.2",
+      "prophets.1.3"
+    ],
+    "cross_refs": [
+      "fragapatti",
+      "i-e-su"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.2"
+  },
+  {
+    "term": "Fragapatti",
+    "slug": "fragapatti",
+    "category": "name",
+    "translit": {
+      "zh_hant": "弗拉伽帕提",
+      "zh_hans": "弗拉伽帕提",
+      "ja": "フラガパッティ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The etherean cycle (and its presiding God) during which Zarathustra lived, about 8,900 years ago; one of the great dan'ha cycles of Oahspe's chronology. Rendered by sound.",
+      "zh_hant": "查拉圖斯特拉在世時所處的以太界週期（及主掌該週期之神），距今約八千九百年前；為奧阿斯佩紀年中偉大的但哈週期之一。依聲音音譯。",
+      "zh_hans": "查拉图斯特拉在世时所处的以太界周期（及主掌该周期之神），距今约八千九百年前；为奥阿斯佩纪年中伟大的但哈周期之一。依声音音译。",
+      "ja": "ザラツストラが生きた時代のエセ界の循環（およびそれを主宰する神）であり、今より約八千九百年前のこと。オアスペの紀年における大いなる但哈の循環の一つ。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.2"
+    ],
+    "cross_refs": [
+      "zarathustra",
+      "dan-ha"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.2"
+  },
+  {
+    "term": "Coatulus",
+    "slug": "coatulus",
+    "category": "name",
+    "translit": {
+      "zh_hant": "柯阿圖魯斯",
+      "zh_hans": "柯阿图鲁斯",
+      "ja": "コアツルス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Christian priest who, according to Oahspe, burned the Alexandrian Library in the year 390 in order to obliterate the history of Zarathustra. Rendered by sound.",
+      "zh_hant": "據奧阿斯佩所載，於公元三九○年焚燒亞歷山大圖書館的基督教祭司，目的在於抹去查拉圖斯特拉的歷史。依聲音音譯。",
+      "zh_hans": "据奥阿斯佩所载，于公元三九○年焚烧亚历山大图书馆的基督教祭司，目的在于抹去查拉图斯特拉的历史。依声音音译。",
+      "ja": "オアスペによれば、ザラツストラの歴史を抹消せんがために西暦三九〇年にアレクサンドリア図書館を焼いたキリスト教の祭司。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.2"
+    ],
+    "cross_refs": [
+      "zarathustra"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.2"
+  },
+  {
+    "term": "i-e-su",
+    "slug": "i-e-su",
+    "category": "term",
+    "translit": {
+      "zh_hant": "伊-厄-蘇",
+      "zh_hans": "伊-厄-苏",
+      "ja": "イ・エ・スゥ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, a being of neither sex—a sexless (androgynous or asexual) person, often of large stature, exemplified by Zarathustra and Po. Such beings figure as pure prophets and lawgivers. A coined Oahspe term rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，指無男女性別的存在——即無性（雌雄同體或無性）之人，往往身量高大，查拉圖斯特拉與波即為其例。此類存在為純粹的先知與立法者。奧阿斯佩的造詞，依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，指无男女性别的存在——即无性（雌雄同体或无性）之人，往往身量高大，查拉图斯特拉与波即为其例。此类存在为纯粹的先知与立法者。奥阿斯佩的造词，依声音音译。",
+      "ja": "オアスペにおいて、男女いずれの性別も持たぬ存在——すなわち無性（両性具有または無性）の人であり、しばしば身量高大である。ザラツストラとポがその例。かかる存在は純粋なる預言者・立法者として現れる。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.2",
+      "prophets.1.3"
+    ],
+    "cross_refs": [
+      "zarathustra",
+      "po"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.2"
+  },
+  {
+    "term": "Po",
+    "slug": "po",
+    "category": "name",
+    "translit": {
+      "zh_hant": "波",
+      "zh_hans": "波",
+      "ja": "ポ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A lawgiver of Jaffeth (later called China), an i-e-su, contemporaneous with Abram of Persia about 5,800 years ago in the cycle of Cpenta-armij. Like Zarathustra, he taught the doctrine of one Great Spirit and re-established it in Jaffeth. Rendered by sound.",
+      "zh_hant": "賈費斯（後稱中國）的立法者，乃一伊-厄-蘇，與波斯的阿布拉姆同時代，距今約五千八百年前，處於瑟彭塔-阿彌基的週期中。他如查拉圖斯特拉一般教導唯一大靈的教義，並在賈費斯重新確立此教義。依聲音音譯。",
+      "zh_hans": "贾费斯（后称中国）的立法者，乃一伊-厄-苏，与波斯的阿布拉姆同时代，距今约五千八百年前，处于瑟彭塔-阿弥基的周期中。他如查拉图斯特拉一般教导唯一大灵的教义，并在贾费斯重新确立此教义。依声音音译。",
+      "ja": "ジャフェス（後に中国と呼ばれる）の立法者にして、イ・エ・スゥであり、スペンタ・アルミジの循環のうちに今より約五千八百年前、ペルシアのアブラムと同時代に生きた。ザラツストラのごとく唯一なる大霊の教義を教え、これをジャフェスに再び確立した。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.3"
+    ],
+    "cross_refs": [
+      "jaffeth",
+      "i-e-su",
+      "cpenta-armij",
+      "abram"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.3"
+  },
+  {
+    "term": "Jaffeth",
+    "slug": "jaffeth",
+    "category": "name",
+    "translit": {
+      "zh_hant": "賈費斯",
+      "zh_hans": "贾费斯",
+      "ja": "ジャフェス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Oahspe's ancient name for the land later called China. Rendered by sound, distinct from the modern name.",
+      "zh_hant": "奧阿斯佩對後來稱為中國之地的古稱。依聲音音譯，與今名有別。",
+      "zh_hans": "奥阿斯佩对后来称为中国之地的古称。依声音音译，与今名有别。",
+      "ja": "オアスペにおいて、後に中国と呼ばれる地の古き名称。今の名称とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.3"
+    ],
+    "cross_refs": [
+      "po"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.3"
+  },
+  {
+    "term": "Cpenta-armij",
+    "slug": "cpenta-armij",
+    "category": "name",
+    "translit": {
+      "zh_hant": "瑟彭塔-阿彌基",
+      "zh_hans": "瑟彭塔-阿弥基",
+      "ja": "スペンタ・アルミジ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The etherean cycle (and its presiding Goddess) during which Po and Abram lived, about 5,800 years ago; one of the great dan'ha cycles of Oahspe's chronology. Rendered by sound.",
+      "zh_hant": "波與阿布拉姆在世時所處的以太界週期（及主掌該週期之女神），距今約五千八百年前；為奧阿斯佩紀年中偉大的但哈週期之一。依聲音音譯。",
+      "zh_hans": "波与阿布拉姆在世时所处的以太界周期（及主掌该周期之女神），距今约五千八百年前；为奥阿斯佩纪年中伟大的但哈周期之一。依声音音译。",
+      "ja": "ポとアブラムが生きた時代のエセ界の循環（およびそれを主宰する女神）であり、今より約五千八百年前のこと。オアスペの紀年における大いなる但哈の循環の一つ。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.3"
+    ],
+    "cross_refs": [
+      "po",
+      "abram",
+      "dan-ha"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.3"
+  },
+  {
+    "term": "Abram",
+    "slug": "abram",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿布拉姆",
+      "zh_hans": "阿布拉姆",
+      "ja": "アブラム"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Afterward called Abraham; an I'huan, large and red like new copper, black-haired and long-bearded, fierce in look but gentle in soul. A Persian, founder of the ancient Hebrews (Iz'zerlites) and of migration for religion's sake; he led his followers into Egupt. Rendered by sound, distinct from the conventional biblical Abraham/亞伯拉罕.",
+      "zh_hant": "後稱亞伯拉罕；乃一伊胡安人，身量高大，膚紅如新煉之銅，黑髮長鬚，容貌兇猛而靈魂溫柔。他是波斯人，古希伯來人（伊茲-澤爾人）的始祖，亦為宗教遷徙之舉的創始者；他帶領追隨者進入埃古普特。依聲音音譯，與慣用的聖經人物亞伯拉罕有別。",
+      "zh_hans": "后称亚伯拉罕；乃一伊胡安人，身量高大，肤红如新炼之铜，黑发长须，容貌凶猛而灵魂温柔。他是波斯人，古希伯来人（伊兹-泽尔人）的始祖，亦为宗教迁徙之举的创始者；他带领追随者进入埃古普特。依声音音译，与惯用的圣经人物亚伯拉罕有别。",
+      "ja": "後にアブラハムと呼ばれる。イフアン人にして、身量高大、新しき銅のごとく赤く、黒き髪と長き髭を持ち、面ざしは猛々しくとも魂は柔和であった。ペルシア人にして、古代ヘブライ人（イズゼル人）の祖であり、宗教のための移住の創始者。従う者たちをエグプトへと導き入れた。慣用の聖書のアブラハムとは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.3",
+      "prophets.1.4"
+    ],
+    "cross_refs": [
+      "i-huan",
+      "iz-zerlites",
+      "egupt",
+      "po",
+      "cpenta-armij"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.3"
+  },
+  {
+    "term": "I'huan",
+    "slug": "i-huan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "伊胡安人",
+      "zh_hans": "伊胡安人",
+      "ja": "イフアン人"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the races of man—large and red like new copper, with black hair; Abram was an I'huan. A coined Oahspe term for an ancient copper-colored race. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，人類種族之一——身量高大，膚色紅如新煉之銅，生有黑髮；阿布拉姆即為伊胡安人。奧阿斯佩用以指稱一古代銅色種族的造詞。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，人类种族之一——身量高大，肤色红如新炼之铜，生有黑发；阿布拉姆即为伊胡安人。奥阿斯佩用以指称一古代铜色种族的造词。依声音音译。",
+      "ja": "オアスペにおける人類の種族の一つ——身量高大にして、新しき銅のごとく赤く、黒き髪を持つ。アブラムはイフアン人であった。古き銅色の種族を指すオアスペの造語。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.4"
+    ],
+    "cross_refs": [
+      "abram"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.4"
+  },
+  {
+    "term": "Egupt",
+    "slug": "egupt",
+    "category": "name",
+    "translit": {
+      "zh_hant": "埃古普特",
+      "zh_hans": "埃古普特",
+      "ja": "エグプト"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Oahspe's ancient spelling for the land of Egypt, into which Abram led his followers. Rendered by sound, distinct from the modern name.",
+      "zh_hant": "奧阿斯佩對埃及之地的古拼法，阿布拉姆帶領其追隨者進入此地。依聲音音譯，與今名有別。",
+      "zh_hans": "奥阿斯佩对埃及之地的古拼法，阿布拉姆带领其追随者进入此地。依声音音译，与今名有别。",
+      "ja": "オアスペにおけるエジプトの地の古き綴りであり、アブラムはその従う者たちをここへ導き入れた。今の名称とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.4"
+    ],
+    "cross_refs": [
+      "abram"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.4"
+  },
+  {
+    "term": "Brahma",
+    "slug": "brahma",
+    "category": "name",
+    "translit": {
+      "zh_hant": "布拉瑪",
+      "zh_hans": "布拉玛",
+      "ja": "ブラマ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An East Indian lawgiver, contemporaneous with Po and Abram about 5,800 years ago; a large man of great strength, ranked highest spiritually of all mortals. He re-established the Zarathustrian religion in India. Rendered by sound, distinct from the Hindu creator-god conventionally called 梵天.",
+      "zh_hant": "一位東印度的立法者，與波及阿布拉姆同時代，距今約五千八百年前；身量高大、力量極強，在一切凡人之中靈性居於最高。他在印度重新確立了查拉圖斯特拉的宗教。依聲音音譯，與慣稱「梵天」的印度創造神有別。",
+      "zh_hans": "一位东印度的立法者，与波及阿布拉姆同时代，距今约五千八百年前；身量高大、力量极强，在一切凡人之中灵性居于最高。他在印度重新确立了查拉图斯特拉的宗教。依声音音译，与惯称「梵天」的印度创造神有别。",
+      "ja": "東インドの立法者にして、ポおよびアブラムと同時代、今より約五千八百年前の者。身量高大にして力甚だ強く、あらゆる人のうちで霊的に最も高き位にあった。彼はインドにおいてザラツストラの宗教を再び確立した。慣用の梵天（ヒンドゥーの創造神）とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.5",
+      "prophets.1.6",
+      "prophets.1.7"
+    ],
+    "cross_refs": [
+      "po",
+      "abram",
+      "zarathustra",
+      "yu-tiv"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.5"
+  },
+  {
+    "term": "Yu-tiv",
+    "slug": "yu-tiv",
+    "category": "name",
+    "translit": {
+      "zh_hant": "尤-提夫",
+      "zh_hans": "尤-提夫",
+      "ja": "ユ・ティヴ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The fairest of women, the wife of Brahma the East Indian lawgiver. Rendered by sound.",
+      "zh_hant": "女子中最為美麗者，東印度立法者布拉瑪之妻。依聲音音譯。",
+      "zh_hans": "女子中最为美丽者，东印度立法者布拉玛之妻。依声音音译。",
+      "ja": "女のうちで最も美しき者にして、東インドの立法者ブラマの妻。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.6"
+    ],
+    "cross_refs": [
+      "brahma"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.6"
+  },
+  {
+    "term": "Ea-wah-tah",
+    "slug": "ea-wah-tah",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄阿-瓦-塔",
+      "zh_hans": "厄阿-瓦-塔",
+      "ja": "エア・ワ・タ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A North American lawgiver, contemporaneous with Po, Abram and Brahma; taller than any other man, with a bright shining copper face. He established the worship of the Great Spirit among the North American Indians and founded their union of nations (Algonquin / O-pah-e-go-quim), whose model of independent nations united in one later informed the United States of America. Rendered by sound.",
+      "zh_hant": "一位北美洲的立法者，與波、阿布拉姆及布拉瑪同時代；比任何其他人都高大，面容銅色而明亮閃耀。他在北美印第安人中確立了對大靈的敬拜，並創立了他們的邦國聯合體（阿爾岡昆／奧-帕-厄-果-基姆），其眾多獨立邦國聯合為一的模式後來影響了美利堅合眾國。依聲音音譯。",
+      "zh_hans": "一位北美洲的立法者，与波、阿布拉姆及布拉玛同时代；比任何其他人都高大，面容铜色而明亮闪耀。他在北美印第安人中确立了对大灵的敬拜，并创立了他们的邦国联合体（阿尔冈昆／奥-帕-厄-果-基姆），其众多独立邦国联合为一的模式后来影响了美利坚合众国。依声音音译。",
+      "ja": "北アメリカの立法者にして、ポ、アブラム、ブラマと同時代の者。いかなる者よりも背高く、銅色にして明るく輝く面ざしを持つ。彼は北アメリカのインディアンのうちに大霊への礼拝を確立し、その諸国の連合体（アルゴンキン／オ・パ・エ・ゴ・キム）を創立した。独立せる諸国が一つに結合するその模範は、後のアメリカ合衆国に影響を与えた。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.7"
+    ],
+    "cross_refs": [
+      "po",
+      "abram",
+      "brahma",
+      "algonquin",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.7"
+  },
+  {
+    "term": "Thothma",
+    "slug": "thothma",
+    "category": "name",
+    "translit": {
+      "zh_hant": "托特瑪",
+      "zh_hans": "托特玛",
+      "ja": "トトマ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Also called Hojax; the builder of the great pyramid in Egupt and one of the greatest adepts ever, able to hear and converse with the Gods and to cast himself into the death trance to travel spiritually into the lower heavens. He labored under the false God Osiris to establish immortality in the flesh, but died at the age of one hundred. Rendered by sound.",
+      "zh_hant": "亦稱霍賈克斯；埃古普特大金字塔的建造者，有史以來最偉大的通靈行家之一，能聽見諸神並與之交談，能使自己陷入死亡的出神狀態，靈性地進入低層天堂。他在偽神奧西里斯之下致力於在肉身中確立永生，卻於百歲之時死去。依聲音音譯。",
+      "zh_hans": "亦称霍贾克斯；埃古普特大金字塔的建造者，有史以来最伟大的通灵行家之一，能听见诸神并与之交谈，能使自己陷入死亡的出神状态，灵性地进入低层天堂。他在伪神奥西里斯之下致力于在肉身中确立永生，却于百岁之时死去。依声音音译。",
+      "ja": "ホジャクスとも呼ばれる。エグプトの大ピラミッドの建造者にして、かつて生きたうちで最も偉大なる達人の一人。諸神の声を聞き、これと語らい、自らを死の恍惚に投じて霊的に低き天へと入ることができた。偽りの神オシリスのもとで肉における不死を確立せんと努めたが、百歳にして死んだ。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.8"
+    ],
+    "cross_refs": [
+      "hojax",
+      "egupt",
+      "osiris",
+      "baal",
+      "corporeal body"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.8"
+  },
+  {
+    "term": "Hojax",
+    "slug": "hojax",
+    "category": "name",
+    "translit": {
+      "zh_hant": "霍賈克斯",
+      "zh_hans": "霍贾克斯",
+      "ja": "ホジャクス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An alternate name for Thothma, the builder of the great pyramid in Egupt, given in parentheses in the text. Rendered by sound.",
+      "zh_hant": "托特瑪的別名，即埃古普特大金字塔的建造者，於文中以括注給出。依聲音音譯。",
+      "zh_hans": "托特玛的别名，即埃古普特大金字塔的建造者，于文中以括注给出。依声音音译。",
+      "ja": "トトマ、すなわちエグプトの大ピラミッドの建造者の別名であり、テキスト中でカッコ書きにより与えられる。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.8"
+    ],
+    "cross_refs": [
+      "thothma"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.8"
+  },
+  {
+    "term": "Osiris",
+    "slug": "osiris",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧西里斯",
+      "zh_hans": "奥西里斯",
+      "ja": "オシリス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, a false God under whose inspiration Thothma labored; not a supreme being but a self-styled God ruling in the lower heavens, working through his angel servant Gods Baal and Egupt. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，一位偽神，托特瑪即在其感召之下勞作；並非至高存在，而是在低層天堂中自立為神者，藉其天使僕役之神巴力與埃古普特而運作。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，一位伪神，托特玛即在其感召之下劳作；并非至高存在，而是在低层天堂中自立为神者，借其天使仆役之神巴力与埃古普特而运作。依声音音译。",
+      "ja": "オアスペにおいて、トトマがその霊感のもとで労した偽りの神。至高の存在ではなく、低き天において自ら神を称して支配し、その天使の僕なる神バアルとエグプトを通じて働いた。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.8"
+    ],
+    "cross_refs": [
+      "thothma",
+      "baal",
+      "egupt"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.8"
+  },
+  {
+    "term": "Baal",
+    "slug": "baal",
+    "category": "name",
+    "translit": {
+      "zh_hant": "巴力",
+      "zh_hans": "巴力",
+      "ja": "バアル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, one of the great angel servant Gods of the false God Osiris, through whom the inspiration reached Thothma. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩中，偽神奧西里斯的偉大天使僕役之神之一，感召藉之傳達於托特瑪。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩中，伪神奥西里斯的伟大天使仆役之神之一，感召借之传达于托特玛。依声音音译。",
+      "ja": "オアスペにおいて、偽りの神オシリスの偉大なる天使の僕なる神の一つであり、これを通じて霊感がトトマに達した。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.8"
+    ],
+    "cross_refs": [
+      "osiris",
+      "egupt",
+      "thothma"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1.8"
+  },
+  {
+    "term": "Capilya",
+    "slug": "capilya",
+    "category": "name",
+    "translit": {
+      "zh_hant": "卡皮爾亞",
+      "zh_hans": "卡皮尔亚",
+      "ja": "カピルヤ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An Indian lawgiver, an i-e-su, living about 3,400 years ago in the cycle of Lika; contemporaneous with Moses and Chine. A foster-child of the king of India, he restored to the believers in one Great Spirit the right to hold property and equal rights; his role in India paralleled that of Moses among the ancient Jews. Rendered by sound.",
+      "zh_hant": "一位印度立法者，乃一伊-厄-蘇，生於距今約三千四百年前利卡的週期中；與摩瑟斯及欽同時代。他是印度王的養子，使信奉唯一大靈者恢復了持有財產的權利與平等權利；其在印度的角色與摩瑟斯之於古猶太人相仿。依聲音音譯。",
+      "zh_hans": "一位印度立法者，乃一伊-厄-苏，生于距今约三千四百年前利卡的周期中；与摩瑟斯及钦同时代。他是印度王的养子，使信奉唯一大灵者恢复了持有财产的权利与平等权利；其在印度的角色与摩瑟斯之于古犹太人相仿。依声音音译。",
+      "ja": "インドの立法者にして、イ・エ・スゥであり、今より約三千四百年前、リカの循環のうちに生きた。モセスおよびチネと同時代。インド王の養い子にして、唯一なる大霊を信ずる者たちに財産を持つ権利と平等の権利を回復させた。彼のインドにおける役割は、モセスの古きユダヤ人における役割に相当する。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.9"
+    ],
+    "cross_refs": [
+      "i-e-su",
+      "lika",
+      "one Great Spirit",
+      "moses",
+      "chine"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Moses",
+    "slug": "moses",
+    "category": "name",
+    "translit": {
+      "zh_hant": "摩瑟斯",
+      "zh_hans": "摩瑟斯",
+      "ja": "モセス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An Egyptian lawgiver, a pure I'huan of copper color and great strength, contemporaneous with Capilya of India and Chine of China, living about 3,400 years before Kosmon (2,400 years after Abram). A foster-child and prince of Pharaoh, master of many languages, he re-established the Zarathustrian doctrine of one Great Spirit, worshipped secretly under the name Jehovih. Rendered by sound, distinct from the conventional biblical Moses/摩西.",
+      "zh_hant": "一位埃及立法者，純粹的伊胡安人，膚色如銅、力量極強，與印度的卡皮爾亞及中國的欽同時代，生於寇斯蒙紀元前約三千四百年（阿布拉姆之後兩千四百年）。他是法老的養子與王子，通曉多種語言，重新確立了查拉圖斯特拉關於唯一大靈的教義，暗中以耶霍維之名敬拜。依聲音音譯，與慣用的聖經人物摩西有別。",
+      "zh_hans": "一位埃及立法者，纯粹的伊胡安人，肤色如铜、力量极强，与印度的卡皮尔亚及中国的钦同时代，生于寇斯蒙纪元前约三千四百年（阿布拉姆之后两千四百年）。他是法老的养子与王子，通晓多种语言，重新确立了查拉图斯特拉关于唯一大灵的教义，暗中以耶霍维之名敬拜。依声音音译，与惯用的圣经人物摩西有别。",
+      "ja": "エジプトの立法者にして、純粋なるイフアン人であり、銅色にして力甚だ強く、インドのカピルヤおよび中国のチネと同時代、コスモン暦前約三千四百年（アブラムより二千四百年後）に生きた。ファラオの養い子にして王子であり、多くの言語に通じ、ザラツストラの唯一なる大霊の教義を再び確立し、これをジェホヴィの名のもとに密かに礼拝した。慣用の聖書のモーセとは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.10"
+    ],
+    "cross_refs": [
+      "i-huan",
+      "capilya",
+      "chine",
+      "abram",
+      "pharaoh",
+      "zarathustra",
+      "one Great Spirit",
+      "jehovih"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Pharaoh",
+    "slug": "pharaoh",
+    "category": "name",
+    "translit": {
+      "zh_hant": "法老",
+      "zh_hans": "法老",
+      "ja": "ファラオ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The king of Egypt who was the foster-father of Moses, educating him as a prince. Rendered by the established title (法老/ファラオ), as it names an office rather than a distinct deity.",
+      "zh_hant": "埃及之王，摩瑟斯的養父，將其作為王子撫養教育。以既有的稱號（法老／ファラオ）譯之，因其為官職名稱而非某獨立神祇。",
+      "zh_hans": "埃及之王，摩瑟斯的养父，将其作为王子抚养教育。以既有的称号（法老／ファラオ）译之，因其为官职名称而非某独立神祇。",
+      "ja": "エジプトの王にして、モセスの養い子としての育ての父であり、彼を王子として教育した。特定の神格ではなく官職の名であるため、既存の称号（法老／ファラオ）によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.10"
+    ],
+    "cross_refs": [
+      "moses",
+      "egupt"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Chine",
+    "slug": "chine",
+    "category": "name",
+    "translit": {
+      "zh_hant": "欽",
+      "zh_hans": "钦",
+      "ja": "チネ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A lawgiver, an i-e-su, contemporaneous with Capilya and Moses; of copper color and very large, with hair red like a fox. The founder of China, he restored the rights of the believers in Jehovih and established the doctrine of one Great Spirit so firmly that all China accepts it to this day. Rendered by sound (欽/チネ), distinct from the modern word for China.",
+      "zh_hant": "一位立法者，乃一伊-厄-蘇，與卡皮爾亞及摩瑟斯同時代；膚色如銅、身量極大，頭髮紅如狐狸。他是中國的奠基者，恢復了信奉耶霍維者的權利，並將唯一大靈的教義確立得如此穩固，以致全中國至今接受它。依聲音音譯（欽／チネ），與今稱中國之詞有別。",
+      "zh_hans": "一位立法者，乃一伊-厄-苏，与卡皮尔亚及摩瑟斯同时代；肤色如铜、身量极大，头发红如狐狸。他是中国的奠基者，恢复了信奉耶霍维者的权利，并将唯一大灵的教义确立得如此稳固，以致全中国至今接受它。依声音音译（钦／チネ），与今称中国之词有别。",
+      "ja": "立法者にして、イ・エ・スゥであり、カピルヤおよびモセスと同時代の者。銅色にして身量きわめて大きく、髪は狐のごとく赤かった。中国の創立者にして、ジェホヴィを信ずる者たちの権利を回復し、唯一なる大霊の教義をきわめて堅く確立したため、全中国は今日に至るまでこれを受け入れている。音によって訳した（欽／チネ）。中国を意味する今の語とは区別する。"
+    },
+    "appears_in": [
+      "prophets.1.10",
+      "prophets.1.11"
+    ],
+    "cross_refs": [
+      "i-e-su",
+      "capilya",
+      "moses",
+      "jehovih",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Sakaya",
+    "slug": "sakaya",
+    "category": "name",
+    "translit": {
+      "zh_hant": "薩卡亞",
+      "zh_hans": "萨卡亚",
+      "ja": "サカヤ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An East Indian lawgiver of sub-cycle rank, living about 2,500 years ago, holding to the doctrine of one Great Spirit only; sometimes erroneously called Buddha (the title being wrongly attached over a thousand years after his death). He taught that man's highest attainment is to live for others, and founded convents, nunneries and monasteries in India. Rendered by sound, distinct from the conventional 釋迦.",
+      "zh_hant": "一位東印度立法者，屬次週期位階，生於距今約兩千五百年前，僅持守唯一大靈的教義；有時被誤稱為布達（此稱是在他死後一千餘年被錯誤加諸的）。他教導人最高的成就在於為他人而活，並在印度建立了女修道院、尼庵與男修道院。依聲音音譯，與慣稱「釋迦」有別。",
+      "zh_hans": "一位东印度立法者，属次周期位阶，生于距今约两千五百年前，仅持守唯一大灵的教义；有时被误称为布达（此称是在他死后一千余年被错误加诸的）。他教导人最高的成就在于为他人而活，并在印度建立了女修道院、尼庵与男修道院。依声音音译，与惯称「释迦」有别。",
+      "ja": "東インドの立法者にして、副次的な循環の位階にあり、今より約二千五百年前に生き、ただ唯一なる大霊の教義のみを守った。時に誤ってブダと呼ばれる（その称は死後千年余りを経て誤って付されたもの）。彼は人の最高の到達とは他者のために生きることであると教え、インドに女子修道院、尼僧院、男子修道院を設立した。慣用の釈迦とは区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.12"
+    ],
+    "cross_refs": [
+      "buddha",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Buddha",
+    "slug": "buddha",
+    "category": "name",
+    "translit": {
+      "zh_hant": "布達",
+      "zh_hans": "布达",
+      "ja": "ブダ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "In Oahspe, a title wrongly attached to Sakaya by his followers something over a thousand years after his death; not properly a name for him. Rendered by sound (布達/ブダ), deliberately distinct from the conventional 佛/釋迦 so as not to conflate it with the received Buddhist tradition.",
+      "zh_hant": "在奧阿斯佩中，此為薩卡亞死後一千餘年由其追隨者錯誤加諸於他的稱號，並非其本名。依聲音音譯（布達／ブダ），刻意與慣用的「佛／釋迦」有別，以免與既有的佛教傳統混同。",
+      "zh_hans": "在奥阿斯佩中，此为萨卡亚死后一千余年由其追随者错误加诸于他的称号，并非其本名。依声音音译（布达／ブダ），刻意与惯用的「佛／释迦」有别，以免与既有的佛教传统混同。",
+      "ja": "オアスペにおいて、サカヤの死後千年余りを経て、その従う者たちによって誤って付された称号であり、本来彼の名ではない。慣用の仏／釈迦とは意図的に区別し、既存の仏教の伝統と混同せぬよう、音によって訳した（布達／ブダ）。"
+    },
+    "appears_in": [
+      "prophets.1.12"
+    ],
+    "cross_refs": [
+      "sakaya"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Ka'yu",
+    "slug": "ka-yu",
+    "category": "name",
+    "translit": {
+      "zh_hant": "卡尤",
+      "zh_hans": "卡尤",
+      "ja": "カユ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Chinese lawgiver of sub-cycle rank, an i-e-su, living about 2,500 years ago; erroneously called Confucius. One of the most learned men that ever lived, with more followers than any other lawgiver on earth. He taught the doctrine of one Great Spirit and to worship Him only, and abridged eighteen thousand ancient books into about twenty. Rendered by sound, deliberately distinct from the conventional 孔子/孔夫子.",
+      "zh_hant": "一位屬次週期位階的中國立法者，乃一伊-厄-蘇，生於距今約兩千五百年前；被誤稱為孔夫子。他是有史以來最博學之人之一，追隨者比大地上任何其他立法者都多。他教導唯一大靈的教義並教人只敬拜祂，並將古人一萬八千部書濃縮為約二十部。依聲音音譯，刻意與慣用的「孔子／孔夫子」有別。",
+      "zh_hans": "一位属次周期位阶的中国立法者，乃一伊-厄-苏，生于距今约两千五百年前；被误称为孔夫子。他是有史以来最博学之人之一，追随者比大地上任何其他立法者都多。他教导唯一大灵的教义并教人只敬拜祂，并将古人一万八千部书浓缩为约二十部。依声音音译，刻意与惯用的「孔子／孔夫子」有别。",
+      "ja": "副次的な循環の位階にある中国の立法者にして、イ・エ・スゥであり、今より約二千五百年前に生きた。誤って孔夫子と呼ばれる。かつて生きたうちで最も博学なる者の一人にして、大地のいかなる立法者よりも多くの従う者を持つ。彼は唯一なる大霊の教義とただ祂のみを礼拝すべきことを教え、古人の一万八千の書をおよそ二十に凝縮した。慣用の孔子／孔夫子とは意図的に区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.13"
+    ],
+    "cross_refs": [
+      "i-e-su",
+      "one Great Spirit"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Joshu",
+    "slug": "joshu",
+    "category": "name",
+    "translit": {
+      "zh_hant": "約書",
+      "zh_hans": "约书",
+      "ja": "ジョシュ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Jewish lawgiver of sub-cycle rank, an i-e-su, born near Jerusalem something less than two thousand years ago; his forebears were of the Esseneans (non-resistants). He labored to restore the Jews to their pristine purity, taught the doctrine of one Great Spirit only, and was stoned to death in Jerusalem as a blasphemer. Oahspe holds that the so-called Sermon on the Mount is a plagiarism of Joshu's teachings assembled by the Ecumenical Council under Constantine. Rendered by sound, deliberately distinct from the conventional Jesus/耶穌.",
+      "zh_hant": "一位屬次週期位階的猶太立法者，乃一伊-厄-蘇，生於距今略少於兩千年前的耶路撒冷附近；其前輩屬艾塞尼人（不抵抗者）。他勞力使猶太人回歸原初的純潔，只教導唯一大靈的教義，並在耶路撒冷作為褻瀆者被石頭砸死。奧阿斯佩認為所謂「登山寶訓」乃是君士坦丁之下大公會議編造的、對約書教導的剽竊。依聲音音譯，刻意與慣用的耶穌有別。",
+      "zh_hans": "一位属次周期位阶的犹太立法者，乃一伊-厄-苏，生于距今略少于两千年前的耶路撒冷附近；其前辈属艾塞尼人（不抵抗者）。他劳力使犹太人回归原初的纯洁，只教导唯一大灵的教义，并在耶路撒冷作为亵渎者被石头砸死。奥阿斯佩认为所谓「登山宝训」乃是君士坦丁之下大公会议编造的、对约书教导的剽窃。依声音音译，刻意与惯用的耶稣有别。",
+      "ja": "副次的な循環の位階にあるユダヤの立法者にして、イ・エ・スゥであり、今より二千年に少し満たぬ昔、エルサレムの近くに生まれた。その先人たちはエッセネ人（無抵抗者）に属した。彼はユダヤ人をその原初の清らかさへ立ち返らせんと努め、ただ唯一なる大霊の教義のみを教え、冒涜者としてエルサレムにて石もて打ち殺された。オアスペは、いわゆる「山上の垂訓」がコンスタンティヌスのもと公会議によって仕立てられたジョシュの教えの盗用であるとする。慣用のイエス／耶穌とは意図的に区別し、音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.14"
+    ],
+    "cross_refs": [
+      "ka-yu",
+      "sakaya",
+      "i-e-su",
+      "esseneans",
+      "one Great Spirit",
+      "constantine"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Esseneans",
+    "slug": "esseneans",
+    "category": "name",
+    "translit": {
+      "zh_hant": "艾塞尼人",
+      "zh_hans": "艾塞尼人",
+      "ja": "エッセネ人"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Jewish sect, also called non-resistants, from whom Joshu's predecessors came. Rendered by sound.",
+      "zh_hant": "一個猶太教派，亦稱不抵抗者，約書的前輩即出自此派。依聲音音譯。",
+      "zh_hans": "一个犹太教派，亦称不抵抗者，约书的前辈即出自此派。依声音音译。",
+      "ja": "ユダヤの一派にして、無抵抗者とも呼ばれ、ジョシュの先人たちはここから出た。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.14"
+    ],
+    "cross_refs": [
+      "joshu"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
+  },
+  {
+    "term": "Constantine",
+    "slug": "constantine",
+    "category": "name",
+    "translit": {
+      "zh_hant": "君士坦丁",
+      "zh_hans": "君士坦丁",
+      "ja": "コンスタンティヌス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The Roman Emperor under whose direction, according to Oahspe, the Ecumenical Council assembled the Christian New Testament, including the Sermon on the Mount said to be plagiarized from Joshu's teachings. Rendered by the established Chinese transliteration 君士坦丁 and Japanese katakana コンスタンティヌス.",
+      "zh_hant": "羅馬皇帝，據奧阿斯佩所載，大公會議即在其指示下編纂了基督教《新約》，其中包括據稱剽竊自約書教導的「登山寶訓」。中文以既有音譯「君士坦丁」，日文以片假名「コンスタンティヌス」譯之。",
+      "zh_hans": "罗马皇帝，据奥阿斯佩所载，大公会议即在其指示下编纂了基督教《新约》，其中包括据称剽窃自约书教导的「登山宝训」。中文以既有音译「君士坦丁」，日文以片假名「コンスタンティヌス」译之。",
+      "ja": "ローマ皇帝にして、オアスペによれば、その指図のもと公会議がキリスト教の『新約』を編纂し、そのうちにジョシュの教えから盗用されたとされる「山上の垂訓」が含まれる。音によって訳した。"
+    },
+    "appears_in": [
+      "prophets.1.14"
+    ],
+    "cross_refs": [
+      "joshu"
+    ],
+    "locked": true,
+    "first_seen": "prophets.1"
   }
 ]

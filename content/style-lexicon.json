@@ -478,5 +478,25 @@
     "note": "Structural classification within Oahspe: Upper Books treat of Etherea and the higher heavens; Lower Books treat of the earth and Atmospherea; recurring organizational formula for describing the corpus.",
     "locked": true,
     "first_seen": "general-statement.1.4"
+  },
+  {
+    "en": "one Great Spirit",
+    "category": "phrase",
+    "zh_hant": "唯一大靈",
+    "zh_hans": "唯一大灵",
+    "ja": "唯一なる大霊",
+    "note": "The core monotheistic doctrine taught by Oahspe's prophets (Zarathustra, Po): the one Great Spirit, i.e. Jehovih. Recurring formula for the essential revelation the prophets re-establish.",
+    "locked": true,
+    "first_seen": "prophets.1.3"
+  },
+  {
+    "en": "immortality in the flesh",
+    "category": "phrase",
+    "zh_hant": "在肉身中的永生",
+    "zh_hans": "在肉身中的永生",
+    "ja": "肉における不死",
+    "note": "Thothma's futile aim: to make the corporeal body incorruptible so it would never die. Theologically loaded as a false pursuit in Oahspe, contrasted with true spiritual immortality.",
+    "locked": true,
+    "first_seen": "prophets.1.8"
   }
 ]
