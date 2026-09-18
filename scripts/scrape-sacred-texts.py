@@ -147,6 +147,24 @@ def extract_chapter(
                 continue
             preamble_parts.append(text)
 
+    # Front matter (General Statement, Hints to the Reader, etc.) has no numbered
+    # verses — every content paragraph becomes a sequential verse so it flows through
+    # the same translate → MDX → VerseReader pipeline. The heading paragraph (matching
+    # the book title) is dropped; it is already the page H1.
+    if not raw_verses:
+        n = 0
+        for tag, text in paragraphs:
+            if page_re.match(text) or chap_re.match(text):
+                continue
+            if text.strip().lower() == book_title.lower():
+                continue
+            if text.strip().rstrip(".").lower() == book_title.rstrip(".").lower():
+                continue
+            n += 1
+            img = tag.find("img")
+            raw_verses.append((n, text.strip(), img.get("src") if img else None))
+        preamble_parts = []  # everything became a verse
+
     preamble = " ".join(preamble_parts).strip()
 
     chapter_id = f"{book_slug}.{chapter_num}"

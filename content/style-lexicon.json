@@ -138,5 +138,25 @@
     "note": "The lowest heaven of atmospherea, nearest the earth, where spirits of the lower heaven dwell after mortal death; a recurring cosmological locus. (rendered from 'lower heaven'/'first heaven' occurrences)",
     "locked": true,
     "first_seen": "jehovih.4.9"
+  },
+  {
+    "en": "quickened into life",
+    "category": "phrase",
+    "zh_hant": "喚醒成活",
+    "zh_hans": "唤醒成活",
+    "ja": "命へと喚び起こした",
+    "note": "The act by which Jehovih's presence animates se'mu into living beings; closely related to 'the QUICKENER' but in verbal/passive form. Theologically loaded and recurring across this chapter.",
+    "locked": true,
+    "first_seen": "jehovih.5.4"
+  },
+  {
+    "en": "flesh of My flesh and spirit of My spirit",
+    "category": "phrase",
+    "zh_hant": "我之肉中的肉，我之靈中的靈",
+    "zh_hans": "我之肉中的肉，我之灵中的灵",
+    "ja": "我が肉の肉、我が霊の霊",
+    "note": "Formulaic theological declaration that all living creatures are part of Jehovih's own being; echoes scriptural register throughout Oahspe.",
+    "locked": true,
+    "first_seen": "jehovih.5.13"
   }
 ]
