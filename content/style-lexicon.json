@@ -68,5 +68,35 @@
     "note": "'corporeal' consistently rendered 有形 / 有形の, tying man's flesh to Corpor.",
     "locked": true,
     "first_seen": "jehovih.2.2"
+  },
+  {
+    "en": "the whirlwind",
+    "category": "phrase",
+    "zh_hant": "旋風",
+    "zh_hans": "旋风",
+    "ja": "つむじ風",
+    "note": "The natural whirlwind used as the earthly sign/analogue of the vortex; distinct from the coined term 'vortex' (渦旋/渦). Rendered 旋風/つむじ風 throughout.",
+    "locked": true,
+    "first_seen": "jehovih.3.3"
+  },
+  {
+    "en": "corporeal worlds",
+    "category": "phrase",
+    "zh_hant": "有形的諸世界",
+    "zh_hans": "有形的诸世界",
+    "ja": "有形の諸世界",
+    "note": "'corporeal' consistently rendered 有形 / 有形の, tying created worlds to Corpor; plural companion to the locked 'corporeal body'.",
+    "locked": true,
+    "first_seen": "jehovih.3.4"
+  },
+  {
+    "en": "three great estates",
+    "category": "phrase",
+    "zh_hant": "三大境界",
+    "zh_hans": "三大境界",
+    "ja": "三つの大いなる領域",
+    "note": "The corporeal, atmospherean and etherean estates bestowed on man; theologically loaded triad summarizing Oahspe's cosmology of man's dwelling.",
+    "locked": true,
+    "first_seen": "jehovih.3.8"
   }
 ]

@@ -1704,5 +1704,101 @@
     ],
     "locked": true,
     "first_seen": "jehovih.2"
+  },
+  {
+    "term": "Kosmon",
+    "slug": "kosmon",
+    "category": "term",
+    "translit": {
+      "zh_hant": "寇斯蒙",
+      "zh_hans": "寇斯蒙",
+      "ja": "コスモン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The present era of revelation in Oahspe-the age in which the seen and the unseen are brought together in full light before man; its 'light of kosmon' marks the new cycle of understanding. Rendered by sound.",
+      "zh_hant": "奧阿斯佩中當前的啟示紀元--在此時代中,可見與不可見於全然之光中一同呈現於人前;其「寇斯蒙之光」標誌著理解的新循環。依聲音音譯。",
+      "zh_hans": "奥阿斯佩中当前的启示纪元--在此时代中,可见与不可见于全然之光中一同呈现于人前;其「寇斯蒙之光」标志着理解的新循环。依声音音译。",
+      "ja": "オアスペにおける現在の啓示の時代。見ゆるものと見えざるものが全き光のうちに人の前に共にもたらされる時代であり、その「コスモンの光」は理解の新たな循環を印す。音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.3.1"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "jehovih.3"
+  },
+  {
+    "term": "Vortex",
+    "slug": "vortex",
+    "category": "term",
+    "translit": {
+      "zh_hant": "渦旋",
+      "zh_hans": "涡旋",
+      "ja": "渦"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The whirlwind-like rotating structure in the etherean firmament by which Jehovih gathers a'ji, ji'ay and nebulæ to condense and create corporeal worlds; it turns worlds on their axes and carries them in their orbits. A central mechanism of Oahspe cosmology. Rendered by meaning (whirl/vortex), as it is an ordinary word Oahspe adopts as a technical term.",
+      "zh_hant": "以太界天穹中如旋風般旋轉的結構,耶霍維藉之聚集阿基、基埃與星雲,凝聚並創造有形世界;它使諸世界繞軸自轉,並帶動它們沿軌道運行。為奧阿斯佩宇宙觀的核心機制。因其為奧阿斯佩沿用作專門術語的普通詞語,故依意義譯之。",
+      "zh_hans": "以太界天穹中如旋风般旋转的结构,耶霍维藉之聚集阿基、基埃与星云,凝聚并创造有形世界;它使诸世界绕轴自转,并带动它们沿轨道运行。为奥阿斯佩宇宙观的核心机制。因其为奥阿斯佩沿用作专门术语的普通词语,故依意义译之。",
+      "ja": "エセ界の大空におけるつむじ風のごとき回転構造。ジェホヴィはこれによりてアジ・ジアイ・星雲を集め、凝縮して有形世界を創造する。世界をその軸の上に回し、軌道のうちに運ぶ。オアスペ宇宙観の中心的な機構である。オアスペが専門用語として用いる通常の語であるため、意味によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.3.3",
+      "jehovih.3.4",
+      "jehovih.3.5",
+      "jehovih.3.6",
+      "jehovih.3.7"
+    ],
+    "cross_refs": [
+      "atmospherea",
+      "a-ji",
+      "ji-ay",
+      "nebul",
+      "wark"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.3"
+  },
+  {
+    "term": "Wark",
+    "slug": "wark",
+    "category": "term",
+    "translit": {
+      "zh_hant": "沃克",
+      "zh_hans": "沃克",
+      "ja": "ワーク"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "One of the names man gave to the whirlwinds (vortices) of the etherean firmament, according to their shape. A coined Oahspe term rendered by sound.",
+      "zh_hant": "人依形狀而為以太界天穹中的旋風(渦旋)所取的名稱之一。奧阿斯佩的造詞,依聲音音譯。",
+      "zh_hans": "人依形状而为以太界天穹中的旋风(涡旋)所取的名称之一。奥阿斯佩的造词,依声音音译。",
+      "ja": "人がその形に従いてエセ界の大空のつむじ風(渦)に付けた名の一。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.3.3"
+    ],
+    "cross_refs": [
+      "vortex"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.3"
   }
 ]
