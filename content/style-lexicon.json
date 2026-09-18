@@ -458,5 +458,25 @@
     "note": "The period before the founding of Hored when earth and her atmospherea lacked formal heavenly organization; the closing phrase of the chapter marking the end of the pre-institutional age. Antonym of 'first organic abiding place'.",
     "locked": true,
     "first_seen": "jehovih.8.18"
+  },
+  {
+    "en": "organic habitation",
+    "category": "phrase",
+    "zh_hant": "有機居住",
+    "zh_hans": "有机居住",
+    "ja": "有機的居住",
+    "note": "Refers to the formally organized, institutionally structured period of heavenly and earthly administration, as opposed to the 'inorganic habitation' that precedes it; theologically marks the founding of heaven's governance on earth.",
+    "locked": true,
+    "first_seen": "general-statement.1.2"
+  },
+  {
+    "en": "Upper Books / Lower Books",
+    "category": "phrase",
+    "zh_hant": "上部諸書 / 下部諸書",
+    "zh_hans": "上部诸书 / 下部诸书",
+    "ja": "上部の諸書 / 下部の諸書",
+    "note": "Structural classification within Oahspe: Upper Books treat of Etherea and the higher heavens; Lower Books treat of the earth and Atmospherea; recurring organizational formula for describing the corpus.",
+    "locked": true,
+    "first_seen": "general-statement.1.4"
   }
 ]

@@ -2322,5 +2322,188 @@
     ],
     "locked": true,
     "first_seen": "jehovih.8.17"
+  },
+  {
+    "term": "Sethantes",
+    "slug": "sethantes",
+    "category": "name",
+    "translit": {
+      "zh_hant": "瑟坦特斯",
+      "zh_hans": "瑟坦特斯",
+      "ja": "セサンテス"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The first Son of Jehovih appointed to govern the earth and her heavens after the organic habitation was established; opens the era of organized heavenly administration over the corporeal world.",
+      "zh_hant": "耶霍維任命的第一位掌管地球及其諸天的子嗣，有機居住期由此開始；以聲音音譯。",
+      "zh_hans": "耶霍维任命的第一位掌管地球及其诸天的子嗣，有机居住期由此开始；以声音音译。",
+      "ja": "有機的居住が始まる際に地球とその諸天を治めるよう任命されたジェホヴィの最初の子。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.2"
+    ],
+    "cross_refs": [
+      "jehovih"
+    ],
+    "locked": true,
+    "first_seen": "general-statement.1.2"
+  },
+  {
+    "term": "Ah'shong",
+    "slug": "ahshong",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿洪",
+      "zh_hans": "阿洪",
+      "ja": "アシャン"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The successor administration to Sethantes; the Book of Ah'shong carries the history of the earth and her heavens for six thousand years before the record reverts to synopsis.",
+      "zh_hant": "繼瑟坦特斯之後的治理者；《阿洪之書》將地球及其諸天的歷史記述六千年，此後轉為概要。以聲音音譯。",
+      "zh_hans": "继瑟坦特斯之后的治理者；《阿洪之书》将地球及其诸天的历史记述六千年，此后转为概要。以声音音译。",
+      "ja": "セサンテスに続く治世者。《アシャンの書》は地球とその諸天の歴史を六千年にわたって記した後、概要形式に移行する。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.2"
+    ],
+    "cross_refs": [
+      "sethantes"
+    ],
+    "locked": true,
+    "first_seen": "general-statement.1.2"
+  },
+  {
+    "term": "Aph",
+    "slug": "aph",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿夫",
+      "zh_hans": "阿夫",
+      "ja": "アフ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "An Orian Chief from etherea who descends during a dan'ha to administer a great change upon the earth; his book opens the detailed history at twenty-four thousand years before Kosmon.",
+      "zh_hant": "來自以太界的奧利安主長，在但哈期間降臨，主持地球的重大變革；其書於寇斯蒙紀元前兩萬四千年重開詳細歷史記述。以聲音音譯。",
+      "zh_hans": "来自以太界的奥利安主长，在但哈期间降临，主持地球的重大变革；其书于寇斯蒙纪元前两万四千年重开详细历史记述。以声音音译。",
+      "ja": "以太界からのオリアン首長であり、但哈の時に地球に大変革をもたらすために降臨する。その書はコスモン暦前二万四千年に詳細な歴史記述を再開する。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.3"
+    ],
+    "cross_refs": [
+      "orian-chiefs",
+      "dan-ha",
+      "kosmon"
+    ],
+    "locked": true,
+    "first_seen": "general-statement.1.3"
+  },
+  {
+    "term": "Lika",
+    "slug": "lika",
+    "category": "name",
+    "translit": {
+      "zh_hant": "利卡",
+      "zh_hans": "利卡",
+      "ja": "リカ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The etherean God whose administration over the earth and her heavens is chronicled in the Book of Lika, ending thirty-four hundred years before Kosmon.",
+      "zh_hant": "其治理地球及諸天的事蹟記於《利卡之書》，至寇斯蒙紀元前三千四百年止。以聲音音譯。",
+      "zh_hans": "其治理地球及诸天的事迹记于《利卡之书》，至寇斯蒙纪元前三千四百年止。以声音音译。",
+      "ja": "地球とその諸天を治めたエセ界の神。その治世は《リカの書》に記録され、コスモン暦前三千四百年に終わる。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.4"
+    ],
+    "cross_refs": [
+      "kosmon",
+      "etherea"
+    ],
+    "locked": true,
+    "first_seen": "general-statement.1.4"
+  },
+  {
+    "term": "Eskra",
+    "slug": "eskra",
+    "category": "name",
+    "translit": {
+      "zh_hant": "埃斯卡拉",
+      "zh_hans": "埃斯卡拉",
+      "ja": "エスクラ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The book chronicling the history of the lower heaven and earth from Lika's era through to the approach of Kosmon; paired with the Book of Es to complete the record.",
+      "zh_hant": "記述自利卡紀元至寇斯蒙時代前夕，低層天堂與地球歷史的著作；與《埃斯之書》並列，共同完整地記述歷史。以聲音音譯。",
+      "zh_hans": "记述自利卡纪元至寇斯蒙时代前夕，低层天堂与地球历史的著作；与《埃斯之书》并列，共同完整地记述历史。以声音音译。",
+      "ja": "リカの時代からコスモンの時代の到来まで、低き天と地球の歴史を記した書。《エスの書》と対をなして記録を完成させる。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.5"
+    ],
+    "cross_refs": [
+      "es",
+      "lika",
+      "kosmon"
+    ],
+    "locked": true,
+    "first_seen": "general-statement.1.5"
+  },
+  {
+    "term": "Saphah",
+    "slug": "saphah",
+    "category": "name",
+    "translit": {
+      "zh_hant": "薩法",
+      "zh_hans": "萨法",
+      "ja": "サファ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The book treating of the origins and formation of human languages and of the rites and ceremonies practiced through all ages of the earth; an etymological and liturgical record.",
+      "zh_hant": "論述人類語言起源與形成，以及地球各時代儀禮典式的著作；兼為詞源與禮儀的記錄。以聲音音譯。",
+      "zh_hans": "论述人类语言起源与形成，以及地球各时代仪礼典式的著作；兼为词源与礼仪的记录。以声音音译。",
+      "ja": "人類の言語の起源と形成、および地球のあらゆる時代における儀礼と祭式を論じた書。語源的かつ典礼的な記録である。音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.8"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "general-statement.1.8"
+  },
+  {
+    "term": "Ben",
+    "slug": "ben",
+    "category": "name",
+    "translit": {
+      "zh_hant": "本",
+      "zh_hans": "本",
+      "ja": "ベン"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the doctrinal books of Oahspe; 'Ben' is a short Oahspe term, rendered by sound.",
+      "zh_hant": "奧阿斯佩教義著述之一；「本」為短促的奧阿斯佩詞，依聲音音譯。",
+      "zh_hans": "奥阿斯佩教义著述之一；「本」为短促的奥阿斯佩词，依声音音译。",
+      "ja": "オアスペの教義的著述の一つ。「ベン」は短いオアスペ語であり、音により訳した。"
+    },
+    "appears_in": [
+      "general-statement.1.9"
+    ],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "general-statement.1.9"
   }
 ]
