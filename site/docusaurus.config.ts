@@ -124,31 +124,8 @@ const config: Config = {
       },
       items: [
         {
-          type: 'dropdown',
           label: 'Books',
-          position: 'left',
-          items: [
-            { label: 'Book of Jehovih', to: '/book-of-jehovih' },
-            { label: 'Book of Saphah', to: '/book-of-saphah' },
-            { label: 'Book of Cosmogony', to: '/book-of-cosmogony-and-prophecy' },
-            { label: 'Book of Apollo', to: '/book-of-apollo' },
-            { label: 'Book of Thor', to: '/book-of-thor' },
-            { label: 'All Books', to: '/' },
-          ],
-        },
-        {
-          label: 'Plates',
-          to: '/plates',
-          position: 'left',
-        },
-        {
-          label: 'Glossary',
-          to: '/glossary',
-          position: 'left',
-        },
-        {
-          label: 'Bookmarks',
-          to: '/bookmarks',
+          to: '/',
           position: 'left',
         },
         { to: '/blog', label: 'Notes', position: 'left' },
@@ -176,8 +153,7 @@ const config: Config = {
           title: 'Text',
           items: [
             { label: 'Read Online', to: '/' },
-            { label: 'Plates', to: '/plates' },
-            { label: 'Glossary', to: '/glossary' },
+            { label: 'Notes', to: '/blog' },
           ],
         },
         {
@@ -187,13 +163,6 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/Nemo1999/oahspe',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            { label: 'Notes', to: '/blog' },
-            { label: 'Bookmarks', to: '/bookmarks' },
           ],
         },
       ],

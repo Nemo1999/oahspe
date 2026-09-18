@@ -64,7 +64,7 @@ def JS_PROP(obj) -> str:
 def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path]) -> str:
     chapters = [json.loads(p.read_text()) for p in chapter_files]
     chapter_links = "\n".join(
-        f"- [{c['title']}](./{c['chapter']:02d})" for c in chapters
+        f"- [Chapter {c['chapter']}](/{book_slug}/{c['id']})" for c in chapters
     )
     return f"""---
 id: {book_slug}
