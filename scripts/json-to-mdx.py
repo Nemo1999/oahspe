@@ -53,6 +53,27 @@ import VerseReader from '@site/src/components/VerseReader';
 <VerseReader chapter={{{JS_PROP(chapter)}}} glossary={{{JS_PROP(chapter_gloss)}}} />
 """
 
+def single_page_mdx(slug: str, book_title: str, chapter: dict, glossary: dict, position: int) -> str:
+    """One standalone page for a single-chapter book (front matter). Uses the BOOK
+    title (not 'Chapter 1') and lives at the book slug — no redundant nesting."""
+    used = set()
+    for v in chapter["verses"]:
+        used.update(v.get("glossary_terms") or [])
+    chapter_gloss = {k: glossary[k] for k in used if k in glossary}
+
+    return f"""---
+id: {slug}
+title: "{book_title}"
+sidebar_label: "{book_title}"
+sidebar_position: {position}
+custom_edit_url: null
+---
+
+import VerseReader from '@site/src/components/VerseReader';
+
+<VerseReader chapter={{{JS_PROP(chapter)}}} glossary={{{JS_PROP(chapter_gloss)}}} />
+"""
+
 def JS_PROP(obj) -> str:
     """Emit obj as a JSX backtick-template-literal JSON.parse() expression."""
     # Correct escape order: backslashes first, then backticks, then bare ${ that would
@@ -140,11 +161,22 @@ def main():
         if not chapter_files:
             continue
 
+        chapters_sorted = chapter_files
+
+        # Single-chapter book (e.g. all front matter) → ONE standalone page at the book
+        # slug; no redundant "Chapter 1" child, no book-index indirection.
+        if len(chapters_sorted) == 1:
+            chapter = json.loads(chapters_sorted[0].read_text())
+            out_path = DOCS_DIR / f"{slug}.mdx"
+            out_path.write_text(single_page_mdx(slug, title, chapter, glossary, position), encoding="utf-8")
+            generated += 1
+            continue
+
         out_book_dir = DOCS_DIR / slug
         out_book_dir.mkdir(parents=True, exist_ok=True)
 
         # Per-chapter MDX
-        for ch_path in tqdm(chapter_files, desc=slug, unit="ch", leave=False):
+        for ch_path in tqdm(chapters_sorted, desc=slug, unit="ch", leave=False):
             chapter = json.loads(ch_path.read_text())
             num = chapter["chapter"]
             out_path = out_book_dir / f"{num:02d}.mdx"
@@ -153,7 +185,7 @@ def main():
 
         # Book index (with sidebar position so books order canonically)
         idx_path = out_book_dir / "index.mdx"
-        idx_path.write_text(book_index_mdx(slug, title, chapter_files, position), encoding="utf-8")
+        idx_path.write_text(book_index_mdx(slug, title, chapters_sorted, position), encoding="utf-8")
         generated += 1
 
     # Top-level index

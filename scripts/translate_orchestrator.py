@@ -47,8 +47,10 @@ def read_result(book: str, chapter: int) -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
-def build_prompt(book: str, chapter: int) -> str:
-    """Assemble the full self-contained instruction for one chapter's subagent."""
+def build_prompt(book: str, chapter: int, vmin: int | None = None, vmax: int | None = None) -> str:
+    """Assemble the full self-contained instruction for one chapter's subagent.
+    Optional vmin/vmax (inclusive verse_number bounds) split a large chapter into
+    smaller batches so the agent's Write payload stays within its output limit."""
     guide = GUIDE_MD.read_text(encoding="utf-8")
     terms = load_json(TERMS_JSON, [])
     lexicon = load_json(LEXICON_JSON, [])
@@ -60,6 +62,7 @@ def build_prompt(book: str, chapter: int) -> str:
     src_verses = [
         {"id": v["id"], "verse_number": v["verse_number"], "en": v["en"]}
         for v in chap["verses"]
+        if (vmin is None or v["verse_number"] >= vmin) and (vmax is None or v["verse_number"] <= vmax)
     ]
     # Build an explicit LOCKED table — the single most-missed rule is reusing prior
     # transliterations verbatim in the verse TEXT (not just the dictionary).
