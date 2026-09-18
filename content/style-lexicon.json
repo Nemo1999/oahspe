@@ -98,5 +98,45 @@
     "note": "The corporeal, atmospherean and etherean estates bestowed on man; theologically loaded triad summarizing Oahspe's cosmology of man's dwelling.",
     "locked": true,
     "first_seen": "jehovih.3.8"
+  },
+  {
+    "en": "corporeal man",
+    "category": "phrase",
+    "zh_hant": "有形之人",
+    "zh_hans": "有形之人",
+    "ja": "有形の人",
+    "note": "The mortal, visible man of Corpor; theologically paired with 'spiritual man'. 'corporeal' consistently 有形 / 有形の, tying man to the locked 'corporeal body'.",
+    "locked": true,
+    "first_seen": "jehovih.4.7"
+  },
+  {
+    "en": "spiritual man",
+    "category": "phrase",
+    "zh_hant": "靈性之人",
+    "zh_hans": "灵性之人",
+    "ja": "霊なる人",
+    "note": "The unseen, everlasting man within the unseen; theologically paired with 'corporeal man'. Rendered 靈性之人 / 霊なる人 to keep the elevated register.",
+    "locked": true,
+    "first_seen": "jehovih.4.7"
+  },
+  {
+    "en": "I am the Unity of the whole",
+    "category": "phrase",
+    "zh_hant": "我是全體之統一",
+    "zh_hans": "我是全体之统一",
+    "ja": "我は全体の統一なり",
+    "note": "Climactic divine self-declaration: seen and unseen are all parts of Jehovih's person. Rendered reverently, paralleling the locked 'I am FIRST and LAST'.",
+    "locked": true,
+    "first_seen": "jehovih.4.21"
+  },
+  {
+    "en": "first heaven",
+    "category": "phrase",
+    "zh_hant": "低層天堂",
+    "zh_hans": "低层天堂",
+    "ja": "低き天",
+    "note": "The lowest heaven of atmospherea, nearest the earth, where spirits of the lower heaven dwell after mortal death; a recurring cosmological locus. (rendered from 'lower heaven'/'first heaven' occurrences)",
+    "locked": true,
+    "first_seen": "jehovih.4.9"
   }
 ]

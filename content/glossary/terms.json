@@ -30,26 +30,26 @@
     "slug": "a-du",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "阿杜",
+      "zh_hans": "阿杜",
+      "ja": "アドゥ"
     },
     "source_def": "Death.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "死亡。",
+      "zh_hans": "死亡。",
+      "ja": "死。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe's world-ages, the stage of death following ho'tu (barrenness): a corporeal world upon which nothing more can be generated, before it is dissipated in uz into the unseen. Rendered by sound.",
+      "zh_hant": "在奧阿斯佩的世界紀年中,繼霍圖(不孕)之後的死亡階段:有形世界之上再無一物能生成,而後於烏茲中消散,歸入不可見之界。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩的世界纪年中,继霍图(不孕)之后的死亡阶段:有形世界之上再无一物能生成,而后于乌兹中消散,归入不可见之界。依声音音译。",
+      "ja": "オアスペの世界の齢において、ホツ(不毛)に続く死の段階。その上に何ものも生じえぬ有形世界であり、しかる後ウズにおいて見えざる界へと消散する。音によって訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "jehovih.4"
   },
   {
     "term": "Agni",
@@ -914,26 +914,26 @@
     "slug": "ho-tu",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "霍圖",
+      "zh_hans": "霍图",
+      "ja": "ホツ"
     },
     "source_def": "Barrenness.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "不孕;貧瘠。",
+      "zh_hans": "不孕;贫瘠。",
+      "ja": "不毛。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe's cosmology of world-ages, the stage in which a corporeal world has passed the age of begetting and can no longer bring forth living things-like a being grown old and barren. It follows the fruitful se'mu age and precedes a'du (death). Rendered by sound.",
+      "zh_hant": "在奧阿斯佩的世界紀年觀中,有形世界過了生育之年、再不能生出活物的階段--如同衰老而不孕的存在。它繼瑟穆的豐產之年而來,先於阿杜(死亡)。依聲音音譯。",
+      "zh_hans": "在奥阿斯佩的世界纪年观中,有形世界过了生育之年、再不能生出活物的阶段--如同衰老而不孕的存在。它继瑟穆的丰产之年而来,先于阿杜(死亡)。依声音音译。",
+      "ja": "オアスペの世界の齢の観において、有形世界が生むことの年を過ぎ、もはや生ける物を生み出しえぬ段階。老いて不毛となりし存在のごとし。実りのセムの年に続き、アドゥ(死)に先立つ。音によって訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "jehovih.4"
   },
   {
     "term": "Imbrael",
@@ -1800,5 +1800,71 @@
     ],
     "locked": true,
     "first_seen": "jehovih.3"
+  },
+  {
+    "term": "Se'mu",
+    "slug": "se-mu",
+    "category": "term",
+    "translit": {
+      "zh_hant": "瑟穆",
+      "zh_hans": "瑟穆",
+      "ja": "セム"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The gelatinous, life-giving substance of a corporeal world in the age when it is ripe to bring forth living creatures; from se'mu Jehovih gives forth the vegetable and animal kingdoms. The fertile stage preceding ho'tu (barrenness). A coined Oahspe term rendered by sound.",
+      "zh_hant": "有形世界成熟至足以孕育活物之年時,那膠質而賦予生命的物質;耶霍維從瑟穆賜下植物界與動物界。乃先於霍圖(不孕)的豐產階段。奧阿斯佩的造詞,依聲音音譯。",
+      "zh_hans": "有形世界成熟至足以孕育活物之年时,那胶质而赋予生命的物质;耶霍维从瑟穆赐下植物界与动物界。乃先于霍图(不孕)的丰产阶段。奥阿斯佩的造词,依声音音译。",
+      "ja": "有形世界が生ける物を生み出すに熟したる齢における、膠質にして生命を与える物質。ジェホヴィはセムより植物界と動物界を生み出す。ホツ(不毛)に先立つ実りの段階。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.4.16",
+      "jehovih.4.17"
+    ],
+    "cross_refs": [
+      "ho-tu",
+      "a-du",
+      "uz",
+      "corpor"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.4"
+  },
+  {
+    "term": "Uz",
+    "slug": "uz",
+    "category": "term",
+    "translit": {
+      "zh_hant": "烏茲",
+      "zh_hans": "乌兹",
+      "ja": "ウズ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The dissipation into the unseen by which a dead corporeal world (having passed through se'mu, ho'tu and a'du) is spirited away out of the visible; the destroying, dissolving passage that takes things into the unseen realms. A coined Oahspe term rendered by sound.",
+      "zh_hant": "消散歸入不可見之界的過程,已死的有形世界(歷經瑟穆、霍圖與阿杜之後)藉此被化離可見之界;那毀去、消解、將萬物帶入不可見諸界的過渡。奧阿斯佩的造詞,依聲音音譯。",
+      "zh_hans": "消散归入不可见之界的过程,已死的有形世界(历经瑟穆、霍图与阿杜之后)藉此被化离可见之界;那毁去、消解、将万物带入不可见诸界的过渡。奥阿斯佩的造词,依声音音译。",
+      "ja": "死せる有形世界(セム・ホツ・アドゥを経たるもの)が見ゆるものより霊化し去られる、見えざる界への消散。万物を見えざる諸界へと運ぶ、滅ぼし消解する過ぎ行き。オアスペの造語であり、音によって訳した。"
+    },
+    "appears_in": [
+      "jehovih.4.17"
+    ],
+    "cross_refs": [
+      "se-mu",
+      "ho-tu",
+      "a-du"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.4"
   }
 ]
