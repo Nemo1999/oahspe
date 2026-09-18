@@ -148,6 +148,39 @@ def _fill_nulls(dst: dict, src: dict, keys: list[str]):
     return filled
 
 
+def _sweep_ja_leaks(book: str, chapter: int) -> int:
+    """Repair the recurring failure where the ja field borrows a term's Chinese
+    transliteration instead of its locked katakana (e.g. 以太界 instead of エセ界).
+    Uses the locked dictionary to replace any zh-form that leaked into ja. Returns
+    count of verses fixed. Runs after glossary merge so new terms are covered."""
+    terms = load_json(TERMS_JSON, [])
+    zh2ja = {}
+    for t in terms:
+        tl = t.get("translit") or {}
+        zt, jt = tl.get("zh_hant"), tl.get("ja")
+        if zt and jt and zt != jt and re.search(r"[\u30a0-\u30ff]", jt):
+            zh2ja[zt] = jt
+    keys = sorted(zh2ja, key=len, reverse=True)  # longest-first to avoid partial overlap
+    if not keys:
+        return 0
+    chap = load_json(chapter_path(book, chapter), None)
+    fixed = 0
+    for v in chap["verses"]:
+        ja = v.get("ja")
+        if not ja:
+            continue
+        new = ja
+        for zt in keys:
+            if zt in new:
+                new = new.replace(zt, zh2ja[zt])
+        if new != ja:
+            v["ja"] = new
+            fixed += 1
+    if fixed:
+        chapter_path(book, chapter).write_text(json.dumps(chap, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return fixed
+
+
 def merge_result(book: str, chapter: int, result: dict) -> dict:
     """Apply one chapter agent's output to disk with existing-wins locking.
     Returns a summary dict. Idempotent-ish: re-running fills only remaining nulls."""
@@ -211,6 +244,10 @@ def merge_result(book: str, chapter: int, result: dict) -> dict:
         have.add(lx["en"])
         report["lexicon"].append(lx["en"])
     LEXICON_JSON.write_text(json.dumps(lexicon, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    # 4) Auto-repair ja fields that leaked a term's zh transliteration (post-glossary,
+    #    so newly-coined terms are covered).
+    report["ja_fixed"] = _sweep_ja_leaks(book, chapter)
 
     return report
 
