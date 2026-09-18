@@ -44,6 +44,7 @@ def chapter_mdx(chapter: dict, glossary: dict) -> str:
 id: {cid}
 title: "{title}"
 sidebar_label: "{sidebar_label}"
+sidebar_position: {chapter['chapter']}
 custom_edit_url: null
 ---
 
@@ -61,7 +62,7 @@ def JS_PROP(obj) -> str:
     return "JSON.parse(`" + s + "`)"
 
 
-def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path]) -> str:
+def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path], position: int = 1) -> str:
     chapters = [json.loads(p.read_text()) for p in chapter_files]
     chapter_links = "\n".join(
         f"- [Chapter {c['chapter']}](/{book_slug}/{c['id']})" for c in chapters
@@ -70,6 +71,7 @@ def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path]) -
 id: {book_slug}
 title: "{book_title}"
 sidebar_label: "{book_title}"
+sidebar_position: {position}
 custom_edit_url: null
 ---
 
@@ -125,10 +127,14 @@ def main():
     slug_to_title = {b["slug"]: b["title"] for b in books_data}
     glossary = load_glossary()
 
-    book_dirs = sorted(d for d in CONTENT_DIR.iterdir() if d.is_dir())
+    # Iterate in canonical books.json order (follows BOOK_RANGES), NOT alphabetical,
+    # so front matter precedes Book of Jehovih etc. Fall back to any dirs not in books.json.
+    present_dirs = {d.name for d in CONTENT_DIR.iterdir() if d.is_dir()}
+    ordered_slugs = [b["slug"] for b in books_data if b["slug"] in present_dirs]
+    ordered_slugs += sorted(present_dirs - set(ordered_slugs))
 
-    for book_dir in tqdm(book_dirs, desc="Books", unit="book"):
-        slug = book_dir.name
+    for position, slug in enumerate(tqdm(ordered_slugs, desc="Books", unit="book"), start=1):
+        book_dir = CONTENT_DIR / slug
         title = slug_to_title.get(slug, slug.replace("-", " ").title())
         chapter_files = sorted(book_dir.glob("chapter-*.json"))
         if not chapter_files:
@@ -145,9 +151,9 @@ def main():
             out_path.write_text(chapter_mdx(chapter, glossary), encoding="utf-8")
             generated += 1
 
-        # Book index
+        # Book index (with sidebar position so books order canonically)
         idx_path = out_book_dir / "index.mdx"
-        idx_path.write_text(book_index_mdx(slug, title, chapter_files), encoding="utf-8")
+        idx_path.write_text(book_index_mdx(slug, title, chapter_files, position), encoding="utf-8")
         generated += 1
 
     # Top-level index

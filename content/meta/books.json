@@ -1,5 +1,30 @@
 [
   {
+    "slug": "general-statement",
+    "title": "A General Statement of the Contents of Oahspe",
+    "chapter_count": 1
+  },
+  {
+    "slug": "prophets",
+    "title": "List of the Principal Prophets and Law-Givers",
+    "chapter_count": 1
+  },
+  {
+    "slug": "hints",
+    "title": "Hints to the Reader",
+    "chapter_count": 1
+  },
+  {
+    "slug": "oahspe-intro",
+    "title": "Oahspe",
+    "chapter_count": 1
+  },
+  {
+    "slug": "voice-of-man",
+    "title": "The Voice of Man",
+    "chapter_count": 1
+  },
+  {
     "slug": "jehovih",
     "title": "Book of Jehovih",
     "chapter_count": 8

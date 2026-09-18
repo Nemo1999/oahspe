@@ -37,6 +37,12 @@ SESSION.headers["User-Agent"] = (
 # Each tuple: (first_oah_file_no, last_oah_file_no, slug, title)
 # ---------------------------------------------------------------------------
 BOOK_RANGES = [
+    # --- Front matter (before Book of Jehovih). Prose sections + verse-structured intros. ---
+    (2,  2,   "general-statement", "A General Statement of the Contents of Oahspe"),
+    (5,  5,   "prophets",          "List of the Principal Prophets and Law-Givers"),
+    (6,  6,   "hints",             "Hints to the Reader"),
+    (7,  7,   "oahspe-intro",      "Oahspe"),
+    (8,  8,   "voice-of-man",      "The Voice of Man"),
     (9,  16,  "jehovih",          "Book of Jehovih"),
     (17, 39,  "sethantes",        "Book of Sethantes, Son of Jehovih"),
     (40, 43,  "first-lords",      "First Book of the First Lords"),
@@ -123,7 +129,7 @@ def extract_chapter(
     # Split paragraphs into preamble and verses.
     # A verse starts with a digit followed by a period at the beginning.
     verse_re = re.compile(r"^(\d+)\.\s+(.*)", re.DOTALL)
-    page_re = re.compile(r"^p\.\s*\d+\s*$", re.I)          # page marker "p. 6"
+    page_re = re.compile(r"^p\.\s*[\divxlcdm]+\s*$", re.I)  # page marker "p. 6" / "p. v"
     chap_re = re.compile(r"^Chapter\s+[\dIVXLCivxlc]+\s*$")  # redundant "Chapter I"
     preamble_parts = []
     raw_verses = []  # list of (verse_num, text, img_src_or_none)
@@ -211,10 +217,10 @@ def build_books_json():
 
 def collect_chapter_urls():
     """Return list of (file_no, url) for every chapter page."""
-    # We know the complete range is oah09 through oah658 from the index.
-    # The index also lists front-matter files (oah00-oah08) which are not chapters.
+    # Full range oah02 through oah658. Unmapped front-matter files (00,01,03,04) are
+    # skipped by file_no_to_book returning None.
     urls = []
-    for file_no in range(9, 659):
+    for file_no in range(2, 659):
         book_slug, _ = file_no_to_book(file_no)
         if book_slug is None:
             continue  # gap (shouldn't happen)
