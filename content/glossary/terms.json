@@ -186,9 +186,9 @@
     "slug": "archangels",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "大天使長",
+      "zh_hans": "大天使长",
+      "ja": "大天使長"
     },
     "source_def": "Angels next in rank to Gods, who dwell in certain arcs in etherea. They generally come in the dawn of a new cycle to give new inspiration to mortals.",
     "source_def_literal": {
@@ -197,10 +197,10 @@
       "ja": null
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe, the Archangels are cosmic administrators seated alongside the Orian Chiefs in the etherean roadways, receiving records of world progress. Rendered semantically (大天使長 = great angel-chief) rather than by pure sound, as the term overlaps with recognized scriptural vocabulary while carrying a distinct Oahspean rank.",
+      "zh_hant": "在奧阿斯佩中，大天使長是宇宙行政官，與奧利安主長並列於以太界諸天道，接收世界進展之記錄。採用語義譯法（大天使長），因該詞與既有經典詞彙有所重疊，但在奧阿斯佩中具獨特等級意義。",
+      "zh_hans": "在奥阿斯佩中，大天使长是宇宙行政官，与奥利安主长并列于以太界诸天道，接收世界进展之记录。采用语义译法（大天使长），因该词与既有经典词汇有所重叠，但在奥阿斯佩中具独特等级意义。",
+      "ja": "オアスペにおいて大天使長はオリアン首長と並びエセ界の天道に座し、世界の進歩の記録を受け取る宇宙的行政官。既存の宗教的語彙と重なりつつも独自のオアスペ的位階を持つため、意訳（大天使長）を採用した。"
     },
     "appears_in": [],
     "cross_refs": [],
@@ -2158,5 +2158,169 @@
     ],
     "locked": true,
     "first_seen": "jehovih.7.13"
+  },
+  {
+    "term": "Orian Chiefs",
+    "slug": "orian-chiefs",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧利安主長",
+      "zh_hans": "奥利安主长",
+      "ja": "オリアン首長"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The highest administrators of the etherean roadways in Oahspe's cosmology; they receive records at harvest time and deliberate on the progress of inhabited worlds. 'Orian' transliterated by sound; 'Chiefs' rendered as 主長 (zh) / 首長 (ja).",
+      "zh_hant": "在奧阿斯佩宇宙論中，以太界諸天道的最高行政者；他們在豐收之時接收記錄，議定有居之世界的進展。「奧利安」依聲音音譯，「主長」取其行政首長之義。",
+      "zh_hans": "在奥阿斯佩宇宙论中，以太界诸天道的最高行政者；他们在丰收之时接收记录，议定有居之世界的进展。「奥利安」依声音音译，「主长」取其行政首长之义。",
+      "ja": "オアスペの宇宙論において、エセ界の天道の最高行政者たち。収穫の時に記録を受け取り、居住世界の進歩について審議する。「オリアン」は音訳、「首長」は行政的頂点を示す。"
+    },
+    "appears_in": [
+      "jehovih.8.2"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "etherean worlds",
+      "a Harvest unto Me"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.2"
+  },
+  {
+    "term": "the great serpent",
+    "slug": "great-serpent",
+    "category": "term",
+    "translit": {
+      "zh_hant": "大蛇",
+      "zh_hans": "大蛇",
+      "ja": "大蛇"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "Oahspe's cosmological term for the serpentine orbital path of the solar system through the galaxy, also called the roadway of the travel of the great serpent. Not a living being but a celestial trajectory. Rendered semantically as 大蛇 (great serpent) in all three languages.",
+      "zh_hant": "奧阿斯佩的宇宙學術語，指太陽系穿越銀河系的蛇形軌道，亦稱為「大蛇行程的旅途之道」。並非生物，而是天體運行軌跡。三語均以語義譯法譯作「大蛇」。",
+      "zh_hans": "奥阿斯佩的宇宙学术语，指太阳系穿越银河系的蛇形轨道，亦称为「大蛇行程的旅途之道」。并非生物，而是天体运行轨迹。三语均以语义译法译作「大蛇」。",
+      "ja": "オアスペの宇宙論的用語で、太陽系が銀河を蛇行しながら進む軌道、すなわち「大蛇の旅路」を指す。生き物ではなく天体の軌跡である。三言語ともに意訳で「大蛇」とした。"
+    },
+    "appears_in": [
+      "jehovih.8.2"
+    ],
+    "cross_refs": [
+      "etherea",
+      "orian-chiefs"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.2"
+  },
+  {
+    "term": "Aotan",
+    "slug": "aotan",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧坦",
+      "zh_hans": "奥坦",
+      "ja": "アオタン"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A mountain range situated in Ughoqui, over which the first heavenly kingdom Hored was stationed. Appears only in the geographic description of Hored's founding location.",
+      "zh_hant": "位於烏果基的山脈，霍雷德第一個天上王國即建於其上方。僅見於霍雷德建立地點的地理描述中。",
+      "zh_hans": "位于乌果基的山脉，霍雷德第一个天上王国即建于其上方。仅见于霍雷德建立地点的地理描述中。",
+      "ja": "ウゴキに位置する山脈であり、最初の天上王国ホレドがその上空に置かれた。霍雷德建立地点の地理的描写にのみ登場する。"
+    },
+    "appears_in": [
+      "jehovih.8.17"
+    ],
+    "cross_refs": [
+      "hored"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.17"
+  },
+  {
+    "term": "Ughoqui",
+    "slug": "ughoqui",
+    "category": "name",
+    "translit": {
+      "zh_hant": "烏果基",
+      "zh_hans": "乌果基",
+      "ja": "ウゴキ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A region in the continent of Pan containing the mountains of Aotan, above which Hored was founded. An ancient pre-submersion geographic name for part of the Pacific continent.",
+      "zh_hant": "潘洲上的一個地區，包含奧坦山脈，霍雷德即建於其上。太平洋大陸沉沒前的古老地理名稱之一。",
+      "zh_hans": "潘洲上的一个地区，包含奥坦山脉，霍雷德即建于其上。太平洋大陆沉没前的古老地理名称之一。",
+      "ja": "パン大陸上の地域で、アオタン山脈を含み、その上にホレドが建てられた。太平洋大陸が沈む以前の古い地理的名称のひとつ。"
+    },
+    "appears_in": [
+      "jehovih.8.17"
+    ],
+    "cross_refs": [
+      "aotan",
+      "hored",
+      "pan"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.17"
+  },
+  {
+    "term": "Ul",
+    "slug": "ul",
+    "category": "name",
+    "translit": {
+      "zh_hant": "烏路",
+      "zh_hans": "乌路",
+      "ja": "ウル"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A geographic reference point on the continent of Pan, used to orient the position of Hored. Ul lies to the west of Hored's founding site. A pre-submersion place name.",
+      "zh_hant": "潘洲上的一個地理參照點，用以標定霍雷德的位置。烏路位於霍雷德建立地點的西方。沉沒前的地名。",
+      "zh_hans": "潘洲上的一个地理参照点，用以标定霍雷德的位置。乌路位于霍雷德建立地点的西方。沉没前的地名。",
+      "ja": "パン大陸上の地理的基準点で、ホレドの位置を示すために用いられる。ウルはホレド創立地点の西方に位置する。沈没以前の地名。"
+    },
+    "appears_in": [
+      "jehovih.8.17"
+    ],
+    "cross_refs": [
+      "ughoqui",
+      "hored",
+      "pan"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.17"
+  },
+  {
+    "term": "Pan",
+    "slug": "pan",
+    "category": "name",
+    "translit": {
+      "zh_hant": "潘洲",
+      "zh_hans": "潘洲",
+      "ja": "パン"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The ancient continent over which the first heavenly kingdom Hored was founded; later submerged. Oahspe's name for the primordial Pacific continent. Called 'the continent of Pan' in this verse.",
+      "zh_hant": "霍雷德第一個天上王國建立其上的古老大陸，後來沉沒。奧阿斯佩對原始太平洋大陸的稱呼。本節稱為「潘洲大陸」。",
+      "zh_hans": "霍雷德第一个天上王国建立其上的古老大陆，后来沉没。奥阿斯佩对原始太平洋大陆的称呼。本节称为「潘洲大陆」。",
+      "ja": "最初の天上王国ホレドが建てられた古代の大陸。後に海没した。オアスペが原始的な太平洋大陸に与えた名称。本節では「パンの大陸」と呼ばれる。"
+    },
+    "appears_in": [
+      "jehovih.8.17"
+    ],
+    "cross_refs": [
+      "hored",
+      "ughoqui"
+    ],
+    "locked": true,
+    "first_seen": "jehovih.8.17"
   }
 ]

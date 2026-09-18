@@ -368,5 +368,95 @@
     "note": "The transition of a mortal's spirit into the unseen Es realm at death, rendered as a 'birth' into spirit life; mirrors the corporeal birth idiom and marks the beginning of the spirit's heavenly journey.",
     "locked": true,
     "first_seen": "jehovih.7.26"
+  },
+  {
+    "en": "drive away the ashars",
+    "category": "phrase",
+    "zh_hant": "驅逐阿沙爾們",
+    "zh_hans": "驱逐阿沙尔们",
+    "ja": "アシャルたちを追い払う",
+    "note": "Formulaic phrase for rebellious angels displacing the assigned guardian ashars from their posts over mortals; marks the breakdown of heaven's order. Theologically loaded in ch. 8.",
+    "locked": true,
+    "first_seen": "jehovih.8.4"
+  },
+  {
+    "en": "born in spirit in chaos",
+    "category": "phrase",
+    "zh_hant": "帶著混沌誕入靈界",
+    "zh_hans": "带着混沌诞入灵界",
+    "ja": "混沌のうちに霊として生まれ出る",
+    "note": "Theological phrase for mortals killed in war who enter the es world without preparation, in a state of confusion and disorder; distinct from the normal 'born into the es world' transition. Introduces the consequence of warfare on the spiritual state of newly dead spirits.",
+    "locked": true,
+    "first_seen": "jehovih.8.6"
+  },
+  {
+    "en": "delivering hells and the spirits in chaos",
+    "category": "phrase",
+    "zh_hant": "解救地獄與混沌中的靈魂",
+    "zh_hans": "解救地狱与混沌中的灵魂",
+    "ja": "地獄と混沌の中の霊たちを救い回る",
+    "note": "Recurring description of God's exhausting remedial labor when heavenly order collapses; 'delivering' = rescuing/liberating from spiritual bondage. Theologically loaded as the consequence of angelic rebellion.",
+    "locked": true,
+    "first_seen": "jehovih.8.8"
+  },
+  {
+    "en": "the roadway of the travel of the great serpent",
+    "category": "phrase",
+    "zh_hant": "大蛇行程的旅途之道",
+    "zh_hans": "大蛇行程的旅途之道",
+    "ja": "大蛇の旅路の道中",
+    "note": "Cosmological phrase for the orbital path of the solar system through the galaxy along which etherean kingdoms are stationed; tied to the 'great serpent' coined term. Recurring cosmological locus for etherean administration.",
+    "locked": true,
+    "first_seen": "jehovih.8.2"
+  },
+  {
+    "en": "Gods and Goddesses",
+    "category": "phrase",
+    "zh_hant": "諸神與諸女神",
+    "zh_hans": "诸神与诸女神",
+    "ja": "諸神と諸女神",
+    "note": "Paired title for the divine administrators of heavenly kingdoms appointed by Jehovih; recurring formulaic phrase throughout chapters 8 and beyond. Distinct from the singular 'God' who governs the heaven of the earth.",
+    "locked": true,
+    "first_seen": "jehovih.8.12"
+  },
+  {
+    "en": "kosmon era",
+    "category": "phrase",
+    "zh_hant": "寇斯蒙紀元",
+    "zh_hans": "寇斯蒙纪元",
+    "ja": "寇斯蒙の時代",
+    "note": "The present cosmic age inaugurated when global civil communion is established and angel ambassadors render up the records of heavenly kingdoms; the culminating age in Oahspe's cosmological timeline.",
+    "locked": true,
+    "first_seen": "jehovih.8.14"
+  },
+  {
+    "en": "angel ambassadors",
+    "category": "phrase",
+    "zh_hant": "天使使者",
+    "zh_hans": "天使使者",
+    "ja": "天使使者",
+    "note": "The formal title for angel emissaries sent to mortals during the kosmon era to render up heavenly records and reveal the history of divine administration; distinct from guardian angels or ashars.",
+    "locked": true,
+    "first_seen": "jehovih.8.14"
+  },
+  {
+    "en": "first organic abiding place",
+    "category": "phrase",
+    "zh_hant": "第一個有組織的居所",
+    "zh_hans": "第一个有组织的居所",
+    "ja": "最初の有組織の居所",
+    "note": "Technical description of Hored as the inaugural organized settlement of heavenly administration; 'organic' in Oahspe's usage means formally structured / institutionally ordered, not biological.",
+    "locked": true,
+    "first_seen": "jehovih.8.16"
+  },
+  {
+    "en": "inorganic habitation",
+    "category": "phrase",
+    "zh_hant": "非有機居住期",
+    "zh_hans": "非有机居住期",
+    "ja": "無機的居住の時代",
+    "note": "The period before the founding of Hored when earth and her atmospherea lacked formal heavenly organization; the closing phrase of the chapter marking the end of the pre-institutional age. Antonym of 'first organic abiding place'.",
+    "locked": true,
+    "first_seen": "jehovih.8.18"
   }
 ]
