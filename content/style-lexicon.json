@@ -498,5 +498,75 @@
     "note": "Thothma's futile aim: to make the corporeal body incorruptible so it would never die. Theologically loaded as a false pursuit in Oahspe, contrasted with true spiritual immortality.",
     "locked": true,
     "first_seen": "prophets.1.8"
+  },
+  {
+    "en": "the Beast (self)",
+    "category": "phrase",
+    "zh_hant": "那獸（自我）",
+    "zh_hans": "那兽（自我）",
+    "ja": "獣（自我）",
+    "note": "The animal/earthly self personified as a tempting speaker; distinct from the spiritual self. Rendered 獸/獣 with '自我' apposition matching the source's parenthetical '(self)'.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1.6"
+  },
+  {
+    "en": "I come not to send peace, but a sword",
+    "category": "phrase",
+    "zh_hant": "我來並非要帶來和平，而是要帶來刀劍",
+    "zh_hans": "我来并非要带来和平，而是要带来刀剑",
+    "ja": "我は平和をもたらすために来たのではなく、剣をもたらすために来たのである",
+    "note": "The Beast's inversion of a familiar scriptural declaration—here spoken by 'self' to justify division and war; theologically loaded as the voice of discord in Oahspe.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1.9"
+  },
+  {
+    "en": "four great heads of the Beast",
+    "category": "phrase",
+    "zh_hant": "那獸的四個巨大的頭",
+    "zh_hans": "那兽的四个巨大的头",
+    "ja": "獣の四つの大いなる頭",
+    "note": "The four world religions (Brahmin/Buddhist/Christian/Mohammedan) as the divided dominions of the Beast (self); a recurring symbolic image of institutionalized, enforced religion in Oahspe.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1.11"
+  },
+  {
+    "en": "Thus saith Jehovih",
+    "category": "phrase",
+    "zh_hant": "耶霍維如此說",
+    "zh_hans": "耶霍维如此说",
+    "ja": "ジェホヴィかく言いたもう",
+    "note": "The recurring divine-utterance formula introducing Jehovih's direct speech to man; a signature scriptural cadence throughout Oahspe. Rendered reverently in elevated register.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1"
+  },
+  {
+    "en": "carnivorous man of contention to an herbivorous man of peace",
+    "category": "phrase",
+    "zh_hant": "從好爭鬥的食肉之人轉變為愛好和平的食草之人",
+    "zh_hans": "从好争斗的食肉之人转变为爱好和平的食草之人",
+    "ja": "争いを好む肉食の人から平和を愛する草食の人へ",
+    "note": "The seventh-era transformation Jehovih commands: from flesh-eating and warlike to plant-eating and peaceful; theologically loaded contrast tying diet, disposition and the end of war.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1"
+  },
+  {
+    "en": "the numbers of the Beast",
+    "category": "phrase",
+    "zh_hant": "那獸的數目",
+    "zh_hans": "那兽的数目",
+    "ja": "獣の数",
+    "note": "The mark given to those who refuse Jehovih's covenants (the Uzians); counterpart to the Faithists' covenants. Ties the Uzians to the dominion of the Beast (self). Rendered 那獸的數目 / 獣の数, consistent with the locked 'Beast' entry.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1.21"
+  },
+  {
+    "en": "in full consciousness, whilst still living on the earth",
+    "category": "phrase",
+    "zh_hant": "在仍活於大地之時，於全然的意識之中",
+    "zh_hans": "在仍活于大地之时，于全然的意识之中",
+    "ja": "なお地上に生きながらにして、全き意識のうちに",
+    "note": "Oahspe's stated aim: that mortals may hear the Creator's voice and see His heavens while still alive and fully conscious, not merely after death or in trance. A signature promise of the book's purpose.",
+    "locked": true,
+    "first_seen": "oahspe-intro.1.24"
   }
 ]

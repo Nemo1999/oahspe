@@ -238,26 +238,26 @@
     "slug": "beast",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "獸",
+      "zh_hans": "兽",
+      "ja": "獣"
     },
     "source_def": "The animal man. The earthly part of man. Anything that is enforced, as a religion, pp. 1 and 2; 554. chap. viii.; 193.5 L.B.",
     "source_def_literal": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "獸性之人。人的塵世部分。凡受到強制施行之事物，如一種被強制的宗教。第1、2頁；第554頁第八章；193.5 下部諸書。",
+      "zh_hans": "兽性之人。人的尘世部分。凡受到强制施行之事物，如一种被强制的宗教。第1、2页；第554页第八章；193.5 下部诸书。",
+      "ja": "獣なる人。人の地上的な部分。強制されるもの、たとえば強制された宗教のごときもの。1、2頁；554頁第八章；193.5 下部の諸書。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe, the Beast is the animal, earthly, self-seeking part of man—'self' personified—as opposed to the spiritual self that seeks Jehovih. It counsels man to possess all things for his own good, and its dominion brings war into the world. Rendered semantically as 獸/獣 (beast), since it is a moral-symbolic concept rather than a coined proper name.",
+      "zh_hant": "在奧阿斯佩中，獸是人身上獸性的、塵世的、追求自我的部分——即「自我」的人格化——與尋求耶霍維的靈性自我相對。它教唆人為自身之益佔有萬物，其權勢將戰爭帶入世間。因其為道德象徵性的概念而非造出的專名，故依語義譯作「獸」。",
+      "zh_hans": "在奥阿斯佩中，兽是人身上兽性的、尘世的、追求自我的部分——即「自我」的人格化——与寻求耶霍维的灵性自我相对。它教唆人为自身之益占有万物，其权势将战争带入世间。因其为道德象征性的概念而非造出的专名，故依语义译作「兽」。",
+      "ja": "オアスペにおいて獣とは、人のうちなる獣的・地上的・自己中心的な部分、すなわち「自我」の人格化であり、ジェホヴィを求める霊的な自己と対をなす。それは人に己の益のために万物を所有せよと唆し、その支配は世に戦いをもたらす。造られた固有名ではなく道徳的・象徴的な概念であるため、意味により「獣」と訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "oahspe-intro.1"
   },
   {
     "term": "Che'-ba",
@@ -3371,5 +3371,100 @@
     ],
     "locked": true,
     "first_seen": "prophets.1"
+  },
+  {
+    "term": "FAITHISTS",
+    "slug": "faithists",
+    "category": "term",
+    "translit": {
+      "zh_hant": "信實者",
+      "zh_hans": "信实者",
+      "ja": "信実者"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The name Jehovih gives to those who separate themselves from the dominion of the Beast, make covenants unto Him, and worship the Creator only. They are known as Jehovih's own by their covenants and their works, and form the foundation of His kingdom on earth. Rendered semantically (信実者 = one of faith) rather than by sound, as it is a descriptive title formed from 'faith', not a coined proper name.",
+      "zh_hant": "耶霍維賜予那些脫離獸的統治、向祂立約、只敬拜造物主之人的名稱。他們藉其諸約與作為而被認出為屬耶霍維者，並構成祂在大地上王國的根基。因其為由「faith（信）」構成的描述性稱謂而非造出的專名，故依語義譯作「信實者」。",
+      "zh_hans": "耶霍维赐予那些脱离兽的统治、向祂立约、只敬拜造物主之人的名称。他们藉其诸约与作为而被认出为属耶霍维者，并构成祂在大地上王国的根基。因其为由「faith（信）」构成的描述性称谓而非造出的专名，故依语义译作「信实者」。",
+      "ja": "獣の支配より自らを分かち、祂に契約を結び、ただ造物主のみを礼拝する者らにジェホヴィが与える名。彼らはその契約と行いによりてジェホヴィの者であると知られ、祂の地上の王国の礎をなす。造られた固有名ではなく「faith（信）」より成る描写的な称号であるため、意味により「信実者」と訳した。"
+    },
+    "appears_in": [
+      "oahspe-intro.1.20"
+    ],
+    "cross_refs": [
+      "jehovih",
+      "beast"
+    ],
+    "locked": true,
+    "first_seen": "oahspe-intro.1"
+  },
+  {
+    "term": "UZIANS",
+    "slug": "uzians",
+    "category": "term",
+    "translit": {
+      "zh_hant": "烏茲安人",
+      "zh_hans": "乌兹安人",
+      "ja": "ウジアン人"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The name Jehovih gives to those who will not make covenants unto Him; the text glosses it as 'destroyers'. Opposed to the Faithists, they bear the numbers of the Beast, and together the two form the only two kinds of people on earth. The name shares the root of Uz, the dissipating passage into the unseen. Rendered by sound.",
+      "zh_hant": "耶霍維賜予那些不肯向祂立約之人的名稱；本文釋之為「毀滅者」。他們與信實者相對，帶著那獸的數目，二者共同構成地上僅有的兩種人。此名與烏茲（消散歸入不可見之界的過渡）共用根字。依聲音音譯。",
+      "zh_hans": "耶霍维赐予那些不肯向祂立约之人的名称；本文释之为「毁灭者」。他们与信实者相对，带着那兽的数目，二者共同构成地上仅有的两种人。此名与乌兹（消散归入不可见之界的过渡）共用根字。依声音音译。",
+      "ja": "祂に契約を結ぼうとせぬ者らにジェホヴィが与える名。本文はこれを「滅ぼす者」と釈す。信実者と対をなし、獣の数を帯び、両者は地上のただ二種の民をなす。この名は見えざる界への消散の過ぎ行きたるウズと語根を共有する。音によって訳した。"
+    },
+    "appears_in": [
+      "oahspe-intro.1.21"
+    ],
+    "cross_refs": [
+      "faithists",
+      "beast",
+      "uz",
+      "jehovih"
+    ],
+    "locked": true,
+    "first_seen": "oahspe-intro.1"
+  },
+  {
+    "term": "Oahspe",
+    "slug": "oahspe",
+    "category": "term",
+    "translit": {
+      "zh_hant": "奧阿斯佩",
+      "zh_hans": "奥阿斯佩",
+      "ja": "オアスペ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The title of this scripture itself, formed from three roots meaning earth (O-ah), sky (Sph) and spirit; because the revelation embraces the corporeal, the atmospherean and the spiritual together, it is named Oahspe. Rendered by sound throughout.",
+      "zh_hant": "此經本身之名，由三個字根構成，分別意指大地（O-ah）、天空（Sph）與靈；因其啟示同時涵蓋有形、大氣界與靈性之事，故名為奧阿斯佩。全書依聲音音譯。",
+      "zh_hans": "此经本身之名，由三个字根构成，分别意指大地（O-ah）、天空（Sph）与灵；因其启示同时涵盖有形、大气界与灵性之事，故名为奥阿斯佩。全书依声音音译。",
+      "ja": "この聖典そのものの名であり、大地（O-ah）・天（Sph）・霊を意味する三つの語根より成る。その啓示が有形・大気界・霊なるものを共に抱くゆえに、オアスペと名づけられる。全編を通じて音によって訳した。"
+    },
+    "appears_in": [
+      "oahspe-intro.1.25",
+      "oahspe-intro.1.26"
+    ],
+    "cross_refs": [
+      "kosmon"
+    ],
+    "locked": true,
+    "first_seen": "oahspe-intro.1.25"
   }
 ]
