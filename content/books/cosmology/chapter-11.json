@@ -7703,7 +7703,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image180.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.109",
@@ -7846,7 +7852,17 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image181.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image183.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.122",
@@ -7956,7 +7972,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image222.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.1",
@@ -9078,7 +9100,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image208.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.25",
@@ -9144,7 +9172,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image185.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.31",
@@ -9265,7 +9299,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image210.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.42",
@@ -9342,7 +9382,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image172.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.49",
@@ -9364,7 +9410,17 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image174.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image206.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.51",
@@ -9408,7 +9464,17 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image176.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image220.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.55",
@@ -9430,7 +9496,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image198.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.57",
@@ -9452,7 +9524,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image178.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.59",
@@ -9804,7 +9882,33 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image162.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image164.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image166.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image168.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image170.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image214.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.15",
@@ -9848,7 +9952,21 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image202.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image216.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image218.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.19",
@@ -12477,7 +12595,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image204.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.10",
@@ -12488,7 +12612,17 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image194.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image196.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.11",
@@ -12939,7 +13073,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image187.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.2",
@@ -12950,7 +13090,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image200.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "cosmology.11.3",
@@ -12972,7 +13118,25 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image189.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image191.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image192.jpg",
+          "edition": "1882"
+        },
+        {
+          "src": "/plates/edition1882/image212.jpg",
+          "edition": "1882"
+        }
+      ]
     }
   ]
 }

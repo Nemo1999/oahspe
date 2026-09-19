@@ -112,9 +112,8 @@ const config: Config = {
     navbar: {
       title: 'Oahspe',
       logo: {
-        alt: 'Oahspe Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo-dark.svg',
+        alt: 'Oahspe emblem',
+        src: 'img/logo.png',
       },
       items: [
         {

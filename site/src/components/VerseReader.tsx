@@ -323,6 +323,12 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
         </div>
       </div>
 
+      {hydrated && lang !== 'en' && !chapter.verses.some((v) => v[lang]) && (
+        <div className="verse-untranslated-note" role="status">
+          This chapter is not yet translated into {LANG_LABELS[lang]}. Showing the original English.
+        </div>
+      )}
+
       <div className="verse-list">
         {chapter.verses.map((verse) => (
           <VerseRow

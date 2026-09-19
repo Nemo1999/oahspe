@@ -14,7 +14,13 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image032.jpg",
+          "edition": "1882"
+        }
+      ]
     },
     {
       "id": "osiris.13.2",
