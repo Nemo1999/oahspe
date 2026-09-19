@@ -219,12 +219,24 @@ article .markdown {
 .glossary-cat { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.1rem 0.4rem; border-radius: 4px; margin-inline-start: auto; }
 .glossary-cat-name { background: color-mix(in srgb, var(--ifm-color-primary) 20%, transparent); }
 .glossary-cat-term { background: var(--ifm-color-emphasis-200); }
-.glossary-label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ifm-color-emphasis-600); margin-top: 0.5rem; }
-.glossary-source p { margin: 0.25rem 0; }
-.glossary-source-lit { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.9rem; color: var(--ifm-color-emphasis-700); }
-.glossary-note { border-inline-start: 3px solid var(--ifm-color-primary); padding-inline-start: 0.6rem; margin-top: 0.5rem; background: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent); }
-.glossary-note p { margin: 0.2rem 0; font-size: 0.92rem; }
-.glossary-appears { margin-top: 0.5rem; font-size: 0.8rem; color: var(--ifm-color-emphasis-600); }
+.glossary-card > section { margin-top: 0.75rem; border-radius: 6px; padding: 0.5rem 0.7rem; }
+.glossary-prov-hdr { display: flex; flex-direction: column; margin-bottom: 0.3rem; }
+.glossary-prov-title { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em; }
+.glossary-prov-sub { font-size: 0.68rem; color: var(--ifm-color-emphasis-600); font-style: italic; }
+.glossary-text { margin: 0.25rem 0 0; font-size: 0.92rem; }
+/* SOURCE: the book's own words — quoted, bordered, serif, warm tint */
+.glossary-source { background: color-mix(in srgb, #b8860b 8%, transparent); border-inline-start: 3px solid #b8860b; }
+.glossary-source .glossary-prov-title { color: #8a6508; }
+.glossary-source .glossary-text { font-family: Georgia, 'Noto Serif', serif; }
+.glossary-source-lit { display: block; margin-top: 0.35rem; font-size: 0.88rem; color: var(--ifm-color-emphasis-700); }
+/* EDITOR: added interpretation — distinct primary tint */
+.glossary-note { background: color-mix(in srgb, var(--ifm-color-primary) 7%, transparent); border-inline-start: 3px solid var(--ifm-color-primary); }
+.glossary-note .glossary-prov-title { color: var(--ifm-color-primary); }
+/* Clamp long text until expanded */
+.glossary-clamped { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.glossary-more-btn { margin-top: 0.3rem; padding: 0.15rem 0.5rem; font-size: 0.78rem; background: none; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 4px; cursor: pointer; color: var(--ifm-color-primary); }
+.glossary-more-btn:hover { background: var(--ifm-color-emphasis-100); }
+.glossary-appears { margin-top: 0.6rem; font-size: 0.8rem; color: var(--ifm-color-emphasis-600); }
 
 /* Glossary in-page language switch (defaults to site locale, reader can flip) */
 .glossary-langswitch { display: flex; gap: 0.25rem; margin-inline-start: auto; }

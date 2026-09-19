@@ -29,12 +29,30 @@ const LOCALE_TO_KEY: Record<string, LangKey | null> = {
   ja: 'ja',
 };
 
-const LABELS: Record<string, { translit: string; note: string; source: string; literal: string }> = {
-  en:        { translit: 'Transliteration', note: "Editor's note", source: 'From the text (1882)', literal: 'Literal translation' },
-  'zh-hant': { translit: '譯名',            note: '編者註',        source: '原文（1882）',            literal: '直譯' },
-  'zh-hans': { translit: '译名',            note: '编者注',        source: '原文（1882）',            literal: '直译' },
-  ja:        { translit: '訳名',            note: '訳者註',        source: '原典より（1882）',        literal: '逐語訳' },
+const LABELS: Record<string, {
+  translit: string; sourceHdr: string; sourceSub: string; editorHdr: string; editorSub: string;
+  literal: string; more: string; less: string; appears: string;
+}> = {
+  en:        { translit: 'Transliteration', sourceHdr: '📖 From the original text',  sourceSub: "Oahspe's own glossary (1882) — verbatim", editorHdr: '✎ Editor’s note',   editorSub: 'Added interpretation — not part of the original', literal: 'Literal translation', more: 'Show more', less: 'Show less', appears: 'Appears in' },
+  'zh-hant': { translit: '譯名',            sourceHdr: '📖 原書內容',                sourceSub: '奧阿斯佩原書詞彙表（1882）——原文照錄',   editorHdr: '✎ 編者註',        editorSub: '編者補充的詮釋——非原書內容',            literal: '直譯',              more: '展開',      less: '收合',      appears: '出現於' },
+  'zh-hans': { translit: '译名',            sourceHdr: '📖 原书内容',                sourceSub: '奥阿斯佩原书词汇表（1882）——原文照录',   editorHdr: '✎ 编者注',        editorSub: '编者补充的诠释——非原书内容',            literal: '直译',              more: '展开',      less: '收合',      appears: '出现于' },
+  ja:        { translit: '訳名',            sourceHdr: '📖 原典より',                sourceSub: 'オアスペ原典の用語集（1882）——原文のまま', editorHdr: '✎ 訳者註',        editorSub: '編者による解釈——原典にはない補足',       literal: '逐語訳',            more: 'もっと見る', less: '閉じる',    appears: '出典' },
 };
+
+const CLAMP_CHARS = 240; // collapse text longer than this
+
+function ClampToggle({ text, more, less }: { text: string; more: string; less: string }): React.ReactElement {
+  const [open, setOpen] = useState(false);
+  if (text.length <= CLAMP_CHARS) return <p className="glossary-text">{text}</p>;
+  return (
+    <div>
+      <p className={`glossary-text ${open ? '' : 'glossary-clamped'}`}>{text}</p>
+      <button className="glossary-more-btn" onClick={() => setOpen((o) => !o)} aria-expanded={open}>
+        {open ? less : more}
+      </button>
+    </div>
+  );
+}
 
 function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; locale: string }): React.ReactElement {
   const L = LABELS[locale] ?? LABELS.en;
@@ -42,7 +60,6 @@ function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; lo
   const note = t.editor_note || {};
   const lit = t.source_def_literal || {};
 
-  // Active-language values only (English page shows headword + English note).
   const translit = langKey ? tl[langKey] : null;
   const noteText = langKey ? note[langKey] : note.en;
   const litText = langKey ? (lit as Translit)[langKey] : null;
@@ -51,30 +68,34 @@ function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; lo
     <div id={t.slug} className="glossary-card">
       <div className="glossary-card-head">
         <span className="glossary-term">{t.term}</span>
-        {translit && <span className="glossary-translit"><span>{translit}</span></span>}
+        {translit && <span className="glossary-translit">{translit}</span>}
         <span className={`glossary-cat glossary-cat-${t.category}`}>{t.category}</span>
       </div>
 
       {t.source_def && (
-        <div className="glossary-source">
-          <span className="glossary-label">{L.source}</span>
-          <p>{t.source_def}</p>
-          {litText && (
-            <p className="glossary-source-lit"><em>{L.literal}:</em> {litText}</p>
-          )}
-        </div>
+        <section className="glossary-source">
+          <div className="glossary-prov-hdr">
+            <span className="glossary-prov-title">{L.sourceHdr}</span>
+            <span className="glossary-prov-sub">{L.sourceSub}</span>
+          </div>
+          <ClampToggle text={t.source_def} more={L.more} less={L.less} />
+          {litText && <p className="glossary-source-lit"><em>{L.literal}:</em> {litText}</p>}
+        </section>
       )}
 
       {noteText && (
-        <div className="glossary-note">
-          <span className="glossary-label">{L.note}</span>
-          <p>{noteText}</p>
-        </div>
+        <section className="glossary-note">
+          <div className="glossary-prov-hdr">
+            <span className="glossary-prov-title">{L.editorHdr}</span>
+            <span className="glossary-prov-sub">{L.editorSub}</span>
+          </div>
+          <ClampToggle text={noteText} more={L.more} less={L.less} />
+        </section>
       )}
 
       {t.appears_in && t.appears_in.length > 0 && (
         <div className="glossary-appears">
-          {t.appears_in.slice(0, 12).join(', ')}
+          <em>{L.appears}:</em> {t.appears_in.slice(0, 12).join(', ')}
           {t.appears_in.length > 12 ? ` … (+${t.appears_in.length - 12})` : ''}
         </div>
       )}
