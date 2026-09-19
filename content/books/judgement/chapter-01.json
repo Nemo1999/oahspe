@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Judgement — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING THE GRADES AND RATES OF MORTALS AND ANGELS IN THE LIGHT OF GOD, AS THE WORD CAME TO ES, DAUGHTER OF JEHOVIH.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -582,5 +582,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

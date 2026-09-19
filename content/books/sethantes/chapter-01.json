@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Sethantes, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "FIRST GOD OF THE FIRST CYCLE OF THE EARTH AFTER MAN'S CREATION",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -428,5 +428,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

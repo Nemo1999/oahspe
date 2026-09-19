@@ -4,7 +4,7 @@
   "chapter": 10,
   "title": "Book of Cosmology and Prophecy — Chapter 10",
   "preamble": {
-    "en": "",
+    "en": "Plate 58.--LIGHT ILLUSTRATED .",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -120,5 +120,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

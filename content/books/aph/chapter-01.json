@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Aph, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING THE HEAVENLY RECORDS OF APH, SON OF JEHOVIH, AND OF HIS COMPANION, NIN'YA, DAUGHTER OF JEHOVIH, AS PERTAINETH TO THE SUBMERSION OF THE CONTINENT OF WHAGA (AFTERWARD CALLED PAN, SIGNIFYING EARTH). AND THIS PERIOD WAS COMMONLY CALLED THE DELUGE, OR FLOOD OF WATERS",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -341,5 +341,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

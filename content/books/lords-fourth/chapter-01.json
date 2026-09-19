@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "The Lord's Fourth Book — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING COTEMPORANEOUS WITH THE BOOK OF THOR, CYCLE OF THOR, SON OF JEHOVIH. AS THE LATTER BOOK IS OF THE HIGHER AND LOWER HEAVENS, SO IS THE LORDS' BOOK OF THE LOWER HEAVENS AND THE EARTH, BOTH BOOKS BEING FOR THE SAME PERIOD OF TIME",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -263,5 +263,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

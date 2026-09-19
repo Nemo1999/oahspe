@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Sue, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING THE SECOND CYCLE AFTER THE FLOOD",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -98,5 +98,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

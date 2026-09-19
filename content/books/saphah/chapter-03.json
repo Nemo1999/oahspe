@@ -4,7 +4,7 @@
   "chapter": 3,
   "title": "Book of Saphah — Chapter 3",
   "preamble": {
-    "en": "",
+    "en": "Plate 64--Panic, Yi'haic, Vedic, Hebraic and Sanscrit Primaries .",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

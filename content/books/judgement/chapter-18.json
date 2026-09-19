@@ -4,7 +4,7 @@
   "chapter": 18,
   "title": "Book of Judgement — Chapter 18",
   "preamble": {
-    "en": "",
+    "en": "GOD GIVETH A NEW RELIGION",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -241,5 +241,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

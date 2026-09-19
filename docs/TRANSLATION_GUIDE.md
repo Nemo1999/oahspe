@@ -49,11 +49,13 @@
 
 ---
 
-## 3. The (English) Parenthetical — DATA ONLY, not baked text
+## 3. The (English) Parenthetical + Glossary Link — DATA ONLY, not baked text
 
-- Coined/transliterated terms (names + Oahspe-specific coined words like `Corpor`, `Es`, `Ethe`, `I'hin`, `Se'muan`) are shown to the reader as `譯名（English）` on **first occurrence per chapter**, rendered by `VerseReader` from `terms.json`.
-- **Your job:** store the clean translation, and list the canonical English headword in that verse's `glossary_terms`. **Do NOT** write the parenthesis yourself, and do NOT apply first-occurrence logic — the component does that.
-- Ordinary translated vocabulary gets **no** parenthetical (handled by dictionary consistency + glossary tooltip).
+- Coined/transliterated terms (names + Oahspe-specific coined words like `Corpor`, `Es`, `Ethe`, `I'hin`, `Se'muan`) are shown to the reader as `譯名（English）` on **EVERY occurrence** (updated 2026-09: was first-occurrence-per-chapter; now every occurrence so no mention is ambiguous). Rendered by `VerseReader` from `terms.json`.
+- Each rendered term is also a **hyperlink to its glossary page** (`/glossary#slug`) — inherits text color, underlines on hover only. `VerseReader` builds this from the term's `slug`.
+- **Your job:** store the clean translation, and list the canonical English headword in that verse's `glossary_terms`. **Do NOT** write the parenthesis or the link yourself — the component does that from `glossary_terms` + `terms.json`.
+- Ordinary translated vocabulary gets **no** parenthetical (handled by dictionary consistency).
+- This applies equally to **image captions** and **preambles**: any coined term appearing in a translated caption/preamble is auto-annotated + linked by the reader, as long as the verse's `glossary_terms` lists it.
 
 ---
 
@@ -118,6 +120,22 @@ Entry shape:
 5. Collect distinctive verbs/formulaic phrases (per §4b threshold) as `new_lexicon`.
 6. Return verses + proposals. If you believe a non-null locked value is wrong, add a `conflict_note`; the locked value stands unless a human changes it.
 
+## 6b. Preambles & Image Captions (added 2026-09, HTML-era schema)
+
+Beyond verses, two more fields are translatable and appear in the reader:
+
+- **`preamble`** — a chapter epigraph (e.g. *"WHEREIN IS REVEALED THE THREE GREAT WORLDS…"*).
+  Stored as an i18n object `{en, zh_hant, zh_hans, ja}` on the chapter. 119 chapters have one.
+  Translate `preamble.en` into all 3 languages at the same register as verses. Reuse locked
+  transliterations (Corpor→柯珀, etc.); the reader auto-annotates coined terms if the chapter's
+  verses list them in `glossary_terms`.
+- **Image `caption`** — plate names (e.g. *"Jehovih Speaks"*, *"Divine Seal"*). Also an i18n object
+  on each `verse.images[]` entry. Translate `caption.en`; names transliterate per §2 (e.g.
+  "Jehovih Speaks" → 耶霍維言說 / ジェホヴィ語りたもう).
+- **Do NOT touch `preamble_source`** — that provenance tag (`word-1882` | `sacred-texts`) is set by
+  the source pipeline, not the translator.
+- **Never overwrite** a non-null preamble/caption translation; fill only where the target language is null.
+
 ---
 
 ## 7. Output Contract (what the agent returns)
@@ -126,6 +144,8 @@ A single JSON object:
 ```json
 {
   "chapter_id": "jehovih.1",
+  "preamble": { "zh_hant": "...", "zh_hans": "...", "ja": "..." },
+  "captions": [ { "verse_id": "jehovih.1.1", "zh_hant": "...", "zh_hans": "...", "ja": "..." } ],
   "verses": [
     { "id": "jehovih.1.1", "zh_hant": "...", "zh_hans": "...", "ja": "...", "glossary_terms": ["Jehovih"] }
   ],

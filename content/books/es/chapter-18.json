@@ -4,7 +4,7 @@
   "chapter": 18,
   "title": "Book of Es, Daughter of Jehova — Chapter 18",
   "preamble": {
-    "en": "",
+    "en": "THE DAWN OF KOSMON",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -219,5 +219,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

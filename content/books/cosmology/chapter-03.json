@@ -4,7 +4,7 @@
   "chapter": 3,
   "title": "Book of Cosmology and Prophecy — Chapter 3",
   "preamble": {
-    "en": "",
+    "en": "Plate 51.--Atmospherea correspondes to the place of actinic force in preceding plate; etherea, to non-action. Figs. 1, 2, 3, enlarged illustrations of the course and form of vortexian currents",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -329,5 +329,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

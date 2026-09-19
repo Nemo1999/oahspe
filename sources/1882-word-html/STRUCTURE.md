@@ -236,7 +236,8 @@ Images image128–image158 (16 images) appear between the `cosmogony` book-title
   "book":     "<slug>",
   "chapter":  <int>,
   "title":    "<Book Title> — Chapter <N>",
-  "preamble": "<text | empty string>",
+  "preamble": { "en": "<text|null>", "zh_hant": null, "zh_hans": null, "ja": null },
+  "preamble_source": "word-1882 | sacred-texts | null",
   "verses": [
     {
       "id":             "<slug>.<chapter>.<verse>",
@@ -251,7 +252,7 @@ Images image128–image158 (16 images) appear between the `cosmogony` book-title
         {
           "src":     "/plates/edition1882/imageNNN.jpg",
           "edition": "1882",
-          "caption": "<Caption string>"   ← omitted when null
+          "caption": { "en": "<Caption>", "zh_hant": null, "zh_hans": null, "ja": null }
         }
       ],
       "notes": []
@@ -260,8 +261,10 @@ Images image128–image158 (16 images) appear between the `cosmogony` book-title
 }
 ```
 
-The `images` array is **omitted entirely** when empty (not written as `[]`).
-The `caption` field is **omitted** when null (no plate anchor preceded the image).
+`preamble` and image `caption` are **i18n objects** `{en, zh_hant, zh_hans, ja}` (English base;
+translations start null). `preamble_source` records provenance (see §9 Dual-Source Merge).
+The `images` array is **omitted entirely** when a verse has none.
+The `caption` field is **omitted** when the image had no plate anchor (no caption).
 
 ---
 
@@ -287,3 +290,51 @@ Destination: `site/static/plates/edition1882/`.
 
 The 233 files in the source directory include many unreferenced Word export artefacts.
 Only the 119 that appear in `<img src="…">` tags are copied and referenced in JSON.
+
+---
+
+## 9. Dual-Source Merge
+
+The corpus chapter JSON uses content from **two distinct sources**:
+
+| Source | Key | What it provides |
+|--------|-----|-----------------|
+| Word-HTML (`sources/1882-word-html/OAHSPE-1882-Edition.html`) | `"word-1882"` | All verse text, images, captions, and 119 chapter preambles extracted by `html-to-json.py` |
+| Sacred Texts cache (`scripts/.htmlcache/oahNN.htm`) | `"sacred-texts"` | Chapter epigraphs (descriptive headings before verse 1) absent from the Word edition |
+
+### Precedence rule
+
+For each chapter's `preamble.en`, applied once by `scripts/merge-sacred-texts.py`:
+
+1. If `preamble.en` was non-empty after the Word-HTML parse → keep it, set `preamble_source = "word-1882"`.
+2. Else if the Sacred Texts page for that chapter has text between its heading and first verse → use it, set `preamble_source = "sacred-texts"`.
+3. Else leave `preamble.en` empty, `preamble_source = null`.
+
+Translations (`preamble.zh_hant`, `preamble.zh_hans`, `preamble.ja`) are **never touched** by the merge script; only `preamble.en` (when empty) and `preamble_source` are written.
+
+### `preamble_source` values
+
+| Value | Meaning |
+|-------|---------|
+| `"word-1882"` | Preamble text came from the 1882 Word-HTML source |
+| `"sacred-texts"` | Preamble text overlaid from the Sacred Texts archive cache |
+| `null` | No preamble text available from either source |
+
+### Epigraph extraction from Sacred Texts HTML
+
+Each `scripts/.htmlcache/oahNN.htm` page contains:
+- Page-number lines (`p. N`) — **dropped**
+- Book title / chapter heading lines — **dropped**
+- Epigraph paragraphs (ALL-CAPS descriptive text, APOLOGY blocks, etc.) — **kept**
+- Numbered verse lines (`N. …`) — extraction **stops** here
+
+The file-number → slug + chapter mapping reuses `BOOK_RANGES` / `file_no_to_book` / `chapter_within_book` from `scripts/scrape-sacred-texts.py`.
+
+### Corpus summary (after merge)
+
+| `preamble_source` | Count |
+|-------------------|-------|
+| `"word-1882"` | 119 |
+| `"sacred-texts"` | 46 |
+| `null` | 462 |
+| **Total chapters** | **627** |

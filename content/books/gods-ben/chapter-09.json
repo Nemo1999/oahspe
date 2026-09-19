@@ -4,7 +4,7 @@
   "chapter": 9,
   "title": "God's Book of Ben — Chapter 9",
   "preamble": {
-    "en": "",
+    "en": "THE BATTLE WITH THE BEAST OF THE ARC OF BON",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -197,5 +197,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

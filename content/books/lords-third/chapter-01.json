@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "The Lord's Third Book — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING COTEMPORANEOUS WITH THE BOOK OF APOLLO, SON OF JEHOVIH. AS THE LATTER BOOK IS OF HEAVEN, SO IS THE LORDS' BOOK OF EARTH, FOR THE SAME PERIOD OF TIME",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -329,5 +329,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

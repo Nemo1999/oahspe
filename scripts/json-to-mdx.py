@@ -29,16 +29,45 @@ def load_glossary() -> dict:
     return out
 
 
+def _chapter_glossary(chapter: dict, glossary: dict) -> dict:
+    """Glossary slice to ship with a chapter: every term tagged on a verse, PLUS any
+    term whose transliteration appears in the chapter's translated text (verses,
+    preamble, captions) — so coined terms in a preamble/caption are annotated + linked
+    even if no verse tagged them."""
+    used = set()
+    for v in chapter["verses"]:
+        used.update(v.get("glossary_terms") or [])
+    # Collect all translated strings in the chapter.
+    blobs = []
+    pre = chapter.get("preamble")
+    if isinstance(pre, dict):
+        blobs += [pre.get(l) or "" for l in ("zh_hant", "zh_hans", "ja")]
+    for v in chapter["verses"]:
+        blobs += [v.get(l) or "" for l in ("zh_hant", "zh_hans", "ja")]
+        for im in (v.get("images") or []):
+            cap = im.get("caption")
+            if isinstance(cap, dict):
+                blobs += [cap.get(l) or "" for l in ("zh_hant", "zh_hans", "ja")]
+    text = "\n".join(blobs)
+    if text.strip():
+        for term, entry in glossary.items():
+            if term in used:
+                continue
+            tl = entry.get("translit") or {}
+            if any(tl.get(l) and tl[l] in text for l in ("zh_hant", "zh_hans", "ja")):
+                used.add(term)
+    return {k: glossary[k] for k in used if k in glossary}
+
+
 def chapter_mdx(chapter: dict, glossary: dict) -> str:
     cid = chapter["id"]
     title = chapter["title"]
     sidebar_label = f"Chapter {chapter['chapter']}"
 
-    # Only ship glossary entries whose term actually appears in this chapter.
-    used = set()
-    for v in chapter["verses"]:
-        used.update(v.get("glossary_terms") or [])
-    chapter_gloss = {k: glossary[k] for k in used if k in glossary}
+    # Ship glossary entries whose term appears anywhere in this chapter — via verse
+    # glossary_terms AND via any translit found in translated verse/preamble/caption text
+    # (so terms in a preamble or caption but tagged on no verse still get linked/annotated).
+    chapter_gloss = _chapter_glossary(chapter, glossary)
 
     return f"""---
 id: {cid}
@@ -56,10 +85,7 @@ import VerseReader from '@site/src/components/VerseReader';
 def single_page_mdx(slug: str, book_title: str, chapter: dict, glossary: dict, position: int) -> str:
     """One standalone page for a single-chapter book (front matter). Uses the BOOK
     title (not 'Chapter 1') and lives at the book slug — no redundant nesting."""
-    used = set()
-    for v in chapter["verses"]:
-        used.update(v.get("glossary_terms") or [])
-    chapter_gloss = {k: glossary[k] for k in used if k in glossary}
+    chapter_gloss = _chapter_glossary(chapter, glossary)
 
     return f"""---
 id: {slug}

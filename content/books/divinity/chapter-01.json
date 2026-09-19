@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Divinity — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "WHICH DESCENDED TO THE EARTH AND BECAME KNOWN BY THE NAMES, DIV, AND DIVA, AND DIVAN LAWS. BEING GOD'S LABORS IN ATMOSPHEREA (HADA), FOR A PERIOD OF THREE THOUSAND AND ONE HUNDRED YEARS, DURING THE PASSAGE OF THE EARTH FROM THE ARC OF LOO TO THE ARC OF SPE'TA, IN ETHEREA; AND ON THE EARTH, FROM THE TIME OF ZARATHUSTRA TO THE TIME OF ABRAHAM AND BRAHMA",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -429,5 +429,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Apollo, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING THE HEAVENLY ADMINISTRATION OF APOLLO, AN ETHEREAN GOD",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -109,5 +109,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

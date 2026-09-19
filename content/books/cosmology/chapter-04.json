@@ -4,7 +4,7 @@
   "chapter": 4,
   "title": "Book of Cosmology and Prophecy — Chapter 4",
   "preamble": {
-    "en": "",
+    "en": "Plate 52.--Zero (line of velocity), with the two arrows, and the parallel lines crossing, are the signs of the boundary to a vortex. The oscillations of a planet are shown in the curves. In order to reduce the Panic signs to English, see Book of Saphah",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -230,5 +230,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

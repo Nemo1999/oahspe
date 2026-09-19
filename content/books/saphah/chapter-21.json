@@ -4,7 +4,7 @@
   "chapter": 21,
   "title": "Book of Saphah — Chapter 21",
   "preamble": {
-    "en": "",
+    "en": "BROTHERHOOD OF FAITHISTS. WITH MODERN GODS SUBSTITUTED IN PLACE OF THE ANCIENTS",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -659,5 +659,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of God's Word — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING COTEMPORANEOUS WITH THE CYCLE OF FRAGAPATTI, SON OF JEHOVIH. AS THE UPPER BOOK IS OF HEAVENLY THINGS, SO IS THIS LOWER BOOK OF THE EARTHLY ADMINISTRATION OF GOD FOR THE SAME PERIOD OF TIME. AND IT IS CALLED THE BOOK OF GOD'S WORD, BECAUSE IT IS OF THE FIRST DESCENT OF GOD TO THE EARTH TO ESTABLISH HIS WORD WITH MAN. THROUGH ZARATHUSTRA, A MAN OF PAR'SI'E, CAME GOD TO THIS END, EIGHT THOUSAND NINE HUNDRED YEARS BEFORE THE KOSMON ERA",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -142,5 +142,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

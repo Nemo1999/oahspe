@@ -9,8 +9,11 @@ Consistency model (locked via grilling 2026-09-17):
   or COIN brand-new entries. On conflict, existing wins.
 - Merge order guarantees chapter N+1 sees everything chapter N coined.
 
-This module is import-driven (call run_chapter / merge_result from an eval cell or
-a thin CLI), because the translation engine is the harness subagent, not an API key.
+This module is import-driven: a driver (an eval loop or a `task` subagent batch) calls
+`build_prompt(book, ch)` → dispatches the prompt to a translation subagent → `parse_agent_json`
+→ `verify_locked` (drift guard) → `merge_result` (writes translations, preamble, captions with
+existing-wins locking + ja-leak sweep). There is no standalone `__main__`/CLI because the
+translation engine is the harness subagent, not a Python-callable API. See docs/TRANSLATION_GUIDE.md.
 """
 
 import json
@@ -97,15 +100,19 @@ them in fill_glossary/new_glossary again (they are already complete).
 {json.dumps(lexicon, ensure_ascii=False, indent=1)}
 
 === CHAPTER TO TRANSLATE: {book} chapter {chapter} (id={chap['id']}) ===
-Preamble (context only, do NOT translate into the verses array):
-{chap.get('preamble','')}
+Preamble to translate (chapter epigraph; translate its English into all 3 languages):
+{(chap.get('preamble') or {{}}).get('en') or '(none)'}
+
+Image captions to translate (verse_id → English caption):
+{json.dumps([{{"verse_id": v["id"], "en": (im.get("caption") or {{}}).get("en")}} for v in chap["verses"] for im in (v.get("images") or []) if (im.get("caption") or {{}}).get("en")], ensure_ascii=False)}
 
 Verses ({len(src_verses)} total):
 {json.dumps(src_verses, ensure_ascii=False, indent=1)}
 === YOUR TASK ===
 Translate every verse into zh_hant, zh_hans, ja per the guideline (register: elevated
 modern vernacular / である調; names transliterated by sound per §2; existing locked
-entries reused verbatim; clean strings, NO baked parenthetical).
+entries reused verbatim; clean strings, NO baked parenthetical). ALSO translate the
+preamble (if any) and each image caption (if any) at the same register, reusing locked translits.
 
 Distinguish FILL (fill null fields of an existing terms.json entry, keyed by slug) from
 COIN (a brand-new entry). Collect distinctive verbs / formulaic phrases into new_lexicon.
@@ -116,13 +123,15 @@ Do NOT return the JSON in your chat reply (it is large and gets truncated). Afte
 reply only with the word "written". The JSON object must match:
 {{
   "chapter_id": "{chap['id']}",
+  "preamble": {{"zh_hant": "...", "zh_hans": "...", "ja": "..."}},
+  "captions": [{{"verse_id": "...", "en": "<echo the English caption you translated>", "zh_hant": "...", "zh_hans": "...", "ja": "..."}}],
   "verses": [{{"id": "...", "zh_hant": "...", "zh_hans": "...", "ja": "...", "glossary_terms": ["..."]}}],
   "fill_glossary": [{{"slug": "...", "translit": {{"zh_hant":"...","zh_hans":"...","ja":"..."}}, "source_def_literal": {{"zh_hant":"...","zh_hans":"...","ja":"..."}}, "editor_note": {{"en":"...","zh_hant":"...","zh_hans":"...","ja":"..."}}}}],
   "new_glossary": [{{"term":"...","slug":"...","category":"name|term","translit":{{...}},"source_def":null,"source_def_literal":{{...}},"editor_note":{{...}},"appears_in":[],"cross_refs":[],"locked":true,"first_seen":"{chap['id']}"}}],
   "new_lexicon": [{{"en":"...","category":"verb|phrase","zh_hant":"...","zh_hans":"...","ja":"...","note":"...","locked":true,"first_seen":"{chap['id']}"}}],
   "conflict_notes": []
 }}
-verses MUST cover all {len(src_verses)} input verses, same ids, same order."""
+(omit preamble/captions keys if the chapter has none.) verses MUST cover all {len(src_verses)} input verses, same ids, same order."""
 
 
 # ---------------------------------------------------------------------------
@@ -149,19 +158,26 @@ def _fill_nulls(dst: dict, src: dict, keys: list[str]):
 
 
 def _sweep_ja_leaks(book: str, chapter: int) -> int:
-    """Repair the recurring failure where the ja field borrows a term's Chinese
-    transliteration instead of its locked katakana (e.g. 以太界 instead of エセ界).
-    Uses the locked dictionary to replace any zh-form that leaked into ja. Returns
-    count of verses fixed. Runs after glossary merge so new terms are covered."""
+    """Repair the failure where a verse's ja field borrows a term's Chinese transliteration
+    instead of its locked katakana (e.g. 以太界 instead of エセ界).
+
+    SAFETY: only rewrites a term's zh-form in a verse when that term is TAGGED in the verse's
+    glossary_terms — never a blind substring sweep. This avoids corrupting incidental kanji
+    (e.g. common characters like 本/波 that happen to be another term's translit). Returns
+    the number of verses changed."""
     terms = load_json(TERMS_JSON, [])
-    zh2ja = {}
+    # English term → {zh_hant, zh_hans} → ja (only when ja is katakana and differs from zh).
+    term_map = {}
     for t in terms:
         tl = t.get("translit") or {}
-        zt, jt = tl.get("zh_hant"), tl.get("ja")
-        if zt and jt and zt != jt and re.search(r"[\u30a0-\u30ff]", jt):
-            zh2ja[zt] = jt
-    keys = sorted(zh2ja, key=len, reverse=True)  # longest-first to avoid partial overlap
-    if not keys:
+        jt = tl.get("ja")
+        if not (jt and re.search(r"[\u30a0-\u30ff]", jt)):
+            continue
+        zforms = [tl.get("zh_hant"), tl.get("zh_hans")]
+        zforms = [z for z in zforms if z and z != jt]
+        if zforms:
+            term_map[t["term"]] = (zforms, jt)
+    if not term_map:
         return 0
     chap = load_json(chapter_path(book, chapter), None)
     fixed = 0
@@ -170,9 +186,14 @@ def _sweep_ja_leaks(book: str, chapter: int) -> int:
         if not ja:
             continue
         new = ja
-        for zt in keys:
-            if zt in new:
-                new = new.replace(zt, zh2ja[zt])
+        for term in (v.get("glossary_terms") or []):
+            entry = term_map.get(term)
+            if not entry:
+                continue
+            zforms, jt = entry
+            for zt in zforms:
+                if zt in new:
+                    new = new.replace(zt, jt)
         if new != ja:
             v["ja"] = new
             fixed += 1
@@ -199,6 +220,36 @@ def merge_result(book: str, chapter: int, result: dict) -> dict:
         if tv.get("glossary_terms") is not None:
             v["glossary_terms"] = tv["glossary_terms"]
         report["verses"] += 1
+
+    # 1b) Preamble translations (fill only null languages; never touch en/source)
+    pre_tr = result.get("preamble") or {}
+    if isinstance(chap.get("preamble"), dict):
+        for lang in LANG_KEYS:
+            if pre_tr.get(lang) and not chap["preamble"].get(lang):
+                chap["preamble"][lang] = pre_tr[lang]
+
+    # 1c) Caption translations. Key by (verse_id, en) so multi-image galleries (a verse with
+    # several distinct captions) each match their own image — not one translation for all.
+    cap_pairs = {}   # (verse_id, en) -> translations
+    cap_by_vid = {}  # verse_id -> translations (fallback for single-caption verses w/o en)
+    for c in (result.get("captions") or []):
+        vid = c.get("verse_id")
+        if c.get("en"):
+            cap_pairs[(vid, c["en"])] = c
+        cap_by_vid.setdefault(vid, c)
+    for v in chap["verses"]:
+        for im in (v.get("images") or []):
+            cap = im.get("caption")
+            if not isinstance(cap, dict):
+                continue
+            c = cap_pairs.get((v["id"], cap.get("en"))) or (
+                cap_by_vid.get(v["id"]) if len([i for i in v["images"] if i.get("caption")]) == 1 else None
+            )
+            if not c:
+                continue
+            for lang in LANG_KEYS:
+                if c.get(lang) and not cap.get(lang):
+                    cap[lang] = c[lang]
     chapter_path(book, chapter).write_text(json.dumps(chap, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # 2) Glossary: FILL existing (by slug), COIN new

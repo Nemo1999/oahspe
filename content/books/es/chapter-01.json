@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Es, Daughter of Jehova — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING A HEAVENLY HISTORY OF THE EARTH AND HER HEAVENS, AND OF ETHEREA, SINCE FOUR HUNDRED YEARS AGO, DOWN TO THE DAWN OF THE KOSMON ERA",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -450,5 +450,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

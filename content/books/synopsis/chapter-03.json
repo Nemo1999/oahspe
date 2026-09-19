@@ -4,7 +4,7 @@
   "chapter": 3,
   "title": "Synopsis of Sixteen Cycles — Chapter 3",
   "preamble": {
-    "en": "",
+    "en": "THE TIME OF A THOUSAND YEARS OF DARKNESS.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -383,5 +383,6 @@
         }
       ]
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

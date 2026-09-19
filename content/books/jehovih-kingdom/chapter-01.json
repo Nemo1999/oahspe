@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "WHICH CONTAINETH WITHIN IT ALL OF WHICH IS ANTE-SCRIPT.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -175,5 +175,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

@@ -4,7 +4,7 @@
   "chapter": 20,
   "title": "Book of Saphah — Chapter 20",
   "preamble": {
-    "en": "",
+    "en": "(Alias Baugh-gan-ghad.)",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -32,5 +32,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

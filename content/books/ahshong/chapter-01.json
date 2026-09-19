@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Ah'shong, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "GOD OF THE SECOND CYCLE AFTER MAN'S CREATION.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -285,5 +285,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

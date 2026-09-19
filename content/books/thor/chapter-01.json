@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Thor, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING THE RECORDS OF THOR, APOLLO'S SUCCESSOR, ON THE EARTH AND IN HER HEAVENS, FROM THE ARC OF MOS TO THE ARC OF DAE, IN THE ETHEREAN HEAVENS, AND OF THREE THOUSAND TWO HUNDRED YEARS",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -241,5 +241,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

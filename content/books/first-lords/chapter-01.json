@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "First Book of the First Lords — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "BEING COTEMPORARY WITH THE BOOK OF SETHANTES, SON OF JEHOVIH. THAT IS TO SAY, AS SETHANTES WAS GOD OF HEAVEN, SO IN THE SAME PERIOD OF TIME HIS LORDS HAD DOMINION ON THE EARTH, AND THIS IS THEIR BOOK, EVEN AS THE PRECEDING ONE WAS GOD'S BOOK.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -274,5 +274,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

@@ -4,7 +4,7 @@
   "chapter": 1,
   "title": "Book of Osiris, Son of Jehovih — Chapter 1",
   "preamble": {
-    "en": "",
+    "en": "GOD OF LOWTSIN, AN ETHEREAN WORLD IN THE ARC OF SE'ING. KNOWN IN THE HIGH HEAVEN AS OSIRE, SON OF JEHOVIH",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -175,5 +175,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

@@ -69,7 +69,8 @@ def check_glossary() -> list[dict]:
         err("terms.json: expected array")
         return []
     required = {"term", "slug", "category", "translit", "source_def",
-                "editor_note", "appears_in", "cross_refs"}
+                "source_def_literal", "editor_note", "appears_in", "cross_refs",
+                "locked", "first_seen"}
     slugs = set()
     for i, t in enumerate(data):
         missing = required - t.keys()
@@ -132,12 +133,37 @@ def check_chapter(path: Path) -> tuple[int, int]:
         err(f"{path}: verses must be array")
         return 0, len(errors) - before
 
+    # Preamble must be an i18n object with all four language keys — new schema.
+    I18N_KEYS = {"en", "zh_hant", "zh_hans", "ja"}
+    pre = data.get("preamble")
+    if pre is not None:
+        if not isinstance(pre, dict):
+            err(f"{path}: preamble must be an i18n object, got {type(pre).__name__}")
+        elif not I18N_KEYS.issubset(pre.keys()):
+            err(f"{path}: preamble missing i18n keys {I18N_KEYS - pre.keys()}")
+    # Provenance tag must be present and in the allowed enum.
+    ps = data.get("preamble_source", "__missing__")
+    if ps == "__missing__":
+        err(f"{path}: missing preamble_source")
+    elif ps not in ("word-1882", "sacred-texts", None):
+        err(f"{path}: bad preamble_source {ps!r}")
+
+    PLATES_DIR = ROOT / "site" / "static" / "plates" / "edition1882"
     for v in verses:
         vid = v.get("id", "")
         if not VERSE_ID_RE.match(vid):
             err(f"{path}: invalid verse id {vid!r}")
         if v.get("en") is None or v.get("en") == "":
             err(f"{path}: verse {vid} has null/empty 'en' field")
+        # Image entries: caption must be i18n object (or absent); src file must exist.
+        for im in (v.get("images") or []):
+            cap = im.get("caption")
+            if cap is not None and not isinstance(cap, dict):
+                err(f"{path}: verse {vid} image caption must be i18n object")
+            src = im.get("src", "")
+            fname = src.split("/")[-1]
+            if fname and not (PLATES_DIR / fname).exists():
+                err(f"{path}: verse {vid} image {fname} missing from static/plates/edition1882")
 
     return len(verses), len(errors) - before
 
@@ -163,6 +189,21 @@ def main():
     else:
         print(f"  WARNING: {BOOKS_DIR} does not exist; no chapters to validate")
 
+    # Translation-coverage health report (non-failing) — tracks progress per language.
+    tw = cn = ja = pre_en = pre_tr = 0
+    if BOOKS_DIR.exists():
+        for path in BOOKS_DIR.rglob("chapter-*.json"):
+            d = json.loads(path.read_text())
+            for v in d.get("verses", []):
+                if v.get("zh_hant"): tw += 1
+                if v.get("zh_hans"): cn += 1
+                if v.get("ja"): ja += 1
+            p = d.get("preamble") or {}
+            if isinstance(p, dict) and (p.get("en") or "").strip():
+                pre_en += 1
+                if p.get("zh_hant"): pre_tr += 1
+
+    def pct(n): return f"{n}/{total_verses} ({100*n//total_verses if total_verses else 0}%)"
     print("\n=== Summary ===")
     print(f"  Books:          {len(books)}")
     print(f"  Chapters:       {total_chapters}")
@@ -170,6 +211,11 @@ def main():
     print(f"  Glossary terms: {len(glossary)}")
     print(f"  Plates:         {len(plates)}")
     print(f"  Style lexicon:  {len(lexicon)}")
+    print("\n=== Translation coverage ===")
+    print(f"  zh_hant verses: {pct(tw)}")
+    print(f"  zh_hans verses: {pct(cn)}")
+    print(f"  ja verses:      {pct(ja)}")
+    print(f"  preambles:      {pre_en} chapters ({pre_tr} translated)")
 
     if errors:
         print(f"\n  {len(errors)} validation error(s) found.\n")

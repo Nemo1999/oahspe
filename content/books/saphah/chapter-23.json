@@ -4,7 +4,7 @@
   "chapter": 23,
   "title": "Book of Saphah — Chapter 23",
   "preamble": {
-    "en": "",
+    "en": "(Dark, or Degree of Golden Chamber.) This, then, is the upper chamber of the Panic age, and the Golden Chamber of the second branch, Chine. Herein stand the Gods and Saviors of this day, even as the idolaters of the ancient days had other Gods and Saviors in their days.",
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
@@ -714,5 +714,6 @@
       "plate_ref": null,
       "notes": []
     }
-  ]
+  ],
+  "preamble_source": "sacred-texts"
 }

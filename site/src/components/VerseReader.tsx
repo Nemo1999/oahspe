@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useLocation } from '@docusaurus/router';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ImagePlate from './ImagePlate';
 
 // ---- types ------------------------------------------------------------------
@@ -267,13 +268,20 @@ interface VerseReaderProps {
 
 export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps): React.ReactElement {
   const location = useLocation();
+  const { i18n } = useDocusaurusContext();
+  // Docusaurus locale (en|zh-hant|zh-hans|ja) → our Lang key.
+  const localeToLang: Record<string, Lang> = {
+    en: 'en', 'zh-hant': 'zh_hant', 'zh-hans': 'zh_hans', ja: 'ja',
+  };
+  const localeLang: Lang = localeToLang[i18n.currentLocale] ?? 'en';
 
-  const [lang, setLang] = useState<Lang>('en');
+  const [lang, setLang] = useState<Lang>(localeLang);
   const [displayMode, setDisplayMode] = useState<DisplayMode>('single');
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
+    // Stored preference wins over the page locale; else keep the locale default.
     const storedLang = localStorage.getItem(LANG_STORAGE_KEY) as Lang | null;
     const storedMode = localStorage.getItem(DISPLAY_STORAGE_KEY) as DisplayMode | null;
     if (storedLang && LANG_KEYS.includes(storedLang)) setLang(storedLang);
@@ -339,7 +347,11 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
       )}
 
       {getI18n(chapter.preamble, lang) && (
-        <div className="chapter-preamble">{getI18n(chapter.preamble, lang)}</div>
+        <div className="chapter-preamble">
+          {lang === 'en'
+            ? getI18n(chapter.preamble, lang)
+            : renderWithParenthetical(getI18n(chapter.preamble, lang), lang, Object.keys(glossary), glossary)}
+        </div>
       )}
 
       <div className="verse-list">

@@ -371,6 +371,9 @@ def make_chapter(slug: str, chap: int, title: str, preamble: str, verses: list) 
         "chapter": chap,
         "title": title,
         "preamble": i18n(preamble),
+        # Provenance: Word-HTML base sets word-1882 when it has an epigraph, else null.
+        # merge-sacred-texts.py may later upgrade null → sacred-texts.
+        "preamble_source": "word-1882" if (preamble or "").strip() else None,
         "verses": verses,
     }
 
