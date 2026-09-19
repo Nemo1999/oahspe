@@ -114,6 +114,7 @@ const config: Config = {
       logo: {
         alt: 'Oahspe emblem',
         src: 'img/logo.png',
+        srcDark: 'img/logo-dark.png',
       },
       items: [
         {
