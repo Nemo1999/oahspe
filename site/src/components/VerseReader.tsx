@@ -12,6 +12,7 @@ export interface VerseData {
   zh_hans?: string | null;
   ja?: string | null;
   plate_ref?: number | null; // integer plate id when verse references a plate
+  images?: { src: string; edition?: string; caption?: string }[]; // 1882-edition images at this verse
   glossary_terms?: string[]; // canonical English headwords appearing in this verse
 }
 
@@ -206,6 +207,17 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
         )}
 
         {verse.plate_ref != null && <ImagePlate plateId={verse.plate_ref} />}
+
+        {verse.images && verse.images.length > 0 && (
+          <div className="verse-images">
+            {verse.images.map((img) => (
+              <figure key={img.src} className="verse-image">
+                <img src={`/oahspe${img.src}`} alt={img.caption ?? `Oahspe ${img.edition ?? ''} illustration`} loading="lazy" />
+                {img.caption && <figcaption>{img.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="verse-actions">

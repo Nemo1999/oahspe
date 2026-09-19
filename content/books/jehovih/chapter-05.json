@@ -175,7 +175,13 @@
         "Se'mu"
       ],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image008.jpg",
+          "edition": "1882"
+        }
+      ]
     }
   ]
 }

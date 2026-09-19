@@ -239,7 +239,13 @@
         "Atmospherea"
       ],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image010.jpg",
+          "edition": "1882"
+        }
+      ]
     }
   ]
 }

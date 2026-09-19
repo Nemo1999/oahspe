@@ -1,0 +1,704 @@
+[
+  {
+    "image": "image006.gif",
+    "book": "jehovih",
+    "chapter": 1,
+    "after_verse": 7
+  },
+  {
+    "image": "image008.jpg",
+    "book": "jehovih",
+    "chapter": 5,
+    "after_verse": 14
+  },
+  {
+    "image": "image010.jpg",
+    "book": "jehovih",
+    "chapter": 8,
+    "after_verse": 18
+  },
+  {
+    "image": "image012.jpg",
+    "book": "sethantes",
+    "chapter": 19,
+    "after_verse": 17
+  },
+  {
+    "image": "image014.jpg",
+    "book": "first-lords",
+    "chapter": 4,
+    "after_verse": 19
+  },
+  {
+    "image": "image016.jpg",
+    "book": "first-lords",
+    "chapter": 4,
+    "after_verse": 19
+  },
+  {
+    "image": "image018.jpg",
+    "book": "ahshong",
+    "chapter": 2,
+    "after_verse": 7
+  },
+  {
+    "image": "image020.jpg",
+    "book": "synopsis",
+    "chapter": 3,
+    "after_verse": 31
+  },
+  {
+    "image": "image022.jpg",
+    "book": "synopsis",
+    "chapter": 3,
+    "after_verse": 31
+  },
+  {
+    "image": "image024.jpg",
+    "book": "synopsis",
+    "chapter": 3,
+    "after_verse": 31
+  },
+  {
+    "image": "image026.jpg",
+    "book": "aph",
+    "chapter": 1,
+    "after_verse": 3
+  },
+  {
+    "image": "image028.jpg",
+    "book": "thor",
+    "chapter": 6,
+    "after_verse": 16
+  },
+  {
+    "image": "image030.jpg",
+    "book": "osiris",
+    "chapter": 13,
+    "after_verse": 3
+  },
+  {
+    "image": "image032.jpg",
+    "book": "osiris",
+    "chapter": 13,
+    "after_verse": 29
+  },
+  {
+    "image": "image034.jpg",
+    "book": "fragapatti",
+    "chapter": 6,
+    "after_verse": 30
+  },
+  {
+    "image": "image036.jpg",
+    "book": "fragapatti",
+    "chapter": 36,
+    "after_verse": 9
+  },
+  {
+    "image": "image038.jpg",
+    "book": "fragapatti",
+    "chapter": 43,
+    "after_verse": 31
+  },
+  {
+    "image": "image040.jpg",
+    "book": "fragapatti",
+    "chapter": 43,
+    "after_verse": 20
+  },
+  {
+    "image": "image042.jpg",
+    "book": "fragapatti",
+    "chapter": 43,
+    "after_verse": 26
+  },
+  {
+    "image": "image044.jpg",
+    "book": "cpenta-armij",
+    "chapter": 1,
+    "after_verse": 2
+  },
+  {
+    "image": "image046.jpg",
+    "book": "gods-first",
+    "chapter": 27,
+    "after_verse": 49
+  },
+  {
+    "image": "image048.jpg",
+    "book": "wars",
+    "chapter": 21,
+    "after_verse": 2
+  },
+  {
+    "image": "image050.jpg",
+    "book": "wars",
+    "chapter": 47,
+    "after_verse": 9
+  },
+  {
+    "image": "image052.jpg",
+    "book": "wars",
+    "chapter": 47,
+    "after_verse": 9
+  },
+  {
+    "image": "image054.jpg",
+    "book": "wars",
+    "chapter": 47,
+    "after_verse": 25
+  },
+  {
+    "image": "image056.jpg",
+    "book": "wars",
+    "chapter": 55,
+    "after_verse": 16
+  },
+  {
+    "image": "image058.jpg",
+    "book": "lika",
+    "chapter": 26,
+    "after_verse": 24
+  },
+  {
+    "image": "image060.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image062.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image063.gif",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image065.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image066.gif",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image068.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image070.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image072.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image074.jpg",
+    "book": "arc-of-bon",
+    "chapter": 31,
+    "after_verse": 34
+  },
+  {
+    "image": "image076.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image078.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image080.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image082.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image084.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image086.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image088.gif",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image090.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image092.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image094.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image096.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image098.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image100.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image102.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image104.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image106.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image108.gif",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image110.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image112.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image114.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image116.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image118.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image120.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image122.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image124.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image126.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image128.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image130.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image132.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image134.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image136.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image138.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image140.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image142.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image144.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image146.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image148.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image150.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image152.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image154.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image156.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image158.jpg",
+    "book": "gods-ben",
+    "chapter": 10,
+    "after_verse": 20
+  },
+  {
+    "image": "image160.jpg",
+    "book": "cosmology",
+    "chapter": 7,
+    "after_verse": 18
+  },
+  {
+    "image": "image162.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image164.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image166.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image168.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image170.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image172.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 48
+  },
+  {
+    "image": "image174.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 50
+  },
+  {
+    "image": "image176.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 54
+  },
+  {
+    "image": "image178.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 58
+  },
+  {
+    "image": "image180.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 108
+  },
+  {
+    "image": "image181.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 121
+  },
+  {
+    "image": "image183.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 121
+  },
+  {
+    "image": "image185.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 30
+  },
+  {
+    "image": "image187.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 1
+  },
+  {
+    "image": "image189.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 4
+  },
+  {
+    "image": "image191.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 4
+  },
+  {
+    "image": "image192.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 4
+  },
+  {
+    "image": "image194.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 10
+  },
+  {
+    "image": "image196.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 10
+  },
+  {
+    "image": "image198.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 56
+  },
+  {
+    "image": "image200.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 2
+  },
+  {
+    "image": "image202.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 18
+  },
+  {
+    "image": "image204.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 9
+  },
+  {
+    "image": "image206.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 50
+  },
+  {
+    "image": "image208.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 24
+  },
+  {
+    "image": "image210.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 41
+  },
+  {
+    "image": "image212.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 4
+  },
+  {
+    "image": "image214.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 14
+  },
+  {
+    "image": "image216.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 18
+  },
+  {
+    "image": "image218.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 18
+  },
+  {
+    "image": "image220.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 54
+  },
+  {
+    "image": "image222.jpg",
+    "book": "cosmology",
+    "chapter": 11,
+    "after_verse": 131
+  },
+  {
+    "image": "image224.jpg",
+    "book": "eskra",
+    "chapter": 41,
+    "after_verse": 33
+  },
+  {
+    "image": "image226.jpg",
+    "book": "eskra",
+    "chapter": 60,
+    "after_verse": 18
+  },
+  {
+    "image": "image228.jpg",
+    "book": "eskra",
+    "chapter": 60,
+    "after_verse": 9
+  },
+  {
+    "image": "image230.jpg",
+    "book": "eskra",
+    "chapter": 60,
+    "after_verse": 46
+  },
+  {
+    "image": "image232.jpg",
+    "book": "eskra",
+    "chapter": 60,
+    "after_verse": 24
+  },
+  {
+    "image": "image233.jpg",
+    "book": "es",
+    "chapter": 26,
+    "after_verse": 24
+  }
+]

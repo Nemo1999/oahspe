@@ -86,7 +86,13 @@
         "Jehovih"
       ],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image006.gif",
+          "edition": "1882"
+        }
+      ]
     }
   ]
 }
