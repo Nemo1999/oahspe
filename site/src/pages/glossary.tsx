@@ -85,10 +85,20 @@ function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; lo
 export default function GlossaryPage(): React.ReactElement {
   const { i18n } = useDocusaurusContext();
   const locale = i18n.currentLocale;
-  const langKey = LOCALE_TO_KEY[locale] ?? null;
 
   const [q, setQ] = useState('');
   const [cat, setCat] = useState<'all' | 'name' | 'term'>('all');
+  // View language: defaults to the site locale, but the reader can switch it here
+  // without changing the whole-site locale.
+  const [viewLoc, setViewLoc] = useState<string>(locale);
+  const langKey = LOCALE_TO_KEY[viewLoc] ?? null;
+
+  const VIEW_LANGS: Array<{ code: string; label: string }> = [
+    { code: 'en', label: 'EN' },
+    { code: 'zh-hant', label: '繁中' },
+    { code: 'zh-hans', label: '简中' },
+    { code: 'ja', label: '日' },
+  ];
 
   const sorted = useMemo(
     () => [...ALL].sort((a, b) => a.term.toLowerCase().localeCompare(b.term.toLowerCase())),
@@ -100,7 +110,6 @@ export default function GlossaryPage(): React.ReactElement {
     return sorted.filter((t) => {
       if (cat !== 'all' && t.category !== cat) return false;
       if (!needle) return true;
-      // Search the headword + the ACTIVE language's fields only.
       const tl = t.translit || {};
       const note = t.editor_note || {};
       const hay = [
@@ -139,13 +148,25 @@ export default function GlossaryPage(): React.ReactElement {
               </button>
             ))}
           </div>
+          <div className="glossary-langswitch" role="group" aria-label="View language">
+            {VIEW_LANGS.map((l) => (
+              <button
+                key={l.code}
+                className={`glossary-lang-btn ${viewLoc === l.code ? 'active' : ''}`}
+                onClick={() => setViewLoc(l.code)}
+                aria-pressed={viewLoc === l.code}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         <p className="glossary-count">{filtered.length} shown</p>
 
         <div className="glossary-list">
           {filtered.map((t) => (
-            <TermCard key={t.slug} t={t} langKey={langKey} locale={locale} />
+            <TermCard key={t.slug} t={t} langKey={langKey} locale={viewLoc} />
           ))}
         </div>
       </main>
