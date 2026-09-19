@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": "word-1882",
   "verses": [
     {
       "id": "thor.6.2",
@@ -187,6 +188,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": "word-1882"
+  ]
 }

@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "lika.8.1",
@@ -208,6 +209,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": null
+  ]
 }

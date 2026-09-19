@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "sethantes.17.1",
@@ -120,6 +121,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": null
+  ]
 }

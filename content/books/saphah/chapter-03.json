@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": "sacred-texts",
   "verses": [
     {
       "id": "saphah.3.1",
@@ -132,6 +133,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": "sacred-texts"
+  ]
 }

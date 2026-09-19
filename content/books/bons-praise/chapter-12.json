@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "bons-praise.12.1",
@@ -54,6 +55,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": null
+  ]
 }

@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "gods-word.22.1",
@@ -242,6 +243,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": null
+  ]
 }

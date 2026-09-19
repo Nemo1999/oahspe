@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "arc-of-bon.4.1",
@@ -362,6 +363,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": null
+  ]
 }

@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "wars.55.1",
@@ -198,6 +199,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": null
+  ]
 }

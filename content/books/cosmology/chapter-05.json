@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": "sacred-texts",
   "verses": [
     {
       "id": "cosmology.5.1",
@@ -241,6 +242,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": "sacred-texts"
+  ]
 }

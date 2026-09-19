@@ -145,7 +145,7 @@ A single JSON object:
 {
   "chapter_id": "jehovih.1",
   "preamble": { "zh_hant": "...", "zh_hans": "...", "ja": "..." },
-  "captions": [ { "verse_id": "jehovih.1.1", "zh_hant": "...", "zh_hans": "...", "ja": "..." } ],
+  "captions": [ { "verse_id": "jehovih.1.1", "en": "<echo the English caption>", "zh_hant": "...", "zh_hans": "...", "ja": "..." } ],
   "verses": [
     { "id": "jehovih.1.1", "zh_hant": "...", "zh_hans": "...", "ja": "...", "glossary_terms": ["Jehovih"] }
   ],

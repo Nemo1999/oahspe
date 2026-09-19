@@ -4,11 +4,12 @@
   "chapter": 30,
   "title": "Book of God's Word — Chapter 30",
   "preamble": {
-    "en": "",
+    "en": null,
     "zh_hant": null,
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "gods-word.30.1",
@@ -296,6 +297,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": null
+  ]
 }

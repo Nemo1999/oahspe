@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": "word-1882",
   "verses": [
     {
       "id": "judgement.23.1",
@@ -274,6 +275,5 @@
       "plate_ref": null,
       "notes": []
     }
-  ],
-  "preamble_source": "word-1882"
+  ]
 }

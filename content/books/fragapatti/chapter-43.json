@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": null,
   "verses": [
     {
       "id": "fragapatti.43.1",
@@ -363,6 +364,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": null
+  ]
 }

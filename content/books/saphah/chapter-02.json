@@ -9,6 +9,7 @@
     "zh_hans": null,
     "ja": null
   },
+  "preamble_source": "word-1882",
   "verses": [
     {
       "id": "saphah.2.1",
@@ -364,6 +365,5 @@
         }
       ]
     }
-  ],
-  "preamble_source": "word-1882"
+  ]
 }
