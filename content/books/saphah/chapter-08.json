@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 8,
   "title": "Book of Saphah — Chapter 8",
-  "preamble": "THE INVOCATION INTERPRETED READETH: . Tablet of Ancient Egypt. Those who sat around the table for spirit communion kept their eyes riveted on the graven characters. He who sat at the end where the crown is, was the oldest and was called rab'bah (father). It will be observed that the invocation is more than an interpretation of the characters, although they are all designated in the words. The rab'bah led off, but all the circle joined in the reading of it. The gau, the plumb-line, was moved bythe spirits in answer to the questions of the rab'bah. In some countries the gypsies, who are supposed to be descendent to ancient Egypt, still invoke spirits in this way. ----[Ed.]",
+  "preamble": {
+    "en": "THE INVOCATION INTERPRETED READETH: . Tablet of Ancient Egypt. Those who sat around the table for spirit communion kept their eyes riveted on the graven characters. He who sat at the end where the crown is, was the oldest and was called rab'bah (father). It will be observed that the invocation is more than an interpretation of the characters, although they are all designated in the words. The rab'bah led off, but all the circle joined in the reading of it. The gau, the plumb-line, was moved bythe spirits in answer to the questions of the rab'bah. In some countries the gypsies, who are supposed to be descendent to ancient Egypt, still invoke spirits in this way. ----[Ed.]",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.8.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image200.jpg",
           "edition": "1882",
-          "caption": "Tablet of Ancient Egypt"
+          "caption": {
+            "en": "Tablet of Ancient Egypt",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 18,
   "title": "Book of Saphah — Chapter 18",
-  "preamble": "[DARK, OR DEGREE OF GOLDEN CHAMBER.] (This, then, is the upper chamber of the Panic age, and the Golden Chamber of the second branch, Chine. Herein stand the Gods and Saviors of this day, even as the idolaters of the ancient days had other Gods and Saviors in their days.)",
+  "preamble": {
+    "en": "[DARK, OR DEGREE OF GOLDEN CHAMBER.] (This, then, is the upper chamber of the Panic age, and the Golden Chamber of the second branch, Chine. Herein stand the Gods and Saviors of this day, even as the idolaters of the ancient days had other Gods and Saviors in their days.)",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.18.1",
@@ -1449,7 +1454,12 @@
         {
           "src": "/plates/edition1882/image222.jpg",
           "edition": "1882",
-          "caption": "Holy Mass"
+          "caption": {
+            "en": "Holy Mass",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

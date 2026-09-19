@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 18,
   "title": "God's Book of Eskra — Chapter 18",
-  "preamble": "THE MEANING AND ORIGIN OF THE TERM, HOLY GHOST.",
+  "preamble": {
+    "en": "THE MEANING AND ORIGIN OF THE TERM, HOLY GHOST.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.18.1",

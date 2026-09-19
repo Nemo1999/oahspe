@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 49,
   "title": "God's Book of Eskra — Chapter 49",
-  "preamble": "ORIGIN OF MOHAMMEDANISM.",
+  "preamble": {
+    "en": "ORIGIN OF MOHAMMEDANISM.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.49.1",

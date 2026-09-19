@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 52,
   "title": "God's Book of Eskra — Chapter 52",
-  "preamble": "GOD JUDGETH THE FOUR FALSE GODS.",
+  "preamble": {
+    "en": "GOD JUDGETH THE FOUR FALSE GODS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.52.1",

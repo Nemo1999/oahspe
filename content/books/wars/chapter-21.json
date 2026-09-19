@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 21,
   "title": "Book of Wars Against Jehovih — Chapter 21",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.21.1",
@@ -30,7 +35,12 @@
         {
           "src": "/plates/edition1882/image048.jpg",
           "edition": "1882",
-          "caption": "Gall"
+          "caption": {
+            "en": "Gall",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

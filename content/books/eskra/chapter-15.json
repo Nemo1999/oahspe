@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 15,
   "title": "God's Book of Eskra — Chapter 15",
-  "preamble": "GOD PROVIDETH FOR THE BIRTH OF SAKAYA.",
+  "preamble": {
+    "en": "GOD PROVIDETH FOR THE BIRTH OF SAKAYA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.15.1",

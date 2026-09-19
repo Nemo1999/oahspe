@@ -3,7 +3,12 @@
   "book": "apollo",
   "chapter": 13,
   "title": "Book of Apollo, Son of Jehovih — Chapter 13",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "apollo.13.1",

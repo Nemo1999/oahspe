@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 3,
   "title": "Book of Judgement — Chapter 3",
-  "preamble": "THE JUDGMENT UPON THE BRAHMINS, THE BUDHISTS, THE KRISTE’YANS, THE MOHAMMEDANS, THE CONFUCIANS, THE JEWS AND ALL OTHER PEOPLES ON THE EARTH, IN THE WORDS OF GOD.",
+  "preamble": {
+    "en": "THE JUDGMENT UPON THE BRAHMINS, THE BUDHISTS, THE KRISTE’YANS, THE MOHAMMEDANS, THE CONFUCIANS, THE JEWS AND ALL OTHER PEOPLES ON THE EARTH, IN THE WORDS OF GOD.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.3.1",

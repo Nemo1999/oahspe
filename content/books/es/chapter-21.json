@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 21,
   "title": "Book of Es, Daughter of Jehova — Chapter 21",
-  "preamble": "ASCENT OF THE ETHEREAN HOSTS.",
+  "preamble": {
+    "en": "ASCENT OF THE ETHEREAN HOSTS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.21.1",

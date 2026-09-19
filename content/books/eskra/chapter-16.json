@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 16,
   "title": "God's Book of Eskra — Chapter 16",
-  "preamble": "MOSES IN HEAVEN PAYETH THE JUDGMENT OF JEHOVIH!",
+  "preamble": {
+    "en": "MOSES IN HEAVEN PAYETH THE JUDGMENT OF JEHOVIH!",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.16.1",

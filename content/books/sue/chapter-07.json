@@ -3,7 +3,12 @@
   "book": "sue",
   "chapter": 7,
   "title": "Book of Sue, Son of Jehovih — Chapter 7",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "sue.7.1",

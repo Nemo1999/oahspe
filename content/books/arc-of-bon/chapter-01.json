@@ -3,7 +3,12 @@
   "book": "arc-of-bon",
   "chapter": 1,
   "title": "Book of the Arc of Bon — Chapter 1",
-  "preamble": "HISTORY OF CAPILYA.",
+  "preamble": {
+    "en": "HISTORY OF CAPILYA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "arc-of-bon.1.1",

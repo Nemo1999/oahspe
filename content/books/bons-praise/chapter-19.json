@@ -3,7 +3,12 @@
   "book": "bons-praise",
   "chapter": 19,
   "title": "Bon's Book of Praise — Chapter 19",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "bons-praise.19.1",

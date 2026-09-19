@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 13,
   "title": "Book of Es, Daughter of Jehova — Chapter 13",
-  "preamble": "THE REPUBLIC ESTABLISHED.",
+  "preamble": {
+    "en": "THE REPUBLIC ESTABLISHED.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.13.1",

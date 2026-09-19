@@ -3,7 +3,12 @@
   "book": "aph",
   "chapter": 1,
   "title": "Book of Aph, Son of Jehovih — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "aph.1.1",
@@ -41,7 +46,12 @@
         {
           "src": "/plates/edition1882/image026.jpg",
           "edition": "1882",
-          "caption": "Bridge of Chinvat"
+          "caption": {
+            "en": "Bridge of Chinvat",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

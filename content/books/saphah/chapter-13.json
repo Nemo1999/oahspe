@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 13,
   "title": "Book of Saphah — Chapter 13",
-  "preamble": "THE HAUNTED CHAMBER. Antechamber examination omitted. Second part in the dark chamber, to wit:",
+  "preamble": {
+    "en": "THE HAUNTED CHAMBER. Antechamber examination omitted. Second part in the dark chamber, to wit:",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.13.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image210.jpg",
           "edition": "1882",
-          "caption": "Anubis"
+          "caption": {
+            "en": "Anubis",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 55,
   "title": "Book of Wars Against Jehovih — Chapter 55",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.55.1",
@@ -184,7 +189,12 @@
         {
           "src": "/plates/edition1882/image056.jpg",
           "edition": "1882",
-          "caption": "Kaskak"
+          "caption": {
+            "en": "Kaskak",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

@@ -3,7 +3,12 @@
   "book": "osiris",
   "chapter": 13,
   "title": "Book of Osiris, Son of Jehovih — Chapter 13",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "osiris.13.1",
@@ -41,7 +46,12 @@
         {
           "src": "/plates/edition1882/image030.jpg",
           "edition": "1882",
-          "caption": "Aries"
+          "caption": {
+            "en": "Aries",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

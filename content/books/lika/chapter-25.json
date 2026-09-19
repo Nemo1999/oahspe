@@ -3,7 +3,12 @@
   "book": "lika",
   "chapter": 25,
   "title": "Book of Lika, Son of Jehovih — Chapter 25",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lika.25.1",

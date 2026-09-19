@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 12,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 12",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.12.1",

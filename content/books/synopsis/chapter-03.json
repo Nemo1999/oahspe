@@ -3,7 +3,12 @@
   "book": "synopsis",
   "chapter": 3,
   "title": "Synopsis of Sixteen Cycles — Chapter 3",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "synopsis.3.1",
@@ -349,17 +354,32 @@
         {
           "src": "/plates/edition1882/image020.jpg",
           "edition": "1882",
-          "caption": "C'evorkum"
+          "caption": {
+            "en": "C'evorkum",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image022.jpg",
           "edition": "1882",
-          "caption": "C'evorkum"
+          "caption": {
+            "en": "C'evorkum",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image024.jpg",
           "edition": "1882",
-          "caption": "C'evorkum"
+          "caption": {
+            "en": "C'evorkum",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

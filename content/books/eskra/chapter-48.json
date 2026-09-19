@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 48,
   "title": "God's Book of Eskra — Chapter 48",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.48.1",

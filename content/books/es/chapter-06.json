@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 6,
   "title": "Book of Es, Daughter of Jehova — Chapter 6",
-  "preamble": "THE ALARM IN KELLA-HORED, THE HEAVENLY KINGDOM OF GOD-GABRIEL, ALIAS THOTH, THE MOHAMMEDAN HEAVEN.",
+  "preamble": {
+    "en": "THE ALARM IN KELLA-HORED, THE HEAVENLY KINGDOM OF GOD-GABRIEL, ALIAS THOTH, THE MOHAMMEDAN HEAVEN.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.6.1",

@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 44,
   "title": "God's Book of Eskra — Chapter 44",
-  "preamble": "DOCTRINES OF JOSHU AND HIS DEATH.",
+  "preamble": {
+    "en": "DOCTRINES OF JOSHU AND HIS DEATH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.44.1",

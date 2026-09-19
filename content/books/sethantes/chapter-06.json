@@ -3,7 +3,12 @@
   "book": "sethantes",
   "chapter": 6,
   "title": "Book of Sethantes, Son of Jehovih — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "sethantes.6.1",

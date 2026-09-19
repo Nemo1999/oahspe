@@ -3,7 +3,12 @@
   "book": "first-lords",
   "chapter": 4,
   "title": "First Book of the First Lords — Chapter 4",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "first-lords.4.1",
@@ -217,12 +222,22 @@
         {
           "src": "/plates/edition1882/image014.jpg",
           "edition": "1882",
-          "caption": "Races"
+          "caption": {
+            "en": "Races",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image016.jpg",
           "edition": "1882",
-          "caption": "Races"
+          "caption": {
+            "en": "Races",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

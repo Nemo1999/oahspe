@@ -3,7 +3,12 @@
   "book": "lords-fifth",
   "chapter": 1,
   "title": "The Lord's Fifth Book — Chapter 1",
-  "preamble": "OF THE HINDOO SCRIPTURES.",
+  "preamble": {
+    "en": "OF THE HINDOO SCRIPTURES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-fifth.1.1",

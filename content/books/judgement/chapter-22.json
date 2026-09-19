@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 22,
   "title": "Book of Judgement — Chapter 22",
-  "preamble": "THE FATHER’S KINGDOM ON EARTH.",
+  "preamble": {
+    "en": "THE FATHER’S KINGDOM ON EARTH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.22.1",

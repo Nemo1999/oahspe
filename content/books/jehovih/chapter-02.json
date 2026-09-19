@@ -3,7 +3,12 @@
   "book": "jehovih",
   "chapter": 2,
   "title": "Book of Jehovih — Chapter 2",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih.2.1",

@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 32,
   "title": "Book of Judgement — Chapter 32",
-  "preamble": "GOD JUDGETH AGAINST WAR.",
+  "preamble": {
+    "en": "GOD JUDGETH AGAINST WAR.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.32.1",

@@ -3,7 +3,12 @@
   "book": "apollo",
   "chapter": 14,
   "title": "Book of Apollo, Son of Jehovih — Chapter 14",
-  "preamble": ". 1. Jehovih spake from the light of the throne of God, saying: Hear the words of your Creator, O ye Counselors of heaven.",
+  "preamble": {
+    "en": ". 1. Jehovih spake from the light of the throne of God, saying: Hear the words of your Creator, O ye Counselors of heaven.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "apollo.14.2",

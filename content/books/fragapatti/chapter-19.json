@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 19,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 19",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.19.1",

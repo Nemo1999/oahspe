@@ -3,7 +3,12 @@
   "book": "gods-first",
   "chapter": 8,
   "title": "God's First Book — Chapter 8",
-  "preamble": "THE FIRST FONECEAN BIBLE, BEING OF ABRAM, A MAN CHOSEN BY GOD FOR THECHILDREN OF ARABIN’YA.",
+  "preamble": {
+    "en": "THE FIRST FONECEAN BIBLE, BEING OF ABRAM, A MAN CHOSEN BY GOD FOR THECHILDREN OF ARABIN’YA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-first.8.1",

@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 7,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 7",
-  "preamble": "FOUNDING THE GROUPS.",
+  "preamble": {
+    "en": "FOUNDING THE GROUPS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.7.1",

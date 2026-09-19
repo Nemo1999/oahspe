@@ -3,7 +3,12 @@
   "book": "lords-fifth",
   "chapter": 4,
   "title": "The Lord's Fifth Book — Chapter 4",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-fifth.4.1",

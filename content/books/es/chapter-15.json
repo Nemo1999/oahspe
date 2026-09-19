@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 15,
   "title": "Book of Es, Daughter of Jehova — Chapter 15",
-  "preamble": "GOD, JEHOVIH’S SON, CASTETH OUT THE FOUR FALSE GODS.",
+  "preamble": {
+    "en": "GOD, JEHOVIH’S SON, CASTETH OUT THE FOUR FALSE GODS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.15.1",

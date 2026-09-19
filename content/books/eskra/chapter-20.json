@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 20,
   "title": "God's Book of Eskra — Chapter 20",
-  "preamble": "OF THE CONFEDERACY OF THE HOLY GHOST, CALLED THE TRINITY.",
+  "preamble": {
+    "en": "OF THE CONFEDERACY OF THE HOLY GHOST, CALLED THE TRINITY.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.20.1",

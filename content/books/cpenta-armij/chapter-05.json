@@ -3,7 +3,12 @@
   "book": "cpenta-armij",
   "chapter": 5,
   "title": "Book of Cpenta-Armij, Daughter of Jehovih — Chapter 5",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cpenta-armij.5.1",

@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 47,
   "title": "God's Book of Eskra — Chapter 47",
-  "preamble": "LOOEAMONG FALSELY ANNOUNCETH HIMSELF THE KRIST (CHRIST)",
+  "preamble": {
+    "en": "LOOEAMONG FALSELY ANNOUNCETH HIMSELF THE KRIST (CHRIST)",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.47.1",

@@ -3,7 +3,12 @@
   "book": "lika",
   "chapter": 17,
   "title": "Book of Lika, Son of Jehovih — Chapter 17",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lika.17.1",

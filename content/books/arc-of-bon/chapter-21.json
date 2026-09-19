@@ -3,7 +3,12 @@
   "book": "arc-of-bon",
   "chapter": 21,
   "title": "Book of the Arc of Bon — Chapter 21",
-  "preamble": "HISTORY OF CHINE (TSCHIN’E), OF JAFFETH, FOUNDER OF CHINA.",
+  "preamble": {
+    "en": "HISTORY OF CHINE (TSCHIN’E), OF JAFFETH, FOUNDER OF CHINA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "arc-of-bon.21.1",

@@ -95,7 +95,20 @@ function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; lo
 
       {t.appears_in && t.appears_in.length > 0 && (
         <div className="glossary-appears">
-          <em>{L.appears}:</em> {t.appears_in.slice(0, 12).join(', ')}
+          <em>{L.appears}:</em>{' '}
+          {t.appears_in.slice(0, 12).map((vid, idx) => {
+            // verse id "jehovih.1.3" → /oahspe/<book>/<book.chapter>#<verseid>
+            const parts = vid.split('.');
+            const book = parts[0];
+            const chap = parts.slice(0, 2).join('.');
+            const href = `/oahspe/${book}/${chap}#${vid}`;
+            return (
+              <React.Fragment key={vid}>
+                {idx > 0 && ', '}
+                <a className="glossary-backlink" href={href}>{vid}</a>
+              </React.Fragment>
+            );
+          })}
           {t.appears_in.length > 12 ? ` … (+${t.appears_in.length - 12})` : ''}
         </div>
       )}

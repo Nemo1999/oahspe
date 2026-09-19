@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 25,
   "title": "Book of Wars Against Jehovih — Chapter 25",
-  "preamble": "OF THE VIND’YUAN ASSAULT.",
+  "preamble": {
+    "en": "OF THE VIND’YUAN ASSAULT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.25.1",

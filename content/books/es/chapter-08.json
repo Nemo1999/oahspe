@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 8,
   "title": "Book of Es, Daughter of Jehova — Chapter 8",
-  "preamble": "OF GOD IN PARADISE.",
+  "preamble": {
+    "en": "OF GOD IN PARADISE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.8.1",

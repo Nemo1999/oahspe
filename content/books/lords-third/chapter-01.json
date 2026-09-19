@@ -3,7 +3,12 @@
   "book": "lords-third",
   "chapter": 1,
   "title": "The Lord's Third Book — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-third.1.1",

@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 5,
   "title": "Book of Es, Daughter of Jehova — Chapter 5",
-  "preamble": "THE ALARM IN ETA-SHONG, HEAVENLY KINGDOM OF ENNOCHISSA, THE FALSE, BUT REIGNING GOD, BRAHAMA.",
+  "preamble": {
+    "en": "THE ALARM IN ETA-SHONG, HEAVENLY KINGDOM OF ENNOCHISSA, THE FALSE, BUT REIGNING GOD, BRAHAMA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.5.1",

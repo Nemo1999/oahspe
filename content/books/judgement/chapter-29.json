@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 29,
   "title": "Book of Judgement — Chapter 29",
-  "preamble": "GOD JUDGETH THE MISSIONARIES.",
+  "preamble": {
+    "en": "GOD JUDGETH THE MISSIONARIES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.29.1",

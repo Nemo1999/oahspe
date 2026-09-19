@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 38,
   "title": "Book of Judgement — Chapter 38",
-  "preamble": "GOD SHOWETH THE MISTAKES OF MAN’S JUDGMENT.",
+  "preamble": {
+    "en": "GOD SHOWETH THE MISTAKES OF MAN’S JUDGMENT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.38.1",

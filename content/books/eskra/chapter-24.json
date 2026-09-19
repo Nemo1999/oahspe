@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 24,
   "title": "God's Book of Eskra — Chapter 24",
-  "preamble": "OF THE LABOR OF GOD, JEHOVIH’S SON.",
+  "preamble": {
+    "en": "OF THE LABOR OF GOD, JEHOVIH’S SON.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.24.1",

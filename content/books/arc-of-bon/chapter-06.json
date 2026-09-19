@@ -3,7 +3,12 @@
   "book": "arc-of-bon",
   "chapter": 6,
   "title": "Book of the Arc of Bon — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "arc-of-bon.6.1",

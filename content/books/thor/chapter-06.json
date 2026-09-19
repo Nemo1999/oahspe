@@ -3,7 +3,12 @@
   "book": "thor",
   "chapter": 6,
   "title": "Book of Thor, Son of Jehovih — Chapter 6",
-  "preamble": ". 1. Again the earth and heaven prospered for another season of two hundred years, and the next dan there were delivered five thousand million souls. And new Gods and Lords succeeded; and they also prospered, but not so well. The next harvest was four thousand million souls.",
+  "preamble": {
+    "en": ". 1. Again the earth and heaven prospered for another season of two hundred years, and the next dan there were delivered five thousand million souls. And new Gods and Lords succeeded; and they also prospered, but not so well. The next harvest was four thousand million souls.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "thor.6.2",
@@ -173,7 +178,12 @@
         {
           "src": "/plates/edition1882/image028.jpg",
           "edition": "1882",
-          "caption": "Earth in Aji"
+          "caption": {
+            "en": "Earth in Aji",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 21,
   "title": "Book of Judgement — Chapter 21",
-  "preamble": "GOD DECREETH AGAINST INFIDELITY.",
+  "preamble": {
+    "en": "GOD DECREETH AGAINST INFIDELITY.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.21.1",

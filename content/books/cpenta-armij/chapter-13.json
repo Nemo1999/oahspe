@@ -3,7 +3,12 @@
   "book": "cpenta-armij",
   "chapter": 13,
   "title": "Book of Cpenta-Armij, Daughter of Jehovih — Chapter 13",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cpenta-armij.13.1",

@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 6,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 6",
-  "preamble": "THE COVENANT OF THE BROTHERHOOD.",
+  "preamble": {
+    "en": "THE COVENANT OF THE BROTHERHOOD.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.6.1",

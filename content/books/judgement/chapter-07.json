@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 7,
   "title": "Book of Judgement — Chapter 7",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.7.1",

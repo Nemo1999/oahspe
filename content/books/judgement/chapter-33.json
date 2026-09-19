@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 33,
   "title": "Book of Judgement — Chapter 33",
-  "preamble": "GOD JUDGETH AGAINST EXCLUSIVENESS.",
+  "preamble": {
+    "en": "GOD JUDGETH AGAINST EXCLUSIVENESS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.33.1",

@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 40,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 40",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.40.1",

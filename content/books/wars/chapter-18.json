@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 18,
   "title": "Book of Wars Against Jehovih — Chapter 18",
-  "preamble": "OF THE BATTLES OF THE GODS FOR THEN DOMINION OF THE EARTH AND THE LOWEST HEAVENS; AND THESE WERE CALLED BATTLES OF A THOUSAND YEARS.",
+  "preamble": {
+    "en": "OF THE BATTLES OF THE GODS FOR THEN DOMINION OF THE EARTH AND THE LOWEST HEAVENS; AND THESE WERE CALLED BATTLES OF A THOUSAND YEARS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.18.1",

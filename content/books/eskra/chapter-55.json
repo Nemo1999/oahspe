@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 55,
   "title": "God's Book of Eskra — Chapter 55",
-  "preamble": "GOD CONTINUETH HIS CHASTISEMENT AGAINST THE FOUR FALSE GODS.",
+  "preamble": {
+    "en": "GOD CONTINUETH HIS CHASTISEMENT AGAINST THE FOUR FALSE GODS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.55.1",

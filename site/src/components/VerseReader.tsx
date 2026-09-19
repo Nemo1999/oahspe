@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useLocation } from '@docusaurus/router';
 import ImagePlate from './ImagePlate';
 
@@ -12,8 +12,16 @@ export interface VerseData {
   zh_hans?: string | null;
   ja?: string | null;
   plate_ref?: number | null; // integer plate id when verse references a plate
-  images?: { src: string; edition?: string; caption?: string }[]; // 1882-edition images at this verse
+  images?: { src: string; edition?: string; caption?: I18nText | null }[]; // 1882-edition images at this verse
   glossary_terms?: string[]; // canonical English headwords appearing in this verse
+}
+
+// Per-language text: English + the three translations (null until translated).
+export interface I18nText {
+  en?: string | null;
+  zh_hant?: string | null;
+  zh_hans?: string | null;
+  ja?: string | null;
 }
 
 export interface ChapterData {
@@ -21,6 +29,7 @@ export interface ChapterData {
   book: string;
   chapter: number;
   title?: string;
+  preamble?: I18nText | string | null; // chapter epigraph (i18n object; legacy string tolerated)
   verses: VerseData[];
 }
 
@@ -56,6 +65,14 @@ function getVerseText(verse: VerseData, lang: Lang): string {
   return v != null && v !== '' ? v : verse.en;
 }
 
+// Resolve an i18n text object (or legacy string) for the active language, English fallback.
+function getI18n(text: I18nText | string | null | undefined, lang: Lang): string {
+  if (text == null) return '';
+  if (typeof text === 'string') return text;
+  const v = text[lang];
+  return v != null && v !== '' ? v : (text.en ?? '');
+}
+
 function loadBookmarks(): Set<string> {
   try {
     const raw = localStorage.getItem(BOOKMARK_STORAGE_KEY);
@@ -74,44 +91,46 @@ function saveBookmarks(bm: Set<string>): void {
 }
 
 /**
- * Render a CJK verse string, injecting `譯名（English）` the FIRST time each
- * glossary term's transliteration appears in the chapter (Q4/Q5). `seen` is a
- * chapter-scoped set mutated as we walk verses in order. English is never
- * annotated (the source already shows the term).
+ * Render a CJK verse string, injecting `譯名（English）` on EVERY occurrence of each
+ * glossary term's transliteration in the text. English is never annotated (the
+ * source already shows the term).
  */
 function renderWithParenthetical(
   text: string,
   lang: Lang,
   terms: string[] | undefined,
   glossary: GlossaryMap,
-  seen: Set<string>,
 ): React.ReactNode {
   if (lang === 'en' || !terms || terms.length === 0) return text;
 
-  // Build [translit, english] pairs present in this verse, longest translit first
+  // Build [translit, english, slug] triples present in this verse, longest translit first
   // so overlapping substrings match the most specific term.
-  const pairs: Array<[string, string]> = [];
+  const pairs: Array<[string, string, string]> = [];
   for (const en of terms) {
     const entry = glossary[en];
     const tl = entry?.translit?.[lang as 'zh_hant' | 'zh_hans' | 'ja'];
-    if (tl) pairs.push([tl, en]);
+    if (tl) pairs.push([tl, en, entry?.slug ?? '']);
   }
   if (pairs.length === 0) return text;
   pairs.sort((a, b) => b[0].length - a[0].length);
 
-  // Walk the string, splicing in <span>譯名（English）</span> on first hit per term.
+  // Walk the string, splicing in a glossary link 譯名（English）on EVERY hit.
   const nodes: React.ReactNode[] = [];
   let i = 0;
   let key = 0;
   outer: while (i < text.length) {
-    for (const [tl, en] of pairs) {
-      if (!seen.has(en) && text.startsWith(tl, i)) {
-        seen.add(en);
+    for (const [tl, en, slug] of pairs) {
+      if (text.startsWith(tl, i)) {
         nodes.push(
-          <span key={key++} className="verse-term">
+          <a
+            key={key++}
+            className="verse-term"
+            href={slug ? `/oahspe/glossary#${slug}` : '/oahspe/glossary'}
+            title={`Glossary: ${en}`}
+          >
             {tl}
             <span className="verse-term-en">（{en}）</span>
-          </span>,
+          </a>,
         );
         i += tl.length;
         continue outer;
@@ -121,8 +140,8 @@ function renderWithParenthetical(
     let j = i + 1;
     while (j < text.length) {
       let hit = false;
-      for (const [tl, en] of pairs) {
-        if (!seen.has(en) && text.startsWith(tl, j)) { hit = true; break; }
+      for (const [tl] of pairs) {
+        if (text.startsWith(tl, j)) { hit = true; break; }
       }
       if (hit) break;
       j++;
@@ -143,15 +162,6 @@ interface VerseRowProps {
   onBookmarkToggle: (id: string) => void;
   chapterPath: string;
   glossary: GlossaryMap;
-  seenTW: Set<string>;
-  seenCN: Set<string>;
-  seenJA: Set<string>;
-}
-
-function seenFor(lang: Lang, p: VerseRowProps): Set<string> {
-  if (lang === 'zh_hant') return p.seenTW;
-  if (lang === 'zh_hans') return p.seenCN;
-  return p.seenJA;
 }
 
 const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
@@ -178,12 +188,12 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
   const enText = verse.en;
   const showParallel = displayMode === 'parallel' && lang !== 'en';
   const cjkNode = showParallel
-    ? renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary, seenFor(lang, props))
+    ? renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary)
     : null;
   const singleNode =
     lang === 'en'
       ? enText
-      : renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary, seenFor(lang, props));
+      : renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary);
 
   return (
     <div id={anchorId} className="verse-row">
@@ -210,12 +220,18 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
 
         {verse.images && verse.images.length > 0 && (
           <div className="verse-images">
-            {verse.images.map((img) => (
-              <figure key={img.src} className="verse-image">
-                <img src={`/oahspe${img.src}`} alt={img.caption ?? `Oahspe ${img.edition ?? ''} illustration`} loading="lazy" />
-                {img.caption && <figcaption>{img.caption}</figcaption>}
-              </figure>
-            ))}
+            {verse.images.map((img) => {
+              const capText = getI18n(img.caption, lang);
+              const capNode = lang === 'en'
+                ? capText
+                : renderWithParenthetical(capText, lang, verse.glossary_terms, glossary);
+              return (
+                <figure key={img.src} className="verse-image">
+                  <img src={`/oahspe${img.src}`} alt={capText || `Oahspe ${img.edition ?? ''} illustration`} loading="lazy" />
+                  {capText && <figcaption>{capNode}</figcaption>}
+                </figure>
+              );
+            })}
           </div>
         )}
       </div>
@@ -286,13 +302,6 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
     });
   }, []);
 
-  // Chapter-scoped "first occurrence" trackers, reset whenever lang/mode/chapter
-  // changes so re-renders re-annotate deterministically from the top.
-  const { seenTW, seenCN, seenJA } = useMemo(
-    () => ({ seenTW: new Set<string>(), seenCN: new Set<string>(), seenJA: new Set<string>() }),
-    [lang, displayMode, chapter.id],
-  );
-
   return (
     <div className="verse-reader">
       <div className="verse-toolbar" suppressHydrationWarning>
@@ -329,6 +338,10 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
         </div>
       )}
 
+      {getI18n(chapter.preamble, lang) && (
+        <div className="chapter-preamble">{getI18n(chapter.preamble, lang)}</div>
+      )}
+
       <div className="verse-list">
         {chapter.verses.map((verse) => (
           <VerseRow
@@ -340,9 +353,6 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
             onBookmarkToggle={handleBookmarkToggle}
             chapterPath={location.pathname}
             glossary={glossary}
-            seenTW={seenTW}
-            seenCN={seenCN}
-            seenJA={seenJA}
           />
         ))}
       </div>

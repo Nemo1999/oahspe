@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 54,
   "title": "God's Book of Eskra — Chapter 54",
-  "preamble": "GOD CHASTISETH THE FOUR GODS SEPARATELY.",
+  "preamble": {
+    "en": "GOD CHASTISETH THE FOUR GODS SEPARATELY.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.54.1",

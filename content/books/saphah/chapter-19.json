@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 19,
   "title": "Book of Saphah — Chapter 19",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.19.1",

@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 38,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 38",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.38.1",

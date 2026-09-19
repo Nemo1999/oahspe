@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 46,
   "title": "God's Book of Eskra — Chapter 46",
-  "preamble": "SATAN ENTERETH THE HOLY COUNCIL OF HAPSENDI, AND SPEAKETH UNTO LOOAMONG, THE TRIUNE.",
+  "preamble": {
+    "en": "SATAN ENTERETH THE HOLY COUNCIL OF HAPSENDI, AND SPEAKETH UNTO LOOAMONG, THE TRIUNE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.46.1",

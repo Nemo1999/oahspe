@@ -3,7 +3,12 @@
   "book": "gods-word",
   "chapter": 27,
   "title": "Book of God's Word — Chapter 27",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-word.27.1",

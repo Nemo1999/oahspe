@@ -3,7 +3,12 @@
   "book": "cpenta-armij",
   "chapter": 4,
   "title": "Book of Cpenta-Armij, Daughter of Jehovih — Chapter 4",
-  "preamble": "OF THE BIRTH OF PO, ABRAM, BRAHMA AND EAWAHTAH.",
+  "preamble": {
+    "en": "OF THE BIRTH OF PO, ABRAM, BRAHMA AND EAWAHTAH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cpenta-armij.4.1",

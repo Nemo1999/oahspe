@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 16,
   "title": "Book of Es, Daughter of Jehova — Chapter 16",
-  "preamble": "GOD DELIVERETH THE FOUR FALSE GODS OUT OF THE FOUR HELLS.",
+  "preamble": {
+    "en": "GOD DELIVERETH THE FOUR FALSE GODS OUT OF THE FOUR HELLS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.16.1",

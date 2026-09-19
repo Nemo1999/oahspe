@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 5,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 5",
-  "preamble": "THE HOLY COVENANT.",
+  "preamble": {
+    "en": "THE HOLY COVENANT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.5.1",

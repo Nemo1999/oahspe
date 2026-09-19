@@ -3,7 +3,12 @@
   "book": "synopsis",
   "chapter": 1,
   "title": "Synopsis of Sixteen Cycles — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "synopsis.1.1",

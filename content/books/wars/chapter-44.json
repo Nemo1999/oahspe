@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 44,
   "title": "Book of Wars Against Jehovih — Chapter 44",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.44.1",

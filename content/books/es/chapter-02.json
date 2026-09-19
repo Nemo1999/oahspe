@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 2,
   "title": "Book of Es, Daughter of Jehova — Chapter 2",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.2.1",

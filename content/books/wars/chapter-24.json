@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 24,
   "title": "Book of Wars Against Jehovih — Chapter 24",
-  "preamble": "OF THE JAFFETHAN ASSAULT.",
+  "preamble": {
+    "en": "OF THE JAFFETHAN ASSAULT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.24.1",

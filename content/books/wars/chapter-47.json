@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 47,
   "title": "Book of Wars Against Jehovih — Chapter 47",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.47.1",
@@ -107,12 +112,22 @@
         {
           "src": "/plates/edition1882/image050.jpg",
           "edition": "1882",
-          "caption": "Osiris"
+          "caption": {
+            "en": "Osiris",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image052.jpg",
           "edition": "1882",
-          "caption": "Isis"
+          "caption": {
+            "en": "Isis",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -295,7 +310,12 @@
         {
           "src": "/plates/edition1882/image054.jpg",
           "edition": "1882",
-          "caption": "Tablet of Osiris"
+          "caption": {
+            "en": "Tablet of Osiris",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

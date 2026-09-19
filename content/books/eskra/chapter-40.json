@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 40,
   "title": "God's Book of Eskra — Chapter 40",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.40.1",

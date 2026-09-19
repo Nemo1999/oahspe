@@ -3,7 +3,12 @@
   "book": "cosmology",
   "chapter": 1,
   "title": "Book of Cosmology and Prophecy — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cosmology.1.1",
@@ -19,82 +24,162 @@
         {
           "src": "/plates/edition1882/image128.jpg",
           "edition": "1882",
-          "caption": "C'evorkum Roadway Solar Phalanx"
+          "caption": {
+            "en": "C'evorkum Roadway Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image130.jpg",
           "edition": "1882",
-          "caption": "C'evorkum Roadway Solar Phalanx"
+          "caption": {
+            "en": "C'evorkum Roadway Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image132.jpg",
           "edition": "1882",
-          "caption": "1st, 2nd, 3rd Resurrection"
+          "caption": {
+            "en": "1st, 2nd, 3rd Resurrection",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image134.jpg",
           "edition": "1882",
-          "caption": "Mathematical Problems"
+          "caption": {
+            "en": "Mathematical Problems",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image136.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image138.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image140.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image142.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image144.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image146.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image148.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image150.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image152.jpg",
           "edition": "1882",
-          "caption": "Travels of Solar Phalanx"
+          "caption": {
+            "en": "Travels of Solar Phalanx",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image154.jpg",
           "edition": "1882",
-          "caption": "Light Illustrated"
+          "caption": {
+            "en": "Light Illustrated",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image156.jpg",
           "edition": "1882",
-          "caption": "Lens Illustrated"
+          "caption": {
+            "en": "Lens Illustrated",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image158.jpg",
           "edition": "1882",
-          "caption": "Planets"
+          "caption": {
+            "en": "Planets",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

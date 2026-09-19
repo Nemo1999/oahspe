@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 4,
   "title": "Book of Es, Daughter of Jehova — Chapter 4",
-  "preamble": "THE ALARM IN HARACTU, HEAVENLY PLACE OF KABALACTES, THE FALSE, BUT REIGNING BUDHA.",
+  "preamble": {
+    "en": "THE ALARM IN HARACTU, HEAVENLY PLACE OF KABALACTES, THE FALSE, BUT REIGNING BUDHA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.4.1",

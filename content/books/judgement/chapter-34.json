@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 34,
   "title": "Book of Judgement — Chapter 34",
-  "preamble": "GOD JUDGETH THE GOVERNMENTS OF MAN.",
+  "preamble": {
+    "en": "GOD JUDGETH THE GOVERNMENTS OF MAN.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.34.1",

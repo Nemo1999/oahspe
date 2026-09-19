@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 20,
   "title": "Book of Judgement — Chapter 20",
-  "preamble": "GOD DECLARETH A DAY OF JUDGMENT, AND ALSO HE BEQUEATHETH LIBERTY UNTO ALL MEN.",
+  "preamble": {
+    "en": "GOD DECLARETH A DAY OF JUDGMENT, AND ALSO HE BEQUEATHETH LIBERTY UNTO ALL MEN.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.20.1",

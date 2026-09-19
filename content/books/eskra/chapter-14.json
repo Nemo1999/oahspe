@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 14,
   "title": "God's Book of Eskra — Chapter 14",
-  "preamble": "GOD PROVIDETH FOR THE BIRTH OF KA’YU.",
+  "preamble": {
+    "en": "GOD PROVIDETH FOR THE BIRTH OF KA’YU.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.14.1",

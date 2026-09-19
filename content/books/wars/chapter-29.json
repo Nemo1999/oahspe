@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 29,
   "title": "Book of Wars Against Jehovih — Chapter 29",
-  "preamble": "THE OSIRIAN BIBLE OF EQUPT, VIND’YU, AND CHINA.",
+  "preamble": {
+    "en": "THE OSIRIAN BIBLE OF EQUPT, VIND’YU, AND CHINA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.29.1",

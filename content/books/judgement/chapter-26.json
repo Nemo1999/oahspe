@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 26,
   "title": "Book of Judgement — Chapter 26",
-  "preamble": "GOD JUDGETH THE ASCETIC.",
+  "preamble": {
+    "en": "GOD JUDGETH THE ASCETIC.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.26.1",

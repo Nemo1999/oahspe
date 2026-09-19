@@ -3,7 +3,12 @@
   "book": "cpenta-armij",
   "chapter": 1,
   "title": "Book of Cpenta-Armij, Daughter of Jehovih — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cpenta-armij.1.1",
@@ -30,7 +35,12 @@
         {
           "src": "/plates/edition1882/image044.jpg",
           "edition": "1882",
-          "caption": "Ocgokuk"
+          "caption": {
+            "en": "Ocgokuk",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

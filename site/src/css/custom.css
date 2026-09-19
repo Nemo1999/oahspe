@@ -109,12 +109,26 @@ article .markdown {
   border-radius: 2px;
 }
 
-/* Coined-term parenthetical: 譯名（English）, injected by VerseReader */
+/* Coined-term glossary link: 譯名（English）, injected by VerseReader.
+   Inherits body text color (no blue link color); underline only on hover/focus. */
+a.verse-term { color: inherit; text-decoration: none; cursor: pointer; }
+a.verse-term:hover, a.verse-term:focus { text-decoration: underline; text-underline-offset: 2px; }
 .verse-term-en {
   font-size: 0.75em;
   color: var(--ifm-color-emphasis-600);
   font-weight: 400;
   white-space: nowrap;
+}
+
+/* Chapter epigraph / preamble shown above the verses */
+.chapter-preamble {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  border-inline-start: 3px solid var(--ifm-color-emphasis-300);
+  padding: 0.5rem 0 0.5rem 0.8rem;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 /* Verse layout */

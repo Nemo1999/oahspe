@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 14,
   "title": "Book of Saphah — Chapter 14",
-  "preamble": "AGOQUIN.",
+  "preamble": {
+    "en": "AGOQUIN.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.14.1",
@@ -63,7 +68,12 @@
         {
           "src": "/plates/edition1882/image212.jpg",
           "edition": "1882",
-          "caption": "Mound Builders"
+          "caption": {
+            "en": "Mound Builders",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 8,
   "title": "Book of Wars Against Jehovih — Chapter 8",
-  "preamble": "OF ANUHASAJ; WHO BY TREACHERY, BECOMETH LORD GOD, SECOND IN RANK TO GOD, SON OF JEHOVIH.",
+  "preamble": {
+    "en": "OF ANUHASAJ; WHO BY TREACHERY, BECOMETH LORD GOD, SECOND IN RANK TO GOD, SON OF JEHOVIH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.8.1",

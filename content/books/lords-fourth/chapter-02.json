@@ -3,7 +3,12 @@
   "book": "lords-fourth",
   "chapter": 2,
   "title": "The Lord's Fourth Book — Chapter 2",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-fourth.2.1",

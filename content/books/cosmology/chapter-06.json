@@ -3,7 +3,12 @@
   "book": "cosmology",
   "chapter": 6,
   "title": "Book of Cosmology and Prophecy — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cosmology.6.1",

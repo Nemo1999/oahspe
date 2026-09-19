@@ -3,7 +3,12 @@
   "book": "general-statement",
   "chapter": 1,
   "title": "A General Statement of the Contents of Oahspe — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "general-statement.1.1",

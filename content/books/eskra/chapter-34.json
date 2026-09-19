@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 34,
   "title": "God's Book of Eskra — Chapter 34",
-  "preamble": "DOCTRINES OF THE BASE.",
+  "preamble": {
+    "en": "DOCTRINES OF THE BASE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.34.1",

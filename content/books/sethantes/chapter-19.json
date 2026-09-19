@@ -3,7 +3,12 @@
   "book": "sethantes",
   "chapter": 19,
   "title": "Book of Sethantes, Son of Jehovih — Chapter 19",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "sethantes.19.1",
@@ -195,7 +200,12 @@
         {
           "src": "/plates/edition1882/image012.jpg",
           "edition": "1882",
-          "caption": "Hosts Descending"
+          "caption": {
+            "en": "Hosts Descending",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

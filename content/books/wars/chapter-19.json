@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 19,
   "title": "Book of Wars Against Jehovih — Chapter 19",
-  "preamble": "OF THE HOSTS OF OSIRIS, THE FALSE.",
+  "preamble": {
+    "en": "OF THE HOSTS OF OSIRIS, THE FALSE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.19.1",

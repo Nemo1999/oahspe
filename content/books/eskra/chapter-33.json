@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 33,
   "title": "God's Book of Eskra — Chapter 33",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.33.1",

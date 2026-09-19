@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 53,
   "title": "God's Book of Eskra — Chapter 53",
-  "preamble": "GOD CONTNUETH TO JUDGE THE FOUR FALSE GODS.",
+  "preamble": {
+    "en": "GOD CONTNUETH TO JUDGE THE FOUR FALSE GODS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.53.1",

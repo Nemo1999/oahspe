@@ -3,7 +3,12 @@
   "book": "gods-first",
   "chapter": 14,
   "title": "God's First Book — Chapter 14",
-  "preamble": "THE FIRST BIBLE OF VIND’YU, BEING OF BRAHMA, A MAN CHOSEN BY GOD FOR THE CHILDREN OF VIND’YU. GIVING AN ACCOUNT OF BRAHMA BECOMING AN IESU; OF HIS LABORS AND HIS RESURRECTION AFTER DEATH.",
+  "preamble": {
+    "en": "THE FIRST BIBLE OF VIND’YU, BEING OF BRAHMA, A MAN CHOSEN BY GOD FOR THE CHILDREN OF VIND’YU. GIVING AN ACCOUNT OF BRAHMA BECOMING AN IESU; OF HIS LABORS AND HIS RESURRECTION AFTER DEATH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-first.14.1",

@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 57,
   "title": "God's Book of Eskra — Chapter 57",
-  "preamble": "GOD PROPHESIETH OF THE FOUR FALSE GODS, LOOEAMONG, ENNOCHISSA, KABALACTES AND GABRIEL.",
+  "preamble": {
+    "en": "GOD PROPHESIETH OF THE FOUR FALSE GODS, LOOEAMONG, ENNOCHISSA, KABALACTES AND GABRIEL.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.57.1",

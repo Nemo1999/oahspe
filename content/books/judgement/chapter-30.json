@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 30,
   "title": "Book of Judgement — Chapter 30",
-  "preamble": "GOD JUDGETH DOMINIONS.",
+  "preamble": {
+    "en": "GOD JUDGETH DOMINIONS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.30.1",

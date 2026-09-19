@@ -3,7 +3,12 @@
   "book": "jehovih",
   "chapter": 1,
   "title": "Book of Jehovih — Chapter 1",
-  "preamble": "WHEREIN IS REVEALED THE THREE GREAT WORLDS, CORPOR, ATMOSPHEREA, AND ETHEREA. AS IN OTHER BIBLES IT IS REVEALED THAT THE WORLD WAS CREATED, SO IN THIS BIBLE IT IS REVEALED HOW THE CREATOR CREATED IT. AS OTHER BIBLES HAVE PROCLAIMED HEAVENS FOR THE SPIRITS OF THE DEAD, BEHOLD, THIS BIBLE REVEALETH WHERE THESE HEAVENS ARE, AND THE MANNER AND GLORY AND WORK THAT THE SPIRITS OF THE DEAD ENJOY, WHEREBY THE WISDOM, POWER, LOVE AND GLORY OF THE ALMIGHTY ARE MAGNIFIED FOR THE UNDERSTANDING OF MAN. APOLOGY: \"The universe is full; all things are members. Speech they have: bid them speak. The recorder of the words be thou. Such is Panic (Earth) language, the first language. What saith the bird? the beast? the stars? the sun? All? It is their souls speaking. The soul hear thou, and repeat it. This light leadeth thee to origin.\"",
+  "preamble": {
+    "en": "WHEREIN IS REVEALED THE THREE GREAT WORLDS, CORPOR, ATMOSPHEREA, AND ETHEREA. AS IN OTHER BIBLES IT IS REVEALED THAT THE WORLD WAS CREATED, SO IN THIS BIBLE IT IS REVEALED HOW THE CREATOR CREATED IT. AS OTHER BIBLES HAVE PROCLAIMED HEAVENS FOR THE SPIRITS OF THE DEAD, BEHOLD, THIS BIBLE REVEALETH WHERE THESE HEAVENS ARE, AND THE MANNER AND GLORY AND WORK THAT THE SPIRITS OF THE DEAD ENJOY, WHEREBY THE WISDOM, POWER, LOVE AND GLORY OF THE ALMIGHTY ARE MAGNIFIED FOR THE UNDERSTANDING OF MAN. APOLOGY: \"The universe is full; all things are members. Speech they have: bid them speak. The recorder of the words be thou. Such is Panic (Earth) language, the first language. What saith the bird? the beast? the stars? the sun? All? It is their souls speaking. The soul hear thou, and repeat it. This light leadeth thee to origin.\"",
+    "zh_hant": "茲揭示三大世界，即柯珀、大氣界與以太界。誠如其他聖經揭示世界乃受造而成，本聖經則揭示造物主如何創造之。誠如其他聖經宣告有為亡者之靈而設之諸天，觀之，本聖經揭示此諸天所在之處，以及亡者之靈所享之樣式、榮耀與工作，藉此使全能者之智慧、能力、仁愛與榮耀得以彰顯，供人領悟。辯白曰：「宇宙充盈，萬物皆為其一員。彼等具有言語：命彼等言說。爾當為此言語之記錄者。此即帕尼（地球）之語，最初之語言。飛鳥何言？走獸何言？眾星何言？太陽何言？萬物何言？此乃其靈魂之言說。爾當聆聽其靈魂，並複述之。此光引爾至本源。」",
+    "zh_hans": "兹揭示三大世界，即柯珀、大气界与以太界。诚如其他圣经揭示世界乃受造而成，本圣经则揭示造物主如何创造之。诚如其他圣经宣告有为亡者之灵而设之诸天，观之，本圣经揭示此诸天所在之处，以及亡者之灵所享之样式、荣耀与工作，藉此使全能者之智慧、能力、仁爱与荣耀得以彰显，供人领悟。辩白曰：「宇宙充盈，万物皆为其一员。彼等具有言语：命彼等言说。尔当为此言语之记录者。此即帕尼（地球）之语，最初之语言。飞鸟何言？走兽何言？众星何言？太阳何言？万物何言？此乃其灵魂之言说。尔当聆听其灵魂，并复述之。此光引尔至本源。」",
+    "ja": "ここに三つの大いなる世界、すなわちコルペル、大気界、そしてエセ界が啓示される。他の聖典において世界が創造されたことが啓示されているように、この聖典においては創造主がいかにしてそれを創造したかが啓示される。他の聖典が死者の霊のための諸天を宣言してきたように、見よ、この聖典はそれら諸天がいずこにあるか、また死者の霊が享受する様式と栄光と業を啓示する。これによって全能者の知恵、力、愛、そして栄光が人の理解のために讃えられるのである。弁明：「宇宙は満ちており、万物はその成員である。彼らは言葉を持つ。彼らに語らせよ。その言葉の記録者となれ。これぞパニック（地球）の言語、最初の言語なり。鳥は何と言うか。獣は。星々は。太陽は。すべては。それは彼らの魂が語るのである。汝、その魂を聞き、それを繰り返せ。この光が汝を根源へと導く。」"
+  },
   "verses": [
     {
       "id": "jehovih.1.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image004.jpg",
           "edition": "1882",
-          "caption": "Jehovih Speaks"
+          "caption": {
+            "en": "Jehovih Speaks",
+            "zh_hant": "耶霍維言說",
+            "zh_hans": "耶霍维言说",
+            "ja": "ジェホヴィ語りたもう"
+          }
         }
       ]
     },

@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 25,
   "title": "Book of Judgement — Chapter 25",
-  "preamble": "GOD SHOWETH HOW AND WHEN THE SECOND RESURRECTION MANIFESTEH UNTO MORTALS.",
+  "preamble": {
+    "en": "GOD SHOWETH HOW AND WHEN THE SECOND RESURRECTION MANIFESTEH UNTO MORTALS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.25.1",

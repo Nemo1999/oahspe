@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 17,
   "title": "Book of Saphah — Chapter 17",
-  "preamble": "High Noon, or Sun Degree.--The same Tablet is used in this degree as in Dawn. The children of Dawn always used the sacred name of Eolin, whilst the sons and daughters of the All Light say, Eloih or Jehovih.",
+  "preamble": {
+    "en": "High Noon, or Sun Degree.--The same Tablet is used in this degree as in Dawn. The children of Dawn always used the sacred name of Eolin, whilst the sons and daughters of the All Light say, Eloih or Jehovih.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.17.1",

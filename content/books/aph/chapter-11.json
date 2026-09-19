@@ -3,7 +3,12 @@
   "book": "aph",
   "chapter": 11,
   "title": "Book of Aph, Son of Jehovih — Chapter 11",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "aph.11.1",

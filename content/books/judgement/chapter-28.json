@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 28,
   "title": "Book of Judgement — Chapter 28",
-  "preamble": "GOD SHOWETH HOW TO DO CHARITY.",
+  "preamble": {
+    "en": "GOD SHOWETH HOW TO DO CHARITY.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.28.1",

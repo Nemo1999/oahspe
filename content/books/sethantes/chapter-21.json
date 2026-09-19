@@ -3,7 +3,12 @@
   "book": "sethantes",
   "chapter": 21,
   "title": "Book of Sethantes, Son of Jehovih — Chapter 21",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "sethantes.21.1",

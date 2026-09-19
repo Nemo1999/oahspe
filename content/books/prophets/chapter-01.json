@@ -3,7 +3,12 @@
   "book": "prophets",
   "chapter": 1,
   "title": "List of the Principal Prophets and Law-Givers — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "prophets.1.1",

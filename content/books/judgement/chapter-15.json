@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 15,
   "title": "Book of Judgement — Chapter 15",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.15.1",
@@ -107,7 +112,12 @@
         {
           "src": "/plates/edition1882/image228.jpg",
           "edition": "1882",
-          "caption": "Grades"
+          "caption": {
+            "en": "Grades",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

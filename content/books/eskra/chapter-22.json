@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 22,
   "title": "God's Book of Eskra — Chapter 22",
-  "preamble": "OF KABALACTES, TRIUNE, GOD OF VIND’YU, AND HER HEAVENS.",
+  "preamble": {
+    "en": "OF KABALACTES, TRIUNE, GOD OF VIND’YU, AND HER HEAVENS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.22.1",

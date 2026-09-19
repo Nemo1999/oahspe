@@ -3,7 +3,12 @@
   "book": "lika",
   "chapter": 26,
   "title": "Book of Lika, Son of Jehovih — Chapter 26",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lika.26.1",
@@ -272,7 +277,12 @@
         {
           "src": "/plates/edition1882/image058.jpg",
           "edition": "1882",
-          "caption": "Earth in Arc of Bon"
+          "caption": {
+            "en": "Earth in Arc of Bon",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

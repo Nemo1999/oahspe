@@ -3,7 +3,12 @@
   "book": "gods-first",
   "chapter": 5,
   "title": "God's First Book — Chapter 5",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-first.5.1",

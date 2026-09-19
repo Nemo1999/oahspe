@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 1,
   "title": "God's Book of Eskra — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.1.1",

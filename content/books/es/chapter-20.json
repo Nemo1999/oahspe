@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 20,
   "title": "Book of Es, Daughter of Jehova — Chapter 20",
-  "preamble": "JEHOVIH OVERTHROWETH SLAVERY IN GUATAMA.",
+  "preamble": {
+    "en": "JEHOVIH OVERTHROWETH SLAVERY IN GUATAMA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.20.1",

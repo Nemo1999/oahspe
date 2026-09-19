@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 21,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 21",
-  "preamble": "OF THE VOICE OF JEHOVIH.",
+  "preamble": {
+    "en": "OF THE VOICE OF JEHOVIH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.21.1",

@@ -3,7 +3,12 @@
   "book": "jehovih-kingdom",
   "chapter": 4,
   "title": "Book of Jehovih's Kingdom on Earth — Chapter 4",
-  "preamble": "HISTORY OF SHALEM, FORMERLY CALLED “BOOK OF SHALEM.”",
+  "preamble": {
+    "en": "HISTORY OF SHALEM, FORMERLY CALLED “BOOK OF SHALEM.”",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih-kingdom.4.1",

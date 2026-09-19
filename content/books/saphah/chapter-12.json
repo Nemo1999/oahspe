@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 12,
   "title": "Book of Saphah — Chapter 12",
-  "preamble": "THE SACRED PEOPLE, I’HINS, OR MOUND BUILDERS. PORT- PAN ALGONQUIN. Readeth as follows:",
+  "preamble": {
+    "en": "THE SACRED PEOPLE, I’HINS, OR MOUND BUILDERS. PORT- PAN ALGONQUIN. Readeth as follows:",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.12.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image208.jpg",
           "edition": "1882",
-          "caption": "Algonquin Tablet"
+          "caption": {
+            "en": "Algonquin Tablet",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

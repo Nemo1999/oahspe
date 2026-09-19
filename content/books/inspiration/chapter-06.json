@@ -3,7 +3,12 @@
   "book": "inspiration",
   "chapter": 6,
   "title": "Book of Inspiration — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "inspiration.6.1",

@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 23,
   "title": "Book of Judgement — Chapter 23",
-  "preamble": "GOD JUDGETH UZ, COMMONLY CALLED THE WORLD’S PEOPLE.",
+  "preamble": {
+    "en": "GOD JUDGETH UZ, COMMONLY CALLED THE WORLD’S PEOPLE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.23.1",

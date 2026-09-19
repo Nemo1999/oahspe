@@ -3,7 +3,12 @@
   "book": "gods-ben",
   "chapter": 6,
   "title": "God's Book of Ben — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-ben.6.1",

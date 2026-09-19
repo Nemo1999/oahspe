@@ -329,8 +329,13 @@ def copy_image(src_attr: str) -> str | None:
     return f"/plates/edition1882/{fname}"
 
 
+def i18n(en: str | None) -> dict:
+    """Wrap an English string as a per-language object (translations start null)."""
+    return {"en": en or None, "zh_hant": None, "zh_hans": None, "ja": None}
+
+
 def make_img_entry(src_attr: str) -> dict | None:
-    """Build an image entry dict with caption. Returns None if file missing."""
+    """Build an image entry dict with an i18n caption. Returns None if file missing."""
     web_path = copy_image(src_attr)
     if not web_path:
         return None
@@ -338,7 +343,7 @@ def make_img_entry(src_attr: str) -> dict | None:
     caption = IMG_CAPTIONS.get(fname)
     entry: dict = {"src": web_path, "edition": "1882"}
     if caption:
-        entry["caption"] = caption
+        entry["caption"] = i18n(caption)
     return entry
 
 
@@ -365,7 +370,7 @@ def make_chapter(slug: str, chap: int, title: str, preamble: str, verses: list) 
         "book": slug,
         "chapter": chap,
         "title": title,
-        "preamble": preamble,
+        "preamble": i18n(preamble),
         "verses": verses,
     }
 
@@ -692,7 +697,7 @@ def do_targeted_merges():
         # Try plain filename
         web = copy_image("image002.jpg")
         if web:
-            img002 = {"src": web, "edition": "1882", "caption": "Oahspe — Title Page"}
+            img002 = {"src": web, "edition": "1882", "caption": i18n("Oahspe — Title Page")}
     if img002:
         targeted_image_merge("oahspe-intro", 1, 1, [img002])
 
@@ -701,7 +706,7 @@ def do_targeted_merges():
     if not img004:
         web = copy_image("image004.jpg")
         if web:
-            img004 = {"src": web, "edition": "1882", "caption": "Jehovih Speaks"}
+            img004 = {"src": web, "edition": "1882", "caption": i18n("Jehovih Speaks")}
     if img004:
         targeted_image_merge("jehovih", 1, 1, [img004])
 

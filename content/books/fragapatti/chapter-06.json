@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 6,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.6.1",
@@ -338,7 +343,12 @@
         {
           "src": "/plates/edition1882/image034.jpg",
           "edition": "1882",
-          "caption": "Etherea"
+          "caption": {
+            "en": "Etherea",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

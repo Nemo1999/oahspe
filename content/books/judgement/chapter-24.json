@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 24,
   "title": "Book of Judgement — Chapter 24",
-  "preamble": "GOD SHOWETH HOW TO KNOW THE KIND OF ANGELS THAT MINISTER UNTO MORTALS.",
+  "preamble": {
+    "en": "GOD SHOWETH HOW TO KNOW THE KIND OF ANGELS THAT MINISTER UNTO MORTALS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.24.1",

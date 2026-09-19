@@ -3,7 +3,12 @@
   "book": "divinity",
   "chapter": 10,
   "title": "Book of Divinity — Chapter 10",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "divinity.10.1",

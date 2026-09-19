@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 16,
   "title": "Book of Judgement — Chapter 16",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.16.1",
@@ -514,7 +519,12 @@
         {
           "src": "/plates/edition1882/image230.jpg",
           "edition": "1882",
-          "caption": "Rates"
+          "caption": {
+            "en": "Rates",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

@@ -3,7 +3,12 @@
   "book": "lords-second",
   "chapter": 1,
   "title": "The Lords' Second Book — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-second.1.1",

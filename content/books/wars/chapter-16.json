@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 16,
   "title": "Book of Wars Against Jehovih — Chapter 16",
-  "preamble": "HEREIN IS REVEALED THE MANNER IN WHICH THE GODS CARRIED OUT WHAT HAD BEEN PREVIOUSLY STATED.",
+  "preamble": {
+    "en": "HEREIN IS REVEALED THE MANNER IN WHICH THE GODS CARRIED OUT WHAT HAD BEEN PREVIOUSLY STATED.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.16.1",

@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 7,
   "title": "Book of Saphah — Chapter 7",
-  "preamble": "HOUBRI. PAN. ALGONQUIN. HOA’TU.",
+  "preamble": {
+    "en": "HOUBRI. PAN. ALGONQUIN. HOA’TU.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.7.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image198.jpg",
           "edition": "1882",
-          "caption": "Ihin"
+          "caption": {
+            "en": "Ihin",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

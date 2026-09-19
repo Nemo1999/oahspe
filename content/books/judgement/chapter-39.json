@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 39,
   "title": "Book of Judgement — Chapter 39",
-  "preamble": "GOD PROVIDETH FOR INCREASE.",
+  "preamble": {
+    "en": "GOD PROVIDETH FOR INCREASE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.39.1",
@@ -272,7 +277,12 @@
         {
           "src": "/plates/edition1882/image232.jpg",
           "edition": "1882",
-          "caption": "Judgement Symbol"
+          "caption": {
+            "en": "Judgement Symbol",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

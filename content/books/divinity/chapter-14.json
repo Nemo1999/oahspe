@@ -3,7 +3,12 @@
   "book": "divinity",
   "chapter": 14,
   "title": "Book of Divinity — Chapter 14",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "divinity.14.1",

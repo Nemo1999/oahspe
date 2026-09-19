@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 6,
   "title": "Book of Saphah — Chapter 6",
-  "preamble": "TABLET OF AH’IOD’GAU [Numeration]. FONECE. (The Seventh Degree In The Order Of Israel.) TABLET OF FONECE [Begin at 1, and read downward; then at 2, etc.]",
+  "preamble": {
+    "en": "TABLET OF AH’IOD’GAU [Numeration]. FONECE. (The Seventh Degree In The Order Of Israel.) TABLET OF FONECE [Begin at 1, and read downward; then at 2, etc.]",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.6.1",
@@ -19,12 +24,22 @@
         {
           "src": "/plates/edition1882/image194.jpg",
           "edition": "1882",
-          "caption": "Divine Seal"
+          "caption": {
+            "en": "Divine Seal",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image196.jpg",
           "edition": "1882",
-          "caption": "Tablet Fonece"
+          "caption": {
+            "en": "Tablet Fonece",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

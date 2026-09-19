@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 17,
   "title": "Book of Es, Daughter of Jehova — Chapter 17",
-  "preamble": "JEHOVIH JUDGETH THE FALSE GODS AND GODDESSES.",
+  "preamble": {
+    "en": "JEHOVIH JUDGETH THE FALSE GODS AND GODDESSES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.17.1",

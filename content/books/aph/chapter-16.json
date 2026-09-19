@@ -3,7 +3,12 @@
   "book": "aph",
   "chapter": 16,
   "title": "Book of Aph, Son of Jehovih — Chapter 16",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "aph.16.1",

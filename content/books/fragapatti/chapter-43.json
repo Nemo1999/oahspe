@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 43,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 43",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.43.1",
@@ -349,7 +354,12 @@
         {
           "src": "/plates/edition1882/image038.jpg",
           "edition": "1882",
-          "caption": "Signature"
+          "caption": {
+            "en": "Signature",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

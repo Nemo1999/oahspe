@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 30,
   "title": "Book of Wars Against Jehovih — Chapter 30",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.30.1",

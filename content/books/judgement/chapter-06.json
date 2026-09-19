@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 6,
   "title": "Book of Judgement — Chapter 6",
-  "preamble": "OF RESURRECTION, IN THE WORDS OF GOD.",
+  "preamble": {
+    "en": "OF RESURRECTION, IN THE WORDS OF GOD.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.6.1",

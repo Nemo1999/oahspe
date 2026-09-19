@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 52,
   "title": "Book of Wars Against Jehovih — Chapter 52",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.52.1",

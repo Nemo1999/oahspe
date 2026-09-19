@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 59,
   "title": "God's Book of Eskra — Chapter 59",
-  "preamble": "THE FOUR FALSE GODS’ REPLY TO GOD, JEHOVIH’S SON.",
+  "preamble": {
+    "en": "THE FOUR FALSE GODS’ REPLY TO GOD, JEHOVIH’S SON.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.59.1",

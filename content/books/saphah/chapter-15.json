@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 15,
   "title": "Book of Saphah — Chapter 15",
-  "preamble": "[ALIAS BAUGH-GAN-GHAD.] TABLET OF BAUGH-GHAN-GHAD",
+  "preamble": {
+    "en": "[ALIAS BAUGH-GAN-GHAD.] TABLET OF BAUGH-GHAN-GHAD",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.15.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image214.jpg",
           "edition": "1882",
-          "caption": "Baugh-Ghan-Ghad"
+          "caption": {
+            "en": "Baugh-Ghan-Ghad",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -224,12 +234,22 @@
         {
           "src": "/plates/edition1882/image216.jpg",
           "edition": "1882",
-          "caption": "Skull Temple"
+          "caption": {
+            "en": "Skull Temple",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image218.jpg",
           "edition": "1882",
-          "caption": "Skull Temple Sectional"
+          "caption": {
+            "en": "Skull Temple Sectional",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

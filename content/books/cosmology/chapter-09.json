@@ -3,7 +3,12 @@
   "book": "cosmology",
   "chapter": 9,
   "title": "Book of Cosmology and Prophecy — Chapter 9",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "cosmology.9.1",

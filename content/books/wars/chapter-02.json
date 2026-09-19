@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 2,
   "title": "Book of Wars Against Jehovih — Chapter 2",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.2.1",

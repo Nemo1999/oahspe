@@ -3,7 +3,12 @@
   "book": "thor",
   "chapter": 1,
   "title": "Book of Thor, Son of Jehovih — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "thor.1.1",

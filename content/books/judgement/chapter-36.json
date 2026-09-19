@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 36,
   "title": "Book of Judgement — Chapter 36",
-  "preamble": "GOD SHOWETH HOW HE HATH WROUGHT.",
+  "preamble": {
+    "en": "GOD SHOWETH HOW HE HATH WROUGHT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.36.1",

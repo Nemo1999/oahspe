@@ -3,7 +3,12 @@
   "book": "osiris",
   "chapter": 11,
   "title": "Book of Osiris, Son of Jehovih — Chapter 11",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "osiris.11.1",

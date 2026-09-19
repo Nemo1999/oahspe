@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 19,
   "title": "Book of Judgement — Chapter 19",
-  "preamble": "GOD GIVETH A NEW RELIGION.",
+  "preamble": {
+    "en": "GOD GIVETH A NEW RELIGION.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.19.1",

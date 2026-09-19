@@ -3,7 +3,12 @@
   "book": "divinity",
   "chapter": 1,
   "title": "Book of Divinity — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "divinity.1.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image042.jpg",
           "edition": "1882",
-          "caption": "Divine Seal"
+          "caption": {
+            "en": "Divine Seal",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

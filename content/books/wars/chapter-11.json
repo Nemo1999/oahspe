@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 11,
   "title": "Book of Wars Against Jehovih — Chapter 11",
-  "preamble": "OF THE DEITY, ALIAS, DYAUS, ALIAS DE‘YUS, ALIAS DEUS; ORIGIN AND POWER IN THE HEAVENS AND ON EARTH.",
+  "preamble": {
+    "en": "OF THE DEITY, ALIAS, DYAUS, ALIAS DE‘YUS, ALIAS DEUS; ORIGIN AND POWER IN THE HEAVENS AND ON EARTH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.11.1",

@@ -3,7 +3,12 @@
   "book": "inspiration",
   "chapter": 18,
   "title": "Book of Inspiration — Chapter 18",
-  "preamble": "HOLY KOSMON DAY.",
+  "preamble": {
+    "en": "HOLY KOSMON DAY.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "inspiration.18.1",

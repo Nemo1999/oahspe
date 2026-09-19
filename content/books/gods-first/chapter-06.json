@@ -3,7 +3,12 @@
   "book": "gods-first",
   "chapter": 6,
   "title": "God's First Book — Chapter 6",
-  "preamble": "OF CITIES AND GOVERNMENT.",
+  "preamble": {
+    "en": "OF CITIES AND GOVERNMENT.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-first.6.1",

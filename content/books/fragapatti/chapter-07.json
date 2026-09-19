@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 7,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 7",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.7.1",

@@ -3,7 +3,12 @@
   "book": "jehovih",
   "chapter": 6,
   "title": "Book of Jehovih — Chapter 6",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "jehovih.6.1",

@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 10,
   "title": "Book of Saphah — Chapter 10",
-  "preamble": "INTERPRETATION.",
+  "preamble": {
+    "en": "INTERPRETATION.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.10.1",
@@ -118,7 +123,12 @@
         {
           "src": "/plates/edition1882/image204.jpg",
           "edition": "1882",
-          "caption": "Sun Degree"
+          "caption": {
+            "en": "Sun Degree",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

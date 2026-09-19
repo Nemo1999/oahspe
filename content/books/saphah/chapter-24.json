@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 24,
   "title": "Book of Saphah — Chapter 24",
-  "preamble": "HEADS OF SPIRITUAL SOCIETIES IN ATMOSPHEREA, OF THOSE DAYS. Maideashenea, Patishahaya, Ayathrema, Maidyarrah, Hamachapathmada, Yemehataman, Aunviti, Haptanaihaiti, Ustavaiti, Cpenta'Mainyus, Kshathra, Vahistoisa, Airyamaishya, Fshushamanthra, Hadhaokhta, Cpenta-armaiti, Zaothra and Barecma, Mithra, Kamaqactra, Havanana, Aarevahsha, Roethwiskare, Vohu-Kasha, Aiwyoonhana, Nairayo-canha, Asha-vahista, Haome, Lord of Haoma rites, Frava-daiti, Lord of Fravishes, Pailvish-hahin and Ustav, Beryejaga, Avathrema, Tistrya and Yima, Son of the Sun, the All Light. Of the second rank above these were: THE GODS OF THE UNITED HOSTS OF HEAVEN. [IN OTHER WORDS, THE UPPER HOUSE - ED] The Creator, Chief over all, Yima and Mithra, Amesha, Cpentas, Havanyi, Cavaghi and Vicya, Rapithurna. Fradotfshu and Zantuma, Fradatvira and Dagyevma, Aiwicruthrema-Aibigaza, Fradat-vicpanum-hujyaiti, Vishaptatha, Ish-Fravashi, Athwya and Kerecacpa, promoted by special decree. In addition to the above, the oagas (Gathas) of Zinebabait (afterward Lower India) the Zend, THE LORD GODS, that is, officers of kingdoms in heaven and ruler over nations on earth.",
+  "preamble": {
+    "en": "HEADS OF SPIRITUAL SOCIETIES IN ATMOSPHEREA, OF THOSE DAYS. Maideashenea, Patishahaya, Ayathrema, Maidyarrah, Hamachapathmada, Yemehataman, Aunviti, Haptanaihaiti, Ustavaiti, Cpenta'Mainyus, Kshathra, Vahistoisa, Airyamaishya, Fshushamanthra, Hadhaokhta, Cpenta-armaiti, Zaothra and Barecma, Mithra, Kamaqactra, Havanana, Aarevahsha, Roethwiskare, Vohu-Kasha, Aiwyoonhana, Nairayo-canha, Asha-vahista, Haome, Lord of Haoma rites, Frava-daiti, Lord of Fravishes, Pailvish-hahin and Ustav, Beryejaga, Avathrema, Tistrya and Yima, Son of the Sun, the All Light. Of the second rank above these were: THE GODS OF THE UNITED HOSTS OF HEAVEN. [IN OTHER WORDS, THE UPPER HOUSE - ED] The Creator, Chief over all, Yima and Mithra, Amesha, Cpentas, Havanyi, Cavaghi and Vicya, Rapithurna. Fradotfshu and Zantuma, Fradatvira and Dagyevma, Aiwicruthrema-Aibigaza, Fradat-vicpanum-hujyaiti, Vishaptatha, Ish-Fravashi, Athwya and Kerecacpa, promoted by special decree. In addition to the above, the oagas (Gathas) of Zinebabait (afterward Lower India) the Zend, THE LORD GODS, that is, officers of kingdoms in heaven and ruler over nations on earth.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.24.1",

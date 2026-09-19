@@ -3,7 +3,12 @@
   "book": "oahspe-intro",
   "chapter": 1,
   "title": "Oahspe — Chapter 1",
-  "preamble": "OAHSPE.",
+  "preamble": {
+    "en": "OAHSPE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "oahspe-intro.1.1",
@@ -21,7 +26,12 @@
         {
           "src": "/plates/edition1882/image002.jpg",
           "edition": "1882",
-          "caption": "Oahspe — Title Page"
+          "caption": {
+            "en": "Oahspe — Title Page",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

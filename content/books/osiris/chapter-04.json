@@ -3,7 +3,12 @@
   "book": "osiris",
   "chapter": 4,
   "title": "Book of Osiris, Son of Jehovih — Chapter 4",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "osiris.4.1",

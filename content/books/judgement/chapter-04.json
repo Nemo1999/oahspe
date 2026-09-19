@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 4,
   "title": "Book of Judgement — Chapter 4",
-  "preamble": "THE NUMBERS OF THE JUDGMENT, IN THE WORDS OF GOD.",
+  "preamble": {
+    "en": "THE NUMBERS OF THE JUDGMENT, IN THE WORDS OF GOD.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.4.1",

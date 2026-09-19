@@ -3,7 +3,12 @@
   "book": "divinity",
   "chapter": 13,
   "title": "Book of Divinity — Chapter 13",
-  "preamble": "JEHOVIH PREPARES A WAY FOR THE BIRTH OF ABRAM, PO, BRAHMA, AND EA-WAH-TAH.",
+  "preamble": {
+    "en": "JEHOVIH PREPARES A WAY FOR THE BIRTH OF ABRAM, PO, BRAHMA, AND EA-WAH-TAH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "divinity.13.1",

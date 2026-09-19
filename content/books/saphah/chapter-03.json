@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 3,
   "title": "Book of Saphah — Chapter 3",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.3.1",
@@ -118,7 +123,12 @@
         {
           "src": "/plates/edition1882/image187.jpg",
           "edition": "1882",
-          "caption": "Kii Tablet"
+          "caption": {
+            "en": "Kii Tablet",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

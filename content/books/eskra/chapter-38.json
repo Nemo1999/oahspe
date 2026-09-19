@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 38,
   "title": "God's Book of Eskra — Chapter 38",
-  "preamble": "AGAIN OF THE TRIUNES.",
+  "preamble": {
+    "en": "AGAIN OF THE TRIUNES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.38.1",

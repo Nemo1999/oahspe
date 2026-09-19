@@ -3,7 +3,12 @@
   "book": "gods-first",
   "chapter": 24,
   "title": "God's First Book — Chapter 24",
-  "preamble": "THE FIRST BIBLE OF GUATAMA (AMERICA), BEING OF EAWAHTAH, A MAN CHOSEN BY GOD FOR THE CHILDREN OF GUATAMA.",
+  "preamble": {
+    "en": "THE FIRST BIBLE OF GUATAMA (AMERICA), BEING OF EAWAHTAH, A MAN CHOSEN BY GOD FOR THE CHILDREN OF GUATAMA.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-first.24.1",

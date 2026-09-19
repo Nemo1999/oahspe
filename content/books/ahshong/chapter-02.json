@@ -3,7 +3,12 @@
   "book": "ahshong",
   "chapter": 2,
   "title": "Book of Ah'shong, Son of Jehovih — Chapter 2",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "ahshong.2.1",
@@ -85,7 +90,12 @@
         {
           "src": "/plates/edition1882/image018.jpg",
           "edition": "1882",
-          "caption": "Ethereans Visiting Earth"
+          "caption": {
+            "en": "Ethereans Visiting Earth",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

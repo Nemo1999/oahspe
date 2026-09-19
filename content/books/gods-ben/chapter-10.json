@@ -3,7 +3,12 @@
   "book": "gods-ben",
   "chapter": 10,
   "title": "God's Book of Ben — Chapter 10",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-ben.10.1",
@@ -228,132 +233,262 @@
         {
           "src": "/plates/edition1882/image076.jpg",
           "edition": "1882",
-          "caption": "Cyclic Coil"
+          "caption": {
+            "en": "Cyclic Coil",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image078.jpg",
           "edition": "1882",
-          "caption": "Etherea Space"
+          "caption": {
+            "en": "Etherea Space",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image080.jpg",
           "edition": "1882",
-          "caption": "Earth Atmosphere"
+          "caption": {
+            "en": "Earth Atmosphere",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image082.jpg",
           "edition": "1882",
-          "caption": "Serpent Planets"
+          "caption": {
+            "en": "Serpent Planets",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image084.jpg",
           "edition": "1882",
-          "caption": "Dissection of Serpent"
+          "caption": {
+            "en": "Dissection of Serpent",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image086.jpg",
           "edition": "1882",
-          "caption": "Towsang"
+          "caption": {
+            "en": "Towsang",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image088.gif",
           "edition": "1882",
-          "caption": "Deviation of Serpent"
+          "caption": {
+            "en": "Deviation of Serpent",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image090.jpg",
           "edition": "1882",
-          "caption": "Serpent's Orbit"
+          "caption": {
+            "en": "Serpent's Orbit",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image092.jpg",
           "edition": "1882",
-          "caption": "Anoad"
+          "caption": {
+            "en": "Anoad",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image094.jpg",
           "edition": "1882",
-          "caption": "Prophetic Numbers"
+          "caption": {
+            "en": "Prophetic Numbers",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image096.jpg",
           "edition": "1882",
-          "caption": "Shamael"
+          "caption": {
+            "en": "Shamael",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image098.jpg",
           "edition": "1882",
-          "caption": "Earth in Semu"
+          "caption": {
+            "en": "Earth in Semu",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image100.jpg",
           "edition": "1882",
-          "caption": "Jiay"
+          "caption": {
+            "en": "Jiay",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image102.jpg",
           "edition": "1882",
-          "caption": "Aji"
+          "caption": {
+            "en": "Aji",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image104.jpg",
           "edition": "1882",
-          "caption": "Hyarti Nebula"
+          "caption": {
+            "en": "Hyarti Nebula",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image106.jpg",
           "edition": "1882",
-          "caption": "Jiniquin Swamp"
+          "caption": {
+            "en": "Jiniquin Swamp",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image108.gif",
           "edition": "1882",
-          "caption": "Primary Vortex"
+          "caption": {
+            "en": "Primary Vortex",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image110.jpg",
           "edition": "1882",
-          "caption": "Secondary Vortex"
+          "caption": {
+            "en": "Secondary Vortex",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image112.jpg",
           "edition": "1882",
-          "caption": "Third Age of Vortex"
+          "caption": {
+            "en": "Third Age of Vortex",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image114.jpg",
           "edition": "1882",
-          "caption": "Fourth Age of Vortex"
+          "caption": {
+            "en": "Fourth Age of Vortex",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image116.jpg",
           "edition": "1882",
-          "caption": "Organic Wark"
+          "caption": {
+            "en": "Organic Wark",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image118.jpg",
           "edition": "1882",
-          "caption": "Shattered Wark"
+          "caption": {
+            "en": "Shattered Wark",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image120.jpg",
           "edition": "1882",
-          "caption": "Photosphere"
+          "caption": {
+            "en": "Photosphere",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image122.jpg",
           "edition": "1882",
-          "caption": "Earth and Atmosphere"
+          "caption": {
+            "en": "Earth and Atmosphere",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image124.jpg",
           "edition": "1882",
-          "caption": "Snowflakes"
+          "caption": {
+            "en": "Snowflakes",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image126.jpg",
           "edition": "1882",
-          "caption": "Sun and Earth"
+          "caption": {
+            "en": "Sun and Earth",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

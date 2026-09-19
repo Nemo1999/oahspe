@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 5,
   "title": "Book of Saphah — Chapter 5",
-  "preamble": "OR, DIVAN SEAL. [Begin at 1, right, and read downward; then at 2, etc.--Ed.]",
+  "preamble": {
+    "en": "OR, DIVAN SEAL. [Begin at 1, right, and read downward; then at 2, etc.--Ed.]",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.5.1",
@@ -19,17 +24,32 @@
         {
           "src": "/plates/edition1882/image189.jpg",
           "edition": "1882",
-          "caption": "Tablet Zerl"
+          "caption": {
+            "en": "Tablet Zerl",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image191.jpg",
           "edition": "1882",
-          "caption": "Tablet Zerl"
+          "caption": {
+            "en": "Tablet Zerl",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image192.jpg",
           "edition": "1882",
-          "caption": "Divine Seal"
+          "caption": {
+            "en": "Divine Seal",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

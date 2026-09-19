@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 31,
   "title": "God's Book of Eskra — Chapter 31",
-  "preamble": "BIRTH OF KA’YU, OTHERWISE CONFUCIUS.",
+  "preamble": {
+    "en": "BIRTH OF KA’YU, OTHERWISE CONFUCIUS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.31.1",

@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 31,
   "title": "Book of Judgement — Chapter 31",
-  "preamble": "GOD JUDGETH THE MAN OF PROMISE.",
+  "preamble": {
+    "en": "GOD JUDGETH THE MAN OF PROMISE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.31.1",

@@ -3,7 +3,12 @@
   "book": "ahshong",
   "chapter": 1,
   "title": "Book of Ah'shong, Son of Jehovih — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "ahshong.1.1",

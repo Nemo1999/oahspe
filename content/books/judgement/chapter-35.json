@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 35,
   "title": "Book of Judgement — Chapter 35",
-  "preamble": "GOD DECLARETH AGAINST THE GOVERNMENTS OF MAN.",
+  "preamble": {
+    "en": "GOD DECLARETH AGAINST THE GOVERNMENTS OF MAN.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.35.1",

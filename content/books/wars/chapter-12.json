@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 12,
   "title": "Book of Wars Against Jehovih — Chapter 12",
-  "preamble": "ANUHASAJ, THE FALSE GOD, DECLARETH HIMSELF AGAINST JEHOVIH.",
+  "preamble": {
+    "en": "ANUHASAJ, THE FALSE GOD, DECLARETH HIMSELF AGAINST JEHOVIH.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.12.1",

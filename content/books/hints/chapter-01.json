@@ -3,7 +3,12 @@
   "book": "hints",
   "chapter": 1,
   "title": "Hints to the Reader — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "hints.1.1",

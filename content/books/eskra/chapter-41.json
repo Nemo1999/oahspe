@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 41,
   "title": "God's Book of Eskra — Chapter 41",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.41.1",
@@ -371,7 +376,12 @@
         {
           "src": "/plates/edition1882/image224.jpg",
           "edition": "1882",
-          "caption": "Loiask"
+          "caption": {
+            "en": "Loiask",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

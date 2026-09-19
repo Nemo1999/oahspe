@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 1,
   "title": "Book of Saphah — Chapter 1",
-  "preamble": "INTERPRETATION.",
+  "preamble": {
+    "en": "INTERPRETATION.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.1.1",
@@ -19,27 +24,52 @@
         {
           "src": "/plates/edition1882/image162.jpg",
           "edition": "1882",
-          "caption": "Pan Map"
+          "caption": {
+            "en": "Pan Map",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image164.jpg",
           "edition": "1882",
-          "caption": "Earth Division Map"
+          "caption": {
+            "en": "Earth Division Map",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image166.jpg",
           "edition": "1882",
-          "caption": "Tree"
+          "caption": {
+            "en": "Tree",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image168.jpg",
           "edition": "1882",
-          "caption": "Tree"
+          "caption": {
+            "en": "Tree",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         },
         {
           "src": "/plates/edition1882/image170.jpg",
           "edition": "1882",
-          "caption": "Tree"
+          "caption": {
+            "en": "Tree",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -574,7 +604,12 @@
         {
           "src": "/plates/edition1882/image172.jpg",
           "edition": "1882",
-          "caption": "Onk"
+          "caption": {
+            "en": "Onk",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -603,7 +638,12 @@
         {
           "src": "/plates/edition1882/image174.jpg",
           "edition": "1882",
-          "caption": "Aries"
+          "caption": {
+            "en": "Aries",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -654,7 +694,12 @@
         {
           "src": "/plates/edition1882/image176.jpg",
           "edition": "1882",
-          "caption": "Tau"
+          "caption": {
+            "en": "Tau",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -705,7 +750,12 @@
         {
           "src": "/plates/edition1882/image178.jpg",
           "edition": "1882",
-          "caption": "Views of Etherean Worlds"
+          "caption": {
+            "en": "Views of Etherean Worlds",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -1262,7 +1312,12 @@
         {
           "src": "/plates/edition1882/image180.jpg",
           "edition": "1882",
-          "caption": "Starworshippers"
+          "caption": {
+            "en": "Starworshippers",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },
@@ -1401,7 +1456,12 @@
         {
           "src": "/plates/edition1882/image181.jpg",
           "edition": "1882",
-          "caption": "Bridge of Chinvat"
+          "caption": {
+            "en": "Bridge of Chinvat",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     }

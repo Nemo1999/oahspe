@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 22,
   "title": "Book of Saphah — Chapter 22",
-  "preamble": "CREATOR.",
+  "preamble": {
+    "en": "CREATOR.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.22.1",

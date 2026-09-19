@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 18,
   "title": "Book of Judgement — Chapter 18",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.18.1",

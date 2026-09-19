@@ -3,7 +3,12 @@
   "book": "fragapatti",
   "chapter": 24,
   "title": "Book of Fragapatti, Son of Jehovih — Chapter 24",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "fragapatti.24.1",

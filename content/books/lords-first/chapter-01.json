@@ -3,7 +3,12 @@
   "book": "lords-first",
   "chapter": 1,
   "title": "The Lord's First Book — Chapter 1",
-  "preamble": "THE HISTORY OF THE FLOOD.",
+  "preamble": {
+    "en": "THE HISTORY OF THE FLOOD.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "lords-first.1.1",

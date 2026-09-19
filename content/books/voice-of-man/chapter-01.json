@@ -3,7 +3,12 @@
   "book": "voice-of-man",
   "chapter": 1,
   "title": "The Voice of Man — Chapter 1",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "voice-of-man.1.1",

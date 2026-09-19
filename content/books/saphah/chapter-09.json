@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 9,
   "title": "Book of Saphah — Chapter 9",
-  "preamble": "TABLET OF HY’YI. These Tablets were engraved on inlaid tables, called family altars, around which the family sat for spirit communion and prayer. The father led in repeating the invocation, and the wife and children spoke in concert. After the Israelites left Egypt, the graven tablets were abolished, but invocation at the family table was continued, and is even to this day amongst some of the Jews (so-called).--[Ed. Mithra the first was about 4,000 years before kosmon. Mithra the second was about 2,000 years before Kosmon. Invocation readeth:",
+  "preamble": {
+    "en": "TABLET OF HY’YI. These Tablets were engraved on inlaid tables, called family altars, around which the family sat for spirit communion and prayer. The father led in repeating the invocation, and the wife and children spoke in concert. After the Israelites left Egypt, the graven tablets were abolished, but invocation at the family table was continued, and is even to this day amongst some of the Jews (so-called).--[Ed. Mithra the first was about 4,000 years before kosmon. Mithra the second was about 2,000 years before Kosmon. Invocation readeth:",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.9.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image202.jpg",
           "edition": "1882",
-          "caption": "Tablet of Hyyi"
+          "caption": {
+            "en": "Tablet of Hyyi",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

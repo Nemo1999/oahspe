@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 26,
   "title": "God's Book of Eskra — Chapter 26",
-  "preamble": "SAKAYA’S DOCTRINES.",
+  "preamble": {
+    "en": "SAKAYA’S DOCTRINES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.26.1",

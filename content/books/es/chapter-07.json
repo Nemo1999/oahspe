@@ -3,7 +3,12 @@
   "book": "es",
   "chapter": 7,
   "title": "Book of Es, Daughter of Jehova — Chapter 7",
-  "preamble": "THE ALARM IN HAPSENDI, HEAVENLY KINGDOM OF LOOEAMONG, THE FALSE KRISTE.",
+  "preamble": {
+    "en": "THE ALARM IN HAPSENDI, HEAVENLY KINGDOM OF LOOEAMONG, THE FALSE KRISTE.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "es.7.1",

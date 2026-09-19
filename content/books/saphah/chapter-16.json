@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 16,
   "title": "Book of Saphah — Chapter 16",
-  "preamble": "BROTHERHOOD OF FAITHISTS. WITH MODERN GODS SUBSTITUTED IN PLACE OF THE ANCIENTS. As the student will perceive, the Tablet contains three degrees. The headings only could be given in the plates, being too complicated for hieroglyphic characters in such small space. For the outer rim, begin at the bottom and read alternately either side, till arriving at the top, where will be found the Symbol of Corpor and the great serpent (solar phalanx), and wark. The small stars in the inner circle represent the positions of mortals within the chamber during the ceremonies. The three degrees are called: First, M'git'ow (dawn); second, Hi'dang (high noon); third, M-hak (golden chamber), which are given in darkness. In English they are called, Dawn, Noon and Evening. They were about the time of Zarathustra (Zoroaster), or, say, 8,000 or 9,000 B.K.",
+  "preamble": {
+    "en": "BROTHERHOOD OF FAITHISTS. WITH MODERN GODS SUBSTITUTED IN PLACE OF THE ANCIENTS. As the student will perceive, the Tablet contains three degrees. The headings only could be given in the plates, being too complicated for hieroglyphic characters in such small space. For the outer rim, begin at the bottom and read alternately either side, till arriving at the top, where will be found the Symbol of Corpor and the great serpent (solar phalanx), and wark. The small stars in the inner circle represent the positions of mortals within the chamber during the ceremonies. The three degrees are called: First, M'git'ow (dawn); second, Hi'dang (high noon); third, M-hak (golden chamber), which are given in darkness. In English they are called, Dawn, Noon and Evening. They were about the time of Zarathustra (Zoroaster), or, say, 8,000 or 9,000 B.K.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.16.1",
@@ -19,7 +24,12 @@
         {
           "src": "/plates/edition1882/image220.jpg",
           "edition": "1882",
-          "caption": "Emethachava"
+          "caption": {
+            "en": "Emethachava",
+            "zh_hant": null,
+            "zh_hans": null,
+            "ja": null
+          }
         }
       ]
     },

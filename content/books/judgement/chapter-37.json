@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 37,
   "title": "Book of Judgement — Chapter 37",
-  "preamble": "GOD REVEALETH HIS METHOD OF WORK.",
+  "preamble": {
+    "en": "GOD REVEALETH HIS METHOD OF WORK.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.37.1",

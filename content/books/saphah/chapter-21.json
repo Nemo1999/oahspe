@@ -3,7 +3,12 @@
   "book": "saphah",
   "chapter": 21,
   "title": "Book of Saphah — Chapter 21",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "saphah.21.1",

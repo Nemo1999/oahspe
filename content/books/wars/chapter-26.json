@@ -3,7 +3,12 @@
   "book": "wars",
   "chapter": 26,
   "title": "Book of Wars Against Jehovih — Chapter 26",
-  "preamble": "",
+  "preamble": {
+    "en": "",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "wars.26.1",

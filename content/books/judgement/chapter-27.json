@@ -3,7 +3,12 @@
   "book": "judgement",
   "chapter": 27,
   "title": "Book of Judgement — Chapter 27",
-  "preamble": "GOD JUDGETH CHARITIES.",
+  "preamble": {
+    "en": "GOD JUDGETH CHARITIES.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "judgement.27.1",

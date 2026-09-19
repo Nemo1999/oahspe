@@ -3,7 +3,12 @@
   "book": "gods-ben",
   "chapter": 8,
   "title": "God's Book of Ben — Chapter 8",
-  "preamble": "THE BATTLE WITH THE BEAST OF THE ARC OF BON.",
+  "preamble": {
+    "en": "THE BATTLE WITH THE BEAST OF THE ARC OF BON.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "gods-ben.8.1",

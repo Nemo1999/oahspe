@@ -3,7 +3,12 @@
   "book": "eskra",
   "chapter": 58,
   "title": "God's Book of Eskra — Chapter 58",
-  "preamble": "GOD PLEADETH WITH THE FOUR FALSE GODS.",
+  "preamble": {
+    "en": "GOD PLEADETH WITH THE FOUR FALSE GODS.",
+    "zh_hant": null,
+    "zh_hans": null,
+    "ja": null
+  },
   "verses": [
     {
       "id": "eskra.58.1",
