@@ -58,7 +58,14 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image212.jpg",
+          "edition": "1882",
+          "caption": "Mound Builders"
+        }
+      ]
     },
     {
       "id": "saphah.14.6",

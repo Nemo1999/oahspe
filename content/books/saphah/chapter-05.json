@@ -14,7 +14,24 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image189.jpg",
+          "edition": "1882",
+          "caption": "Tablet Zerl"
+        },
+        {
+          "src": "/plates/edition1882/image191.jpg",
+          "edition": "1882",
+          "caption": "Tablet Zerl"
+        },
+        {
+          "src": "/plates/edition1882/image192.jpg",
+          "edition": "1882",
+          "caption": "Divine Seal"
+        }
+      ]
     },
     {
       "id": "saphah.5.2",

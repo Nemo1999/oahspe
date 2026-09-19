@@ -14,7 +14,54 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image060.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image062.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image063.gif",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image065.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image066.gif",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image068.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image070.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image072.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        },
+        {
+          "src": "/plates/edition1882/image074.jpg",
+          "edition": "1882",
+          "caption": "Nine Entities"
+        }
+      ]
     },
     {
       "id": "gods-ben.1.2",

@@ -223,13 +223,7 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": [],
-      "images": [
-        {
-          "src": "/plates/edition1882/image040.jpg",
-          "edition": "1882"
-        }
-      ]
+      "notes": []
     },
     {
       "id": "fragapatti.43.21",
@@ -295,13 +289,7 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": [],
-      "images": [
-        {
-          "src": "/plates/edition1882/image042.jpg",
-          "edition": "1882"
-        }
-      ]
+      "notes": []
     },
     {
       "id": "fragapatti.43.27",
@@ -360,7 +348,8 @@
       "images": [
         {
           "src": "/plates/edition1882/image038.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Signature"
         }
       ]
     }

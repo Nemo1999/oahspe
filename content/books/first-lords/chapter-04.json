@@ -216,11 +216,13 @@
       "images": [
         {
           "src": "/plates/edition1882/image014.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Races"
         },
         {
           "src": "/plates/edition1882/image016.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Races"
         }
       ]
     }

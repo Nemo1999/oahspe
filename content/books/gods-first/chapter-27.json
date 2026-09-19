@@ -546,7 +546,8 @@
       "images": [
         {
           "src": "/plates/edition1882/image046.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Flatheads"
         }
       ]
     }

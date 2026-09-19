@@ -14,7 +14,14 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image183.jpg",
+          "edition": "1882",
+          "caption": "Bridge of Chinvat"
+        }
+      ]
     },
     {
       "id": "saphah.2.2",
@@ -333,7 +340,14 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image185.jpg",
+          "edition": "1882",
+          "caption": "Kii Tablet"
+        }
+      ]
     }
   ]
 }

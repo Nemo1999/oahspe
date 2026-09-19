@@ -106,11 +106,13 @@
       "images": [
         {
           "src": "/plates/edition1882/image050.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Osiris"
         },
         {
           "src": "/plates/edition1882/image052.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Isis"
         }
       ]
     },
@@ -292,7 +294,8 @@
       "images": [
         {
           "src": "/plates/edition1882/image054.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Tablet of Osiris"
         }
       ]
     }

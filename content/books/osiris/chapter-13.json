@@ -14,13 +14,7 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": [],
-      "images": [
-        {
-          "src": "/plates/edition1882/image032.jpg",
-          "edition": "1882"
-        }
-      ]
+      "notes": []
     },
     {
       "id": "osiris.13.2",
@@ -46,7 +40,8 @@
       "images": [
         {
           "src": "/plates/edition1882/image030.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Aries"
         }
       ]
     },

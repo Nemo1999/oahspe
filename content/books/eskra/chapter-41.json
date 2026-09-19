@@ -370,7 +370,8 @@
       "images": [
         {
           "src": "/plates/edition1882/image224.jpg",
-          "edition": "1882"
+          "edition": "1882",
+          "caption": "Loiask"
         }
       ]
     }

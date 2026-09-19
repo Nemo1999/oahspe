@@ -113,7 +113,14 @@
       "ja": null,
       "glossary_terms": [],
       "plate_ref": null,
-      "notes": []
+      "notes": [],
+      "images": [
+        {
+          "src": "/plates/edition1882/image187.jpg",
+          "edition": "1882",
+          "caption": "Kii Tablet"
+        }
+      ]
     }
   ]
 }
