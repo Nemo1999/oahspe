@@ -91,26 +91,41 @@ function saveBookmarks(bm: Set<string>): void {
   }
 }
 
+/** True if `term` (or its 4+ char alpha stem) appears as a word in the English source —
+ *  a bilingual cross-check so a translit is only annotated when its English headword is
+ *  really present in the same unit (skips 本 in 本聖經 where no "Ben" exists; keeps
+ *  柯珀 where "CORPER"/"corporeal" appears). */
+function enPresent(term: string, enSource: string): boolean {
+  if (!enSource) return true; // no English to check against → don't suppress
+  const esc = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  if (new RegExp(`(?<![A-Za-z])${esc}(?![A-Za-z])`, 'i').test(enSource)) return true;
+  const stem = term.replace(/[^A-Za-z]/g, '').slice(0, 4);
+  if (stem.length >= 4 && new RegExp(`(?<![A-Za-z])${stem}[A-Za-z]*`, 'i').test(enSource)) return true;
+  return false;
+}
+
 /**
  * Render a CJK verse string, injecting `譯名（English）` on EVERY occurrence of each
- * glossary term's transliteration in the text. English is never annotated (the
- * source already shows the term).
+ * glossary term's transliteration — but only for terms whose English headword is present
+ * in `enSource` (bilingual cross-check). English text is never annotated.
  */
 function renderWithParenthetical(
   text: string,
   lang: Lang,
   terms: string[] | undefined,
   glossary: GlossaryMap,
+  enSource: string,
+  glossaryBase: string,
 ): React.ReactNode {
   if (lang === 'en' || !terms || terms.length === 0) return text;
 
   // Build [translit, english, slug] triples present in this verse, longest translit first
-  // so overlapping substrings match the most specific term.
+  // so overlapping substrings match the most specific term. Gate on bilingual cross-check.
   const pairs: Array<[string, string, string]> = [];
   for (const en of terms) {
     const entry = glossary[en];
     const tl = entry?.translit?.[lang as 'zh_hant' | 'zh_hans' | 'ja'];
-    if (tl) pairs.push([tl, en, entry?.slug ?? '']);
+    if (tl && enPresent(en, enSource)) pairs.push([tl, en, entry?.slug ?? '']);
   }
   if (pairs.length === 0) return text;
   pairs.sort((a, b) => b[0].length - a[0].length);
@@ -125,8 +140,7 @@ function renderWithParenthetical(
         nodes.push(
           <a
             key={key++}
-            className="verse-term"
-            href={slug ? `/oahspe/glossary#${slug}` : '/oahspe/glossary'}
+            href={slug ? `${glossaryBase}#${slug}` : glossaryBase}
             title={`Glossary: ${en}`}
           >
             {tl}
@@ -163,10 +177,11 @@ interface VerseRowProps {
   onBookmarkToggle: (id: string) => void;
   chapterPath: string;
   glossary: GlossaryMap;
+  glossaryBase: string;
 }
 
 const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
-  const { verse, lang, displayMode, bookmarks, onBookmarkToggle, chapterPath, glossary } = props;
+  const { verse, lang, displayMode, bookmarks, onBookmarkToggle, chapterPath, glossary, glossaryBase } = props;
   const anchorId = verse.id;
   const isBookmarked = bookmarks.has(anchorId);
 
@@ -189,12 +204,12 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
   const enText = verse.en;
   const showParallel = displayMode === 'parallel' && lang !== 'en';
   const cjkNode = showParallel
-    ? renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary)
+    ? renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary, verse.en, glossaryBase)
     : null;
   const singleNode =
     lang === 'en'
       ? enText
-      : renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary);
+      : renderWithParenthetical(getVerseText(verse, lang), lang, verse.glossary_terms, glossary, verse.en, glossaryBase);
 
   return (
     <div id={anchorId} className="verse-row">
@@ -223,9 +238,10 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
           <div className="verse-images">
             {verse.images.map((img) => {
               const capText = getI18n(img.caption, lang);
+              const capEn = getI18n(img.caption, 'en');
               const capNode = lang === 'en'
                 ? capText
-                : renderWithParenthetical(capText, lang, verse.glossary_terms, glossary);
+                : renderWithParenthetical(capText, lang, verse.glossary_terms, glossary, capEn, glossaryBase);
               return (
                 <figure key={img.src} className="verse-image">
                   <img src={`/oahspe${img.src}`} alt={capText || `Oahspe ${img.edition ?? ''} illustration`} loading="lazy" />
@@ -264,9 +280,10 @@ const VerseRow = function VerseRow(props: VerseRowProps): React.ReactElement {
 interface VerseReaderProps {
   chapter: ChapterData;
   glossary?: GlossaryMap;
+  hidePreamble?: boolean;   // preamble shown on the book-index page instead (e.g. chapter 1)
 }
 
-export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps): React.ReactElement {
+export default function VerseReader({ chapter, glossary = {}, hidePreamble = false }: VerseReaderProps): React.ReactElement {
   const location = useLocation();
   const { i18n } = useDocusaurusContext();
   // Docusaurus locale (en|zh-hant|zh-hans|ja) → our Lang key.
@@ -274,6 +291,11 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
     en: 'en', 'zh-hant': 'zh_hant', 'zh-hans': 'zh_hans', ja: 'ja',
   };
   const localeLang: Lang = localeToLang[i18n.currentLocale] ?? 'en';
+  // Locale-aware glossary base so clicking a term keeps the reader's language
+  // (default locale served at /oahspe/, others under /oahspe/<locale>/).
+  const glossaryBase = i18n.currentLocale === i18n.defaultLocale
+    ? '/oahspe/glossary'
+    : `/oahspe/${i18n.currentLocale}/glossary`;
 
   const [lang, setLang] = useState<Lang>(localeLang);
   const [displayMode, setDisplayMode] = useState<DisplayMode>('single');
@@ -346,11 +368,11 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
         </div>
       )}
 
-      {getI18n(chapter.preamble, lang) && (
+      {!hidePreamble && getI18n(chapter.preamble, lang) && (
         <div className="chapter-preamble">
           {lang === 'en'
             ? getI18n(chapter.preamble, lang)
-            : renderWithParenthetical(getI18n(chapter.preamble, lang), lang, Object.keys(glossary), glossary)}
+            : renderWithParenthetical(getI18n(chapter.preamble, lang), lang, Object.keys(glossary), glossary, getI18n(chapter.preamble, 'en'), glossaryBase)}
         </div>
       )}
 
@@ -365,6 +387,7 @@ export default function VerseReader({ chapter, glossary = {} }: VerseReaderProps
             onBookmarkToggle={handleBookmarkToggle}
             chapterPath={location.pathname}
             glossary={glossary}
+            glossaryBase={glossaryBase}
           />
         ))}
       </div>

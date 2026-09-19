@@ -79,7 +79,7 @@ custom_edit_url: null
 
 import VerseReader from '@site/src/components/VerseReader';
 
-<VerseReader chapter={{{JS_PROP(chapter)}}} glossary={{{JS_PROP(chapter_gloss)}}} />
+<VerseReader chapter={{{JS_PROP(chapter)}}} glossary={{{JS_PROP(chapter_gloss)}}}{" hidePreamble" if chapter['chapter'] == 1 else ""} />
 """
 
 def single_page_mdx(slug: str, book_title: str, chapter: dict, glossary: dict, position: int) -> str:
@@ -114,6 +114,14 @@ def book_index_mdx(book_slug: str, book_title: str, chapter_files: list[Path], p
     chapter_links = "\n".join(
         f"- [Chapter {c['chapter']}](/{book_slug}/{c['id']})" for c in chapters
     )
+    # Show chapter 1's epigraph (preamble) as the book intro, if present.
+    intro = ""
+    if chapters:
+        pre = chapters[0].get("preamble")
+        pre_en = pre.get("en") if isinstance(pre, dict) else pre
+        if pre_en and pre_en.strip():
+            quoted = "\n".join(f"> {line}" for line in pre_en.strip().split("\n"))
+            intro = f"\n{quoted}\n"
     return f"""---
 id: {book_slug}
 title: "{book_title}"
@@ -123,7 +131,7 @@ custom_edit_url: null
 ---
 
 # {book_title}
-
+{intro}
 {chapter_links}
 """
 
