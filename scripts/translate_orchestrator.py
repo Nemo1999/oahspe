@@ -90,6 +90,21 @@ def build_prompt(book: str, chapter: int, vmin: int | None = None, vmax: int | N
         )
     locked_block = "\n".join(locked_rows) if locked_rows else "  (none yet — this is the first chapter)"
 
+    # Compact digest instead of dumping all of terms.json (which grows to >100KB and
+    # stalls the agent stream). The agent needs only: which slugs exist (FILL vs COIN)
+    # and which fill-fields remain null. Locked translits already ship in locked_block.
+    digest_rows = []
+    for t in terms:
+        tl = t.get("translit") or {}
+        sdl = t.get("source_def_literal") or {}
+        note = t.get("editor_note") or {}
+        nulls = []
+        if not all(tl.get(l) for l in LANG_KEYS): nulls.append("translit")
+        if (t.get("source_def") or "").strip() and not all(sdl.get(l) for l in LANG_KEYS): nulls.append("def")
+        if not all(note.get(l) for l in LANG_KEYS): nulls.append("note")
+        digest_rows.append(f"  {t['slug']} | {t['term']} | {t.get('category','')} | null: {','.join(nulls) or 'none'}")
+    glossary_digest = "\n".join(digest_rows) if digest_rows else "  (none yet)"
+
     return f"""You are translating one chapter of the Oahspe Bible. Follow the guideline EXACTLY.
 
 === TRANSLATION GUIDELINE (authoritative) ===
@@ -101,8 +116,10 @@ wherever they occur. Do NOT re-coin, paraphrase, or pick different characters. D
 them in fill_glossary/new_glossary again (they are already complete).
 {locked_block}
 
-=== CURRENT GLOSSARY (terms.json) — reader-facing; fill only NULL fields ===
-{json.dumps(terms, ensure_ascii=False, indent=1)}
+=== CURRENT GLOSSARY DIGEST — existing slugs (FILL these by slug; do NOT re-COIN) ===
+Each row: slug | term | category | still-null fields you may FILL (translit/def/note).
+If a term you meet is NOT listed here, COIN it in new_glossary. If it IS listed, FILL it.
+{glossary_digest}
 
 === CURRENT STYLE-LEXICON (style-lexicon.json) — internal, LOCKED where present ===
 {json.dumps(lexicon, ensure_ascii=False, indent=1)}
