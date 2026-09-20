@@ -58,6 +58,7 @@ export default function SearchBar(): React.ReactElement {
   const { currentLocale, defaultLocale } = i18n;
   const siteBaseUrl = siteConfig.baseUrl.endsWith(`/${currentLocale}/`) ? siteConfig.baseUrl.slice(0, -currentLocale.length - 1) : siteConfig.baseUrl;
   const pagefindPath = `${siteBaseUrl}${currentLocale === defaultLocale ? '' : `${currentLocale}/`}pagefind/pagefind.js`;
+  const searchPath = `${siteBaseUrl}${currentLocale === defaultLocale ? '' : `${currentLocale}/`}search`;
 
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -147,6 +148,7 @@ export default function SearchBar(): React.ReactElement {
     url.searchParams.set('pagefind-highlight', query.trim());
     return url.href;
   };
+  const allResultsUrl = `${searchPath}?q=${encodeURIComponent(query.trim())}`;
 
   return (
     <div ref={containerRef} className="pagefind-searchbar" role="search">
@@ -166,13 +168,13 @@ export default function SearchBar(): React.ReactElement {
           onFocus={() => { if (results.length > 0) setOpen(true); }}
           onKeyDown={(event) => {
             if (event.key === 'Escape') { setOpen(false); return; }
-            if (!results.length) return;
-            if (event.key === 'ArrowDown' || (event.ctrlKey && event.key === 'n')) {
+            if (event.key === 'Enter' && query.trim()) {
+              event.preventDefault(); window.location.assign(allResultsUrl);
+            } else if (!results.length) return;
+            else if (event.key === 'ArrowDown' || (event.ctrlKey && event.key === 'n')) {
               event.preventDefault(); setOpen(true); setActiveIndex((index) => (index + 1) % results.length);
             } else if (event.key === 'ArrowUp' || (event.ctrlKey && event.key === 'p')) {
               event.preventDefault(); setOpen(true); setActiveIndex((index) => (index - 1 + results.length) % results.length);
-            } else if (event.key === 'Enter' && activeResult) {
-              event.preventDefault(); window.location.assign(resultUrl(activeResult));
             }
           }}
         />
@@ -192,6 +194,7 @@ export default function SearchBar(): React.ReactElement {
               </a>)}
             </div>
             {activeResult && <aside className="pagefind-result-preview" aria-live="polite"><div className="pagefind-result-title">{activeResult.title}</div><div className="pagefind-result-excerpt" dangerouslySetInnerHTML={{ __html: activeResult.excerpt }} /></aside>}
+            <a className="pagefind-see-all" href={allResultsUrl}>See all results</a>
           </>}
         </div>
       )}

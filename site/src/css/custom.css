@@ -282,4 +282,12 @@ a.verse-term:hover, a.verse-term:focus { text-decoration: underline; text-underl
 .pagefind-result-preview { overflow-y: auto; padding: 1rem; background: var(--ifm-background-color); }
 .pagefind-results-notice { grid-column: 1 / -1; padding: 0.9rem 1rem; color: var(--ifm-color-emphasis-700); }
 .pagefind-results-notice--error { color: var(--ifm-color-danger); }
+.pagefind-see-all { grid-column: 1 / -1; padding: 0.65rem 0.75rem; border-top: 1px solid var(--ifm-color-emphasis-200); text-align: center; font-weight: 700; }
+.glossary-search-occurrences { display: inline-block; margin-bottom: 0.25rem; font-size: 0.85rem; }
+.search-page-results { display: grid; gap: 1rem; }
+.search-page-result { padding: 1rem; border: 1px solid var(--ifm-color-emphasis-200); border-radius: 0.5rem; }
+.search-page-result-meta { font-weight: 700; }
+.search-page-verse { margin: 0.6rem 0; }
+.search-page-neighbor { margin: 0.35rem 0; color: var(--ifm-color-emphasis-700); font-size: 0.9rem; }
+.search-page-pagination { display: flex; gap: 1rem; align-items: center; justify-content: center; margin-top: 1.5rem; }
 @media (max-width: 640px) { .pagefind-searchbar { min-width: min(18rem, 68vw); } .pagefind-results-dropdown { grid-template-columns: 1fr; max-height: 65vh; } .pagefind-result-preview { display: none; } .pagefind-results-list { border-inline-end: 0; } }

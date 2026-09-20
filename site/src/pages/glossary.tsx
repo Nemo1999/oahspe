@@ -31,12 +31,12 @@ const LOCALE_TO_KEY: Record<string, LangKey | null> = {
 
 const LABELS: Record<string, {
   translit: string; sourceHdr: string; sourceSub: string; editorHdr: string; editorSub: string;
-  literal: string; more: string; less: string; appears: string;
+  literal: string; more: string; less: string; appears: string; search: string;
 }> = {
-  en:        { translit: 'Transliteration', sourceHdr: '📖 From the original text',  sourceSub: "Oahspe's own glossary (1882) — verbatim", editorHdr: '✎ Editor’s note',   editorSub: 'Added interpretation — not part of the original', literal: 'Literal translation', more: 'Show more', less: 'Show less', appears: 'Appears in' },
-  'zh-hant': { translit: '譯名',            sourceHdr: '📖 原書內容',                sourceSub: '奧阿斯佩原書詞彙表（1882）——原文照錄',   editorHdr: '✎ 編者註',        editorSub: '編者補充的詮釋——非原書內容',            literal: '直譯',              more: '展開',      less: '收合',      appears: '出現於' },
-  'zh-hans': { translit: '译名',            sourceHdr: '📖 原书内容',                sourceSub: '奥阿斯佩原书词汇表（1882）——原文照录',   editorHdr: '✎ 编者注',        editorSub: '编者补充的诠释——非原书内容',            literal: '直译',              more: '展开',      less: '收合',      appears: '出现于' },
-  ja:        { translit: '訳名',            sourceHdr: '📖 原典より',                sourceSub: 'オアスペ原典の用語集（1882）——原文のまま', editorHdr: '✎ 訳者註',        editorSub: '編者による解釈——原典にはない補足',       literal: '逐語訳',            more: 'もっと見る', less: '閉じる',    appears: '出典' },
+  en:        { translit: 'Transliteration', sourceHdr: '📖 From the original text',  sourceSub: "Oahspe's own glossary (1882) — verbatim", editorHdr: '✎ Editor’s note',   editorSub: 'Added interpretation — not part of the original', literal: 'Literal translation', more: 'Show more', less: 'Show less', appears: 'Appears in', search: 'Search occurrences' },
+  'zh-hant': { translit: '譯名',            sourceHdr: '📖 原書內容',                sourceSub: '奧阿斯佩原書詞彙表（1882）——原文照錄',   editorHdr: '✎ 編者註',        editorSub: '編者補充的詮釋——非原書內容',            literal: '直譯',              more: '展開',      less: '收合',      appears: '出現於', search: '搜尋經文' },
+  'zh-hans': { translit: '译名',            sourceHdr: '📖 原书内容',                sourceSub: '奥阿斯佩原书词汇表（1882）——原文照录',   editorHdr: '✎ 编者注',        editorSub: '编者补充的诠释——非原书内容',            literal: '直译',              more: '展开',      less: '收合',      appears: '出现于', search: '搜索经文' },
+  ja:        { translit: '訳名',            sourceHdr: '📖 原典より',                sourceSub: 'オアスペ原典の用語集（1882）——原文のまま', editorHdr: '✎ 訳者註',        editorSub: '編者による解釈——非原書内容',       literal: '逐語訳',            more: 'もっと見る', less: '閉じる',    appears: '出典', search: '経文を検索' },
 };
 
 const CLAMP_CHARS = 240; // collapse text longer than this
@@ -71,6 +71,7 @@ function TermCard({ t, langKey, locale }: { t: Term; langKey: LangKey | null; lo
         {translit && <span className="glossary-translit">{translit}</span>}
         <span className={`glossary-cat glossary-cat-${t.category}`}>{t.category}</span>
       </div>
+        <a className="glossary-search-occurrences" href={`${locale === 'en' ? '/oahspe' : `/oahspe/${locale}`}/search?q=${encodeURIComponent(translit || t.term)}`}>{L.search}</a>
 
       {t.source_def && (
         <section className="glossary-source">
