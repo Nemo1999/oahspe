@@ -121,11 +121,15 @@ function renderWithParenthetical(
 
   // Build [translit, english, slug] triples present in this verse, longest translit first
   // so overlapping substrings match the most specific term. Gate on bilingual cross-check.
+  // Resolve term tags case-insensitively: verse glossary_terms may be tagged "dan'ha" while
+  // the glossary key is "Dan'ha" — an exact lookup would silently drop the link.
+  const ciIndex: Record<string, { entry: GlossaryEntry; key: string }> = {};
+  for (const k in glossary) ciIndex[k.toLowerCase()] = { entry: glossary[k], key: k };
   const pairs: Array<[string, string, string]> = [];
   for (const en of terms) {
-    const entry = glossary[en];
-    const tl = entry?.translit?.[lang as 'zh_hant' | 'zh_hans' | 'ja'];
-    if (tl && enPresent(en, enSource)) pairs.push([tl, en, entry?.slug ?? '']);
+    const hit = glossary[en] ? { entry: glossary[en], key: en } : ciIndex[en.toLowerCase()];
+    const tl = hit?.entry?.translit?.[lang as 'zh_hant' | 'zh_hans' | 'ja'];
+    if (tl && enPresent(en, enSource)) pairs.push([tl, hit.key, hit.entry.slug ?? '']);
   }
   if (pairs.length === 0) return text;
   pairs.sort((a, b) => b[0].length - a[0].length);
@@ -376,7 +380,7 @@ export default function VerseReader({ chapter, glossary = {}, hidePreamble = fal
         </div>
       )}
 
-      <div className="verse-list">
+      <div className="verse-list" data-pagefind-body>
         {chapter.verses.map((verse) => (
           <VerseRow
             key={verse.id}

@@ -291,6 +291,9 @@ def has_existing_translation(slug: str) -> bool:
 
 
 def collapse(text: str) -> str:
+    # Strip OCR page-break markers ("p. 10") injected mid-sentence in the 1882 scan.
+    # They are noise, never content; drop the token and heal the surrounding spaces.
+    text = re.sub(r"\s*\bp\.\s*\d+\s*", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 

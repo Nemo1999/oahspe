@@ -104,11 +104,10 @@ export default function SearchBar(): React.ReactElement {
       }
 
       try {
-        const filters: Record<string, string> = {};
-        if (currentLocale && currentLocale !== 'en') {
-          filters['language'] = currentLocale;
-        }
-        const response = await pf.search(debouncedQuery, { filters });
+        // Pagefind is zero-config multilingual: it auto-loads the index matching the
+        // page's <html lang>, so each locale build searches only its own language.
+        // (No `language` filter — that filter was never indexed and returned zero hits.)
+        const response = await pf.search(debouncedQuery);
         if (cancelled) return;
 
         // Resolve first 8 results (data() is per-result async)
