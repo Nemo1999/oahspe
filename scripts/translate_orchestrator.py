@@ -227,25 +227,24 @@ captions: {caps_json}
 verses (source en paired with translation):
 {json.dumps(pairs, ensure_ascii=False, indent=1)}
 
-=== WHAT TO CHECK (report only real problems) ===
-1. FIDELITY: does each translation convey the English meaning? Flag omissions, additions,
-   reversed meaning, dropped clauses, mistranslated theology.
-2. LOCKED TERMS: if the English verse contains a locked term (whole word), its exact locked
-   transliteration MUST appear in that language's text. Flag drift (e.g. 柯珀 vs 珂珀).
-3. NAMES: transliterated by SOUND per §2; never an existing real-world deity/figure name
-   (e.g. Jehovih is 耶霍維/ジェホヴィ, NOT 耶和華; Moses is NOT 摩西). Flag violations.
-4. JAPANESE PURITY: ja must not borrow Chinese-only transliterations; names in katakana.
-   Flag zh characters leaking into ja names.
-5. REGISTER: elevated modern scripture (書面語 / である調), consistent across verses.
-6. COMPLETENESS: every verse present in all 3 langs; preamble & captions translated.
+=== WHAT TO CHECK ===
+MAJOR (must fix — these are defects):
+ 1. FIDELITY: meaning changed — omissions, additions/interpolations, reversed sense,
+    dropped clauses, mistranslated theology. (An added word like 自由/freely with no source = major.)
+ 2. LOCKED TERMS: English verse contains a locked term (whole word) but its EXACT locked
+    transliteration is absent/altered in that language (e.g. 柯珀 vs 珂珀).
+ 3. NAMES: not transliterated by sound, OR uses a real-world deity/figure name
+    (Jehovih must be 耶霍維/ジェホヴィ not 耶和華; Moses not 摩西).
+ 4. JAPANESE PURITY: ja borrows a Chinese-only transliteration, or a name is not in katakana.
+ 5. COMPLETENESS: a verse/preamble/caption missing in any of the 3 languages.
+MINOR (report at most 3 total, only if clearly wrong — do NOT nitpick word choice):
+ 6. REGISTER slips that a reader would notice as wrong (not mere preference).
 
-Write your verdict — a single JSON object — using your Write tool to this EXACT path:
-  {RESULT_DIR}/ch{chapter}.review.json
+Do NOT flag: acceptable synonym choices, 得著/得着 vs alternatives, punctuation taste,
+or anything you would phrase as "could be more elegant". Translation is not a defect
+because you would word it differently. glossary_terms tagging is NOT your concern.
 
-⛔ HARD SCOPE — write ONLY the verdict file above. Do NOT run git, validate.py, json-to-mdx.py,
-  or any build; do NOT edit the translation or any content file; do NOT fix it yourself. You
-  only judge and report. The driver handles revision and merge.
-Reply only with the word "reviewed". The JSON object MUST match:
+Return ONLY a JSON object (no prose, no fences) exactly matching:
 {{
   "chapter_id": "{chap['id']}",
   "pass": true,
@@ -254,8 +253,8 @@ Reply only with the word "reviewed". The JSON object MUST match:
       "severity": "major|minor", "problem": "<what is wrong>", "suggestion": "<concrete fix>"}}
   ]
 }}
-Set "pass": true and "issues": [] ONLY if the translation is fully correct. List EVERY real
-issue you find; be specific (quote the offending text). Do NOT invent issues to seem thorough."""
+Set "pass": true when there are NO major issues (minors may still be listed but do not block).
+Be specific and quote offending text. Do NOT invent issues to seem thorough."""
 
 
 def build_revise_prompt(book: str, chapter: int, issues: list[dict], vmin: int | None = None, vmax: int | None = None) -> str:
