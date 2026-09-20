@@ -788,5 +788,45 @@
     "note": "The spiritual act whereby newborn spirits (es'yans) parasitically attach themselves to living mortals, feeding on their atmospherean emanations and losing their own independence; a recurring technical term for the danger of spirit obsession in early heaven.",
     "locked": true,
     "first_seen": "sethantes.3.25"
+  },
+  {
+    "en": "songs and anthems of lamentation",
+    "category": "phrase",
+    "zh_hant": "哀歌與頌歌",
+    "zh_hans": "哀歌与颂歌",
+    "ja": "哀愁の歌と頌歌",
+    "note": "Recurring phrase for the sacred lament-songs composed by God's hosts who came to the corporeal earth and mourned the loss of their etherean home; the substance of the anthology preserved in Hored's library.",
+    "locked": true,
+    "first_seen": "sethantes.4.2"
+  },
+  {
+    "en": "library of Hored",
+    "category": "phrase",
+    "zh_hant": "霍雷德的圖書館",
+    "zh_hans": "霍雷德的图书馆",
+    "ja": "ホレドの書庫",
+    "note": "The heavenly archive at Hored where God commanded the anthems of lamentation to be preserved; the institutional repository of the lower heaven's sacred records.",
+    "locked": true,
+    "first_seen": "sethantes.4.6"
+  },
+  {
+    "en": "the music of Thy spheres",
+    "category": "phrase",
+    "zh_hant": "祢諸天球的音樂",
+    "zh_hans": "祢诸天球的音乐",
+    "ja": "祢の天球の音楽",
+    "note": "The celestial music of the etherean worlds, recalled in the lament as something lost when angels descended to the corporeal earth; an image of the sensory richness of the higher heavens.",
+    "locked": true,
+    "first_seen": "sethantes.4.17"
+  },
+  {
+    "en": "haven of rest",
+    "category": "phrase",
+    "zh_hant": "安息的港灣",
+    "zh_hans": "安息的港湾",
+    "ja": "安らぎの港",
+    "note": "Poetic image for the etherean home as a safe harbour of peace after the toil of the lower heaven; the bound angel's longed-for destination once descendants are redeemed and raised.",
+    "locked": true,
+    "first_seen": "sethantes.4.26"
   }
 ]
