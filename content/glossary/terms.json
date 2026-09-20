@@ -422,7 +422,11 @@
     "appears_in": [],
     "cross_refs": [],
     "locked": true,
-    "first_seen": "sethantes.2"
+    "first_seen": "sethantes.2",
+    "source_forms": [
+      "c'v'wark'um",
+      "c'vorkum"
+    ]
   },
   {
     "term": "Egisi",
@@ -578,7 +582,11 @@
     "appears_in": [],
     "cross_refs": [],
     "locked": true,
-    "first_seen": "sethantes.2"
+    "first_seen": "sethantes.2",
+    "source_forms": [
+      "es'enauer",
+      "es'enauers"
+    ]
   },
   {
     "term": "Es-pa",
@@ -1686,7 +1694,11 @@
       "es"
     ],
     "locked": true,
-    "first_seen": "jehovih.2"
+    "first_seen": "jehovih.2",
+    "source_forms": [
+      "ethe",
+      "ethea"
+    ]
   },
   {
     "term": "Etherea",
@@ -2149,7 +2161,11 @@
       "corpor"
     ],
     "locked": true,
-    "first_seen": "jehovih.6"
+    "first_seen": "jehovih.6",
+    "source_forms": [
+      "asu",
+      "asuans"
+    ]
   },
   {
     "term": "Dan'ha",
@@ -2319,7 +2335,11 @@
       "es"
     ],
     "locked": true,
-    "first_seen": "jehovih.7"
+    "first_seen": "jehovih.7",
+    "source_forms": [
+      "es'enaur",
+      "es'enaurs"
+    ]
   },
   {
     "term": "Dan",
@@ -2357,7 +2377,7 @@
     "first_seen": "jehovih.7.14"
   },
   {
-    "term": "Lord / Lords",
+    "term": "Lord",
     "slug": "lord",
     "category": "term",
     "translit": {
@@ -2406,7 +2426,13 @@
       "hored"
     ],
     "locked": true,
-    "first_seen": "jehovih.7.13"
+    "first_seen": "jehovih.7.13",
+    "source_forms": [
+      "lord",
+      "lord's",
+      "lords",
+      "lords'"
+    ]
   },
   {
     "term": "Orian Chiefs",
@@ -4992,7 +5018,11 @@
       "asu"
     ],
     "locked": true,
-    "first_seen": "sethantes.5.2"
+    "first_seen": "sethantes.5.2",
+    "source_forms": [
+      "i'hin",
+      "i'hins"
+    ]
   },
   {
     "term": "Ha'jah",
