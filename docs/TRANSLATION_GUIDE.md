@@ -9,11 +9,44 @@
 
 ## 0. Execution Model (how translation runs)
 
-- **One chapter = one subagent. Strictly sequential, ONE agent at a time, from chapter 1 to the end. NEVER parallel.** This is the consistency guarantee: no two agents may coin dictionary entries at the same time.
-- Each agent receives, as read-only context: this guideline, the **current** `terms.json`, the **current** `style-lexicon.json`, and the chapter's English verses.
-- Each agent returns: (a) the translated verses in all 3 languages, (b) the per-verse `glossary_terms` list, (c) any **new** dictionary proposals (glossary + style-lexicon).
-- The orchestrator merges proposals, validates, commits+pushes+deploys that chapter, THEN spawns the next agent so it sees the updated dictionary.
-- **Checkpoint:** after **chapter 1** the run PAUSES for human approval/edit of the seed dictionary. After approval, chapters 2..N auto-run.
+> **Updated 2026-09-20 — terminology-first, parallel-per-book.** Superseded the old strictly-
+> sequential model after two independent design reviews + a safety audit. Engine:
+> `scripts/translate_book.py` (import-driven; an eval loop or task batch is the driver).
+> The older `scripts/translate_orchestrator.py` (sequential, per-chapter coining) still works but
+> is NOT how the body run proceeds.
+
+**Per book, in this order (books run one at a time; glossary grows monotonically across books):**
+1. **Manifest** — `build_manifest(book)` fingerprints the immutable source: ordered verse ids +
+   per-verse English sha, preamble sha, and every caption keyed by a STABLE `cap_idx`
+   (`verse_id#image_index` — caption English is NOT unique). `book_en_sha` covers all of it.
+2. **Terminology pass** — ONE agent (`build_terminology_prompt`) scans the WHOLE book and fixes
+   EVERY name/coined term up front: all three transliterations, `source_forms` (surface spellings
+   as they literally occur — plural/possessive/variant, lowercased), and occurrences. This is the
+   only step that coins/fills the dictionary.
+3. **Terminology review** — an independent reviewer (`build_terminology_review_prompt`, run via
+   `completion(model="slow", schema=…)`) gates on MAJOR defects (missing translit, deity-name,
+   non-katakana ja, duplicate/conflicting rendering). Cycle until clean.
+4. **Publish snapshot** — `publish_snapshot` freezes the reviewed terms + lexicon + delta into an
+   IMMUTABLE, content-hashed, version-addressed file. Chapter workers bind to `snapshot.version`.
+5. **Parallel chapters** — chapters translate concurrently (`build_chapter_prompt`), each seeing
+   ONLY the frozen snapshot. Workers may NOT coin/fill/alter the dictionary; an unknown term is a
+   hard failure (`unknown_terms`), fixed upstream in the terminology pass, not merged opportunistically.
+6. **Per-chapter validate + review** — `validate_chapter_result` proves exact verse+preamble+caption
+   coverage, nonempty 3 langs, no kana in Chinese fields, `glossary_terms` ⊆ snapshot, and every
+   contiguous source occurrence of a locked term carries its exact translit. Then an independent
+   chapter reviewer. MAJOR issue → revise that one chapter → re-review. No merge until clean.
+7. **Fill-only merge** — `merge_chapter` self-validates, re-checks the full chapter source fingerprint
+   (CAS), and NEVER overwrites a non-null translation. Captions keyed by `cap_idx`.
+8. **Global commit (once/book)** — `commit_snapshot_to_global` applies the reviewed delta to the
+   global glossary/lexicon under a filesystem lock, re-reading inside the lock. **Translit** mismatch
+   with an existing non-null value = hard conflict; prose fields (`source_def_literal`/`editor_note`)
+   and already-locked translits = existing wins silently.
+9. **Deploy** — validate.py → json-to-mdx.py → commit + push (per book).
+
+**Why parallel is safe here (was "NEVER parallel"):** consistency no longer depends on serialization
+because terminology is fixed and reviewed BEFORE any verse is translated, then frozen in an immutable
+snapshot. Chapters can't race the dictionary because they can't touch it. See the audit-driven
+invariants in `scripts/translate_book.py` docstring.
 
 ---
 
@@ -74,6 +107,7 @@ Entry shape:
   "editor_note": { "en": "...", "zh_hant": "...", "zh_hans": "...", "ja": "..." },  // YOUR interpretation/summary — free, per-language, may differ per language
   "appears_in": ["jehovih.1.3"],
   "cross_refs": ["ethe", "corpor"],
+  "source_forms": ["jehovih", "jehovih's"],  // surface spellings as they occur (lowercased); WHOLE-TOKEN matched for selection + locking
   "locked": true,
   "first_seen": "jehovih.1.3"
 }
@@ -108,17 +142,32 @@ Entry shape:
 
 ---
 
-## 6. Consistency Protocol (per agent)
+## 6. Consistency Protocol (two distinct roles)
 
-1. Read `terms.json` + `style-lexicon.json` fully before translating.
-2. For every verse: translate into all 3 languages honoring **every** locked entry verbatim.
-3. Populate `glossary_terms` with the canonical English headwords present in the verse.
-4. **Two kinds of dictionary work — distinguish them:**
-   - **FILL** — a term already exists in `terms.json` (from Oahspe's own glossary) but its `translit`/`source_def_literal`/`editor_note` are `null`. If that term appears in this chapter, fill those null fields (coin the transliteration per §2, write the literal translation + editor note). Return these under `fill_glossary`, keyed by `slug`.
-   - **COIN** — a name/coined-term NOT in `terms.json` at all. Create a full new entry. Return under `new_glossary`.
-   - Never overwrite a field that is already non-null (locked). Only fill nulls or add new entries.
-5. Collect distinctive verbs/formulaic phrases (per §4b threshold) as `new_lexicon`.
-6. Return verses + proposals. If you believe a non-null locked value is wrong, add a `conflict_note`; the locked value stands unless a human changes it.
+The old "every agent coins as it goes" is retired. There are now two roles:
+
+### 6a. Terminology-pass agent (once per book, BEFORE any verse)
+1. Read `terms.json` + `style-lexicon.json` fully. Scan the WHOLE book's English.
+2. For EVERY name/coined term that occurs:
+   - **FILL** — term exists in `terms.json` but a `translit`/`source_def_literal`/`editor_note` is
+     `null`: fill those nulls (coin translit per §2). Return under `fill_glossary`, keyed by `slug`.
+   - **COIN** — term not in `terms.json` at all: create a full new entry under `new_glossary`.
+   - **`source_forms` (REQUIRED)** — for each FILL/COIN, list the exact surface spellings as they
+     literally appear in the book (lowercased: singular/plural/possessive/variant, e.g.
+     `["es'enaur","es'enaurs"]`, `["lord","lords","lord's","lords'"]`, `["waga","wagga"]`).
+     Selection + lock-checking are WHOLE-TOKEN against these forms — never substring/stem (the
+     `Ben`→`本` trap). A missing/wrong `source_forms` means the term won't be selected or locked.
+3. Never overwrite a non-null (locked) field. Existing always wins.
+4. Collect distinctive verbs/formulaic phrases (§4b) as `new_lexicon`.
+
+### 6b-worker. Chapter-translation agent (parallel, snapshot-only)
+1. Reuse the frozen snapshot's transliterations VERBATIM. You may NOT coin, fill, or alter any
+   dictionary entry — the terminology pass already fixed them.
+2. Translate every verse into all 3 languages; populate `glossary_terms` with ONLY canonical
+   snapshot headwords present in the verse.
+3. Never put Japanese kana in a `zh_hant`/`zh_hans` field (validator rejects it).
+4. Hit a name/coined term NOT in the snapshot? DO NOT invent one — list it in `unknown_terms`.
+   The driver treats that as a hard failure to fix in the terminology pass, never an ad-hoc coin.
 
 ## 6b. Preambles & Image Captions (added 2026-09, HTML-era schema)
 
