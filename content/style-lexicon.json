@@ -828,5 +828,25 @@
     "note": "Poetic image for the etherean home as a safe harbour of peace after the toil of the lower heaven; the bound angel's longed-for destination once descendants are redeemed and raised.",
     "locked": true,
     "first_seen": "sethantes.4.26"
+  },
+  {
+    "en": "second rate",
+    "category": "phrase",
+    "zh_hant": "第二等第",
+    "zh_hans": "第二等第",
+    "ja": "第二等第",
+    "note": "The second grade of spiritual advancement in the lower heaven; spirits raised to this level have progressed beyond the infancy stage and can assist in the resurrection of others. Companion to 'first resurrection' in Oahspe's graded heavenly system.",
+    "locked": true,
+    "first_seen": "sethantes.5.9"
+  },
+  {
+    "en": "In Jehovih's name, thee I crown",
+    "category": "phrase",
+    "zh_hant": "以耶霍維之名，我為汝加冕",
+    "zh_hans": "以耶霍维之名，我为汝加冕",
+    "ja": "ジェホヴィの名において、我はそなたに冠を授ける",
+    "note": "Coronation formula spoken by the presiding God when placing the divinely-fashioned crown on the new regent; theologically marks the act of investiture as Jehovih's act, not man's. Companion to the locked 'In Jehovih's name, and in the love of' greeting formula.",
+    "locked": true,
+    "first_seen": "sethantes.5.27"
   }
 ]

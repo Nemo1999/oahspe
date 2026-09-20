@@ -15,10 +15,14 @@
       "id": "sethantes.5.1",
       "verse_number": 1,
       "en": "In the first year of Hored there were received into God's kingdom in heaven, one and a half million es'yans, men, women and children, born of the earth. And there were still left within the different divisions of the earth, with the Lords, three and a quarter millions of es'yans, being for the most part fetals.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "在霍雷德元年，有一百五十萬埃斯楊——男男女女與孩童，皆為大地所生——被接納入神在天上的國度。而在大地各分界之內，與衆主同在者，尚餘三百二十五萬埃斯楊，其中大部分為寄附之靈。",
+      "zh_hans": "在霍雷德元年，有一百五十万埃斯杨——男男女女与孩童，皆为大地所生——被接纳入神在天上的国度。而在大地各分界之内，与众主同在者，尚余三百二十五万埃斯杨，其中大部分为寄附之灵。",
+      "ja": "ホレドの元年において、百五十万のエスヤン——男女および子供たち、すなわち大地より生まれ出でた者たち——が天における神の国に迎えられた。大地の各区域内において衆主のもとに留まりし者は三百二十五万のエスヤンであり、そのほとんどは寄着の霊であった。",
+      "glossary_terms": [
+        "Hored",
+        "Es'yan",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +30,15 @@
       "id": "sethantes.5.2",
       "verse_number": 2,
       "en": "In the first one hundred years there were born of the earth, one hundred and seventy million es'yans. Such then was the number of three generations of I'hins; which is to say, that in those days the number of the inhabitants of the earth (not including the asuans, who were not created to everlasting life) was fifty-four millions. And already had each of the Lords' heavenly places become large kingdoms.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "在最初的一百年間，大地共生育了一億七千萬埃斯楊。此數相當於伊欣人三代之總數；換言之，在那些日子裡，大地居民的數目（不包括阿蘇人，彼等並非被創造以得永恆之生命）為五千四百萬。而各位衆主的天國之所，已各自成為廣大的王國。",
+      "zh_hans": "在最初的一百年间，大地共生育了一亿七千万埃斯杨。此数相当于伊欣人三代之总数；换言之，在那些日子里，大地居民的数目（不包括阿苏人，彼等并非被创造以得永恒之生命）为五千四百万。而各位众主的天国之所，已各自成为广大的王国。",
+      "ja": "最初の百年の間に、大地より一億七千万のエスヤンが生まれ出た。これはイヒン人の三世代の数に等しい。すなわち、その時代において大地の住民の数（永遠の命のために創られたのではないアスゥを除く）は五千四百万であった。また各衆主の天の場所はすでに大いなる王国となっていた。",
+      "glossary_terms": [
+        "Es'yan",
+        "I'hin",
+        "Asu",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +46,12 @@
       "id": "sethantes.5.3",
       "verse_number": 3,
       "en": "In those days the period of five years was allotted to the es'yans as their time of infancy in heaven, requiring nurses and helpers, but some of them required many years more.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "在那些日子裡，五年的時期被分配給埃斯楊，作為他們在天上的幼嬰期，需要護士和輔助者照料，但其中有些則需要更多的年數。",
+      "zh_hans": "在那些日子里，五年的时期被分配给埃斯杨，作为他们在天上的幼婴期，需要护士和辅助者照料，但其中有些则需要更多的年数。",
+      "ja": "その時代において、五年の期間がエスヤンに割り当てられ、天における幼児期として、看護師と助け手を必要とした。しかし中には多くの年数をさらに要する者もいた。",
+      "glossary_terms": [
+        "Es'yan"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,10 +59,12 @@
       "id": "sethantes.5.4",
       "verse_number": 4,
       "en": "After five years the es'yans were taken from the nurseries, and taught by symbols and objects, the rudiments of education; and drilled in processions, and music and dancing and gymnastics; but every day they were required for a brief period to labor, some at weaving, some spinning, and some in transportation.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "五年之後，埃斯楊從育嬰室中被帶出，藉由象徵和實物學習教育的基礎；並在行列演練、音樂、舞蹈與體操中受到訓練；然而每日仍須有短暫的時間從事勞作——有的編織，有的紡紗，有的負責搬運。",
+      "zh_hans": "五年之后，埃斯杨从育婴室中被带出，借由象征和实物学习教育的基础；并在行列演练、音乐、舞蹈与体操中受到训练；然而每日仍须有短暂的时间从事劳作——有的编织，有的纺纱，有的负责搬运。",
+      "ja": "五年を過ぎると、エスヤンは育児室から連れ出され、象徴と実物によって教育の基礎を学ばされた。また行列演練・音楽・舞踊・体操において訓練を受けた。しかし毎日短い時間、労働に従事することが求められ——ある者は機織り、ある者は糸紡ぎ、ある者は運搬に携わった。",
+      "glossary_terms": [
+        "Es'yan"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -59,10 +72,12 @@
       "id": "sethantes.5.5",
       "verse_number": 5,
       "en": "The voice of Jehovih directed God, saying: The structure of My Kingdom in heaven requireth it of thee, that thou shalt make all labor an agreeable exercise for the growth of the spirits in my dominions.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維的聲音引導神，說：我天上之國的構建需要你如此行，你必使一切勞作成為在我統治領域內靈魂成長的愉悅操練。",
+      "zh_hans": "耶霍维的声音引导神，说：我天上之国的构建需要你如此行，你必使一切劳作成为在我统治领域内灵魂成长的愉悦操练。",
+      "ja": "ジェホヴィの声が神を導いて言いたもうた：我が天の国の構造がそなたに求めることは、我が統治の領域における霊たちの成長のために、すべての労働を快い鍛錬とすることである。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -70,10 +85,12 @@
       "id": "sethantes.5.6",
       "verse_number": 6,
       "en": "And God commanded the officers of the realm of Hored to lengthen the hours of labor, according to the age and strength of the spirits received up from the earth, and it was so.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神便命令霍雷德境界的官員們，按照從大地接引上來的靈魂的年齡與體力，延長勞作的時數，如此便辦妥了。",
+      "zh_hans": "神便命令霍雷德境界的官员们，按照从大地接引上来的灵魂的年龄与体力，延长劳作的时数，如此便办妥了。",
+      "ja": "神はホレドの領域の役人たちに命じて、大地から受け入れた霊たちの年齢と体力に応じて労働の時間を延ばすようにされた。そのようになった。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +98,12 @@
       "id": "sethantes.5.7",
       "verse_number": 7,
       "en": "Jehovih again spake to God, saying: In all labor thou allottest to those who have sprung up from the earth, freely give to them to do whatever they desire; but thou shalt not suffer them to return to their earth kindred alone, unattended, lest because of their love they engraft themselves, becoming bound to mortals. But when they have lived fifty years in heaven, thou shalt not only permit them to return to mortals, but thou shalt direct them to do so, for in this period they shall have no further desire for engraftment.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維再次對神說：在你分配給那些從大地興起者的一切勞作中，要自由地讓他們做他們所願意的；但你不可任憑他們單獨、無人陪伴地返回其大地親族那裡，以免因他們的愛而依附在那些人身上，受縛於凡人。但當他們在天上住滿五十年之後，你不僅要允許他們返回凡人那裡，而且要指示他們這樣做，因在這個時期他們將不再有依附之欲望。",
+      "zh_hans": "耶霍维再次对神说：在你分配给那些从大地兴起者的一切劳作中，要自由地让他们做他们所愿意的；但你不可任凭他们单独、无人陪伴地返回其大地亲族那里，以免因他们的爱而依附在那些人身上，受缚于凡人。但当他们在天上住满五十年之后，你不仅要允许他们返回凡人那里，而且要指示他们这样做，因在这个时期他们将不再有依附之欲望。",
+      "ja": "ジェホヴィは再び神に言いたもうた：大地より興り上がった者たちに割り当てるすべての労働において、彼らが望むことを自由にさせなさい。しかし彼らが一人で、付き添いなしに、その大地の親族のもとに帰ることを許してはならない。愛ゆえに彼らが凡人に寄生し、凡人に縛られることのないようにするためである。しかし天において五十年を過ごした後は、凡人のもとへ帰ることを許すだけでなく、そうするよう指示しなさい。その時期には彼らはもはや寄着の欲求を持たないからである。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +111,12 @@
       "id": "sethantes.5.8",
       "verse_number": 8,
       "en": "Again Jehovih said: As fast as thou canst appropriate the labor of earth born spirits to help in the resurrection of others, so shalt thou do in My name.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維又說：盡你所能，將大地所生之靈的勞力用於幫助他人的復活，你就當以我的名義這樣行。",
+      "zh_hans": "耶霍维又说：尽你所能，将大地所生之灵的劳力用于帮助他人的复活，你就当以我的名义这样行。",
+      "ja": "ジェホヴィはまた言いたもうた：大地より生まれ出た霊たちの労働を他者の復活を助けるために用いることができる限り、我が名においてそのように行いなさい。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -103,10 +124,12 @@
       "id": "sethantes.5.9",
       "verse_number": 9,
       "en": "And even so did God and the Lords under him; and in the time of one hundred years, there were raised up to the second rate, twenty million souls, that had come forth out of the earth. And many of them comprehended the manufactories, the nurseries and schools and hospitals in heaven to the full, and they were in many things alike equal to the requirements of their teachers.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神和他屬下的衆主便照此而行；在一百年的時間裡，有二千萬從大地而來的靈魂晉升至第二等第。他們中許多人對天上的工場、育嬰室、學校和醫院有全面的了解，在許多方面已與其教師所要求的程度相近。",
+      "zh_hans": "神和他属下的众主便照此而行；在一百年的时间里，有二千万从大地而来的灵魂晋升至第二等第。他们中许多人对天上的工场、育婴室、学校和医院有全面的了解，在许多方面已与其教师所要求的程度相近。",
+      "ja": "神とその下の衆主はそのようにした。百年の間に、大地より出てきた二千万の魂が第二等第に引き上げられた。彼らの多くは天の工場・育児室・学校・病院を十分に把握し、多くの点において教師の要求する水準と同等になっていた。",
+      "glossary_terms": [
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -114,10 +137,16 @@
       "id": "sethantes.5.10",
       "verse_number": 10,
       "en": "The voice of Jehovih came to God, saying: It is well, My Son, to take a rest.Behold, thou hast toiled a hundred years, day and night, without ceasing. Thou shalt, therefore, appoint other officers, and spread out the kingdom of Hored to cover all the land of Wagga (the continent of Pan). And thou shalt appoint in My name thy most efficient officer to sit on the throne for a short space of time, for thou shalt travel and visit the five Lords of the earth and their kingdoms.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維的聲音來到神那裡，說：我的兒子，你好好休息一下吧。看哪，你已不分晝夜、不停歇地辛勞了百年。因此你要委任其他官員，將霍雷德的國度擴展至覆蓋瓦伽（潘洲的大陸）的全境。你要以我的名義委任你最得力的官員暫坐王座片刻，因你將要旅行，前往大地五位衆主及其王國進行訪視。",
+      "zh_hans": "耶霍维的声音来到神那里，说：我的儿子，你好好休息一下吧。看哪，你已不分昼夜、不停歇地辛劳了百年。因此你要委任其他官员，将霍雷德的国度扩展至覆盖瓦伽（潘洲的大陆）的全境。你要以我的名义委任你最得力的官员暂坐王座片刻，因你将要旅行，前往大地五位众主及其王国进行访视。",
+      "ja": "ジェホヴィの声が神のもとに来て言いたもうた：我が子よ、休息を取るがよい。見よ、そなたは百年間、昼も夜も休みなく労苦してきた。それゆえ他の役人たちを任命し、ホレドの国をワガの地（パンの大陸）全体を覆うまでに広げなさい。そなたが旅立って大地の五人の衆主とその王国を訪問する間、我が名においてそなたの最も有能な役人を王座に就かせ、しばらくの間その任に当たらせなさい。",
+      "glossary_terms": [
+        "Jehovih",
+        "Hored",
+        "Waga",
+        "Pan",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -125,9 +154,9 @@
       "id": "sethantes.5.11",
       "verse_number": 11,
       "en": "And thou shalt take with thee a thousand heralds, and a thousand messengers, and five thousand musicians. And thou shalt have a ship sufficient to carry thy host, and to be as thy house whithersoever thou goest. See to it, and set all things in order, and depart thou on a journey of one year.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "你要帶一千名傳令、一千名使者和五千名樂師同行。你要有一艘足以載運你的隨從的船隻，無論你往哪裡去，它都作為你的居所。注意安排好此事，將萬事設置妥當，出發進行為期一年的旅程。",
+      "zh_hans": "你要带一千名传令、一千名使者和五千名乐师同行。你要有一艘足以载运你的随从的船只，无论你往哪里去，它都作为你的居所。注意安排好此事，将万事设置妥当，出发进行为期一年的旅程。",
+      "ja": "そなたは千人の布告者と千人の使者と五千人の楽師を伴いなさい。そなたの随伴者を乗せるに十分な船を用意し、どこへ行くにもそれをそなたの家とするがよい。これを整え、万事を整えて、一年の旅に出発しなさい。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -136,10 +165,12 @@
       "id": "sethantes.5.12",
       "verse_number": 12,
       "en": "And God called in the surveyors, who brought maps of earth and heaven showing the best places for extending the kingdom of Hored.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神召來測繪師，他們帶來天地地圖，指明擴展霍雷德國度的最佳地點。",
+      "zh_hans": "神召来测绘师，他们带来天地地图，指明扩展霍雷德国度的最佳地点。",
+      "ja": "神は測量師たちを呼び集めた。彼らはホレドの国を広げるのに最適な場所を示す天と地の地図を持参した。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -147,9 +178,9 @@
       "id": "sethantes.5.13",
       "verse_number": 13,
       "en": "And God appointed fifty governors for the fifty places required, and he gave each of them five thousand men and women to accompany them. And when they were chosen God addressed them from the throne, saying:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "神為所需的五十個地方委派了五十位總督，並給予每人五千名男女伴隨同行。當他們被選定之後，神從王座上向他們訓示，說：",
+      "zh_hans": "神为所需的五十个地方委派了五十位总督，并给予每人五千名男女伴随同行。当他们被选定之后，神从王座上向他们训示，说：",
+      "ja": "神は必要とされる五十の場所のために五十人の総督を任命し、それぞれに五千人の男女を伴わせた。彼らが選ばれると、神は王座より彼らに語りかけて言った：",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -158,10 +189,15 @@
       "id": "sethantes.5.14",
       "verse_number": 14,
       "en": "According to the commandment of the Father are ye chosen; and by His command will I come to your respective places ere long, and bestow ye with all that is required for building up colonies in Jehovih's name. As ye witnessed the founding of Hored by the archangel Etisyai, so may ye understand that I will come to you all. Go ye forth, then, taking your hosts, and lay down the foundations for your cities. As ye have learned from me, go ye forth doing as I have done; and as ye do with a small colony, and a small city, so will I give into your keeping that which is greater when ye are prepared therefore.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "你們是按照天父的命令被選召的；照祂的命令，我將不久親臨你們各人的駐地，以建立耶霍維之名所需的殖民地所要求的一切賜予你們。正如你們見證了大天使長厄提斯亞伊創建霍雷德，你們也可以明白我將前往你們衆人那裡。那麼，帶領你們的隨從出發，為你們的城市奠定根基吧。正如你們從我這裡學到的，出去照我所做的去做；你們如何管理小殖民地和小城市，當你們準備好承擔更大之事時，我也將把更大的事業交在你們手中。",
+      "zh_hans": "你们是按照天父的命令被选召的；照祂的命令，我将不久亲临你们各人的驻地，以建立耶霍维之名所需的殖民地所要求的一切赐予你们。正如你们见证了大天使长厄提斯亚伊创建霍雷德，你们也可以明白我将前往你们众人那里。那么，带领你们的随从出发，为你们的城市奠定根基吧。正如你们从我这里学到的，出去照我所做的去做；你们如何管理小殖民地和小城市，当你们准备好承担更大之事时，我也将把更大的事业交在你们手中。",
+      "ja": "そなたたちは天父の命令によって選ばれた。その命令によって、わたしはやがてそなたたち各自の場所を訪れ、ジェホヴィの名においてコロニーを建設するに必要なすべてをそなたたちに授けるであろう。大天使長エティスヤイによるホレドの創設を目の当たりにしたそなたたちは、わたしがすべての者のもとへ行くことを理解できるであろう。さあ、随伴者を連れて出発し、そなたたちの都市の基礎を据えなさい。わたしから学んだとおり、わたしがしたように行いなさい。小さなコロニーと小さな都市をどのように治めるかを身につければ、準備が整ったとき、わたしはより大きなものをそなたたちの管轄に与えるであろう。",
+      "glossary_terms": [
+        "Jehovih",
+        "Archangels",
+        "Etisyai",
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -169,10 +205,13 @@
       "id": "sethantes.5.15",
       "verse_number": 15,
       "en": "When God ceased, the marshals led the way, and the hosts following their governors filed in front of the throne, saluting with the sign of Jehovih's name, which was answered by God's hands upraised. Meanwhile the es'enaurs sang in glory to Jehovih. Presently the hosts passed out and beyond the pillars of fire.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說完之後，司儀長引路，衆隨從跟隨各自的總督，列隊在王座前經過，以耶霍維之名的符號行禮，神以雙手高舉作答。與此同時，埃斯那爾們高聲頌唱，讚美耶霍維。不久，衆隨從在火柱之外穿越而去。",
+      "zh_hans": "神说完之后，司仪长引路，众随从跟随各自的总督，列队在王座前经过，以耶霍维之名的符号行礼，神以双手高举作答。与此同时，埃斯那尔们高声颂唱，赞美耶霍维。不久，众随从在火柱之外穿越而去。",
+      "ja": "神が語り終えると、式部官が先導し、随伴者たちは各自の総督に従って王座の前を列をなして通り、ジェホヴィの名の印をもって敬礼した。神は両手を高く掲げてこれに応えた。その間、エスエナウルたちがジェホヴィを讃えて高らかに歌った。やがて随伴者たちは火の柱の外を通り過ぎていった。",
+      "glossary_terms": [
+        "Jehovih",
+        "Es'enaur"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -180,9 +219,9 @@
       "id": "sethantes.5.16",
       "verse_number": 16,
       "en": "When all had quieted, God said: Let the builders of ships begin now and build a ship for me and my hosts, for the time draweth near. And let the graders choose from my laborers, who have toiled a hundred years, day and night, without ceasing, such as shall be my companions and hosts on my journey; according to their grade shall they be chosen.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "待一切平靜下來後，神說：現在，讓造船者們開始為我和我的隨從建造一艘船，因時機將近。讓等第評定者從我的勞工中——他們不分晝夜、不停歇地辛勞了百年——選出那些將作為我旅途的同伴與隨從者；他們當按其等第被選定。",
+      "zh_hans": "待一切平静下来后，神说：现在，让造船者们开始为我和我的随从建造一艘船，因时机将近。让等第评定者从我的劳工中——他们不分昼夜、不停歇地辛劳了百年——选出那些将作为我旅途的同伴与随从者；他们当按其等第被选定。",
+      "ja": "すべてが静まると、神は言った：今すぐ造船者たちに、わたしとわたしの随伴者のための船を造り始めさせなさい。時が近づいているからである。等第評定者たちは、昼も夜も休みなく百年間労苦してきたわたしの労働者の中から、旅の同伴者と随伴者となる者を選びなさい。彼らはその等第に従って選ばれるべきである。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -191,9 +230,9 @@
       "id": "sethantes.5.17",
       "verse_number": 17,
       "en": "And even so were they chosen and notified.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "他們便如此被選定並獲通知。",
+      "zh_hans": "他们便如此被选定并获通知。",
+      "ja": "そのようにして彼らは選ばれ、知らされた。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -202,10 +241,12 @@
       "id": "sethantes.5.18",
       "verse_number": 18,
       "en": "And God said: Whilst I shall be absent there shall sit on my throne, being God in my place, he who standeth highest in the grades. According to the transcendency of him who hath done the most for the resurrection of the es'yans, so shall be your God and my God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說：當我不在期間，將有人代我坐在我的王座上，成為代我之神，此人乃是在等第中站得最高者。依照在復活埃斯楊之事上貢獻最多者的卓越之度，他將是你們的神，也是我的神。",
+      "zh_hans": "神说：当我不在期间，将有人代我坐在我的王座上，成为代我之神，此人乃是在等第中站得最高者。依照在复活埃斯杨之事上贡献最多者的卓越之度，他将是你们的神，也是我的神。",
+      "ja": "神は言った：わたしが不在の間、わたしの王座に座してわたしの代わりの神となる者は、等第において最も高く立つ者である。エスヤンの復活のために最も多くを成した者の卓越さに従って、その者がそなたたちの神であり、わたしの神となるであろう。",
+      "glossary_terms": [
+        "Es'yan"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -213,10 +254,12 @@
       "id": "sethantes.5.19",
       "verse_number": 19,
       "en": "And God commanded the graders to present before the throne the records, that the Council of Hored might determine the matter. And this was so done.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神命分等者將記錄呈於寶座前，使霍雷德議會能裁決此事。事即如此辦妥。",
+      "zh_hans": "神命分等者将记录呈于宝座前，使霍雷德议会能裁决此事。事即如此办妥。",
+      "ja": "神は等級付けをする者たちに命じて記録を御座の前に提出させ、ホレドの評議会がその事柄を決定できるようにされた。かくてそのようになされた。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -224,10 +267,13 @@
       "id": "sethantes.5.20",
       "verse_number": 20,
       "en": "And Ha'jah, an etherean, was chosen. And God commanded them to send word unto Ha'jah, with an escort to conduct him to the capital.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "哈迦，一位以太界人，被選中。神命他們傳訊於哈迦，並派護送隊引導他前往首都。",
+      "zh_hans": "哈迦，一位以太界人，被选中。神命他们传讯于哈迦，并派护送队引导他前往首都。",
+      "ja": "エセ界の者ハジャが選ばれた。神は彼らにハジャへの報せを送り、護衛隊をもって彼を首都へと導くよう命じられた。",
+      "glossary_terms": [
+        "Ha'jah",
+        "Etherea"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -235,10 +281,12 @@
       "id": "sethantes.5.21",
       "verse_number": 21,
       "en": "In due time the escort brought Ha'jah into the palace of the kingdom of God, and God was sitting on the throne. With music they came in and filed in front of the throne, forming a crescent, with Ha'jah betwixt the horns.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "適時，護送隊引哈迦進入神的國度之宮殿，神正坐於寶座之上。他們伴隨音樂入場，在寶座前排列成新月形，哈迦處於兩角之間。",
+      "zh_hans": "适时，护送队引哈迦进入神的国度之宫殿，神正坐于宝座之上。他们伴随音乐入场，在宝座前排列成新月形，哈迦处于两角之间。",
+      "ja": "やがて護衛隊はハジャを神の国の宮殿へと連れ参り、神は御座に座しておられた。彼らは音楽とともに入場し、御座の前に三日月形を成して並び、ハジャはその両角の中間に立った。",
+      "glossary_terms": [
+        "Ha'jah"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -246,10 +294,14 @@
       "id": "sethantes.5.22",
       "verse_number": 22,
       "en": "God said: By command of Jehovih have I summoned thee thither, O Ha'jah. Long before I have known thee, even on other worlds. Of all virtues in man which stand highest, which is, never to mention one's self, thou excellest all men in my kingdom. Thy labors for the general upraising of Hored excellest all others. For this reason thou art preferred, and by Jehovih chosen to be my assistant whilst I am here, and in my absence to be my very God in the Father's name.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神曰：奉耶霍維之命，我已召汝至此，哈迦。早在多時之前，我便已認識汝，甚至在別的世界之上。在人所具一切美德之中，最高者乃是從不提及自身，汝在我的國度中於此超越所有人。汝為霍雷德整體提升所付的勞苦，超越一切他人。因此汝為眾人所首選，且耶霍維已揀選汝，在我留此期間為我之助手，在我離去期間，以父之名代我為神。",
+      "zh_hans": "神曰：奉耶霍维之命，我已召汝至此，哈迦。早在多时之前，我便已认识汝，甚至在别的世界之上。在人所具一切美德之中，最高者乃是从不提及自身，汝在我的国度中于此超越所有人。汝为霍雷德整体提升所付的劳苦，超越一切他人。因此汝为众人所首选，且耶霍维已拣选汝，在我留此期间为我之助手，在我离去期间，以父之名代我为神。",
+      "ja": "神言われた。ジェホヴィの命によりて、我はそなたをここに召し出した、ハジャよ。遥か以前より、他の世界においてさえ、我はそなたを知っていた。人に備わる一切の美徳のうち、最も高きものは自らを語らぬことであるが、そなたは我が国においてすべての者を凌ぐ。ホレドの全体的な向上のためのそなたの労苦は、他のすべてを超えている。この故に、そなたは首に選ばれ、ジェホヴィによって選ばれた。我がここにある間は我が助手となり、我が留守の間は父の名において我そのものの神となるべし。",
+      "glossary_terms": [
+        "Jehovih",
+        "Ha'jah",
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -257,10 +309,13 @@
       "id": "sethantes.5.23",
       "verse_number": 23,
       "en": "Ha'jah said: This being the will of Jehovih, proceed thou.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "哈迦曰：此既為耶霍維之意旨，請汝繼續。",
+      "zh_hans": "哈迦曰：此既为耶霍维之意旨，请汝继续。",
+      "ja": "ハジャ言った。これがジェホヴィの御意であれば、続けたまえ。",
+      "glossary_terms": [
+        "Ha'jah",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -268,10 +323,17 @@
       "id": "sethantes.5.24",
       "verse_number": 24,
       "en": "God struck the gavel and the holy council rose to their feet. God said: In Jehovih's name I salute thee, Ha'jah, as God of Tek (See tablet Ah-iod'zan, BOOK OF SAPHAH) to hold dominion in Hored. Come forth and receive thou my throne for the Father's sake. The marshals then conducted Ha'jah to the foot of the throne, and God came down and took his hand and led him up. And as they were going forth a light, as of golden fire, came down from the firmament above, sent by the kingdoms high exalted; and God and Ha'jah were covered around about and illuminated.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神擊打法槌，聖議會眾人起立。神曰：以耶霍維之名，我向汝致敬，哈迦，立汝為特克之神（見阿-伊奧德贊石板，薩法之書），在霍雷德行使統治。請出前來，為父之故接受我的寶座。執事官隨即引導哈迦至寶座前，神下來握住他的手，引領他上去。當他們並行而前之時，一道光，如金色火焰，自上方蒼穹降下，由那至高尊榮的諸國度所差遣；神與哈迦四周被光覆蓋，照耀其上。",
+      "zh_hans": "神击打法槌，圣议会众人起立。神曰：以耶霍维之名，我向汝致敬，哈迦，立汝为特克之神（见阿-伊奥德赞石板，萨法之书），在霍雷德行使统治。请出前来，为父之故接受我的宝座。执事官随即引导哈迦至宝座前，神下来握住他的手，引领他上去。当他们并行而前之时，一道光，如金色火焰，自上方苍穹降下，由那至高尊荣的诸国度所差遣；神与哈迦四周被光覆盖，照耀其上。",
+      "ja": "神は槌を打ち、聖なる評議会の全員が立ち上がった。神言われた。ジェホヴィの名において、そなたに敬礼す、ハジャよ。テクの神として（サファの書、ア・イオドザン石板参照）ホレドの統治を保持するために。進み出でて、父のために我が御座を受け取りたまえ。執事官たちはハジャを御座の足元へと導き、神は下りてその手を取り、彼を上へと導かれた。彼らが進み出る中、金色の火のような光が、頂きに高く崇められた諸国度から送られて、上の大空から降り来たり、神とハジャの四方を覆い、照らした。",
+      "glossary_terms": [
+        "Jehovih",
+        "Ha'jah",
+        "Hored",
+        "Saphah",
+        "Tek",
+        "Ah-iod'zan"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -279,10 +341,12 @@
       "id": "sethantes.5.25",
       "verse_number": 25,
       "en": "God said: By Thy Wisdom, Love and Power, O Jehovih, do I receive this Thy son on Thy Throne. Be Thou with him in Wisdom and Strength for Thy glory forever! Amen!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神曰：憑祢的智慧、愛與能力，耶霍維啊，我在祢的寶座上接納此祢之子。願祢與他同在，藉著智慧與力量，永遠歸榮耀於祢！阿門！",
+      "zh_hans": "神曰：凭祢的智慧、爱与能力，耶霍维啊，我在祢的宝座上接纳此祢之子。愿祢与他同在，借着智慧与力量，永远归荣耀于祢！阿门！",
+      "ja": "神言われた。祢の知恵と愛と力によりて、ジェホヴィよ、我は祢の御座にてこの祢の子を受け入れる。祢の栄光のために、永遠に知恵と力において彼と共にいたまえ！アーメン！",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -290,10 +354,14 @@
       "id": "sethantes.5.26",
       "verse_number": 26,
       "en": "God raised up a rod, waving it, and rain came down from heaven. Ha'jah said: In Thy name, O Jehovih! Whereupon God stretched forth his hand unto Jehovih, saying: Give me a crown for Thy son, God of Tek, O Jehovih!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神舉起杖，揮動之，雨從天降下。哈迦曰：以祢之名，耶霍維啊！於是神向耶霍維伸出他的手，說：賜我一頂冠冕，為祢之子特克之神，耶霍維啊！",
+      "zh_hans": "神举起杖，挥动之，雨从天降下。哈迦曰：以祢之名，耶霍维啊！于是神向耶霍维伸出他的手，说：赐我一顶冠冕，为祢之子特克之神，耶霍维啊！",
+      "ja": "神は杖を掲げ、これを振ると、天から雨が降り来たった。ハジャ言った。祢の名において、ジェホヴィよ！そこで神はジェホヴィへと手を伸べて言われた。テクの神、祢の子のために冠を与えたまえ、ジェホヴィよ！",
+      "glossary_terms": [
+        "Ha'jah",
+        "Jehovih",
+        "Tek"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -301,10 +369,15 @@
       "id": "sethantes.5.27",
       "verse_number": 27,
       "en": "And there descended, as if a small star, far lengthened out, a light of gold and silver, and it settled on God's hand, and he fashioned it into a crown, and emblazoned it with the sign GOD OF TEK, and placed it on Ha'jah's head, saying: In Jehovih's name, thee I crown, to sit on the throne in Hored during my absence.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "遂有降下者，如一顆小星，遠遠延展，金銀之光，落於神的手中；神將其塑造成一頂冠冕，並於其上鐫刻「特克之神」的記號，置於哈迦頭上，說：以耶霍維之名，我為汝加冕，使汝在我離去之時坐於霍雷德的寶座之上。",
+      "zh_hans": "遂有降下者，如一颗小星，远远延展，金银之光，落于神的手中；神将其塑造成一顶冠冕，并于其上镌刻「特克之神」的记号，置于哈迦头上，说：以耶霍维之名，我为汝加冕，使汝在我离去之时坐于霍雷德的宝座之上。",
+      "ja": "やがて小さな星のように遥かに伸びた金銀の光が降り来たり、神の手に落ち着いた。神はそれを冠に形作り、「テクの神」の印を輝かせ、ハジャの頭に置いて言われた。ジェホヴィの名において、我はそなたに冠を授ける。我が留守の間、ホレドの御座に座すために。",
+      "glossary_terms": [
+        "Jehovih",
+        "Ha'jah",
+        "Hored",
+        "Tek"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -312,10 +385,13 @@
       "id": "sethantes.5.28",
       "verse_number": 28,
       "en": "Ha'jah said: Thy son, O Jehovih, shall fulfill Thy commandments in wisdom and love. May the Father, Creator of worlds, give this Thy son rest and comfort for the glories he hath wrought in Thy name! Amen!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "哈迦曰：祢的兒子，耶霍維啊，必以智慧與愛履行祢的命令。願那父，萬世界的創造者，賜予此祢之子安息與安慰，為著他以祢的名所成就的一切榮耀！阿門！",
+      "zh_hans": "哈迦曰：祢的儿子，耶霍维啊，必以智慧与爱履行祢的命令。愿那父，万世界的创造者，赐予此祢之子安息与安慰，为着他以祢的名所成就的一切荣耀！阿门！",
+      "ja": "ハジャ言った。祢の子は、ジェホヴィよ、知恵と愛をもって祢の命じたもうことを果たすであろう。世界の創造者なる父が、この祢の子に、祢の名において彼が成し遂げた栄光のゆえに、安らぎと慰めを与えたまわんことを！アーメン！",
+      "glossary_terms": [
+        "Ha'jah",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -323,10 +399,14 @@
       "id": "sethantes.5.29",
       "verse_number": 29,
       "en": "The Council said: Amen! The es'enaurs chanted an anthem of praise to Jehovih. And God led Ha'jah forth and seated him on the throne, saying: Thou art God in my name and Jehovih's also. And since I now go down to the earth to sojourn for a season, thou shalt be known as God of both earth and heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "議會曰：阿門！埃斯那爾詠唱了一首讚美耶霍維的頌歌。神引哈迦出前，扶他坐於寶座之上，說：汝以我的名及耶霍維之名為神。既然我如今下至大地短暫旅居，汝將被稱為天地之神。",
+      "zh_hans": "议会曰：阿门！埃斯那尔咏唱了一首赞美耶霍维的颂歌。神引哈迦出前，扶他坐于宝座之上，说：汝以我的名及耶霍维之名为神。既然我如今下至大地短暂旅居，汝将被称为天地之神。",
+      "ja": "評議会言った。アーメン！エスエナウルたちはジェホヴィへの讃美の頌歌を歌い上げた。神はハジャを導き出し、御座に座らせて言われた。そなたは我が名とジェホヴィの名において神である。我は今、しばらくの間地上に下りて旅住まいするゆえ、そなたは天地の神として知られるであろう。",
+      "glossary_terms": [
+        "Es'enaurs",
+        "Ha'jah",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -334,10 +414,13 @@
       "id": "sethantes.5.30",
       "verse_number": 30,
       "en": "So God departed out of Hored and embarked on a ship, taking with him seven thousand men and women for his escort, beside a thousand es'enaurs and the crew of three thousand to work the ship.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "於是神離開霍雷德，登上一艘船，帶走七千名男女為其護送，另有一千名埃斯那爾及三千名工作船員。",
+      "zh_hans": "于是神离开霍雷德，登上一艘船，带走七千名男女为其护送，另有一千名埃斯那尔及三千名工作船员。",
+      "ja": "かくして神はホレドを去り、船に乗り込まれた。護衛として七千名の男女を連れ、その他に一千名のエスエナウルと船を操る三千名の乗組員を率いて。",
+      "glossary_terms": [
+        "Hored",
+        "Es'enaurs"
+      ],
       "plate_ref": null,
       "notes": []
     }

@@ -4966,5 +4966,127 @@
     ],
     "locked": true,
     "first_seen": "sethantes.3.36"
+  },
+  {
+    "term": "I'hin",
+    "slug": "i-hin",
+    "category": "name",
+    "translit": {
+      "zh_hant": "伊欣人",
+      "zh_hans": "伊欣人",
+      "ja": "イヒン人"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "The I'hins were the first spiritually-gifted race on earth, small in stature and fair, born of the union of Jehovih's angels with the asuans; precursors of the I'huan race. Distinct from I'huan (伊胡安人 / イフアン人).",
+      "zh_hant": "伊欣人是大地上第一個被賦予靈性的種族，身材矮小、膚色白皙，由耶霍維的天使與阿蘇人結合所生，為後來伊胡安人的前身。與伊胡安人（I'huan）有所區別。",
+      "zh_hans": "伊欣人是大地上第一个被赋予灵性的种族，身材矮小、肤色白皙，由耶霍维的天使与阿苏人结合所生，为后来伊胡安人的前身。与伊胡安人（I'huan）有所区别。",
+      "ja": "イヒン人は地上で最初に霊的な賦与を受けた種族であり、身の丈が低く色白であった。ジェホヴィの天使たちとアスゥとの交わりから生まれ、後のイフアン人の先駆をなす。イフアン人（I'huan）とは別の固有名。"
+    },
+    "appears_in": [
+      "sethantes.5.2"
+    ],
+    "cross_refs": [
+      "i-huan",
+      "asu"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.5.2"
+  },
+  {
+    "term": "Ha'jah",
+    "slug": "ha-jah",
+    "category": "name",
+    "translit": {
+      "zh_hant": "哈迦",
+      "zh_hans": "哈迦",
+      "ja": "ハジャ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "An etherean of exceptional virtue, chosen by Jehovih as regent God of Tek and of both earth and heaven during Sethantes's sojourn on earth. His defining quality is selflessness — never mentioning himself — by which he surpasses all in Hored.",
+      "zh_hant": "一位以太界人，以超凡美德著稱，被耶霍維揀選為特克之神及天地之神，在瑟坦特斯旅居大地期間代行職守。其最高美德在於從不提及自身，超越霍雷德中所有人。",
+      "zh_hans": "一位以太界人，以超凡美德著称，被耶霍维拣选为特克之神及天地之神，在瑟坦特斯旅居大地期间代行职守。其最高美德在于从不提及自身，超越霍雷德中所有人。",
+      "ja": "卓越した美徳を持つ以太界の者。ジェホヴィによってテクの神および天地の神に選ばれ、セサンテスの地上滞在中に代理の神として務めた。その最高の美徳は自らを語らぬことであり、ホレドの全ての者を凌ぐとされる。"
+    },
+    "appears_in": [
+      "sethantes.5.20",
+      "sethantes.5.21",
+      "sethantes.5.22",
+      "sethantes.5.23",
+      "sethantes.5.24",
+      "sethantes.5.26",
+      "sethantes.5.27",
+      "sethantes.5.28",
+      "sethantes.5.29"
+    ],
+    "cross_refs": [
+      "hored",
+      "sethantes",
+      "tek"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.5.20"
+  },
+  {
+    "term": "Tek",
+    "slug": "tek",
+    "category": "name",
+    "translit": {
+      "zh_hant": "特克",
+      "zh_hans": "特克",
+      "ja": "テク"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A kingdom or dominion in the lower heaven over which Ha'jah is consecrated as God; its sigil is emblazoned on the crown fashioned from the descended light. Defined further in the tablet Ah-iod'zan in the Book of Saphah.",
+      "zh_hant": "低層天堂中的一個國度，哈迦在此被立為神；王冠上即刻有「特克之神」記號。詳見薩法之書阿-伊奧德贊石板。",
+      "zh_hans": "低层天堂中的一个国度，哈迦在此被立为神；王冠上即刻有「特克之神」记号。详见萨法之书阿-伊奥德赞石板。",
+      "ja": "低き天における国または支配領域。ハジャがその神に聖別される場所であり、降り来たった光から作られた冠には「テクの神」の印が輝かせられた。サファの書ア・イオドザン石板に詳説される。"
+    },
+    "appears_in": [
+      "sethantes.5.24",
+      "sethantes.5.26",
+      "sethantes.5.27",
+      "sethantes.5.29"
+    ],
+    "cross_refs": [
+      "ha-jah",
+      "hored",
+      "saphah",
+      "ah-iodzan"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.5.24"
+  },
+  {
+    "term": "Ah-iod'zan",
+    "slug": "ah-iodzan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "阿-伊奧德贊",
+      "zh_hans": "阿-伊奥德赞",
+      "ja": "ア・イオドザン"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A tablet in the Book of Saphah referenced as the source authority for the title 'God of Tek'; one of the sacred tablets that preserve the cosmological and ceremonial nomenclature of the early heavens.",
+      "zh_hant": "薩法之書中的一塊石板，作為「特克之神」頭銜的來源依據；是保存早期天堂宇宙論與儀式命名法的神聖石板之一。",
+      "zh_hans": "萨法之书中的一块石板，作为「特克之神」头衔的来源依据；是保存早期天堂宇宙论与仪式命名法的神圣石板之一。",
+      "ja": "サファの書に収められた石板で、「テクの神」という称号の典拠として参照される。初期の天の宇宙論と儀礼的命名法を保存する聖なる石板の一つ。"
+    },
+    "appears_in": [
+      "sethantes.5.24"
+    ],
+    "cross_refs": [
+      "saphah",
+      "tek"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.5.24"
   }
 ]
