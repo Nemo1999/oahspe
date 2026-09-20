@@ -748,5 +748,45 @@
     "note": "Closing formula marking the founding moment of organized heavenly governance under God and the Lords; theologically loaded as the terminal statement of the Book of Sethantes ch. 2.",
     "locked": true,
     "first_seen": "sethantes.2.35"
+  },
+  {
+    "en": "first fruit of the first resurrection",
+    "category": "phrase",
+    "zh_hant": "初等復活的初穗",
+    "zh_hans": "初等复活的初穗",
+    "ja": "初等の復活の初穂",
+    "note": "The first cohort of newly dead spirits (es'yans) brought from the earth to heaven; a formulaic phrase marking the inaugural act of the asaphs' ministry. Theologically tied to 'first resurrection' (初等復活) and 'Es'yan'. Recurs in verses 4 and 9.",
+    "locked": true,
+    "first_seen": "sethantes.3.4"
+  },
+  {
+    "en": "atmospherean food",
+    "category": "phrase",
+    "zh_hant": "大氣界的食物",
+    "zh_hans": "大气界的食物",
+    "ja": "大気界の食物",
+    "note": "The subtle, non-corporeal food drawn from the atmospherean part of earthly substances; paired with 'ethereal food' (以太食物, for ethereans) and 'corporeal food' (有形的食物, for mortals). A recurring cosmological distinction in the asaphs' education sequence, ch. 3.",
+    "locked": true,
+    "first_seen": "sethantes.3.12"
+  },
+  {
+    "en": "second resurrection",
+    "category": "phrase",
+    "zh_hant": "第二復活",
+    "zh_hans": "第二复活",
+    "ja": "第二の復活",
+    "note": "The ordinal second stage of heavenly advancement that follows the first resurrection, when spirits have grown sufficiently in industry and self-sufficiency to begin helping others; the culminating goal of the colony-building labor described in ch. 3.",
+    "locked": true,
+    "first_seen": "sethantes.3.31"
+  },
+  {
+    "en": "engrafted themselves on",
+    "category": "verb",
+    "zh_hant": "依附在……身上",
+    "zh_hans": "依附在……身上",
+    "ja": "……に寄生する",
+    "note": "The spiritual act whereby newborn spirits (es'yans) parasitically attach themselves to living mortals, feeding on their atmospherean emanations and losing their own independence; a recurring technical term for the danger of spirit obsession in early heaven.",
+    "locked": true,
+    "first_seen": "sethantes.3.25"
   }
 ]

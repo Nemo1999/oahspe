@@ -4939,5 +4939,32 @@
     ],
     "locked": true,
     "first_seen": "sethantes.2.29"
+  },
+  {
+    "term": "Seffas",
+    "slug": "seffas",
+    "category": "name",
+    "translit": {
+      "zh_hant": "塞法斯",
+      "zh_hans": "塞法斯",
+      "ja": "セッファス"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A great celestial administrator whose 'house' will encompass the atmosphere and the whole earth; mentioned in the context of the founding of the first heavenly colonies as the overarching structure they are part of.",
+      "zh_hant": "一位偉大的天界管理者，其「殿宇」將涵蓋大氣與整個地球；在首批天界聚落建立的背景下被提及，作為它們所隸屬的更大架構。",
+      "zh_hans": "一位伟大的天界管理者，其「殿宇」将涵盖大气与整个地球；在首批天界聚落建立的背景下被提及，作为它们所隶属的更大架构。",
+      "ja": "大気と全地球を包む「家」を持つと記された偉大な天界の管理者。最初の天界聚落の建立の文脈で言及され、それらが一部をなすより大きな構造を指す。"
+    },
+    "appears_in": [
+      "sethantes.3.36"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "atmospherea"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.3.36"
   }
 ]
