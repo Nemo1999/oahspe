@@ -5,9 +5,9 @@
   "title": "Book of Sethantes, Son of Jehovih — Chapter 1",
   "preamble": {
     "en": "FIRST GOD OF THE FIRST CYCLE OF THE EARTH AFTER MAN'S CREATION",
-    "zh_hant": null,
-    "zh_hans": null,
-    "ja": null
+    "zh_hant": "人被創造之後大地第一個週期的第一位神",
+    "zh_hans": "人被创造之后大地第一个周期的第一位神",
+    "ja": "人の創造ののち大地の第一の循環の最初の神"
   },
   "preamble_source": "sacred-texts",
   "verses": [
@@ -15,10 +15,12 @@
       "id": "sethantes.1.1",
       "verse_number": 1,
       "en": "In the beginning of the inhabitation of the earth, the angels of heaven assembled in Hored, a heavenly plateau resting on the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "在大地有人居住之初，天上的諸天使在霍雷德聚集，霍雷德是一片停駐於大地之上的天上高原。",
+      "zh_hans": "在大地有人居住之初，天上的诸天使在霍雷德聚集，霍雷德是一片停驻于大地之上的天上高原。",
+      "ja": "大地に人が住み始めた初めに、天の天使たちはホレドに集まった。ホレドとは大地の上に据えられた天上の高原である。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +28,13 @@
       "id": "sethantes.1.2",
       "verse_number": 2,
       "en": "And the archangel Sethantes was the wisest of them all, and he said unto them:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "大天使長瑟坦特斯是他們之中最有智慧的，他對他們說：",
+      "zh_hans": "大天使长瑟坦特斯是他们之中最有智慧的，他对他们说：",
+      "ja": "大天使長セサンテスは彼ら全ての中で最も知恵ある者であり、彼らに向かってこう言った：",
+      "glossary_terms": [
+        "Archangels",
+        "Sethantes"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +42,12 @@
       "id": "sethantes.1.3",
       "verse_number": 3,
       "en": "Behold, we have come from far-off heavens; by the voice of Jehovih came we to partake of the glory of the red star, the earth. Jehovih said unto us: Come ye and enjoy the new world I have created. Partake ye of all the fruits thereof, save of the tree of knowledge, which is the fountain of life. Partake ye not of this, lest ye die.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "看哪，我們來自遙遠的諸天；因耶霍維的聲音，我們來此享用那紅星——大地的榮耀。耶霍維對我們說：你們來，享用我所創造的新世界吧。你們可以享用其上一切的果子，唯獨知識之樹除外，因那是生命之源。你們不可吃那樹上的果子，免得你們死亡。",
+      "zh_hans": "看哪，我们来自遥远的诸天；因耶霍维的声音，我们来此享用那红星——大地的荣耀。耶霍维对我们说：你们来，享用我所创造的新世界吧。你们可以享用其上一切的果子，唯独知识之树除外，因那是生命之源。你们不可吃那树上的果子，免得你们死亡。",
+      "ja": "見よ、我らは遥か遠くの諸天より来たり。ジェホヴィの声によりて我らはかの赤き星、大地の栄光にあずかるために来た。ジェホヴィは我らに言いたもうた：来たりて、わが造りし新たな世界を楽しめ。その上のすべての果実にあずかれ。ただし知識の木は除く、それは生命の源なり。これにあずかるなかれ、さもなければ汝らは死を迎えん。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,9 +55,9 @@
       "id": "sethantes.1.4",
       "verse_number": 4,
       "en": "But the voice of the earth spake unto us, saying: Partake ye, for indeed Mine is the tree of everlasting life.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "但大地的聲音對我們說：你們吃吧，因那確實是屬於我的永生之樹。",
+      "zh_hans": "但大地的声音对我们说：你们吃吧，因那确实是属于我的永生之树。",
+      "ja": "しかし大地の声が我らに語りかけ、こう言った：あずかれ、これぞ実に我が永遠の生命の木なり。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -59,9 +66,9 @@
       "id": "sethantes.1.5",
       "verse_number": 5,
       "en": "And many obeyed not the voice of the Father, and are now bound by the tie of life, which is in the blood.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "許多者沒有順從天父的聲音，如今已被生命的紐帶所束縛，而那紐帶就在血之中。",
+      "zh_hans": "许多者没有顺从天父的声音，如今已被生命的纽带所束缚，而那纽带就在血之中。",
+      "ja": "多くの者は御父の声に従わず、今は生命の絆、すなわち血の中にある絆によって縛られている。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -70,10 +77,14 @@
       "id": "sethantes.1.6",
       "verse_number": 6,
       "en": "And the voice of Jehovih came to me, saying: Sethantes, My son, behold, I gave into thy charge in My etherean heavens millions of angels, and thou has brought them to the earth, and they are fallen from their high estate. Go thou, deliver them.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維的聲音向我說：瑟坦特斯，我的兒子，看哪，我在我的以太界諸天中將數百萬天使交託於你的掌管之下，你卻將他們帶到了大地，他們已從其崇高的境地墮落。你去，拯救他們吧。",
+      "zh_hans": "耶霍维的声音向我说：瑟坦特斯，我的儿子，看哪，我在我的以太界诸天中将数百万天使交托于你的掌管之下，你却将他们带到了大地，他们已从其崇高的境地堕落。你去，拯救他们吧。",
+      "ja": "ジェホヴィの声が我に語りかけ、こう言いたもうた：セサンテスよ、わが子よ、見よ、わがエセ界の諸天において数百万の天使をなんじの管理に委ねたに、なんじはかれらを大地へ連れ来たり、かれらはその高き位よりも落ちた。行き、かれらを救い出せ。",
+      "glossary_terms": [
+        "Jehovih",
+        "Sethantes",
+        "Etherea"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +92,16 @@
       "id": "sethantes.1.7",
       "verse_number": 7,
       "en": "And I said: What shall I do? And Jehovih said: Bring thy angel hosts to Hored, for there will I crown thee God of these heavens and earth for the redemption of angels and mortals. And it shall be a new heavenly kingdom from this time forth to the end of the world. For it is the time of the arc of Wan, and I will bring from etherea My high-raised Goddess, Etisyai, chief factor of Harmuts, and she shall crown thee in My name, GOD OF HEAVEN AND EARTH.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "我說：我當怎樣行？耶霍維說：將你的天使眾軍帶到霍雷德，因我將在那裡立你為這些諸天與大地的神，為救贖天使與凡人。從此起直到世界的終結，這將是一個新的天界王國。因為現在正是紈弧，我將從以太界帶來我高升的女神厄提斯亞伊，她是霍爾穆茨的首席要素，她將在我的名下為你加冕為天地之神。",
+      "zh_hans": "我说：我当怎样行？耶霍维说：将你的天使众军带到霍雷德，因我将在那里立你为这些诸天与大地的神，为救赎天使与凡人。从此起直到世界的终结，这将是一个新的天界王国。因为现在正是纨弧，我将从以太界带来我高升的女神厄提斯亚伊，她是霍尔穆茨的首席要素，她将在我的名下为你加冕为天地之神。",
+      "ja": "我は言った：いかになすべきか？ジェホヴィは言いたもうた：なんじの天使の軍勢をホレドへ連れて来よ。そこにおいて我はなんじを天使と人の贖いのためにこれらの諸天と大地の神として立てるであろう。今この時より世の終わりに至るまで、これは新たな天の王国となるであろう。今はワンの弧の時であり、我はエセ界よりわが高く上げられた女神エティスヤイを連れて来るであろう。彼女はホルムツの首席要素であり、わが名において天地の神としてなんじに冠を授けるであろう。",
+      "glossary_terms": [
+        "Jehovih",
+        "Hored",
+        "Etherea",
+        "Etisyai",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +109,13 @@
       "id": "sethantes.1.8",
       "verse_number": 8,
       "en": "God said: When I had thus spoken in Hored before the angels of heaven, a great light, like a sun, was seen descending from the firmament above. And I commanded my es'enaurs to chant in praise of the Father and His works.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說：當我在霍雷德諸天使前如此說話之時，有一大光，如同太陽一般，被見從上方的穹蒼降下。我命我的埃斯那爾們頌唱，讚美天父及其作為。",
+      "zh_hans": "神说：当我在霍雷德诸天使前如此说话之时，有一大光，如同太阳一般，被见从上方的穹苍降下。我命我的埃斯那尔们颂唱，赞美天父及其作为。",
+      "ja": "神は言った：かくして我がホレドにおいて天使たちの前にこのように語ったとき、上方の大空より太陽のごとき大いなる光が降るのが見えた。我はエスエナウルたちに命じて御父とその御業を讃える頌歌を唱えさせた。",
+      "glossary_terms": [
+        "Hored",
+        "Es'enaur"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -103,10 +123,13 @@
       "id": "sethantes.1.9",
       "verse_number": 9,
       "en": "Meanwhile I had the angels of Hored numbered, and there were of them twenty seven millions and six hundred thousand, and these were the same who were on an excursion in my charge when the voice of Jehovih commanded us to visit the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "與此同時，我命人對霍雷德的天使進行計數，他們共有兩千七百六十萬，這些人正是耶霍維的聲音命令我們來訪大地時，在我的帶領下出行的那些人。",
+      "zh_hans": "与此同时，我命人对霍雷德的天使进行计数，他们共有两千七百六十万，这些人正是耶霍维的声音命令我们来访大地时，在我的带领下出行的那些人。",
+      "ja": "その間、我はホレドの天使たちを数えさせたところ、二千七百六十万人おり、かれらはジェホヴィの声が我らに大地を訪れるよう命じた時、わが率いる遠征に参加していた者たちその人々であった。",
+      "glossary_terms": [
+        "Hored",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -114,10 +137,12 @@
       "id": "sethantes.1.10",
       "verse_number": 10,
       "en": "The light above us descended fast toward us, like a ship of fire it came nearer and nearer, till we saw that it was wider far, than the place of Hored and all my angel hosts.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "我們上方的光迅速向我們降下，如同一艘火焰之船越來越近，直到我們看見它比霍雷德之地及我所有的天使眾軍加起來還要寬廣得多。",
+      "zh_hans": "我们上方的光迅速向我们降下，如同一艘火焰之船越来越近，直到我们看见它比霍雷德之地及我所有的天使众军加起来还要宽广得多。",
+      "ja": "我らの上方の光は我らへと速く降り来たり、火の船のごとくますます近づき、やがてそれがホレドの場所と我が天使の軍勢のすべてを合わせたものよりもはるかに広いことが見えた。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -125,10 +150,20 @@
       "id": "sethantes.1.11",
       "verse_number": 11,
       "en": "And it came to pass that when the great light had descended to the plateau of Hored there came forth out of the light one million archangels, from the arc of Wan in the Hosts of A'ji, in the orbit of Fow'sang in etherea, and they bore regalia and crowns from the Orian chief of Harmuts. Foremost of the archangels was Etisyai, and her brother Ya'tiahaga, commissioners from the etherean heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "事情發生了，當那大光降臨霍雷德高原之時，有一百萬大天使長從光中走出，他們來自以太界弗桑軌道中阿基眾軍的紈弧，他們攜帶著奧利安主長霍爾穆茨的徽章與冠冕。大天使長中最前列的是厄提斯亞伊，以及她的兄弟雅提亞哈伽，他們是來自以太界天的使者。",
+      "zh_hans": "事情发生了，当那大光降临霍雷德高原之时，有一百万大天使长从光中走出，他们来自以太界弗桑轨道中阿基众军的纨弧，他们携带着奥利安主长霍尔穆茨的徽章与冠冕。大天使长中最前列的是厄提斯亚伊，以及她的兄弟雅提亚哈伽，他们是来自以太界天的使者。",
+      "ja": "大いなる光がホレドの高原に降り来たった時、光の中より百万の大天使長が現れ出た。彼らはエセ界のフォウサンの軌道にあるアジの軍勢のワンの弧より来たり、オリアン首長ホルムツより授かった徽章と冠を帯びていた。大天使長の最先頭はエティスヤイとその兄弟ヤティアハガであり、彼らはエセ界の天からの使者であった。",
+      "glossary_terms": [
+        "Hored",
+        "Archangels",
+        "A'ji",
+        "Etherea",
+        "Orian Chiefs",
+        "Etisyai",
+        "Ya'tiahaga",
+        "Fow'sang",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -136,10 +171,16 @@
       "id": "sethantes.1.12",
       "verse_number": 12,
       "en": "When they came near me, Etisyai gave the sign of Jehovih's name, greeting, halting, and saying: All hail! In Jehovih's name, and in the love of Harmuts, Orian chief, we come to greet thee, first God of the lower heaven, belonging to the corporeal earth!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "他們走近我時，厄提斯亞伊給出了耶霍維之名的手勢，表示問候、停步，說道：大哉！以耶霍維之名，並在奧利安主長霍爾穆茨的愛之中，我們來迎接你，這位屬於柯珀大地的低層天堂的第一位神！",
+      "zh_hans": "他们走近我时，厄提斯亚伊给出了耶霍维之名的手势，表示问候、停步，说道：大哉！以耶霍维之名，并在奥利安主长霍尔穆茨的爱之中，我们来迎接你，这位属于柯珀大地的低层天堂的第一位神！",
+      "ja": "かれらが我に近づいた時、エティスヤイはジェホヴィの名の合図を示し、挨拶し、立ち止まって言った：万歳！ジェホヴィの名において、オリアン首長ホルムツの愛の中において、我らは汝を迎えに来たり。コルペルの大地に属する低き天の最初の神よ！",
+      "glossary_terms": [
+        "Jehovih",
+        "Orian Chiefs",
+        "Corpor",
+        "Etisyai",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -147,10 +188,15 @@
       "id": "sethantes.1.13",
       "verse_number": 13,
       "en": "I said: All hail, O emissaries of Harmuts, Chief of Orian worlds! Come, O Etisyai, and thy brother and all this host! Come honor My throne, in Great Jehovih's name!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "我說：大哉，霍爾穆茨——奧利安主長——之使者！來吧，厄提斯亞伊，你的兄弟與所有這眾人！來吧，以偉大的耶霍維之名，尊榮我的寶座！",
+      "zh_hans": "我说：大哉，霍尔穆茨——奥利安主长——之使者！来吧，厄提斯亚伊，你的兄弟与所有这众人！来吧，以伟大的耶霍维之名，尊荣我的宝座！",
+      "ja": "我は言った：万歳、オリアン首長ホルムツの使者たちよ！来よ、エティスヤイよ、なんじの兄弟と、この軍勢の皆よ！偉大なるジェホヴィの名において、わが玉座を光栄あらしめよ！",
+      "glossary_terms": [
+        "Jehovih",
+        "Orian Chiefs",
+        "Etisyai",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -158,10 +204,14 @@
       "id": "sethantes.1.14",
       "verse_number": 14,
       "en": "The archangels then came forward, saluting, and Etisyai said: In Thy name, O Jehovih, I found here a throne!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "大天使長們隨即上前行禮，厄提斯亞伊說：以祢的名，耶霍維，我在此建立一個寶座！",
+      "zh_hans": "大天使长们随即上前行礼，厄提斯亚伊说：以祢的名，耶霍维，我在此建立一个宝座！",
+      "ja": "大天使長たちはそこで進み出て敬礼し、エティスヤイは言った：なんじの名において、ジェホヴィよ、我はここに玉座を立てる！",
+      "glossary_terms": [
+        "Archangels",
+        "Jehovih",
+        "Etisyai"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -169,10 +219,15 @@
       "id": "sethantes.1.15",
       "verse_number": 15,
       "en": "And she caused to rise the form and substance thereof, and she ascended thereon, and Ya'tiahaga with her. And the other archangels formed a crescent in front of the throne, all of them bearing crowns or diadems, but they stood upright. And now the angels of the host of God took their places, that they might witness the testimony of Jehovih's commission, but the lights from the columns of fire, brilliant in all colors and shades and tints, baffled many of them from seeing plainly.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "她使寶座的形態與實體升起，她登上了寶座，雅提亞哈伽也與她一同。其他大天使長在寶座前排列成弦月形，他們皆頭戴冠冕或頭飾，但都站立不動。這時神的天使眾軍各就其位，以便見證耶霍維委任的誥命；然而那從火柱中射出的光，以各種燦爛的顏色、深淺與色調，令許多人難以清楚地看見。",
+      "zh_hans": "她使宝座的形态与实体升起，她登上了宝座，雅提亚哈伽也与她一同。其他大天使长在宝座前排列成弦月形，他们皆头戴冠冕或头饰，但都站立不动。这时神的天使众军各就其位，以便见证耶霍维委任的诰命；然而那从火柱中射出的光，以各种灿烂的颜色、深浅与色调，令许多人难以清楚地看见。",
+      "ja": "彼女は玉座の形と実体を立ち上らせ、それに昇り、ヤティアハガも彼女とともにあった。他の大天使長たちは玉座の前に三日月形に並び、皆が冠または宝冠を帯びつつ直立していた。今や神の天使の軍勢はそれぞれの位置に就き、ジェホヴィの委任の証言を見届けようとした。しかし火の柱からの光が、燦爛たるあらゆる色と濃淡と色合いをもって、多くの者の視界を妨げた。",
+      "glossary_terms": [
+        "Archangels",
+        "Jehovih",
+        "Etisyai",
+        "Ya'tiahaga"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -180,10 +235,15 @@
       "id": "sethantes.1.16",
       "verse_number": 16,
       "en": "When all things were in readiness Etisyai, standing erect and brilliant like a star, raised her right hand, saying: JEHOVIH! ALL-WISE AND POWERFUL! IN THY NAME, THIS THY SON, GOD, I CROWN! FROM THE ORIAN CHIEF, HARMUTS, RAISED TO THE RANK OF GOD, AND BY THEE, O JEHOVIH, ORDAINED! HENCEFORTH TO BE KNOWN FOREVER IN THE EMANCIPATED HEAVENS AS THY SON! PEACE! WISDOM! LOVE! POWER!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "當一切就緒之時，厄提斯亞伊直立如星一般輝煌，舉起右手說：耶霍維！全智全能者！以祢之名，祢的這位兒子、神，我為其加冕！受奧利安主長霍爾穆茨的擢升，晉升至神的位階，且由祢，耶霍維，所立！此後在解脫之諸天中，永遠以祢兒子之名為人所知！平安！智慧！愛！能力！",
+      "zh_hans": "当一切就绪之时，厄提斯亚伊直立如星一般辉煌，举起右手说：耶霍维！全智全能者！以祢之名，祢的这位儿子、神，我为其加冕！受奥利安主长霍尔穆茨的擢升，晋升至神的位阶，且由祢，耶霍维，所立！此后在解脱之诸天中，永远以祢儿子之名为人所知！平安！智慧！爱！能力！",
+      "ja": "すべての準備が整った時、エティスヤイは直立して星のごとく輝き、右手を上げてこう言った：ジェホヴィよ！全知全能なる者よ！なんじの名において、この汝の子、神を我は戴冠する！オリアン首長ホルムツより神の位階へと昇せられ、なんじジェホヴィによって定められた！以来、解放された諸天において、汝の子としてとこしえに知られるであろう！平和！知恵！愛！力！",
+      "glossary_terms": [
+        "Jehovih",
+        "Orian Chiefs",
+        "Etisyai",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -191,10 +251,13 @@
       "id": "sethantes.1.17",
       "verse_number": 17,
       "en": "And now with her left hand she raised high the crown, so that all might see and bear witness, and giving the sign again of Jehovih's name above the crown, wherefrom a flame of light shot forth brilliantly. Thereupon she placed the crown on God's head, saying:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "她以左手高舉冠冕，使眾人皆能見到並作見證，再次給出耶霍維之名的手勢在冠冕上方，從中有一道光焰燦爛地射出。然後她將冠冕放在神的頭上，說：",
+      "zh_hans": "她以左手高举冠冕，使众人皆能见到并作见证，再次给出耶霍维之名的手势在冠冕上方，从中有一道光焰灿烂地射出。然后她将冠冕放在神的头上，说：",
+      "ja": "彼女は左手で冠を高く掲げ、皆が見て証言できるようにし、冠の上方に再びジェホヴィの名の合図を示すと、そこから光の炎が燦爛と射し出た。かくして彼女は神の頭に冠を置き、こう言った：",
+      "glossary_terms": [
+        "Jehovih",
+        "Etisyai"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -202,10 +265,12 @@
       "id": "sethantes.1.18",
       "verse_number": 18,
       "en": "ARISE, O MY SON, THOU SON OF JEHOVIH! Instantly there arose from the millions of souls one universal shout: All hail, O Son of Jehovih! And God rose up; having the crown on his head, and the people cheered him lustily, for he was well beloved.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "起來，我的兒子，耶霍維之子！頓時，數百萬靈魂中響起了一聲齊一的呼喊：耶霍維之子，萬歲！神起立，頭戴冠冕，百姓熱烈歡呼，因他深受眾人愛戴。",
+      "zh_hans": "起来，我的儿子，耶霍维之子！顿时，数百万灵魂中响起了一声齐一的呼喊：耶霍维之子，万岁！神起立，头戴冠冕，百姓热烈欢呼，因他深受众人爱戴。",
+      "ja": "立て、わが子よ、ジェホヴィの子よ！たちまち数百万の魂より一斉の叫びが起こった：ジェホヴィの子よ、万歳！神は起ち上がり、頭に冠を戴き、人々は声高らかに彼を称えた。彼はまことに深く愛されていたのである。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -213,10 +278,13 @@
       "id": "sethantes.1.19",
       "verse_number": 19,
       "en": "Etisyai said: Bring forth thy five chief Lords that I may crown them also. God then caused the five chief Lords whom he had selected to sit at the foot of the throne.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "厄提斯亞伊說：將你的五位首席衆主帶來，使我也可為他們加冕。神便命令他所選定的五位首席衆主坐在王座之前。",
+      "zh_hans": "厄提斯亚伊说：将你的五位首席众主带来，使我也可为他们加冕。神便命令他所选定的五位首席众主坐在王座之前。",
+      "ja": "エティスヤイは言った：汝の五人の首席衆主を連れてまいれ、我もまた彼らを戴冠せん。神はその選びたる五人の首席衆主に王座の御前に座するよう命じた。",
+      "glossary_terms": [
+        "Etisyai",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -224,10 +292,16 @@
       "id": "sethantes.1.20",
       "verse_number": 20,
       "en": "Again Etisyai raised her right hand, saying: O JEHOVIH! ALMIGHTY! FROM WHOM ALL GLORIES EMANATE! IN THY NAME, THESE THY SONS, I CROWN LORDS OF THE EARTH, AND OF THE WATERS OF THE EARTH! FROM THE ORIAN CHIEF HARMUTS! BY MY COMMISION DO I RAISE THEM TO THE RANK OF LORDS FOR KINGDOMS OF HEAVEN! PEACE! WISDOM! LOVE! POWER!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "厄提斯亞伊再次舉起右手，說道：啊，耶霍維！全能者！一切榮耀皆由祢而出！以祢之名，這些祢的兒子們，我為之冠以大地衆主之冠，以及大地水域之衆主之冠！由奧利安主長霍爾穆茨！藉我之委任，我升他們至天界王國之衆主等位！和平！智慧！仁愛！能力！",
+      "zh_hans": "厄提斯亚伊再次举起右手，说道：啊，耶霍维！全能者！一切荣耀皆由祢而出！以祢之名，这些祢的儿子们，我为之冠以大地众主之冠，以及大地水域之众主之冠！由奥利安主长霍尔穆茨！借我之委任，我升他们至天界王国之众主等位！和平！智慧！仁爱！能力！",
+      "ja": "エティスヤイは再び右手を高く掲げ、言った：ああ、ジェホヴィよ！全能者よ！一切の栄光がそこより発せられる者よ！祢の名において、これら祢の子らを、我は大地の衆主、また大地の水の衆主として戴冠する！オリアン首長ホルムツより！我が委任によりて我は彼らを天の王国の衆主の位へと高める！平和！知恵！愛！力！",
+      "glossary_terms": [
+        "Jehovih",
+        "Etisyai",
+        "Lord / Lords",
+        "Orian Chiefs",
+        "Harmuts"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -235,10 +309,14 @@
       "id": "sethantes.1.21",
       "verse_number": 21,
       "en": "Then Etisyai took the crowns, which were handed her by the other archangels, and placed them on the heads of the Lords, saying:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "隨後厄提斯亞伊接過由其他大天使長遞給她的冠冕，將其戴在衆主們的頭上，說道：",
+      "zh_hans": "随后厄提斯亚伊接过由其他大天使长递给她的冠冕，将其戴在众主们的头上，说道：",
+      "ja": "それからエティスヤイは他の大天使長たちから手渡された冠を受け取り、衆主たちの頭にこれを置き、言った：",
+      "glossary_terms": [
+        "Etisyai",
+        "Archangels",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -246,10 +324,13 @@
       "id": "sethantes.1.22",
       "verse_number": 22,
       "en": "ARISE, O MY LORDS, AND BE YE LORDS OF JEHOVIH FOR HIS GLORY! AND BE YE THE LORDS OF GOD, HAVING DOMINION OVER THE EARTH AND THE WATERS OF THE EARTH, IN LOVE, WISDOM AND POWER, AMEN!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "起來，我的衆主們，為耶霍維的榮耀作祂的衆主！並作神的衆主，在仁愛、智慧與能力中，統治大地及大地的水域，阿們！",
+      "zh_hans": "起来，我的众主们，为耶霍维的荣耀作祂的众主！并作神的众主，在仁爱、智慧与能力中，统治大地及大地的水域，阿们！",
+      "ja": "立ちあがれ、我が衆主たちよ、ジェホヴィの栄光のためにその衆主となれ！また神の衆主となりて、愛と知恵と力において大地と大地の水の上に支配権を持て、アーメン！",
+      "glossary_terms": [
+        "Lord / Lords",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -257,10 +338,13 @@
       "id": "sethantes.1.23",
       "verse_number": 23,
       "en": "The Lords rose up, having on their heads the crowns of Lords, and again the multitude saluted with great cheering. When the applause ceased Etisyai said:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "衆主們站立起來，頭戴衆主之冠冕，眾人再次高聲歡呼致敬。歡聲停息後，厄提斯亞伊說道：",
+      "zh_hans": "众主们站立起来，头戴众主之冠冕，众人再次高声欢呼致敬。欢声停息后，厄提斯亚伊说道：",
+      "ja": "衆主たちは立ち上がり、その頭に衆主の冠を戴いた。群衆は再び大いなる歓声をもって礼をした。喝采が止んだ後、エティスヤイは言った：",
+      "glossary_terms": [
+        "Lord / Lords",
+        "Etisyai"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -268,10 +352,15 @@
       "id": "sethantes.1.24",
       "verse_number": 24,
       "en": "My God and My Lords, give now the sign of Jehovih's name that His glory may be fulfilled. (For this was the oath of office.) (The sign is the circle twice cut. For further information see Emethachavah, Book of Saphah.)",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "我的神與我的衆主們，請給出耶霍維之名的符號，使祂的榮耀得以成全。（此乃就職誓言。）（此符號為兩次截斷的圓圈。如需進一步資訊，請見薩法書中的厄梅塔哈瓦。）",
+      "zh_hans": "我的神与我的众主们，请给出耶霍维之名的符号，使祂的荣耀得以成全。（此乃就职誓言。）（此符号为两次截断的圆圈。如需进一步资讯，请见萨法书中的厄梅塔哈瓦。）",
+      "ja": "我が神と我が衆主たちよ、今ジェホヴィの名の印を示せ、その栄光が成就されるように。（これが就任の誓いであった。）（その印は二度切られた円である。詳しくはサファ書のエメタハヴァを参照されたい。）",
+      "glossary_terms": [
+        "Jehovih",
+        "Lord / Lords",
+        "Saphah",
+        "Emethachavah"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -279,10 +368,14 @@
       "id": "sethantes.1.25",
       "verse_number": 25,
       "en": "And God and the Lords saluted Jehovih before the hosts of heaven. And they stood apart a little distance, and Etisyai said:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神與衆主們在天界眾軍面前向耶霍維行禮。他們站在稍遠之處，厄提斯亞伊說道：",
+      "zh_hans": "神与众主们在天界众军面前向耶霍维行礼。他们站在稍远之处，厄提斯亚伊说道：",
+      "ja": "神と衆主たちは天の軍勢の前にてジェホヴィに礼をした。彼らは少し離れた所に立ち、エティスヤイは言った：",
+      "glossary_terms": [
+        "Lord / Lords",
+        "Jehovih",
+        "Etisyai"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -290,10 +383,12 @@
       "id": "sethantes.1.26",
       "verse_number": 26,
       "en": "Behold the All Light, Jehovih, encompasseth me. My voice shall be His voice. By the glory of Faith in Him am I One with the Father.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "看哪，遍照之光，耶霍維，環繞著我。我的聲音即是祂的聲音。藉著對祂信仰的榮耀，我與父合而為一。",
+      "zh_hans": "看哪，遍照之光，耶霍维，环绕着我。我的声音即是祂的声音。藉着对祂信仰的荣耀，我与父合而为一。",
+      "ja": "見よ、遍照の光、ジェホヴィが我を取り囲む。我が声はその声となろう。祂への信仰の栄光によりて、我は父と一つとなる。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -301,10 +396,13 @@
       "id": "sethantes.1.27",
       "verse_number": 27,
       "en": "And a fleece of golden hue descended from above and encompassed Etisyai around about, and she was like a central star with rays of light emanating. She was entranced by Jehovih. Through her the Creator spake, saying:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "一片金色光芒的羊毛絨自上方降下，環繞厄提斯亞伊四周，她宛如一顆中心星，光芒四射。她被耶霍維出神所攝。造物主藉著她說道：",
+      "zh_hans": "一片金色光芒的羊毛绒自上方降下，环绕厄提斯亚伊四周，她宛如一颗中心星，光芒四射。她被耶霍维出神所摄。造物主借着她说道：",
+      "ja": "そして金色の羊毛絨が上より降りてエティスヤイを取り囲み、彼女は光線を放つ中心の星のごとくなった。彼女はジェホヴィによりて恍惚に入った。造物主は彼女を通じて語り、言った：",
+      "glossary_terms": [
+        "Etisyai",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -312,10 +410,12 @@
       "id": "sethantes.1.28",
       "verse_number": 28,
       "en": "My Son, even God, I brought thee forth out of corpor, quickened into life everlasting. By faith I inspired thee to do whatsoever thou hast done. Faith gave I unto thee, as the tree whereon ALL PERFECTION is the fruit. By that faith within man that nurtureth the I AM within Himself unto perfection, becometh he My son, doing by virtue of My presence. According to thy wisdom and love have I given thee strength; and by thy strength raised thee up.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "我的兒子，即神，我將你從柯珀中帶出，喚醒成活，得以永生。藉著信仰，我默示你行你所行的一切事。我賜給你信仰，如同一棵樹，其上一切完全皆為果子。藉著人內心那培育他自身中「我是」至於完全的信仰，他便成為我的兒子，因我臨在而行事。我按著你的智慧與仁愛賜給你力量；並藉著你的力量舉升了你。",
+      "zh_hans": "我的儿子，即神，我将你从柯珀中带出，唤醒成活，得以永生。藉着信仰，我默示你行你所行的一切事。我赐给你信仰，如同一棵树，其上一切完全皆为果子。藉着人内心那培育他自身中「我是」至于完全的信仰，他便成为我的儿子，因我临在而行事。我按着你的智慧与仁爱赐给你力量；并藉着你的力量举升了你。",
+      "ja": "我が子よ、神よ、我は汝をコルペルより生み出し、命へと喚び起こした、永遠の命へと。信仰によりて我は汝に汝のなしたるすべてをなすよう霊感を与えた。信仰を我は汝に与えた、一切の完全がその果実である木のごとく。人の内にある、己の中の「我は在る」を完全に至るまで養い育てる信仰によりて、彼は我の子となり、我が臨在によりて行う。汝の知恵と愛に従いて我は汝に力を与えた。そして汝の力によりて汝を引き上げた。",
+      "glossary_terms": [
+        "Corpor"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -323,10 +423,12 @@
       "id": "sethantes.1.29",
       "verse_number": 29,
       "en": "Behold, this day have I given thee a kingdom in atmospherea, and made thee God before all the kingdoms of heaven. This place shall be thy place and Mine also. Here shalt thou dispense wisdom and laws, and appoint officers in My name and by virtue of My power.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "看哪，今日我已賜給你一個在大氣界的王國，並立你為神，在天界一切王國之前。此地將是你的居所，亦是我的居所。你當在此施行智慧與律法，並以我的名、藉我的能力委任官員。",
+      "zh_hans": "看哪，今日我已赐给你一个在大气界的王国，并立你为神，在天界一切王国之前。此地将是你的居所，亦是我的居所。你当在此施行智慧与律法，并以我的名、借我的能力委任官员。",
+      "ja": "見よ、今日我は汝に大気界に王国を与え、天のすべての王国の前にて汝を神とした。この場所は汝の場所であり、また我の場所でもあろう。ここにて汝は知恵と法を与え、我の名において、我の力によりて役職者を任命せよ。",
+      "glossary_terms": [
+        "Atmospherea"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -334,10 +436,12 @@
       "id": "sethantes.1.30",
       "verse_number": 30,
       "en": "And thy kingdom shall be like two kingdoms: One here with the hosts of heaven, and one on the earth, even over these thy Lords. For thou art the judgment seat and Creator of order over the whole earth, and in the heaven belonging to the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "你的王國將如同兩個王國：一在此處，與天界眾軍同在；一在地上，統治你的這些衆主。因為你是審判台與秩序的創造者，治理整個大地，以及屬於大地的天堂。",
+      "zh_hans": "你的王国将如同两个王国：一在此处，与天界众军同在；一在地上，统治你的这些众主。因为你是审判台与秩序的创造者，治理整个大地，以及属于大地的天堂。",
+      "ja": "そして汝の王国は二つの王国のごとくなるだろう：一つはここ、天の軍勢とともに、そして一つは地の上、この汝の衆主たちの上に。汝は全大地の上の裁きの座および秩序の創造者であり、大地に属する天においても同じ。",
+      "glossary_terms": [
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -345,9 +449,9 @@
       "id": "sethantes.1.31",
       "verse_number": 31,
       "en": "Stretch forth thy hand, My Son, and clothe thyself in the golden fleece.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "伸出你的手，我的兒子，以那金色羊毛絨披覆自身。",
+      "zh_hans": "伸出你的手，我的儿子，以那金色羊毛绒披覆自身。",
+      "ja": "汝の手を伸べよ、我が子よ、そして金色の羊毛絨をまとえ。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -356,10 +460,12 @@
       "id": "sethantes.1.32",
       "verse_number": 32,
       "en": "God made the sign, and then raised his hands upward, saying: Jehovih! Jehovih! By thy command I call upon Thee to array me in Thy golden fleece! Behold I am Thy Son.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神做了符號，然後將雙手向上舉起，說道：耶霍維！耶霍維！藉著祢的命令，我呼求祢，以祢的金色羊毛絨裝飾我！看哪，我是祢的兒子。",
+      "zh_hans": "神做了符号，然后将双手向上举起，说道：耶霍维！耶霍维！藉着祢的命令，我呼求祢，以祢的金色羊毛绒装饰我！看哪，我是祢的儿子。",
+      "ja": "神は印を示し、それから両手を上に向けて高く掲げ、言った：ジェホヴィよ！ジェホヴィよ！祢の命令によりて我は祢を呼び求める、我を祢の金色の羊毛絨にて装わしめたまえ！見よ、我は祢の子なり。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -367,10 +473,14 @@
       "id": "sethantes.1.33",
       "verse_number": 33,
       "en": "And the archangels tossed up the raiment and regalia they had brought from their etherean arc in a'ji, and, by the faith that was in God, the substance flew to him and encompassed him around in raiment of the upper heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "大天使長們將他們從以太界的阿基弧中帶來的衣袍與徽儀拋起，藉著神內心的信仰，那質料飛向他，以上天的衣袍將他環繞。",
+      "zh_hans": "大天使长们将他们从以太界的阿基弧中带来的衣袍与徽仪抛起，藉着神内心的信仰，那质料飞向他，以上天的衣袍将他环绕。",
+      "ja": "大天使長たちは、そのエセ界のアジの弧から持参した衣と徽章を投げ上げ、神の内なる信仰によりて、その質料は彼の元へと飛び、上天の衣をもって彼を取り囲んだ。",
+      "glossary_terms": [
+        "Archangels",
+        "A'ji",
+        "Etherea"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -378,10 +488,15 @@
       "id": "sethantes.1.34",
       "verse_number": 34,
       "en": "Then Jehovih spake to the Lords, saying: As God hath built a kingdom in Hored, and reigneth over this heaven, and over ye and your helpmates, so shall ye build kingdoms on the earth, and ye shall rule over mortals in My name, teaching them of Me and My everlasting kingdoms in the firmament above. In testimony of my voice receive ye this raiment of silver and gold from My archangels.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維向衆主們說道：正如神在霍雷德建立了王國，並統治這天堂，以及統治你們與你們的協助者們，你們也要在地上建立王國，以我的名統治凡人，教導他們認識我，以及我在上方穹蒼中永恆的王國。作為我聲音的見證，請從我的大天使長們手中接受這些金銀衣袍。",
+      "zh_hans": "耶霍维向众主们说道：正如神在霍雷德建立了王国，并统治这天堂，以及统治你们与你们的协助者们，你们也要在地上建立王国，以我的名统治凡人，教导他们认识我，以及我在上方穹苍中永恒的王国。作为我声音的见证，请从我的大天使长们手中接受这些金银衣袍。",
+      "ja": "それからジェホヴィは衆主たちに語りかけ、言った：神がホレドに王国を建て、この天を統べ、汝らとその助け手たちを治めたように、汝らも地の上に王国を建て、我の名において人を治め、我について、また上の大空にある我の永遠の王国について彼らに教えよ。我の声の証しとして、我の大天使長たちから金銀の衣を受け取れ。",
+      "glossary_terms": [
+        "Jehovih",
+        "Lord / Lords",
+        "Hored",
+        "Archangels"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -389,10 +504,14 @@
       "id": "sethantes.1.35",
       "verse_number": 35,
       "en": "The archangels then draped the Lords in shining raiment. And Etisyai came down from the throne, still entranced, saying:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "大天使長們隨後以光輝的衣袍披覆衆主們。厄提斯亞伊仍在出神狀態中從王座走下，說道：",
+      "zh_hans": "大天使长们随后以光辉的衣袍披覆众主们。厄提斯亚伊仍在出神状态中从王座走下，说道：",
+      "ja": "大天使長たちは衆主たちに輝く衣を纏わせた。エティスヤイはなお恍惚状態のまま王座より降りてきて、言った：",
+      "glossary_terms": [
+        "Archangels",
+        "Lord / Lords",
+        "Etisyai"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -400,10 +519,14 @@
       "id": "sethantes.1.36",
       "verse_number": 36,
       "en": "Though, My Daughter Etisyai will rise up in the flame of fire, yet will I, even Jehovih, abide with thee, O God, and with ye My Lords, now and forever! And then Etisyai took God's hand and led him to the center of the throne, saying: Sit thou on this throne for it is thy Father's kingdom in the lower heaven of the earth!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "雖然，我的女兒厄提斯亞伊將在火焰中升起，然而我，即耶霍維，將與你同在，啊，神啊，也與你們我的衆主們同在，現在直到永遠！然後厄提斯亞伊握住神的手，引他到王座中心，說道：坐在這王座上吧，因為這是你父在大地的低層天堂中的王國！",
+      "zh_hans": "虽然，我的女儿厄提斯亚伊将在火焰中升起，然而我，即耶霍维，将与你同在，啊，神啊，也与你们我的众主们同在，现在直到永远！然后厄提斯亚伊握住神的手，引他到王座中心，说道：坐在这王座上吧，因为这是你父在大地的低层天堂中的王国！",
+      "ja": "我が娘エティスヤイは火の炎の中に昇りゆくであろう、しかし我、ジェホヴィは汝とともに留まろう、ああ、神よ、そして汝ら我の衆主たちとともに、今より永遠に！それからエティスヤイは神の手を取り、王座の中心へと導き、言った：この王座に座せよ、それは汝の父の大地の低き天における王国なのだから！",
+      "glossary_terms": [
+        "Etisyai",
+        "Jehovih",
+        "Lord / Lords"
+      ],
       "plate_ref": null,
       "notes": []
     },

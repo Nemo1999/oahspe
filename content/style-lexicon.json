@@ -658,5 +658,35 @@
     "note": "Title for angels (archetypally Anuhasaj) who assume kingdoms in atmospherea, deny Jehovih, and profess themselves the Creator though born of woman; the counterfeit of the true divine title, foundational to Oahspe's account of false religion. Rendered 偽主神 / 偽りの主なる神, tying 主神 to the locked 'Lord'.",
     "locked": true,
     "first_seen": "hints.1.28"
+  },
+  {
+    "en": "GOD OF HEAVEN AND EARTH",
+    "category": "phrase",
+    "zh_hant": "天地之神",
+    "zh_hans": "天地之神",
+    "ja": "天地の神",
+    "note": "The formal divine title bestowed on Sethantes at his coronation; Jehovih's commission given through the Orian Chief's emissary. Recurring honorific in the books of God.",
+    "locked": true,
+    "first_seen": "sethantes.1.7"
+  },
+  {
+    "en": "In Jehovih's name, and in the love of",
+    "category": "phrase",
+    "zh_hant": "以耶霍維之名，並在……的愛之中",
+    "zh_hans": "以耶霍维之名，并在……的爱之中",
+    "ja": "ジェホヴィの名において、……の愛の中において",
+    "note": "Formulaic greeting used by etherean emissaries when presenting themselves at a coronation; recurring ceremonial opening in the Books of God.",
+    "locked": true,
+    "first_seen": "sethantes.1.12"
+  },
+  {
+    "en": "the I AM",
+    "category": "phrase",
+    "zh_hant": "「我是」",
+    "zh_hans": "「我是」",
+    "ja": "「我は在る」",
+    "note": "Oahspe's term for the divine self-consciousness within man—the spark of Jehovih's own being that faith nurtures to perfection; the inner wellspring from which man becomes a son of Jehovih. Recurring theological concept throughout Oahspe, referenced in Abracadabra's definition.",
+    "locked": true,
+    "first_seen": "sethantes.1.28"
   }
 ]

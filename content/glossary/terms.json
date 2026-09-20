@@ -4517,5 +4517,203 @@
     "cross_refs": [],
     "locked": true,
     "first_seen": "hints.1"
+  },
+  {
+    "term": "Etisyai",
+    "slug": "etisyai",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄提斯亞伊",
+      "zh_hans": "厄提斯亚伊",
+      "ja": "エティスヤイ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "High-raised Goddess of the etherean heaven, chief factor of Harmuts, who descends during the arc of Wan to crown Sethantes as the first God of the lower heaven and earth. She is foremost of the one million archangels sent from the etherean orbit of Fow'sang. Rendered by sound.",
+      "zh_hant": "以太界天的高升女神，霍爾穆茨的首席要素，在紈弧期間降臨，為瑟坦特斯加冕為低層天堂與大地的第一位神。她是從以太界弗桑軌道派來的一百萬大天使長中的最前列者。依聲音音譯。",
+      "zh_hans": "以太界天的高升女神，霍尔穆茨的首席要素，在纨弧期间降临，为瑟坦特斯加冕为低层天堂与大地的第一位神。她是从以太界弗桑轨道派来的一百万大天使长中的最前列者。依声音音译。",
+      "ja": "エセ界の天の高く上げられた女神にして、ホルムツの首席要素。ワンの弧の期間にセサンテスを低き天と大地の最初の神として戴冠するために降臨する。エセ界のフォウサンの軌道から遣わされた百万の大天使長の最先頭者。音によって訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.7",
+      "sethantes.1.11",
+      "sethantes.1.12",
+      "sethantes.1.13",
+      "sethantes.1.14",
+      "sethantes.1.15",
+      "sethantes.1.16",
+      "sethantes.1.17"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "hored",
+      "orian-chiefs"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
+  },
+  {
+    "term": "Harmuts",
+    "slug": "harmuts",
+    "category": "name",
+    "translit": {
+      "zh_hant": "霍爾穆茨",
+      "zh_hans": "霍尔穆茨",
+      "ja": "ホルムツ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The Orian Chief whose etherean kingdom sent Etisyai and her brother Ya'tiahaga to crown Sethantes as first God of the lower heaven. Harmuts is addressed in the text as the authority whose regalia and crowns are borne by the archangels. Rendered by sound.",
+      "zh_hant": "奧利安主長，其以太界王國派遣厄提斯亞伊及其兄弟雅提亞哈伽為瑟坦特斯加冕為低層天堂的第一位神。霍爾穆茨在文中被稱為大天使長所攜徽章與冠冕的頒授者。依聲音音譯。",
+      "zh_hans": "奥利安主长，其以太界王国派遣厄提斯亚伊及其兄弟雅提亚哈伽为瑟坦特斯加冕为低层天堂的第一位神。霍尔穆茨在文中被称为大天使长所携徽章与冠冕的颁授者。依声音音译。",
+      "ja": "オリアン首長にして、そのエセ界の王国からエティスヤイとその兄弟ヤティアハガを遣わし、セサンテスを低き天の最初の神として戴冠させた。ホルムツは本文において大天使長たちが携える徽章と冠の授与者として言及される。音によって訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.7",
+      "sethantes.1.11",
+      "sethantes.1.12",
+      "sethantes.1.13",
+      "sethantes.1.16"
+    ],
+    "cross_refs": [
+      "orian-chiefs",
+      "etisyai",
+      "sethantes"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
+  },
+  {
+    "term": "Ya'tiahaga",
+    "slug": "yatiahaga",
+    "category": "name",
+    "translit": {
+      "zh_hant": "雅提亞哈伽",
+      "zh_hans": "雅提亚哈伽",
+      "ja": "ヤティアハガ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Brother of Etisyai and co-commissioner from the etherean heaven of Harmuts; he accompanies Etisyai to Hored for the coronation of Sethantes as first God. Rendered by sound.",
+      "zh_hant": "厄提斯亞伊的兄弟，霍爾穆茨以太界天的共同使者；他陪同厄提斯亞伊前往霍雷德，參與瑟坦特斯加冕為第一位神的典禮。依聲音音譯。",
+      "zh_hans": "厄提斯亚伊的兄弟，霍尔穆茨以太界天的共同使者；他陪同厄提斯亚伊前往霍雷德，参与瑟坦特斯加冕为第一位神的典礼。依声音音译。",
+      "ja": "エティスヤイの兄弟にして、ホルムツのエセ界の天からの共同使者。彼はエティスヤイに同行してホレドへ赴き、セサンテスが最初の神として戴冠される式典に列する。音によって訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.11",
+      "sethantes.1.15"
+    ],
+    "cross_refs": [
+      "etisyai",
+      "harmuts",
+      "hored"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
+  },
+  {
+    "term": "arc of Wan",
+    "slug": "arc-of-wan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "紈弧",
+      "zh_hans": "纨弧",
+      "ja": "ワンの弧"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An etherean arc (a region or epoch of etherean space-time) from which Etisyai and her host descend to crown Sethantes; connected to the orbit of Fow'sang in etherea. 'Wan' is a coined Oahspe place-name rendered by sound; Chinese uses 紈 (a phonetically neutral character from the transliteration tradition, meaning plain silk — weak semantic content) to avoid the loaded numeral 萬/万. Japanese renders as katakana ワン per §2b.",
+      "zh_hant": "一個以太界的弧（以太界時空的一個區域或時期），厄提斯亞伊及其眾人由此降下為瑟坦特斯加冕；與以太界中弗桑的軌道相關聯。「紈」為聲音音譯所選的中性字（意指素絹，語義微弱），避免使用帶有強烈語義的數字萬。日文依§2b以片假名「ワン」音譯。",
+      "zh_hans": "一个以太界的弧（以太界时空的一个区域或时期），厄提斯亚伊及其众人由此降下为瑟坦特斯加冕；与以太界中弗桑的轨道相关联。「纨」为声音音译所选的中性字（意指素绢，语义微弱），避免使用带有强烈语义的数字万。日文依§2b以片假名「ワン」音译。",
+      "ja": "エセ界の弧（エセ界の時空間における一領域または一時期）であり、エティスヤイとその軍勢がセサンテスを戴冠するために降臨してきた場所。エセ界のフォウサンの軌道と関連する。「ワン」はオアスペの造地名であり、§2bに従いカタカナで音訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.7",
+      "sethantes.1.11"
+    ],
+    "cross_refs": [
+      "etherea",
+      "etisyai"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
+  },
+  {
+    "term": "Fow'sang",
+    "slug": "fowsang",
+    "category": "name",
+    "translit": {
+      "zh_hant": "弗桑",
+      "zh_hans": "弗桑",
+      "ja": "フォウサン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An orbit in etherea from which the archangels come during the arc of Wan to crown Sethantes; an etherean place-name for a cosmic orbital path. Chinese rendered 弗桑: 弗 is a phonetically neutral transliteration character (common in scripture transliteration), avoiding the semantically loaded 福 (fortune) and the mythological resonance of 扶桑. Rendered by sound.",
+      "zh_hant": "以太界中的一個軌道，大天使長們在紈弧期間由此前來為瑟坦特斯加冕；乃宇宙軌道路徑的以太界地名。中文譯作「弗桑」：「弗」為音譯傳統常用的中性字，避免語義強烈的「福」（福氣）及「扶桑」的神話聯想。依聲音音譯。",
+      "zh_hans": "以太界中的一个轨道，大天使长们在纨弧期间由此前来为瑟坦特斯加冕；乃宇宙轨道路径的以太界地名。中文译作「弗桑」：「弗」为音译传统常用的中性字，避免语义强烈的「福」（福气）及「扶桑」的神话联想。依声音音译。",
+      "ja": "エセ界の軌道であり、大天使長たちがワンの弧の期間にセサンテスを戴冠するために来たる場所。宇宙の軌道の経路を指すエセ界の地名。音によって訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.11"
+    ],
+    "cross_refs": [
+      "etherea",
+      "arc-of-wan"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
+  },
+  {
+    "term": "Emethachavah",
+    "slug": "emethachavah",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄梅塔哈瓦",
+      "zh_hans": "厄梅塔哈瓦",
+      "ja": "エメタハヴァ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A section or document within the Book of Saphah containing information about the sign of Jehovih's name (the circle twice cut) and the oath of office administered at the coronation of God and the Lords. Rendered by sound.",
+      "zh_hant": "薩法書中的一個章節或文獻，載有關於耶霍維之名符號（兩次截斷的圓圈）以及神與衆主加冕典禮就職誓言的資訊。依聲音音譯。",
+      "zh_hans": "萨法书中的一个章节或文献，载有关于耶霍维之名符号（两次截断的圆圈）以及神与众主加冕典礼就职誓言的资讯。依声音音译。",
+      "ja": "サファ書中の一章節または文書であり、ジェホヴィの名の印（二度切られた円）および神と衆主の戴冠典礼における就任の誓いに関する情報を含む。音によって訳した。"
+    },
+    "appears_in": [
+      "sethantes.1.24"
+    ],
+    "cross_refs": [
+      "saphah",
+      "jehovih"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.1"
   }
 ]
