@@ -688,5 +688,25 @@
     "note": "Oahspe's term for the divine self-consciousness within man—the spark of Jehovih's own being that faith nurtures to perfection; the inner wellspring from which man becomes a son of Jehovih. Recurring theological concept throughout Oahspe, referenced in Abracadabra's definition.",
     "locked": true,
     "first_seen": "sethantes.1.28"
+  },
+  {
+    "en": "the Light of Jehovih",
+    "category": "phrase",
+    "zh_hant": "耶霍維之光",
+    "zh_hans": "耶霍维之光",
+    "ja": "ジェホヴィの光",
+    "note": "The visible divine radiance that moves from person to person or settles upon God and the Lords at moments of sacred transition; a recurring sign of Jehovih's active presence in coronation and heavenly ceremonies.",
+    "locked": true,
+    "first_seen": "sethantes.1.37"
+  },
+  {
+    "en": "proclaimed the freedom of the hour",
+    "category": "phrase",
+    "zh_hant": "宣告了這一刻的自由",
+    "zh_hans": "宣告了这一刻的自由",
+    "ja": "その刻の解放を宣言された",
+    "note": "The formal declaration by God closing a coronation ceremony and releasing the assembled hosts from ceremonial order into joyful fellowship; a recurring closing formula in the Books of God.",
+    "locked": true,
+    "first_seen": "sethantes.1.38"
   }
 ]
