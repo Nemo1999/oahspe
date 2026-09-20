@@ -403,9 +403,9 @@
     "slug": "c-vorkum",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "柯伏沃克姆",
+      "zh_hans": "柯伏沃克姆",
+      "ja": "コヴォ・ワーク・ム"
     },
     "source_def": "The road-way of the Solar Phalanx, 603,110; also map between pp. 68, 69.",
     "source_def_literal": {
@@ -414,15 +414,15 @@
       "ja": "太陽ファランクスの道路、603,110；68～69頁間の地図も参照。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "A named firmament-circuit through which the solar system travels; its component syllables include Wark (沃克/ワーク), the astronomical term for the sun's orbital course. C'v'wark'um denotes the full circuit path, of which the third circuit places the firmament of Tem'yi at dan'ha twenty-four.",
+      "zh_hant": "太陽系所行經的一個天穹回路名稱；其音節包含沃克（Wark），即太陽軌道行程的天文術語。柯伏沃克姆指整個回路路徑，其中第三圈使天穹鐵姆依處於但哈二十四。",
+      "zh_hans": "太阳系所行经的一个天穹回路名称；其音节包含沃克（Wark），即太阳轨道行程的天文术语。柯伏沃克姆指整个回路路径，其中第三圈使天穹铁姆依处于但哈二十四。",
+      "ja": "太陽系が通過する天蓋回路の名称；その音節にはワーク（Wark）が含まれており、太陽の軌道行路を表す天文用語である。コヴォ・ワーク・ムは完全な回路経路を指し、その第三周回にてム・イの天蓋が但哈二十四に位置する。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "sethantes.2"
   },
   {
     "term": "Egisi",
@@ -559,9 +559,9 @@
     "slug": "es-enauers",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "埃斯那爾",
+      "zh_hans": "埃斯那尔",
+      "ja": "エスエナウル"
     },
     "source_def": "Heavenly musicians, composed of singers and instrument players.",
     "source_def_literal": {
@@ -570,15 +570,15 @@
       "ja": "天上の音楽家、歌い手と楽器の奏者から成る。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "The choristers or musical ministers of heaven; the plural form of Es'enaur. They lead the assembled hosts in sacred chant at coronations, departures, and other solemn ceremonies of the lower heaven.",
+      "zh_hant": "天上的詠唱者或音樂事奉者，埃斯那爾的複數形式。他們在加冕、離別及低層天堂其他莊嚴儀式中，引領眾軍進行神聖的吟唱。",
+      "zh_hans": "天上的咏唱者或音乐事奉者，埃斯那尔的复数形式。他们在加冕、离别及低层天堂其他庄严仪式中，引领众军进行神圣的吟唱。",
+      "ja": "天の詠唱者あるいは音楽奉仕者たちで、エスエナウルの複数形。即位式、出発式、その他低き天の荘厳な儀式において、集まった軍勢の神聖な詠唱を率いる。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": "sethantes.2"
   },
   {
     "term": "Es-pa",
@@ -4715,5 +4715,229 @@
     ],
     "locked": true,
     "first_seen": "sethantes.1"
+  },
+  {
+    "term": "All Light",
+    "slug": "all-light",
+    "category": "term",
+    "translit": {
+      "zh_hant": "全光",
+      "zh_hans": "全光",
+      "ja": "全なる光"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A visible manifestation of Jehovih's omnipresent radiance; gathers about the throne of God at sacred assemblies, enveloping God and the Lords as the prelude to Jehovih speaking through God. A recurring sign of divine presence and authority in the Books of God.",
+      "zh_hant": "耶霍維遍在之光的顯現；在神聖集會中聚攏於神的寶座四周，籠罩神與衆主，作為耶霍維藉神發言的前奏。是《神之書》中神聖臨在與權威反覆出現的象徵。",
+      "zh_hans": "耶霍维遍在之光的显现；在神圣集会中聚拢于神的宝座四周，笼罩神与众主，作为耶霍维借神发言的前奏。是《神之书》中神圣临在与权威反复出现的象征。",
+      "ja": "ジェホヴィの遍在する輝きの顕現。神聖な集会において神の玉座の周りに集まり、神と衆主を覆う。ジェホヴィが神を通して語りたもう前触れとなる。神の諸書において繰り返し現れる、神聖な臨在と権威の標。"
+    },
+    "appears_in": [
+      "sethantes.2.13"
+    ],
+    "cross_refs": [
+      "jehovih"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.13"
+  },
+  {
+    "term": "Es'yan",
+    "slug": "es-yan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "埃斯楊",
+      "zh_hans": "埃斯杨",
+      "ja": "エスヤン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": "在天國中新生的靈魂；一個剛進入靈界的新靈。",
+      "zh_hans": "在天国中新生的灵魂；一个刚进入灵界的新灵。",
+      "ja": "天において新たに生まれた霊；霊界に入ったばかりの新しい霊。"
+    },
+    "editor_note": {
+      "en": "A newly deceased spirit freshly arrived in the lower heaven (Es world), having just transitioned from corporeal life; in the early era of the earth's heavens, es'yans required the close ministration of angels to orient them and guide their ascent through the grades.",
+      "zh_hant": "甫從有形界過渡至低層天堂（埃斯世界）的新近亡靈；在大地諸天的早期，埃斯楊們需要天使的密切事奉，以引導其定向並指引其晉升於各等第之中。",
+      "zh_hans": "甫从有形界过渡至低层天堂（埃斯世界）的新近亡灵；在大地诸天的早期，埃斯杨们需要天使的密切事奉，以引导其定向并指引其晋升于各等第之中。",
+      "ja": "有形の生を終えたばかりで低き天（エス世界）に新たに到達した霊。大地の天々の初期においては、エスヤンたちは天使たちの近い奉仕を必要とし、方向を定めて諸等級を昇っていく手助けを受けた。"
+    },
+    "appears_in": [
+      "sethantes.2.15"
+    ],
+    "cross_refs": [
+      "es",
+      "ashar",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.15"
+  },
+  {
+    "term": "Waga",
+    "slug": "waga",
+    "category": "name",
+    "translit": {
+      "zh_hant": "瓦伽",
+      "zh_hans": "瓦伽",
+      "ja": "ワガ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the five Lords appointed by God (Sethantes) at the founding of heaven's administration; given dominion over Pan (the Pacific continent). The land was named after him.",
+      "zh_hant": "神（瑟坦特斯）在建立天上行政之初所任命的五位衆主之一；獲授潘洲（太平洋大陸）的管轄權。該土地以其名字命名。",
+      "zh_hans": "神（瑟坦特斯）在建立天上行政之初所任命的五位众主之一；获授潘洲（太平洋大陆）的管辖权。该土地以其名字命名。",
+      "ja": "神（セサンテス）が天の行政を立ち上げる際に任命した五人の衆主の一人；パン（太平洋の大陸）の支配を与えられた。その土地は彼の名から呼ばれた。"
+    },
+    "appears_in": [
+      "sethantes.2.28",
+      "sethantes.2.32",
+      "sethantes.2.33"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "pan",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.28"
+  },
+  {
+    "term": "Jud",
+    "slug": "jud",
+    "category": "name",
+    "translit": {
+      "zh_hant": "珠德",
+      "zh_hans": "珠德",
+      "ja": "ジュド"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the five Lords appointed at the founding of heaven's administration; given dominion over Asia (Jud). The land was named after him.",
+      "zh_hant": "在建立天上行政之初所任命的五位衆主之一；獲授亞細亞（朱德）的管轄權。該土地以其名字命名。",
+      "zh_hans": "在建立天上行政之初所任命的五位众主之一；获授亚细亚（朱德）的管辖权。该土地以其名字命名。",
+      "ja": "天の行政を立ち上げる際に任命された五人の衆主の一人；アジア（ジュド）の支配を与えられた。その土地は彼の名から呼ばれた。"
+    },
+    "appears_in": [
+      "sethantes.2.28"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.28"
+  },
+  {
+    "term": "Thouri",
+    "slug": "thouri",
+    "category": "name",
+    "translit": {
+      "zh_hant": "托利",
+      "zh_hans": "托利",
+      "ja": "トウリ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the five Lords appointed at the founding of heaven's administration; given dominion over America (Thouri). The land was named after him.",
+      "zh_hant": "在建立天上行政之初所任命的五位衆主之一；獲授美洲（托利）的管轄權。該土地以其名字命名。",
+      "zh_hans": "在建立天上行政之初所任命的五位众主之一；获授美洲（托利）的管辖权。该土地以其名字命名。",
+      "ja": "天の行政を立ち上げる際に任命された五人の衆主の一人；アメリカ（トウリ）の支配を与えられた。その土地は彼の名から呼ばれた。"
+    },
+    "appears_in": [
+      "sethantes.2.28"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.28"
+  },
+  {
+    "term": "Vohu",
+    "slug": "vohu",
+    "category": "name",
+    "translit": {
+      "zh_hant": "弗侯",
+      "zh_hans": "弗侯",
+      "ja": "ヴォフ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the five Lords appointed at the founding of heaven's administration; given dominion over Africa (Vohu). The land was named after him.",
+      "zh_hant": "在建立天上行政之初所任命的五位衆主之一；獲授非洲（弗侯）的管轄權。該土地以其名字命名。",
+      "zh_hans": "在建立天上行政之初所任命的五位众主之一；获授非洲（弗侯）的管辖权。该土地以其名字命名。",
+      "ja": "天の行政を立ち上げる際に任命された五人の衆主の一人；アフリカ（ヴォフ）の支配を与えられた。その土地は彼の名から呼ばれた。"
+    },
+    "appears_in": [
+      "sethantes.2.28"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.28"
+  },
+  {
+    "term": "Dis",
+    "slug": "dis",
+    "category": "name",
+    "translit": {
+      "zh_hant": "迪斯",
+      "zh_hans": "迪斯",
+      "ja": "ディス"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "One of the five Lords appointed at the founding of heaven's administration; given dominion over Europe (Dis). The land was named after him.",
+      "zh_hant": "在建立天上行政之初所任命的五位衆主之一；獲授歐洲（迪斯）的管轄權。該土地以其名字命名。",
+      "zh_hans": "在建立天上行政之初所任命的五位众主之一；获授欧洲（迪斯）的管辖权。该土地以其名字命名。",
+      "ja": "天の行政を立ち上げる際に任命された五人の衆主の一人；ヨーロッパ（ディス）の支配を与えられた。その土地は彼の名から呼ばれた。"
+    },
+    "appears_in": [
+      "sethantes.2.28"
+    ],
+    "cross_refs": [
+      "sethantes",
+      "lord"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.28"
+  },
+  {
+    "term": "Tem'yi",
+    "slug": "tem-yi",
+    "category": "term",
+    "translit": {
+      "zh_hant": "鐵姆依",
+      "zh_hans": "铁姆依",
+      "ja": "テム・イ"
+    },
+    "source_def": null,
+    "source_def_literal": null,
+    "editor_note": {
+      "en": "A named firmament (celestial region) appearing in the record of the Great Serpent; it is located in the third circuit of C'vorkum at dan'ha twenty-four, marking the astronomical position at the time of the founding of heaven's administration under Sethantes.",
+      "zh_hant": "出現於大蛇記錄中的一個天穹（天體區域）名稱；位於柯伏爾庫姆第三圈、但哈二十四，標示瑟坦特斯建立天上行政時的天文位置。",
+      "zh_hans": "出现于大蛇记录中的一个天穹（天体区域）名称；位于柯伏尔库姆第三圈、但哈二十四，标示瑟坦特斯建立天上行政时的天文位置。",
+      "ja": "大蛇の記録に現れる天蓋（天体領域）の名；コヴォルクムの第三周回、但哈二十四に位置し、セサンテスのもとで天の行政が設立された時の天文的位置を示す。"
+    },
+    "appears_in": [
+      "sethantes.2.29"
+    ],
+    "cross_refs": [
+      "great-serpent",
+      "dan-ha",
+      "c-vorkum"
+    ],
+    "locked": true,
+    "first_seen": "sethantes.2.29"
   }
 ]

@@ -708,5 +708,45 @@
     "note": "The formal declaration by God closing a coronation ceremony and releasing the assembled hosts from ceremonial order into joyful fellowship; a recurring closing formula in the Books of God.",
     "locked": true,
     "first_seen": "sethantes.1.38"
+  },
+  {
+    "en": "swift messengers",
+    "category": "phrase",
+    "zh_hant": "迅捷使者",
+    "zh_hans": "迅捷使者",
+    "ja": "迅速な使者",
+    "note": "Angels who travel between the lower heaven, the Lords' kingdoms, and the upper etherean heavens carrying records, confirmations, and dispatches; their defining quality is speed between planes. Recurring administrative formula in the Books of God.",
+    "locked": true,
+    "first_seen": "sethantes.2.4"
+  },
+  {
+    "en": "ship of fire",
+    "category": "phrase",
+    "zh_hant": "火之舟",
+    "zh_hans": "火之舟",
+    "ja": "火の船",
+    "note": "The etherean vessel of ascent, manifesting as columns of fire rising in spiral form; used by etherean emissaries to travel between the lower heaven and the higher etherean worlds. Recurring Oahspe image for the vehicle of heavenly departure.",
+    "locked": true,
+    "first_seen": "sethantes.2.11"
+  },
+  {
+    "en": "new born in heaven",
+    "category": "phrase",
+    "zh_hant": "在天上新生者",
+    "zh_hans": "在天上新生者",
+    "ja": "天において新たに生まれた者",
+    "note": "The defining gloss for Es'yan given by God himself in verse 21: 'signifying new born in heaven.' Used here as a parenthetical definition-phrase rather than a standalone verse, but theologically locked to the Es'yan entry.",
+    "locked": true,
+    "first_seen": "sethantes.2.21"
+  },
+  {
+    "en": "the beginning of the first kingdom in the lower heaven",
+    "category": "phrase",
+    "zh_hant": "低層天堂中第一個國度之始",
+    "zh_hans": "低层天堂中第一个国度之始",
+    "ja": "低き天における最初の国の始まり",
+    "note": "Closing formula marking the founding moment of organized heavenly governance under God and the Lords; theologically loaded as the terminal statement of the Book of Sethantes ch. 2.",
+    "locked": true,
+    "first_seen": "sethantes.2.35"
   }
 ]
