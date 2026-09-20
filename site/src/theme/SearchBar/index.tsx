@@ -26,10 +26,8 @@ interface PagefindSearchResponse {
 
 interface PagefindModule {
   init: () => Promise<void>;
-  search: (
-    query: string,
-    options?: { filters?: Record<string, string> },
-  ) => Promise<PagefindSearchResponse>;
+  options: (options: { highlightParam: string }) => Promise<void>;
+  search: (query: string) => Promise<PagefindSearchResponse>;
 }
 
 // ---- helpers ----------------------------------------------------------------
@@ -56,35 +54,38 @@ interface SearchResult {
 type SearchState = 'idle' | 'unavailable' | 'loading' | 'done' | 'error';
 
 export default function SearchBar(): React.ReactElement {
-  const { i18n } = useDocusaurusContext();
-  const currentLocale = i18n.currentLocale;
+  const { i18n, siteConfig } = useDocusaurusContext();
+  const { currentLocale, defaultLocale } = i18n;
+  const siteBaseUrl = siteConfig.baseUrl.endsWith(`/${currentLocale}/`) ? siteConfig.baseUrl.slice(0, -currentLocale.length - 1) : siteConfig.baseUrl;
+  const pagefindPath = `${siteBaseUrl}${currentLocale === defaultLocale ? '' : `${currentLocale}/`}pagefind/pagefind.js`;
 
-  const [query, setQuery]         = useState('');
-  const [results, setResults]     = useState<SearchResult[]>([]);
-  const [status, setStatus]       = useState<SearchState>('idle');
-  const [open, setOpen]           = useState(false);
-
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [status, setStatus] = useState<SearchState>('idle');
+  const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
   const pagefindRef = useRef<PagefindModule | null>(null);
-  const inputRef    = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-
   const debouncedQuery = useDebounce(query, 300);
 
-  // Lazy-load Pagefind once, on first keystroke (SSR-safe: runs in useEffect)
   const loadPagefind = useCallback(async (): Promise<PagefindModule | null> => {
     if (pagefindRef.current) return pagefindRef.current;
     try {
-      // Dynamic import — only runs in browser, path is relative to origin
-      const pf = (await import(
-        /* webpackIgnore: true */ '/oahspe/pagefind/pagefind.js' as string
-      )) as PagefindModule;
+      // Runtime selection is required: every Docusaurus locale emits its own Pagefind bundle.
+      const pf = (await import(/* webpackIgnore: true */ pagefindPath)) as PagefindModule;
       await pf.init();
+      await pf.options({ highlightParam: 'pagefind-highlight' });
       pagefindRef.current = pf;
       return pf;
     } catch {
       return null;
     }
-  }, []);
+  }, [pagefindPath]);
+
+  useEffect(() => {
+    pagefindRef.current = null;
+  }, [pagefindPath]);
 
   useEffect(() => {
     if (!debouncedQuery.trim()) {
@@ -92,39 +93,28 @@ export default function SearchBar(): React.ReactElement {
       setStatus('idle');
       return;
     }
-
     let cancelled = false;
-
-    (async () => {
+    void (async () => {
       setStatus('loading');
       const pf = await loadPagefind();
       if (!pf) {
         if (!cancelled) setStatus('unavailable');
         return;
       }
-
       try {
-        // Pagefind is zero-config multilingual: it auto-loads the index matching the
-        // page's <html lang>, so each locale build searches only its own language.
-        // (No `language` filter — that filter was never indexed and returned zero hits.)
         const response = await pf.search(debouncedQuery);
-        if (cancelled) return;
-
-        // Resolve first 8 results (data() is per-result async)
-        const slice = response.results.slice(0, 8);
-        const resolved = await Promise.all(
-          slice.map(async (r) => {
-            const d = await r.data();
-            return {
-              id:      r.id,
-              url:     d.url,
-              title:   d.meta?.title ?? 'Untitled',
-              excerpt: d.excerpt,
-            } satisfies SearchResult;
-          }),
-        );
+        const resolved = await Promise.all(response.results.slice(0, 8).map(async (result) => {
+          const data = await result.data();
+          return {
+            id: result.id,
+            url: data.url,
+            title: data.meta?.title ?? 'Untitled',
+            excerpt: data.excerpt,
+          } satisfies SearchResult;
+        }));
         if (!cancelled) {
           setResults(resolved);
+          setActiveIndex(0);
           setStatus('done');
           setOpen(true);
         }
@@ -132,16 +122,12 @@ export default function SearchBar(): React.ReactElement {
         if (!cancelled) setStatus('error');
       }
     })();
-
     return () => { cancelled = true; };
-  }, [debouncedQuery, currentLocale, loadPagefind]);
+  }, [debouncedQuery, loadPagefind]);
 
-  // Close dropdown when clicking outside
   useEffect(() => {
-    const onPointer = (e: PointerEvent) => {
-      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
-        setOpen(false);
-      }
+    const onPointer = (event: PointerEvent) => {
+      if (containerRef.current && !containerRef.current.contains(event.target as Node)) setOpen(false);
     };
     document.addEventListener('pointerdown', onPointer);
     return () => document.removeEventListener('pointerdown', onPointer);
@@ -154,8 +140,13 @@ export default function SearchBar(): React.ReactElement {
     setOpen(false);
     inputRef.current?.focus();
   }, []);
-
   const showDropdown = open && query.trim().length > 0;
+  const activeResult = results[activeIndex];
+  const resultUrl = (result: SearchResult) => {
+    const url = new URL(result.url, window.location.href);
+    url.searchParams.set('pagefind-highlight', query.trim());
+    return url.href;
+  };
 
   return (
     <div ref={containerRef} className="pagefind-searchbar" role="search">
@@ -170,65 +161,38 @@ export default function SearchBar(): React.ReactElement {
           aria-autocomplete="list"
           aria-expanded={showDropdown}
           aria-controls="pagefind-results"
-          onChange={(e) => setQuery(e.target.value)}
+          aria-activedescendant={activeResult ? `pagefind-result-${activeResult.id}` : undefined}
+          onChange={(event) => setQuery(event.target.value)}
           onFocus={() => { if (results.length > 0) setOpen(true); }}
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') { setOpen(false); return; }
+            if (!results.length) return;
+            if (event.key === 'ArrowDown' || (event.ctrlKey && event.key === 'n')) {
+              event.preventDefault(); setOpen(true); setActiveIndex((index) => (index + 1) % results.length);
+            } else if (event.key === 'ArrowUp' || (event.ctrlKey && event.key === 'p')) {
+              event.preventDefault(); setOpen(true); setActiveIndex((index) => (index - 1 + results.length) % results.length);
+            } else if (event.key === 'Enter' && activeResult) {
+              event.preventDefault(); window.location.assign(resultUrl(activeResult));
+            }
+          }}
         />
-        {query && (
-          <button
-            className="pagefind-searchbar-clear"
-            onClick={handleClear}
-            aria-label="Clear search"
-            tabIndex={-1}
-          >
-            ✕
-          </button>
-        )}
+        {query && <button className="pagefind-searchbar-clear" onClick={handleClear} aria-label="Clear search" tabIndex={-1}>✕</button>}
       </div>
-
       {showDropdown && (
-        <div
-          id="pagefind-results"
-          className="pagefind-results-dropdown"
-          role="listbox"
-          aria-label="Search results"
-        >
-          {status === 'unavailable' && (
-            <div className="pagefind-results-notice">
-              Search available after build
+        <div id="pagefind-results" className="pagefind-results-dropdown" role="listbox" aria-label="Search results">
+          {status === 'unavailable' && <div className="pagefind-results-notice">Search available after build</div>}
+          {status === 'loading' && <div className="pagefind-results-notice" aria-live="polite">Searching…</div>}
+          {status === 'error' && <div className="pagefind-results-notice pagefind-results-notice--error">Search error. Try again.</div>}
+          {status === 'done' && results.length === 0 && <div className="pagefind-results-notice">No results for "{query}"</div>}
+          {results.length > 0 && <>
+            <div className="pagefind-results-list">
+              {results.map((result, index) => <a key={result.id} id={`pagefind-result-${result.id}`} href={resultUrl(result)} className="pagefind-result-item" role="option" aria-selected={index === activeIndex} onMouseEnter={() => setActiveIndex(index)} onClick={() => setOpen(false)}>
+                <div className="pagefind-result-title">{result.title}</div>
+                <div className="pagefind-result-excerpt" dangerouslySetInnerHTML={{ __html: result.excerpt }} />
+              </a>)}
             </div>
-          )}
-          {status === 'loading' && (
-            <div className="pagefind-results-notice" aria-live="polite">
-              Searching…
-            </div>
-          )}
-          {status === 'error' && (
-            <div className="pagefind-results-notice pagefind-results-notice--error">
-              Search error. Try again.
-            </div>
-          )}
-          {status === 'done' && results.length === 0 && (
-            <div className="pagefind-results-notice">
-              No results for "{query}"
-            </div>
-          )}
-          {results.map((result) => (
-            <a
-              key={result.id}
-              href={result.url}
-              className="pagefind-result-item"
-              role="option"
-              aria-selected="false"
-              onClick={() => setOpen(false)}
-            >
-              <div className="pagefind-result-title">{result.title}</div>
-              <div
-                className="pagefind-result-excerpt"
-                /* Pagefind marks matched terms with <mark> tags */
-                dangerouslySetInnerHTML={{ __html: result.excerpt }}
-              />
-            </a>
-          ))}
+            {activeResult && <aside className="pagefind-result-preview" aria-live="polite"><div className="pagefind-result-title">{activeResult.title}</div><div className="pagefind-result-excerpt" dangerouslySetInnerHTML={{ __html: activeResult.excerpt }} /></aside>}
+          </>}
         </div>
       )}
     </div>

@@ -265,3 +265,21 @@ a.verse-term:hover, a.verse-term:focus { text-decoration: underline; text-underl
 
 /* Notice shown when a chapter has no translation for the selected language */
 .verse-untranslated-note { margin: 0.5rem 0 1rem; padding: 0.5rem 0.8rem; font-size: 0.88rem; border-radius: 6px; background: color-mix(in srgb, var(--ifm-color-warning) 14%, transparent); border-inline-start: 3px solid var(--ifm-color-warning); color: var(--ifm-font-color-base); }
+
+/* Pagefind search: positioned panel keeps results out of document flow. */
+.pagefind-searchbar { position: relative; min-width: min(22rem, 70vw); }
+.pagefind-searchbar-input-wrap { position: relative; }
+.pagefind-searchbar-input { width: 100%; min-height: 2.25rem; padding: 0.4rem 2rem 0.4rem 0.7rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 0.35rem; background: var(--ifm-background-surface-color); color: var(--ifm-font-color-base); }
+.pagefind-searchbar-input:focus { border-color: var(--ifm-color-primary); outline: 2px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent); outline-offset: 1px; }
+.pagefind-searchbar-clear { position: absolute; inset: 0 0 0 auto; width: 2rem; border: 0; background: transparent; color: var(--ifm-color-emphasis-700); cursor: pointer; }
+.pagefind-results-dropdown { position: absolute; z-index: 1000; top: calc(100% + 0.35rem); right: 0; display: grid; grid-template-columns: minmax(16rem, 1fr) minmax(18rem, 1fr); width: min(44rem, 90vw); max-height: min(32rem, calc(100vh - var(--ifm-navbar-height) - 1rem)); overflow: hidden; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 0.5rem; background: var(--ifm-background-surface-color); box-shadow: var(--ifm-global-shadow-lw); }
+.pagefind-results-list { overflow-y: auto; padding: 0.35rem; border-inline-end: 1px solid var(--ifm-color-emphasis-200); }
+.pagefind-result-item { display: block; padding: 0.65rem 0.75rem; border-radius: 0.3rem; color: var(--ifm-font-color-base); text-decoration: none; cursor: pointer; }
+.pagefind-result-item:hover, .pagefind-result-item[aria-selected='true'] { background: var(--ifm-color-emphasis-100); color: var(--ifm-font-color-base); }
+.pagefind-result-title { font-weight: 700; line-height: 1.3; }
+.pagefind-result-excerpt { margin-top: 0.25rem; color: var(--ifm-color-emphasis-700); font-size: 0.875rem; line-height: 1.45; }
+.pagefind-result-excerpt mark, [data-pagefind-body] mark { padding: 0 0.1em; border-radius: 0.15em; background: var(--ifm-color-warning-contrast-background, #ffe08a); color: inherit; }
+.pagefind-result-preview { overflow-y: auto; padding: 1rem; background: var(--ifm-background-color); }
+.pagefind-results-notice { grid-column: 1 / -1; padding: 0.9rem 1rem; color: var(--ifm-color-emphasis-700); }
+.pagefind-results-notice--error { color: var(--ifm-color-danger); }
+@media (max-width: 640px) { .pagefind-searchbar { min-width: min(18rem, 68vw); } .pagefind-results-dropdown { grid-template-columns: 1fr; max-height: 65vh; } .pagefind-result-preview { display: none; } .pagefind-results-list { border-inline-end: 0; } }

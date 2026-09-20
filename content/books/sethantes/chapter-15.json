@@ -15,10 +15,14 @@
       "id": "sethantes.15.1",
       "verse_number": 1,
       "en": "Ha'jah said: With the exaltation of Moeb, so shall my places be exalted before Jehovih. Let the enumerators of the communities of heaven send representatives before me. The communities of manufacturers who produce food and clothes for the es'yans, the communities for hospitals and nurseries, the communities for education, the communities for training messengers, and all other communities.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "哈迦說：隨著摩厄布被擢升，我的各處也必在耶霍維面前被擢升。願天堂各社群的統計者派代表到我面前來。那些為埃斯揚製造食物與衣服的製造者社群，醫院與育嬰所的社群，教育的社群，訓練使者的社群，以及一切其他社群。",
+      "zh_hans": "哈迦说：随着摩厄布被擢升，我的各处也必在耶霍维面前被擢升。愿天堂各社群的统计者派代表到我面前来。那些为埃斯扬制造食物与衣服的制造者社群，医院与育婴所的社群，教育的社群，训练使者的社群，以及一切其他社群。",
+      "ja": "ハジャは言った。モエブの高揚とともに、我が諸所もジェホヴィの御前にて高められるであろう。天の諸共同体の集計者らは、我が前に代表者を遣わすがよい。エスヤンのために食物と衣服を作る製造者の共同体、病院と育児所の共同体、教育の共同体、使者を訓練する共同体、ならびに他のすべての共同体である。",
+      "glossary_terms": [
+        "Ha'jah",
+        "Moeb",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +30,12 @@
       "id": "sethantes.15.2",
       "verse_number": 2,
       "en": "When the representatives came, according to the instructions of the marshals, and were before the throne, Ha'jah said:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "代表們遵照元帥的指示來到寶座前時，哈迦說：",
+      "zh_hans": "代表们遵照元帅的指示来到宝座前时，哈迦说：",
+      "ja": "代表者たちが元帥らの指示に従って来たり、王座の前に立ったとき、ハジャは言った。",
+      "glossary_terms": [
+        "Ha'jah"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,9 +43,9 @@
       "id": "sethantes.15.3",
       "verse_number": 3,
       "en": "The toilers shall not be always toilers; the physicians not always runners after the sick. Whosoever is proficient will I exalt. He that can walk shall no longer crawl.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "勞作者不可永遠作勞作者；醫者也不可永遠追隨病人奔走。我必擢升一切精通者。能行走的人，不再爬行。",
+      "zh_hans": "劳作者不可永远作劳作者；医者也不可永远追随病人奔走。我必擢升一切精通者。能行走的人，不再爬行。",
+      "ja": "働く者たちは、いつまでも働く者であってはならない。医師たちも、いつまでも病者を追って走る者であってはならない。熟達した者はすべて、我が高めよう。歩める者は、もはや這うことはない。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -48,9 +54,9 @@
       "id": "sethantes.15.4",
       "verse_number": 4,
       "en": "Many are wise and strong, and some have passed beyond the boundary of self-desires for self-sake.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "許多人睿智而強健，有些人已越過為己私欲的界限。",
+      "zh_hans": "许多人贤明而强壮，有些人已经越过了为己之私欲的界限。",
+      "ja": "多くの者は賢く強く、ある者たちは己のためだけの欲望という境を越えている。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -59,9 +65,9 @@
       "id": "sethantes.15.5",
       "verse_number": 5,
       "en": "A child may not have self-desires, but then it lacketh wisdom and strength. A full grown man or woman may have wisdom and strength, but lack in the abnegation of self.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "孩童或許沒有自我欲求，卻缺少智慧與力量。成年男女或許有智慧與力量，卻缺乏捨棄自我的德行。",
+      "zh_hans": "孩童或许没有自我欲求，却缺少智慧与力量。成年男女或许有智慧与力量，却缺乏舍弃自我的德行。",
+      "ja": "子どもには自己の欲望がないこともあろうが、知恵と力に欠ける。成人した男または女には知恵と力があろうが、自己を捨てる徳に欠ける。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -70,10 +76,13 @@
       "id": "sethantes.15.6",
       "verse_number": 6,
       "en": "I will make every community a double from this time forth, and one shall be called Maga, and the other shall be called Minga. Maga shall be my promoted laborers, who are being prepared for the second resurrection.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "從今以後，我要把每個社群分作兩個，一個稱為瑪伽，另一個稱為明伽。瑪伽是我擢升的勞作者，他們正為第二復活而受準備。",
+      "zh_hans": "从今以后，我要把每个社群分作两个，一个称为玛伽，另一个称为明伽。玛伽是我擢升的劳作者，他们正为第二复活而受准备。",
+      "ja": "今より後、我はすべての共同体を二つに分け、一方をマガ、他方をミンガと呼ぶ。マガは、第二の復活のために備えられつつある、我が昇進させた働く者たちである。",
+      "glossary_terms": [
+        "Maga",
+        "Minga"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +90,16 @@
       "id": "sethantes.15.7",
       "verse_number": 7,
       "en": "And Maga's labor shall be in concert with Moeb, the house of Jehovih. But Minga's labor shall be as heretofore, even with individual affairs and the organizing of new places for the delivered es'yans, who are the fruit of the Lords and their kingdoms on the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "瑪伽的勞作，必與摩厄布——耶霍維之家——協同。但明伽的勞作仍如從前，處理個別事務，並為蒙解救的埃斯揚組織新的處所；他們乃眾主及其在大地上的國度所結之果。",
+      "zh_hans": "玛伽的劳作，必与摩厄布——耶霍维之家——协同。但明伽的劳作仍如从前，处理个别事务，并为蒙解救的埃斯扬组织新的处所；他们乃众主及其在大地上的国度所结之果。",
+      "ja": "マガの働きは、ジェホヴィの家たるモエブと協調してなされる。しかしミンガの働きは、これまでどおり個々の事柄を扱い、救い出されたエスヤンのために新たな場所を組織することである。彼らは、衆主とその地上の王国の実りである。",
+      "glossary_terms": [
+        "Maga",
+        "Moeb",
+        "Jehovih",
+        "Minga",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +107,12 @@
       "id": "sethantes.15.8",
       "verse_number": 8,
       "en": "Let my marshals select judges to carry out these my decrees, in the name of Jehovih.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "願我的元帥選出審判者，以耶霍維之名執行我這些法令。",
+      "zh_hans": "愿我的元帅选出审判者，以耶霍维之名执行我这些法令。",
+      "ja": "我が元帥らは、これら我が法令をジェホヴィの名において執行する裁き人を選ぶがよい。",
+      "glossary_terms": [
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     }

@@ -523,6 +523,14 @@ def validate_chapter_result(book: str, chapter: int, manifest: dict) -> list[str
         for lang in LANG_KEYS:
             if not (v.get(lang) or "").strip():
                 errs.append(f"{book}.{chapter}: verse {v.get('id')} missing {lang}"); break
+    # kana in a Chinese field is always wrong (Chinese uses no hiragana/katakana) — the
+    # classic "wrote Japanese into zh_hant" worker failure. Cheap + certain, so structural.
+    _KANA = re.compile(r"[\u3040-\u309f\u30a0-\u30ff]")
+    for v in got:
+        for lang in ("zh_hant", "zh_hans"):
+            if _KANA.search(v.get(lang) or ""):
+                errs.append(f"{book}.{chapter}: verse {v.get('id')} [{lang}] contains Japanese kana (wrong language)")
+                break
 
     # --- preamble coverage (only if the source has one) ---
     got_pre = res.get("preamble") or {}
@@ -667,7 +675,11 @@ def commit_snapshot_to_global(book: str) -> dict:
                             if val is None:
                                 continue
                             if cur.get(sub) and cur[sub] != val:
-                                report["conflicts"].append(f"{t['slug']}.{k}.{sub}: {cur[sub]!r} != {val!r}")
+                                # Existing non-null value is LOCKED and WINS (guide §1.2) — a fill
+                                # proposing a different rendering for an already-complete field is
+                                # spurious; keep existing, record it. (True cross-book divergence of
+                                # NEW coins is caught in the new_glossary branch.)
+                                report.setdefault("kept_existing", []).append(f"{t['slug']}.{k}.{sub}")
                             elif not cur.get(sub):
                                 cur[sub] = val
                         t[k] = cur

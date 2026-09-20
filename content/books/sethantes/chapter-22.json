@@ -15,10 +15,13 @@
       "id": "sethantes.22.1",
       "verse_number": 1,
       "en": "God said: Arise, O Lords of my realm, and go to the kingdoms of earth, which ye received from Jehovih's hand; and may His wisdom, love and power be with you all!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說：起來吧，我國度的眾主，前往你們從耶霍維手中所領受的大地諸國；願祂的智慧、慈愛與權能與你們眾人同在！",
+      "zh_hans": "神说：起来吧，我国度的众主，前往你们从耶霍维手中所领受的大地诸国；愿祂的智慧、慈爱与权能与你们众人同在！",
+      "ja": "神は言った。立ち上がれ、我が領域の衆主よ。ジェホヴィの手より汝らが受けた地上の王国へ行け。願わくは、その知恵、愛、力が汝らすべてと共にあらんことを！",
+      "glossary_terms": [
+        "Lord",
+        "Jehovih"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +29,12 @@
       "id": "sethantes.22.2",
       "verse_number": 2,
       "en": "And the Lords departed, they and their attendants, and went to their kingdoms over mortals.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "於是眾主與其隨從離去，前往他們統轄凡人的諸國。",
+      "zh_hans": "于是众主与其随从离去，前往他们统辖凡人的诸国。",
+      "ja": "そして衆主はその従者たちと共に去り、死すべき者たちを治めるそれぞれの王国へ赴いた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +42,12 @@
       "id": "sethantes.22.3",
       "verse_number": 3,
       "en": "And this was the beginning of the second dispensation of the first cycle of the Eoptian age of the earth. And the lower heaven was well established in habitations, angels and officers, and in all the requisites for the upraised souls of mortals.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "這乃是大地厄奧普提紀元第一週期第二教化期的開端。低層天堂在居所、天使、官員，以及一切供凡人提升之靈魂所需的事物上，都已妥善建立。",
+      "zh_hans": "这乃是大地厄奥普提纪元第一周期第二教化期的开端。低层天堂在居所、天使、官员，以及一切供凡人提升之灵魂所需的事物上，都已妥善建立。",
+      "ja": "これは地上のエオプティアン時代の第一循環における第二の教化時代の始まりであった。低き天は、住まい、天使、役人、また死すべき者の高められた魂に必要なすべてのものにおいて、よく整えられていた。",
+      "glossary_terms": [
+        "Eoptian Age"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,9 +55,9 @@
       "id": "sethantes.22.4",
       "verse_number": 4,
       "en": "And God dispensed laws and government after the manner of his predecessor, enlarging all the places according to the increase in the number of spirits rising up from the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "神依其前任者的方式頒布律法與政令，並隨著自大地升起的靈魂數目增加而擴展各處。",
+      "zh_hans": "神依其前任者的方式颁布律法与政令，并随着自大地升起的灵魂数目增加而扩展各处。",
+      "ja": "神はその先任者の方法に従って法と統治を施し、地上から昇り来る霊の数が増すに従い、あらゆる場所を広げた。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -59,10 +66,13 @@
       "id": "sethantes.22.5",
       "verse_number": 5,
       "en": "And the voice of Jehovih was with God; and as the first kingdom had been called Hored, so was the second called Hored, signifying the place of God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "耶霍維的聲與神同在；而正如第一個國度被稱為霍雷德，第二個也稱為霍雷德，意為神之所在。",
+      "zh_hans": "耶霍维的声音与神同在；而正如第一个国度被称为霍雷德，第二个也称为霍雷德，意为神之所在。",
+      "ja": "ジェホヴィの声は神と共にあった。第一の王国がホレドと呼ばれたように、第二の王国もホレドと呼ばれた。それは神のいる場所を意味する。",
+      "glossary_terms": [
+        "Jehovih",
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -70,10 +80,12 @@
       "id": "sethantes.22.6",
       "verse_number": 6,
       "en": "And as it had been with the Lords of the earth in their places, so continued it with the new Lords, and they enlarged their places also, even according to the increase in the number of inhabitants of the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "大地的眾主在其各自之地如何行事，新任眾主也同樣延續；他們亦隨著大地居民數目的增加而擴展其處所。",
+      "zh_hans": "大地的众主在其各自之地如何行事，新任众主也同样延续；他们亦随着大地居民数目的增加而扩展其处所。",
+      "ja": "地上の衆主がそれぞれの場所で行っていたように、新たな衆主もまた同じく続けた。彼らも地上の住民の数が増すに従い、その場所を広げた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +93,13 @@
       "id": "sethantes.22.7",
       "verse_number": 7,
       "en": "And as it had been of old, that messengers went constantly from Hored to the Lords' places, so did they also continue to do; and by this means all the affairs of the lower heaven were kept in harmony, Lords and God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "古來霍雷德與眾主的處所之間不斷有使者往來，此後也仍然如此；藉此，低層天堂的一切事務，以及眾主與神之間，都維持和諧。",
+      "zh_hans": "古来霍雷德与众主的处所之间不断有使者往来，此后也仍然如此；借此，低层天堂的一切事务，以及众主与神之间，都维持和谐。",
+      "ja": "昔より、ホレドから衆主の場所へ絶えず使者が赴いていたように、彼らもまたそれを続けた。このゆえに、低き天のすべての事柄は、衆主と神との間において調和を保たれた。",
+      "glossary_terms": [
+        "Hored",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +107,12 @@
       "id": "sethantes.22.8",
       "verse_number": 8,
       "en": "And God ruled in Hored four hundred years, and Hored spread over all the lands of the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神在霍雷德統治了四百年，而霍雷德遍及大地的一切土地。",
+      "zh_hans": "神在霍雷德统治了四百年，而霍雷德遍及大地的一切土地。",
+      "ja": "神はホレドにおいて四百年統治し、ホレドは地上のあらゆる土地に広がった。",
+      "glossary_terms": [
+        "Hored"
+      ],
       "plate_ref": null,
       "notes": []
     }

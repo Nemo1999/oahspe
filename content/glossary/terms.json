@@ -58,9 +58,9 @@
     "slug": "agni",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "阿格尼",
+      "zh_hans": "阿格尼",
+      "ja": "アグニ"
     },
     "source_def": "Fire or light, especially without combustion, as Spirit Lights, a pillar of fire by clay, as the Israelites going out of Egypt, 593.17; 600.72; 32.4.",
     "source_def_literal": {
@@ -69,15 +69,18 @@
       "ja": "火または光、特に燃焼を伴わないもの、霊光のように、またイスラエル人がエジプトを出るときの土による火の柱のように、593.17；600.72；32.4。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "An Oahspe term for non-combustive fire or spiritual light.",
+      "zh_hant": "奧阿斯佩中指非燃燒之火或靈性之光的術語。",
+      "zh_hans": "奥阿斯佩中指非燃烧之火或灵性之光的术语。",
+      "ja": "燃焼を伴わぬ火、または霊的な光を指すオアスペの語。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "agni"
+    ]
   },
   {
     "term": "Algonquin",
@@ -537,9 +540,9 @@
     "slug": "eoptian-age",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "厄奧普提紀元",
+      "zh_hans": "厄奥普提纪元",
+      "ja": "エオプティアン時代"
     },
     "source_def": "From the time man comes into being, on the earth until his race becomes extinct, is the eoptian age of the earth..",
     "source_def_literal": {
@@ -548,15 +551,19 @@
       "ja": "人が地上に生じる時から、その種族が絶滅するまでが、地球のエオプティア時代である。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "The lifespan of an earthly human race, from its emergence until extinction.",
+      "zh_hant": "地上人類種族自出現至滅絕的整個時代。",
+      "zh_hans": "地上人类种族自出现至灭绝的整个时代。",
+      "ja": "地上の人類種が現れてから絶滅するまでの時代。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "eoptian",
+      "eoptian age"
+    ]
   },
   {
     "term": "Es'enauers",
@@ -723,9 +730,9 @@
     "slug": "grade-and-ingrade",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "格雷德與英格雷德",
+      "zh_hans": "格雷德与英格雷德",
+      "ja": "グレイドとイングレイド"
     },
     "source_def": "are, Grade, that that now is; and Ingrade, that that is coming.",
     "source_def_literal": {
@@ -734,15 +741,18 @@
       "ja": "はそれぞれ、等級（Grade）は今あるもの、進級（Ingrade）は来たるものである。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "Paired Oahspe categories: the present grade and the grade yet to come.",
+      "zh_hant": "奧阿斯佩的一對範疇：現有的等第與將來的等第。",
+      "zh_hans": "奥阿斯佩的一对范畴：现有的等第与将来的等第。",
+      "ja": "現在の等級と、来たるべき等級を対にしたオアスペの分類。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "grade and ingrade"
+    ]
   },
   {
     "term": "Hada",
@@ -775,9 +785,9 @@
     "slug": "haniv",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "哈尼夫",
+      "zh_hans": "哈尼夫",
+      "ja": "ハニヴ"
     },
     "source_def": "The prow of a vessel.",
     "source_def_literal": {
@@ -786,15 +796,18 @@
       "ja": "船の船首。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "The prow of a heavenly vessel.",
+      "zh_hant": "天界舟艦的船首。",
+      "zh_hans": "天界舟舰的船首。",
+      "ja": "天の船の船首。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "han'iv"
+    ]
   },
   {
     "term": "Heine",
@@ -827,9 +840,9 @@
     "slug": "hi-dan",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "希丹",
+      "zh_hans": "希丹",
+      "ja": "ヒダン"
     },
     "source_def": "Highest light.",
     "source_def_literal": {
@@ -838,15 +851,18 @@
       "ja": "最高の光。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "An Oahspe expression for the highest light.",
+      "zh_hant": "奧阿斯佩中指至高之光的用語。",
+      "zh_hans": "奥阿斯佩中指至高之光的用语。",
+      "ja": "最高の光を指すオアスペの表現。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "hi-dang"
+    ]
   },
   {
     "term": "Hidan Sun",
@@ -1306,9 +1322,9 @@
     "slug": "su-is",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "蘇伊斯",
+      "zh_hans": "苏伊斯",
+      "ja": "スーイス"
     },
     "source_def": "Clairaudience and clairvoyance. A person who can see with the eyes closed, or one who can hear angel voices, 295.20; 354.3.",
     "source_def_literal": {
@@ -1325,7 +1341,11 @@
     "appears_in": [],
     "cross_refs": [],
     "locked": false,
-    "first_seen": null
+    "first_seen": null,
+    "source_forms": [
+      "su'is",
+      "su'is'"
+    ]
   },
   {
     "term": "Tau",
@@ -2271,7 +2291,11 @@
       "first heaven"
     ],
     "locked": true,
-    "first_seen": "jehovih.7"
+    "first_seen": "jehovih.7",
+    "source_forms": [
+      "ashar",
+      "ashars"
+    ]
   },
   {
     "term": "Asaph",
@@ -2304,7 +2328,11 @@
       "ashar"
     ],
     "locked": true,
-    "first_seen": "jehovih.7"
+    "first_seen": "jehovih.7",
+    "source_forms": [
+      "asaph",
+      "asaphs"
+    ]
   },
   {
     "term": "Es'enaur",
@@ -2337,6 +2365,7 @@
     "locked": true,
     "first_seen": "jehovih.7",
     "source_forms": [
+      "es'enauers",
       "es'enaur",
       "es'enaurs"
     ]
@@ -2381,7 +2410,7 @@
     "slug": "lord",
     "category": "term",
     "translit": {
-      "zh_hant": "衆主",
+      "zh_hant": "眾主",
       "zh_hans": "众主",
       "ja": "衆主"
     },
@@ -5058,7 +5087,11 @@
       "tek"
     ],
     "locked": true,
-    "first_seen": "sethantes.5.20"
+    "first_seen": "sethantes.5.20",
+    "source_forms": [
+      "ha'jah",
+      "jah"
+    ]
   },
   {
     "term": "Tek",
@@ -5118,5 +5151,886 @@
     ],
     "locked": true,
     "first_seen": "sethantes.5.24"
+  },
+  {
+    "term": "Hepatan",
+    "slug": "hepatan",
+    "category": "term",
+    "translit": {
+      "zh_hant": "赫帕坦",
+      "zh_hans": "赫帕坦",
+      "ja": "ヘパタン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A fragrant substance used as incense.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "hepatan"
+    ],
+    "occurrences": [
+      "sethantes.6.7"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Mas",
+    "slug": "mas",
+    "category": "term",
+    "translit": {
+      "zh_hant": "瑪斯",
+      "zh_hans": "玛斯",
+      "ja": "マス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A work cited alongside Saphah and Hi-dang.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "mas"
+    ],
+    "occurrences": [
+      "sethantes.6.18"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Ul'oo",
+    "slug": "ul-oo",
+    "category": "name",
+    "translit": {
+      "zh_hant": "烏魯",
+      "zh_hans": "乌鲁",
+      "ja": "ウルー"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An earthly city associated with a Lord’s kingdom.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "ul'oo"
+    ],
+    "occurrences": [
+      "sethantes.6.3",
+      "sethantes.6.6",
+      "sethantes.6.8",
+      "sethantes.6.17"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Ong'oo",
+    "slug": "ong-oo",
+    "category": "name",
+    "translit": {
+      "zh_hant": "翁古",
+      "zh_hans": "翁古",
+      "ja": "オンゴー"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A city in the continent of Vohu.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "ong'oo"
+    ],
+    "occurrences": [
+      "sethantes.10.10"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "North Guatama",
+    "slug": "north-guatama",
+    "category": "name",
+    "translit": {
+      "zh_hant": "北瓜塔瑪",
+      "zh_hans": "北瓜塔玛",
+      "ja": "ノース・グアタマ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A land name said to signify the meeting of nations and the dawn of Kosmon.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "north guatama"
+    ],
+    "occurrences": [
+      "sethantes.11.3"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Moeb",
+    "slug": "moeb",
+    "category": "term",
+    "translit": {
+      "zh_hant": "摩厄布",
+      "zh_hans": "摩厄布",
+      "ja": "モエブ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The higher assembly succeeding the Council of Hored, governing communal heavenly affairs.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "moeb"
+    ],
+    "occurrences": [
+      "sethantes.12.15",
+      "sethantes.12.16",
+      "sethantes.13.1",
+      "sethantes.13.3",
+      "sethantes.13.4",
+      "sethantes.13.5",
+      "sethantes.13.6",
+      "sethantes.13.10",
+      "sethantes.14.1",
+      "sethantes.14.3",
+      "sethantes.14.4",
+      "sethantes.14.5",
+      "sethantes.14.7",
+      "sethantes.15.1",
+      "sethantes.15.7",
+      "sethantes.16.9",
+      "sethantes.16.15",
+      "sethantes.16.17",
+      "sethantes.17.1",
+      "sethantes.19.1",
+      "sethantes.19.14",
+      "sethantes.19.19",
+      "sethantes.19.28",
+      "sethantes.20.2",
+      "sethantes.20.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Maga",
+    "slug": "maga",
+    "category": "term",
+    "translit": {
+      "zh_hant": "瑪伽",
+      "zh_hans": "玛伽",
+      "ja": "マガ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The promoted branch of a heavenly community preparing for the second resurrection.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "maga",
+      "maga's"
+    ],
+    "occurrences": [
+      "sethantes.15.6",
+      "sethantes.15.7"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Minga",
+    "slug": "minga",
+    "category": "term",
+    "translit": {
+      "zh_hant": "明伽",
+      "zh_hans": "明伽",
+      "ja": "ミンガ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The branch of a heavenly community that continues individual affairs and newly delivered Es’yans.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "minga",
+      "minga's"
+    ],
+    "occurrences": [
+      "sethantes.15.6",
+      "sethantes.15.7"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Hon'she",
+    "slug": "hon-she",
+    "category": "name",
+    "translit": {
+      "zh_hant": "洪舍",
+      "zh_hans": "洪舍",
+      "ja": "ホンシェ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An etherean region or field connected with the harvest from earth.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "hon'she"
+    ],
+    "occurrences": [
+      "sethantes.16.2",
+      "sethantes.16.9",
+      "sethantes.16.10",
+      "sethantes.16.17",
+      "sethantes.18.1",
+      "sethantes.18.2",
+      "sethantes.18.3",
+      "sethantes.19.17",
+      "sethantes.20.33"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Osirian Shrevarhs",
+    "slug": "osirian-shrevarhs",
+    "category": "term",
+    "translit": {
+      "zh_hant": "奧西里安什雷瓦爾",
+      "zh_hans": "奥西里安什雷瓦尔",
+      "ja": "オシリアン・シュレヴァル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Etherean authorities in Hon’she who direct changes affecting the earth.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "osirian shrevarhs",
+      "shrevarhs"
+    ],
+    "occurrences": [
+      "sethantes.16.2",
+      "sethantes.16.3",
+      "sethantes.16.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Fetal",
+    "slug": "fetal",
+    "category": "term",
+    "translit": {
+      "zh_hant": "胎靈",
+      "zh_hans": "胎灵",
+      "ja": "フェタル"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A specialized Oahspe class of immature or dependent spirits.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "fetal",
+      "fetals"
+    ],
+    "occurrences": [
+      "sethantes.5.1",
+      "sethantes.16.7",
+      "sethantes.17.10"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Loo'is",
+    "slug": "loo-is",
+    "category": "term",
+    "translit": {
+      "zh_hant": "魯伊斯",
+      "zh_hans": "鲁伊斯",
+      "ja": "ルーイス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A named community of spirits before Moeb.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "loo'is"
+    ],
+    "occurrences": [
+      "sethantes.17.1",
+      "sethantes.17.8",
+      "sethantes.17.9"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Ga'wasa",
+    "slug": "ga-wasa",
+    "category": "name",
+    "translit": {
+      "zh_hant": "伽瓦薩",
+      "zh_hans": "伽瓦萨",
+      "ja": "ガワサ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Spokesperson appointed by the Loo’is community.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "ga'wasa"
+    ],
+    "occurrences": [
+      "sethantes.17.1",
+      "sethantes.17.4",
+      "sethantes.17.6"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "O'wasti",
+    "slug": "o-wasti",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧瓦斯提",
+      "zh_hans": "奥瓦斯提",
+      "ja": "オワスティ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An arc in the Orian field of Hon’she.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "o'wasti"
+    ],
+    "occurrences": [
+      "sethantes.18.1"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Onesyi",
+    "slug": "onesyi",
+    "category": "name",
+    "translit": {
+      "zh_hant": "歐內斯伊",
+      "zh_hans": "欧内斯伊",
+      "ja": "オネスイ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A high aspiring Goddess of Hon’she who leads the reception of earth’s first harvest.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "onesyi"
+    ],
+    "occurrences": [
+      "sethantes.18.2",
+      "sethantes.18.4",
+      "sethantes.18.5",
+      "sethantes.18.9",
+      "sethantes.19.32",
+      "sethantes.20.5",
+      "sethantes.20.6",
+      "sethantes.20.16",
+      "sethantes.20.18",
+      "sethantes.20.20",
+      "sethantes.20.22",
+      "sethantes.20.24",
+      "sethantes.20.32",
+      "sethantes.20.34",
+      "sethantes.21.1",
+      "sethantes.21.4",
+      "sethantes.21.9",
+      "sethantes.21.11",
+      "sethantes.21.12",
+      "sethantes.21.13",
+      "sethantes.21.14",
+      "sethantes.21.15"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Tivyus",
+    "slug": "tivyus",
+    "category": "name",
+    "translit": {
+      "zh_hant": "提維尤斯",
+      "zh_hans": "提维尤斯",
+      "ja": "ティヴィユス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A route or place on the way to O’wea.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "tivyus"
+    ],
+    "occurrences": [
+      "sethantes.18.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "O'wea",
+    "slug": "o-wea",
+    "category": "name",
+    "translit": {
+      "zh_hant": "奧維亞",
+      "zh_hans": "奥维亚",
+      "ja": "オウェア"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A celestial place where etherean hosts meet.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "o'wea"
+    ],
+    "occurrences": [
+      "sethantes.18.4",
+      "sethantes.18.7",
+      "sethantes.18.8",
+      "sethantes.19.17"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Wistaw",
+    "slug": "wistaw",
+    "category": "name",
+    "translit": {
+      "zh_hant": "維斯陶",
+      "zh_hans": "维斯陶",
+      "ja": "ウィスタウ"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The one appointed to sit on Onesyi’s throne during her absence.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "wistaw"
+    ],
+    "occurrences": [
+      "sethantes.18.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Che'wang",
+    "slug": "che-wang",
+    "category": "name",
+    "translit": {
+      "zh_hant": "切旺",
+      "zh_hans": "切旺",
+      "ja": "チェワン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A’ji-an fields through which an etherean ship travels.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "che'wang"
+    ],
+    "occurrences": [
+      "sethantes.18.7"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "I-O-D",
+    "slug": "i-o-d",
+    "category": "term",
+    "translit": {
+      "zh_hant": "伊-奧-德",
+      "zh_hans": "伊-奥-德",
+      "ja": "イ・オ・ド"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A Waga character or sacred sign with a stated numerical value.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "i-o-d"
+    ],
+    "occurrences": [
+      "sethantes.19.6"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Ah-jeng",
+    "slug": "ah-jeng",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿-鄭",
+      "zh_hans": "阿-郑",
+      "ja": "ア・ジェング"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Chief marshal of the descending etherean hosts.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "ah-jeng",
+      "ah'jeng"
+    ],
+    "occurrences": [
+      "sethantes.19.18",
+      "sethantes.19.20",
+      "sethantes.19.26",
+      "sethantes.19.28",
+      "sethantes.19.30",
+      "sethantes.20.1"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Eyon",
+    "slug": "eyon",
+    "category": "name",
+    "translit": {
+      "zh_hant": "厄永",
+      "zh_hans": "厄永",
+      "ja": "エヨン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An etherean region named in the cycle dan of Eyon.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "eyon"
+    ],
+    "occurrences": [
+      "sethantes.23.1"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Lais",
+    "slug": "lais",
+    "category": "name",
+    "translit": {
+      "zh_hant": "萊斯",
+      "zh_hans": "莱斯",
+      "ja": "ライス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An arc and firmament where the second harvest lands.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "lais"
+    ],
+    "occurrences": [
+      "sethantes.23.1",
+      "sethantes.23.2"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Bin",
+    "slug": "bin",
+    "category": "name",
+    "translit": {
+      "zh_hant": "賓",
+      "zh_hans": "宾",
+      "ja": "ビン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A firmament named with Lais as the landing place of the second harvest.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "bin"
+    ],
+    "occurrences": [
+      "sethantes.23.2"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
+  },
+  {
+    "term": "Drujas",
+    "slug": "drujas",
+    "category": "term",
+    "translit": {
+      "zh_hant": "德魯賈斯",
+      "zh_hans": "德鲁贾斯",
+      "ja": "ドルジャス"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "Spirits who reject resurrection and return to earthly attachments.",
+      "zh_hant": "奧阿斯佩中的專名或術語，依英語讀音譯寫。",
+      "zh_hans": "奥阿斯佩中的专名或术语，依英语读音译写。",
+      "ja": "オアスペにおける固有名または術語。英語の音に従って表記する。"
+    },
+    "source_forms": [
+      "drujas"
+    ],
+    "occurrences": [
+      "sethantes.23.14",
+      "sethantes.23.15"
+    ],
+    "appears_in": [],
+    "cross_refs": [],
+    "locked": true,
+    "first_seen": "sethantes"
   }
 ]

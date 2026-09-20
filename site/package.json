@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-    "build": "docusaurus build && pagefind --site build",
+    "build": "docusaurus build && pagefind --site build && pagefind --site build/zh-hant && pagefind --site build/zh-hans && pagefind --site build/ja",
     "serve": "docusaurus serve",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear"
