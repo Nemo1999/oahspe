@@ -15,10 +15,13 @@
       "id": "first-lords.2.1",
       "verse_number": 1,
       "en": "The time of the habitation of Asu was eight thousand years; and they survived two thousand years after the time of the birth of the I'hins, which is to say: Asu dwelt on the earth six thousand years, and then conceived of the chosen of God; and after that survived yet two thousand years.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "阿蘇的居住時期為八千年；在伊欣人誕生之後，他們又存續了二千年。也就是說：阿蘇在大地上居住了六千年，然後孕育出神所揀選之民；此後又存續二千年。",
+      "zh_hans": "阿苏的居住时期为八千年；在伊欣人诞生之后，他们又存续了二千年。也就是说：阿苏在大地上居住了六千年，然后孕育出神所拣选之民；此后又存续二千年。",
+      "ja": "アスゥの居住の時は八千年であった。イヒン人の誕生の時の後、彼らはさらに二千年生き残った。すなわち、アスゥは大地に六千年住み、そののち神に選ばれた者たちを生み出し、さらに二千年生き残った。",
+      "glossary_terms": [
+        "Asu",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +29,13 @@
       "id": "first-lords.2.2",
       "verse_number": 2,
       "en": "And Asu (Adam) disappeared off the face of the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "阿蘇（阿達姆）從大地表面消失了。",
+      "zh_hans": "阿苏（阿达姆）从大地表面消失了。",
+      "ja": "アスゥ（アダーム）は大地の表から消え去った。",
+      "glossary_terms": [
+        "Asu",
+        "Adam"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +43,13 @@
       "id": "first-lords.2.3",
       "verse_number": 3,
       "en": "And there remained on the earth the sacred people, the I'hins; and the carnivorous people, the druks.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "留在大地上的，有神聖之民伊欣人，及食肉之民德魯克。",
+      "zh_hans": "留在大地上的，有神圣之民伊欣人，及食肉之民德鲁克。",
+      "ja": "大地には、聖なる民イヒン人と、肉食の民ドルクとが残った。",
+      "glossary_terms": [
+        "I'hin",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,10 +57,13 @@
       "id": "first-lords.2.4",
       "verse_number": 4,
       "en": "The I'hins were white and yellow, but the druks were brown and black; the I'hins were small and slender, but the druks were tall and stout.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人是白色與黃色的，德魯克卻是褐色與黑色的；伊欣人矮小纖細，德魯克卻高大壯碩。",
+      "zh_hans": "伊欣人是白色与黄色的，德鲁克却是褐色与黑色的；伊欣人矮小纤细，德鲁克却高大壮硕。",
+      "ja": "イヒン人は白色と黄色であったが、ドルクは褐色と黒色であった。イヒン人は小さく細身であったが、ドルクは背が高く頑丈であった。",
+      "glossary_terms": [
+        "I'hin",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -59,10 +71,15 @@
       "id": "first-lords.2.5",
       "verse_number": 5,
       "en": "Now, because the druks had not previously obeyed the Lord, but went and dwelt with the asu'ans, there was a half-breed race born on the earth, called Yak, signifying ground people; and they burrowed in the ground like beasts of the forest. And the Yaks did not walk wholly upright, but also went on all fours.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "如今，因德魯克先前不曾服從眾主，反去與阿蘇安人同住，大地上便生出一個混血種族，稱為亞克，意即地上之民；他們如林中野獸般穴居地下。亞克並非全然直立行走，也四足而行。",
+      "zh_hans": "如今，因德鲁克先前不曾服从众主，反去与阿苏安人同住，大地上便生出一个混血种族，称为亚克，意即地上之民；他们如林中野兽般穴居地下。亚克并非全然直立行走，也四足而行。",
+      "ja": "さて、ドルクは以前に衆主に従わず、かえってアスゥアン人と共に住んだので、大地にはヤクと呼ばれる混血の種族が生まれた。その名は地の民を意味し、彼らは森の獣のように地に穴を掘って住んだ。ヤクは完全に直立して歩かず、四つ足でも歩いた。",
+      "glossary_terms": [
+        "Druk",
+        "Lord",
+        "Asu'an",
+        "Yak"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -70,10 +87,14 @@
       "id": "first-lords.2.6",
       "verse_number": 6,
       "en": "God said: Because the Yaks cannot be taught the crime of incest, behold they shall not dwell forever on the earth. So also shall it be with the druks, save wherein they cohabit with the I'hins, whose seed is born unto everlasting life. But with the druks, and their heirs that spring from the Yaks, there shall be an end, both in this world and the next.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說：因亞克不能被教導近親亂倫之罪，看哪，他們不得永遠住在大地上。德魯克亦將如此，惟與伊欣人同居者除外；伊欣人的種子乃為永生而生。但德魯克及其由亞克而生的後裔，無論在此世或來世，皆將有終結。",
+      "zh_hans": "神说：因亚克不能被教导近亲乱伦之罪，看哪，他们不得永远住在大地上。德鲁克亦将如此，惟与伊欣人同居者除外；伊欣人的种子乃为永生而生。但德鲁克及其由亚克而生的后裔，无论在此世或来世，皆将有终结。",
+      "ja": "神は言った。ヤクは近親相姦の罪を教えられることができぬゆえ、見よ、彼らはとこしえに大地に住むことはない。ドルクもまた同じである。ただしイヒン人と交わり、その種が永遠の命へと生まれる者は除く。だがドルクと、ヤクから生じるその後継者には、この世にも次の世にも終わりがある。",
+      "glossary_terms": [
+        "Yak",
+        "Druk",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +102,14 @@
       "id": "first-lords.2.7",
       "verse_number": 7,
       "en": "And the arms of the Yaks were long, and their backs were stooped and curved. And the Lord said: Because they are the fruit of incest, and not capable of speech, nor of eternal life in heaven, the I'hins shall make servants of them.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "亞克的臂膀很長，背脊彎曲佝僂。眾主說：因他們是近親亂倫之果，不能言語，也不能在天上得永生，伊欣人要使他們成為僕人。",
+      "zh_hans": "亚克的臂膀很长，背脊弯曲佝偻。众主说：因他们是近亲乱伦之果，不能言语，也不能在天上得永生，伊欣人要使他们成为仆人。",
+      "ja": "ヤクの腕は長く、その背は曲がり前屈みであった。衆主は言った。彼らは近親相姦の実であり、言葉を話すことも、天において永遠の命を得ることもできぬゆえ、イヒン人は彼らを僕とせよ。",
+      "glossary_terms": [
+        "Yak",
+        "Lord",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +117,14 @@
       "id": "first-lords.2.8",
       "verse_number": 8,
       "en": "And that they may not tempt my chosen to bring forth fruit unto destruction, they shall be neutralized in my sight. And the angels of God taught the I'hins to make eunuchs of the Yaks; of the males and females made the I'hins eunuchs of the Yaks, and took them for servants.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "又為使他們不致誘惑我所揀選之民而生出毀滅之果，他們在我眼中要被去勢。神的天使教導伊欣人把亞克製為閹人；伊欣人把亞克的男女都製為閹人，收為僕人。",
+      "zh_hans": "又为使他们不致诱惑我所拣选之民而生出毁灭之果，他们在我眼中要被去势。神的天使教导伊欣人把亚克制为阉人；伊欣人把亚克的男女都制为阉人，收为仆人。",
+      "ja": "また、彼らが我が選ばれた者たちを誘惑して滅びの実を生ませぬよう、彼らは我が目の前で去勢されるべきである。神の天使はイヒン人に、ヤクを宦官とすることを教えた。イヒン人はヤクの男女を宦官とし、僕として取った。",
+      "glossary_terms": [
+        "Angel",
+        "I'hin",
+        "Yak"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -103,10 +132,14 @@
       "id": "first-lords.2.9",
       "verse_number": 9,
       "en": "And the Lord said: The Yaks shall serve the I'hins, and build and sow and reap for them. And it was so.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主說：亞克要服事伊欣人，為他們建造、播種、收割。事情便如此成就。",
+      "zh_hans": "众主说：亚克要服事伊欣人，为他们建造、播种、收割。事情便如此成就。",
+      "ja": "衆主は言った。ヤクはイヒン人に仕え、彼らのために建て、蒔き、刈り入れるべきである。そしてそのとおりになった。",
+      "glossary_terms": [
+        "Lord",
+        "Yak",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -114,10 +147,13 @@
       "id": "first-lords.2.10",
       "verse_number": 10,
       "en": "The I'hins were disposed to live alone, but the Lord called them together, saying: Come and dwell together in cities. For it is meet that ye live after the manner of my kingdoms in heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人原本傾向獨居，眾主卻召集他們，說：來，同住於城中。因你們當依照我在天上諸國度的樣式生活。",
+      "zh_hans": "伊欣人原本倾向独居，众主却召集他们，说：来，同住于城中。因你们当依照我在天上诸国度的样式生活。",
+      "ja": "イヒン人は一人で住むことを好んだが、衆主は彼らを呼び集めて言った。来て、町々に共に住め。汝らが我が天の国々のあり方に従って生きることは、ふさわしいことである。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -125,10 +161,13 @@
       "id": "first-lords.2.11",
       "verse_number": 11,
       "en": "Build ye therefore unto the Lord your God; and my angels shall dwell with you, teaching you to sing and dance for the glory of your Creator.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "故此，你們要為你們的神、眾主建造；我的天使要與你們同住，教導你們歌舞，以榮耀你們的創造主。",
+      "zh_hans": "故此，你们要为你们的神、众主建造；我的天使要与你们同住，教导你们歌舞，以荣耀你们的创造主。",
+      "ja": "それゆえ、汝らの神、衆主のために建てよ。我が天使は汝らと共に住み、汝らの創造主の栄光のために歌い踊ることを教える。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -136,10 +175,12 @@
       "id": "first-lords.2.12",
       "verse_number": 12,
       "en": "And man built unto the Lord, and established worship on earth after the manner of heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "人便為眾主建造，並依照天上的樣式在大地上建立敬拜。",
+      "zh_hans": "人便为众主建造，并依照天上的样式在大地上建立敬拜。",
+      "ja": "人は衆主のために建て、天のあり方に従って大地に礼拝を定めた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -147,10 +188,12 @@
       "id": "first-lords.2.13",
       "verse_number": 13,
       "en": "Now it came to pass that the druks came to witness the rites and ceremonies of the chosen, but they took no part therein, neither comprehended they the meaning thereof",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "後來，德魯克來觀看所揀選之民的祭儀與典禮，卻不參與其中，也不明白其意義。",
+      "zh_hans": "后来，德鲁克来观看所拣选之民的祭仪与典礼，却不参与其中，也不明白其意义。",
+      "ja": "やがてドルクは選ばれた者たちの儀礼と式典を見に来たが、そこに加わらず、その意味をも理解しなかった。",
+      "glossary_terms": [
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -158,10 +201,13 @@
       "id": "first-lords.2.14",
       "verse_number": 14,
       "en": "And God said unto the I'hins: That ye may teach some of them of the Lord your God, build ye within the house of worship an image of me; in likeness of man build ye it. And I will manifest unto as many as are capable of everlasting life.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神對伊欣人說：為使你們能將你們的神、眾主教導給他們中一些人，你們要在禮拜之屋內為我造像；要照人的形象造它。我必向凡能得永生者顯現。",
+      "zh_hans": "神对伊欣人说：为使你们能将你们的神、众主教导给他们中一些人，你们要在礼拜之屋内为我造像；要照人的形象造它。我必向凡能得永生者显现。",
+      "ja": "神はイヒン人に言った。汝らが彼らのうち幾人かに汝らの神、衆主を教えることができるよう、礼拝の家の内に我の像を造れ。人の姿に似せてそれを造れ。我は永遠の命を受けることのできるすべての者に現れる。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -169,10 +215,13 @@
       "id": "first-lords.2.15",
       "verse_number": 15,
       "en": "And the I'hins, men and women, with their servants, built images of stone and clay and wood unto the Lord, and stood them by the altars of sacrifice.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人男女與他們的僕人一同，用石、泥土和木頭為眾主造像，立在獻祭的壇旁。",
+      "zh_hans": "伊欣人男女与他们的仆人一同，用石、泥土和木头为众主造像，立在献祭的坛旁。",
+      "ja": "イヒン人は男女とも、その僕たちと共に、石と粘土と木で衆主の像を造り、犠牲の祭壇のそばに立てた。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -180,10 +229,13 @@
       "id": "first-lords.2.16",
       "verse_number": 16,
       "en": "And in the time of worship, the angels of the Lord came and possessed the idols and spake therefrom, with audible voices spake before mortals.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "在敬拜之時，眾主的天使前來附於偶像之中，從其中說話，以可聽見的聲音在凡人面前說話。",
+      "zh_hans": "在敬拜之时，众主的天使前来附于偶像之中，从其中说话，以可听见的声音在凡人面前说话。",
+      "ja": "礼拝の時、衆主の天使が来て偶像に宿り、そこから語った。彼らは聞こえる声で、死すべき人々の前に語った。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -191,10 +243,13 @@
       "id": "first-lords.2.17",
       "verse_number": 17,
       "en": "And the druks inquired of the I'hins as to the cause thereof. And the I'hins said: Behold, there is a God in heaven, more subtle than the air of heaven. He it was that brought us forth out of darkness. He speaketh in idol that ye may know he abideth with his people.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "德魯克便問伊欣人此事的緣故。伊欣人說：看哪，天上有一位神，比天上的空氣更微妙。正是祂使我們從黑暗中生出。祂在偶像中說話，使你們知道祂與祂的子民同住。",
+      "zh_hans": "德鲁克便问伊欣人此事的缘故。伊欣人说：看哪，天上有一位神，比天上的空气更微妙。正是祂使我们从黑暗中生出。祂在偶像中说话，使你们知道祂与祂的子民同住。",
+      "ja": "ドルクはイヒン人にその理由を尋ねた。イヒン人は言った。見よ、天には天の空気よりも微妙なる神がおられる。われらを闇から生み出したのはその方である。その方は偶像の中で語り、汝らに、その民と共に住まわれることを知らせる。",
+      "glossary_terms": [
+        "Druk",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -202,10 +257,13 @@
       "id": "first-lords.2.18",
       "verse_number": 18,
       "en": "The druks said: What saith he? The I'hins answered, saying: That whosoever hath attained to remember God is in the way of everlasting life.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "德魯克說：祂說了甚麼？伊欣人回答說：凡已達到記念神者，皆在通往永生的道路上。",
+      "zh_hans": "德鲁克说：祂说了什么？伊欣人回答说：凡已达到记念神者，皆在通往永生的道路上。",
+      "ja": "ドルクは言った。その方は何と言われるのか。イヒン人は答えて言った。神を覚えるに至った者は皆、永遠の命への道にある。",
+      "glossary_terms": [
+        "Druk",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -213,10 +271,12 @@
       "id": "first-lords.2.19",
       "verse_number": 19,
       "en": "The druks inquired, saying: How shall a man live forever? Behold, ye that believe also die!",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "德魯克問說：人如何能永遠活著？看哪，信的人也會死！",
+      "zh_hans": "德鲁克问说：人如何能永远活着？看哪，信的人也会死！",
+      "ja": "ドルクは尋ねて言った。人はどうすれば永遠に生きられるのか。見よ、信じる汝らもまた死ぬではないか。",
+      "glossary_terms": [
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -224,10 +284,14 @@
       "id": "first-lords.2.20",
       "verse_number": 20,
       "en": "The I'hins answered, saying: As the voice of the Lord is unseen but potent, so is there a spirit in man unseen and potent, which shall never die, but ascend to heaven to habitations prepared by the Lord.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人回答說：眾主的聲音雖不可見卻有大能，人的靈也是不可見而有大能；它永不死去，反要升至天上，進入眾主所預備的居所。",
+      "zh_hans": "伊欣人回答说：众主的声音虽不可见却有大能，人的灵也是不可见而有大能；它永不死去，反要升至天上，进入众主所预备的居所。",
+      "ja": "イヒン人は答えて言った。衆主の声が見えずとも力あるように、人のうちにも見えずして力ある霊がある。それは決して死なず、天へ昇り、衆主が備えた住まいへ至る。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord",
+        "Spirit"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -235,10 +299,12 @@
       "id": "first-lords.2.21",
       "verse_number": 21,
       "en": "And many of the druks pondered on these things, and their thoughts quickened their souls within them, so that they brought forth heirs unto eternal salvation.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "許多德魯克思量這些事，他們的思想喚醒了內在的靈魂，以致生出承受永恆救恩的後裔。",
+      "zh_hans": "许多德鲁克思量这些事，他们的思想唤醒了内在的灵魂，以致生出承受永恒救恩的后裔。",
+      "ja": "多くのドルクはこれらのことを思い巡らし、その思いは内なる魂を目覚めさせ、永遠の救いへの後継者を生み出した。",
+      "glossary_terms": [
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -246,10 +312,14 @@
       "id": "first-lords.2.22",
       "verse_number": 22,
       "en": "And the Lord said unto the I'hins: Because ye have done a good thing, go ye abroad, by the roadsides and in other places, and build images unto me and mine, and my angels shall bestow gifts and signs and miracles.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主對伊欣人說：因你們行了一件善事，你們要往各處去，到路旁及別處，為我和屬我的造像；我的天使要賜下禮物、徵兆與奇蹟。",
+      "zh_hans": "众主对伊欣人说：因你们行了一件善事，你们要往各处去，到路旁及别处，为我和属我的造像；我的天使要赐下礼物、征兆与奇迹。",
+      "ja": "衆主はイヒン人に言った。汝らは善きことをなしたゆえ、出て行き、道のかたわらやほかの場所に、我と我に属する者たちの像を造れ。我が天使は贈り物としるしと奇跡を授ける。",
+      "glossary_terms": [
+        "Lord",
+        "I'hin",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -257,10 +327,13 @@
       "id": "first-lords.2.23",
       "verse_number": 23,
       "en": "And the I'hins covered the roadways of the earth over with idols of stone and wood and clay, and the angels of heaven descended to the idols and established thereabout heavenly kingdoms.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人便以石、木、土的偶像遍布大地的道路，天上的天使降至偶像之處，在其周圍建立天上的國度。",
+      "zh_hans": "伊欣人便以石、木、泥土的偶像遍布大地的道路，天上的天使降至偶像之处，在其周围建立天上的国度。",
+      "ja": "イヒン人は石と木と粘土の偶像で大地の道々を覆い、天の天使は偶像へ降り、その周りに天の国々を築いた。",
+      "glossary_terms": [
+        "I'hin",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -268,10 +341,13 @@
       "id": "first-lords.2.24",
       "verse_number": 24,
       "en": "And when man came hither, and called on the name of the Lord, it was as a password for the angels; and they wrought miracles, and otherwise gave evidence unto man of the Unseen.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "當人來到這裡，呼求眾主之名時，這就如同給天使的口令；天使行奇蹟，並以別種方式向人顯明不可見者的證據。",
+      "zh_hans": "当人来到这里，呼求众主之名时，这就如同给天使的口令；天使行奇迹，并以别种方式向人显明不可见者的证据。",
+      "ja": "人がここへ来て衆主の名を呼ぶと、それは天使への合言葉のようであった。天使は奇跡を行い、またほかの仕方で人に見えざるものの証しを与えた。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     }

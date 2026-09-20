@@ -848,5 +848,15 @@
     "note": "Coronation formula spoken by the presiding God when placing the divinely-fashioned crown on the new regent; theologically marks the act of investiture as Jehovih's act, not man's. Companion to the locked 'In Jehovih's name, and in the love of' greeting formula.",
     "locked": true,
     "first_seen": "sethantes.5.27"
+  },
+  {
+    "en": "law of incest",
+    "category": "phrase",
+    "zh_hant": "近親亂倫之律",
+    "zh_hans": "近亲乱伦之律",
+    "ja": "近親相姦の法",
+    "note": "A recurring foundational command in First Lords: angels teach it to I'hins, and I'hins later teach it to Druks. Keep the elevated legal sense.",
+    "locked": true,
+    "first_seen": "first-lords.1.9"
   }
 ]

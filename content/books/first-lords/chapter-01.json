@@ -5,9 +5,9 @@
   "title": "First Book of the First Lords — Chapter 1",
   "preamble": {
     "en": "BEING COTEMPORARY WITH THE BOOK OF SETHANTES, SON OF JEHOVIH. THAT IS TO SAY, AS SETHANTES WAS GOD OF HEAVEN, SO IN THE SAME PERIOD OF TIME HIS LORDS HAD DOMINION ON THE EARTH, AND THIS IS THEIR BOOK, EVEN AS THE PRECEDING ONE WAS GOD'S BOOK.",
-    "zh_hant": null,
-    "zh_hans": null,
-    "ja": null
+    "zh_hant": "與耶霍維之子瑟坦特斯書同時代。亦即，正如瑟坦特斯為天堂之神，在同一時期，他的眾主統治大地；此即他們的書，正如前一卷乃是神之書。",
+    "zh_hans": "与耶霍维之子瑟坦特斯书同时代。亦即，正如瑟坦特斯为天堂之神，在同一时期，他的众主统治大地；此即他们的书，正如前一卷乃是神之书。",
+    "ja": "ジェホヴィの子セサンテスの書と同時代のことである。すなわち、セサンテスが天の神であったように、同じ時代にその衆主たちは地上を統べていた。これが彼らの書であり、先の書が神の書であったのと同じである。"
   },
   "preamble_source": "sacred-texts",
   "verses": [
@@ -15,10 +15,12 @@
       "id": "first-lords.1.1",
       "verse_number": 1,
       "en": "In the beginning God created the heavens of the earth; and the Lord made man upright. And man was naked and not ashamed; neither knew man the sin of incest, but he dwelt as the beasts of the field.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "起初，神創造了大地的諸天；眾主使人正直而立。人赤身露體，並不羞愧；人也不知近親亂倫之罪，卻如田野的走獸般居住。",
+      "zh_hans": "起初，神创造了大地的诸天；众主使人正直而立。人赤身露体，并不羞愧；人也不知近亲乱伦之罪，却如田野的走兽般居住。",
+      "ja": "初めに、神は地の諸天を創造された。衆主は人をまっすぐに立たせた。人は裸であって恥じず、近親相姦の罪も知らず、野の獣のように住んでいた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -26,10 +28,13 @@
       "id": "first-lords.1.2",
       "verse_number": 2,
       "en": "And the Lord brought the angels of heaven to man; by his side took they on forms like unto man, having all the organs and attributes of mortals, for it was the time of the earth for such things to be.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主將天堂的天使帶到人那裡；他們在其身旁取了與人相似的形體，具備凡人的一切器官與屬性，因為那正是大地上此等事物應當存在的時候。",
+      "zh_hans": "众主将天堂的天使带到人那里；他们在其身旁取了与人相似的形体，具备凡人的一切器官与属性，因为那正是大地上此等事物应当存在的时候。",
+      "ja": "衆主は天の天使を人のもとへ連れて来られた。彼らは人のそばで人に似た形を取り、死すべき者のすべての器官と性質を備えた。地上にそのようなものがあるべき時であったからである。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +42,13 @@
       "id": "first-lords.1.3",
       "verse_number": 3,
       "en": "And it came to pass that a new race was born on the earth, and these were called I'hins, because they were begotten of both heaven and earth. Hence it became a saying: The earth conceived of the Lord.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "於是，大地上誕生了一個新的種族，稱為伊欣人，因其由天與地共同生出。因此有一句諺語：大地從眾主而受孕。",
+      "zh_hans": "于是，大地上诞生了一个新的种族，称为伊欣人，因其由天与地共同生出。因此有一句谚语：大地从众主而受孕。",
+      "ja": "こうして地上に新しい種族が生まれ、彼らは天と地の双方から生を受けたゆえに、イヒン人と呼ばれた。ゆえに、「地は衆主から身ごもった」ということわざが生じた。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,10 +56,15 @@
       "id": "first-lords.1.4",
       "verse_number": 4,
       "en": "And the name of the first race was Asu (Adam), because they were of the earth only; and the name of the second race was I'hin (Abel), because they were capable of being taught spiritual things.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "第一個種族的名字是阿蘇（阿達姆），因為他們只屬於大地；第二個種族的名字是伊欣人（阿貝爾），因為他們能夠受教於靈性之事。",
+      "zh_hans": "第一个种族的名字是阿苏（阿达姆），因为他们只属于大地；第二个种族的名字是伊欣人（阿贝尔），因为他们能够受教于灵性之事。",
+      "ja": "第一の種族の名はアスゥ（アダーム）であった。彼らはただ地に属していたからである。第二の種族の名はイヒン人（アベール）であった。彼らは霊なる事柄を教えられることができたからである。",
+      "glossary_terms": [
+        "Asu",
+        "Adam",
+        "I'hin",
+        "Abel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -59,10 +72,12 @@
       "id": "first-lords.1.5",
       "verse_number": 5,
       "en": "And the Lord said: Of all that live on the face of the earth, or in the waters thereof, or in the air above, that breathes the breath of life, man only have I delivered unto knowledge of his Creator.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主說：在大地表面上一切生存之物、大地水域中的一切生物，以及上方空氣中一切呼吸生命之氣者之中，唯有人，我已使其認識他的創造者。",
+      "zh_hans": "众主说：在大地表面上一切生存之物、大地水域中的一切生物，以及上方空气中一切呼吸生命之气者之中，唯有人，我已使其认识他的创造者。",
+      "ja": "衆主は言われた。地の面に生きるすべてのもの、その水の中にいるもの、また上なる空にあって命の息を吸うすべてのもののうち、人だけに、我はその創造者を知ることを与えた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -70,10 +85,14 @@
       "id": "first-lords.1.6",
       "verse_number": 6,
       "en": "And the Lord spake unto the I'hin, through his angels spake he to them, saying: Go hide thy nakedness, for it is the commandment of God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主藉著祂的天使對伊欣人說：去遮掩你們的赤裸，因這是神的命令。",
+      "zh_hans": "众主借着祂的天使对伊欣人说：去遮掩你们的赤裸，因这是神的命令。",
+      "ja": "衆主はイヒン人に語られた。すなわち、御自分の天使を通して彼らに語られた。『行って、おまえたちの裸を覆いなさい。これは神の命令である。』",
+      "glossary_terms": [
+        "Lord",
+        "I'hin",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +100,13 @@
       "id": "first-lords.1.7",
       "verse_number": 7,
       "en": "And The I'hins were afraid, and they clothed themselves, and were no longer naked before the Lord.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人便害怕起來，穿上衣服，不再在眾主面前赤身露體。",
+      "zh_hans": "伊欣人便害怕起来，穿上衣服，不再在众主面前赤身露体。",
+      "ja": "イヒン人は恐れ、衣をまとい、もはや衆主の前で裸ではなかった。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +114,13 @@
       "id": "first-lords.1.8",
       "verse_number": 8,
       "en": "And the Lord commanded the angels to give up their forms, and to be no more seen as mortals. And it was done. And the Lord said unto them: Because ye brought forth life, which is in flesh and blood, ye shall minister unto man for six generations on the face of the earth. And it was so.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主命天使放棄其形體，不再以凡人的樣貌顯現。事情就如此成了。眾主對他們說：因你們生出了在血肉中的生命，你們當在大地表面服事人六代。事情就如此。",
+      "zh_hans": "众主命天使放弃其形体，不再以凡人的样貌显现。事情就如此成了。众主对他们说：因你们生出了在血肉中的生命，你们当在大地表面服事人六代。事情就如此。",
+      "ja": "衆主は天使に命じて、その形を捨て、もはや死すべき者の姿で見られぬようにされた。事はそのとおりになった。衆主は彼らに言われた。『おまえたちは肉と血のうちにある命を生み出したゆえ、地の面において六代にわたり人に仕えなければならない。』事はそのとおりになった。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -103,9 +128,9 @@
       "id": "first-lords.1.9",
       "verse_number": 9,
       "en": "And that man may continue to walk upright, ye shall teach him the law of incest, for man of himself cannot attain to know this.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "為使人持續正直而行，你們當教導他近親亂倫之律，因為人憑自己無法達到認識此事。",
+      "zh_hans": "为使人持续正直而行，你们当教导他近亲乱伦之律，因为人凭自己无法达到认识此事。",
+      "ja": "人がまっすぐに歩み続けるために、おまえたちは彼に近親相姦の法を教えなければならない。人は自らではこれを知るに至れないからである。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -114,10 +139,14 @@
       "id": "first-lords.1.10",
       "verse_number": 10,
       "en": "Neither shall ye permit the I'hins to dwell with Asu (Adam), lest his seed go down in darkness.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "你們也不可容許伊欣人與阿蘇（阿達姆）同住，免得其種子在黑暗中沉淪。",
+      "zh_hans": "你们也不可容许伊欣人与阿苏（阿达姆）同住，免得其种子在黑暗中沉沦。",
+      "ja": "またイヒン人がアスゥ（アダーム）と共に住むことを許してはならない。その種が闇の中へ落ちゆかぬためである。",
+      "glossary_terms": [
+        "I'hin",
+        "Asu",
+        "Adam"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -125,10 +154,12 @@
       "id": "first-lords.1.11",
       "verse_number": 11,
       "en": "And man was thus inspired of the Lord, and he walked upright, and prospered on the earth.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "人就這樣受眾主啟迪，正直而行，並在大地上興盛。",
+      "zh_hans": "人就这样受众主启迪，正直而行，并在大地上兴盛。",
+      "ja": "人はこのように衆主によって霊感を受け、まっすぐに歩み、地上で栄えた。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -136,9 +167,9 @@
       "id": "first-lords.1.12",
       "verse_number": 12,
       "en": "But after a season man became conceited in his own judgment, and he disobeyed the commandments of God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "但過了一段時日，人因自己的判斷而變得自負，並違背了神的誡命。",
+      "zh_hans": "但过了一段时日，人因自己的判断而变得自负，并违背了神的诫命。",
+      "ja": "しかし時を経て、人は自らの判断にうぬぼれ、神の戒めに背いた。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -147,10 +178,15 @@
       "id": "first-lords.1.13",
       "verse_number": 13,
       "en": "And he strayed out of the garden of paradise and began to dwell with the asu'ans (Adams), and there was born into the world a new race called Druk (Cain), and they had not the light of the Father in them, neither could they be inspired with shame, nor of heavenly things.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "他離開樂園之園，開始與阿蘇安人（阿達姆們）同住；世界上便誕生了一個新種族，稱為德魯克（凱因）。他們裡面沒有父之光，也不能被羞恥或天上之事所啟迪。",
+      "zh_hans": "他离开乐园之园，开始与阿苏安人（阿达姆们）同住；世界上便诞生了一个新种族，称为德鲁克（凯因）。他们里面没有父之光，也不能被羞耻或天上之事所启迪。",
+      "ja": "彼は楽園の園を離れ、アスゥアン人（アダームたち）と住み始めた。すると世界に、ドルク（カイーン）と呼ばれる新しい種族が生まれた。彼らのうちには父の光がなく、恥じることにも、天の事柄にも霊感を受けることができなかった。",
+      "glossary_terms": [
+        "Asu'an",
+        "Adam",
+        "Druk",
+        "Cain"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -158,10 +194,14 @@
       "id": "first-lords.1.14",
       "verse_number": 14,
       "en": "And the I'hins were grateful to the Lord, and they gave sacrifice in burnt offerings. And they said unto the Druks: Go ye and sacrifice unto the Lord, and he will prosper you. But the Druks understood not; and they fell upon the Lord's chosen, and slew them, right and left, taking their possessions.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人感謝眾主，並獻上燔祭為祭。他們對德魯克們說：你們去向眾主獻祭，祂必使你們興盛。然而德魯克們不明白；他們襲擊眾主所揀選的人，左右殺戮，奪取他們的財物。",
+      "zh_hans": "伊欣人感谢众主，并献上燔祭为祭。他们对德鲁克们说：你们去向众主献祭，祂必使你们兴盛。然而德鲁克们不明白；他们袭击众主所拣选的人，左右杀戮，夺取他们的财物。",
+      "ja": "イヒン人は衆主に感謝し、燔祭をささげた。彼らはドルクたちに言った。『行って衆主に犠牲をささげなさい。そうすれば、主はおまえたちを栄えさせる。』しかしドルクたちは理解せず、衆主に選ばれた者たちに襲いかかり、右にも左にも彼らを殺し、その所有を奪った。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -169,10 +209,13 @@
       "id": "first-lords.1.15",
       "verse_number": 15,
       "en": "And the Lord said unto the Druks: Because ye have slain your brethren ye shall depart out of the place of God; and that ye may be known to the ends of the earth I put my mark upon you.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主對德魯克們說：因你們殺了弟兄，當離開神的地方；為使你們被認識直到大地的盡頭，我要在你們身上加上我的記號。",
+      "zh_hans": "众主对德鲁克们说：因你们杀了弟兄，当离开神的地方；为使你们被认识直到大地的尽头，我要在你们身上加上我的记号。",
+      "ja": "衆主はドルクたちに言われた。『おまえたちは兄弟たちを殺したゆえ、神の場所から去らなければならない。地の果てまでおまえたちが知られるように、我はおまえたちの上に我が印を置く。』",
+      "glossary_terms": [
+        "Lord",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -180,10 +223,13 @@
       "id": "first-lords.1.16",
       "verse_number": 16,
       "en": "And the mark of the Lord put upon the Druks was the shadow of blood, which, being interpreted, is WAR.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主加在德魯克們身上的記號是血之陰影，其含義就是：戰爭。",
+      "zh_hans": "众主加在德鲁克们身上的记号是血之阴影，其含义就是：战争。",
+      "ja": "衆主がドルクたちの上に置かれた印は血の影であり、それを解けば、戦いである。",
+      "glossary_terms": [
+        "Lord",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -191,10 +237,13 @@
       "id": "first-lords.1.17",
       "verse_number": 17,
       "en": "And the Lord God said: By this sign shall the tribes of Druk and their descendents be known unto the end of the world.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主神說：德魯克的支族及其後裔，必藉此記號被認識，直到世界的終結。",
+      "zh_hans": "众主神说：德鲁克的支族及其后裔，必借此记号被认识，直到世界的终结。",
+      "ja": "衆主なる神は言われた。『このしるしによって、ドルクの部族とその子孫は世の終わりまで知られるであろう。』",
+      "glossary_terms": [
+        "Lord",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -202,10 +251,12 @@
       "id": "first-lords.1.18",
       "verse_number": 18,
       "en": "And woman, being more helpless than man, cried out with fear, saying: O Lord, how shall I bring forth unto thee, and not unto the sons of death?",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "女人比男人更無助，便因恐懼呼喊說：噢，眾主啊，我怎能為祢生產，而不為死亡之子生產呢？",
+      "zh_hans": "女人比男人更无助，便因恐惧呼喊说：噢，众主啊，我怎能为祢生产，而不为死亡之子生产呢？",
+      "ja": "女は男よりも無力であったので、恐れて叫んだ。『ああ、衆主よ、どうすれば私はあなたのために産み、死の子らのためには産まないことができましょうか。』",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -213,10 +264,13 @@
       "id": "first-lords.1.19",
       "verse_number": 19,
       "en": "And the Lord said: Because thou hast brought forth in pain, and yet called on my name, behold I will be unto thee as a shield and protector. For I will also put a mark upon the I'hins, my chosen, so thou shalt know them when they come unto thee.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主說：因你雖在痛苦中生產，仍呼求我的名，看啊，我必作你的盾牌與保護者。因我也要在我所揀選的伊欣人身上加上記號，使你在他們來到你那裡時能認出他們。",
+      "zh_hans": "众主说：因你虽在痛苦中生产，仍呼求我的名，看啊，我必作你的盾牌与保护者。因我也要在我所拣选的伊欣人身上加上记号，使你在他们来到你那里时能认出他们。",
+      "ja": "衆主は言われた。『おまえは苦しみのうちに産みながらも我が名を呼んだ。見よ、我はおまえの盾となり、守る者となろう。わが選んだイヒン人の上にも印を置くので、彼らがおまえのもとに来るとき、おまえは彼らを見分けるであろう。』",
+      "glossary_terms": [
+        "Lord",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -224,10 +278,14 @@
       "id": "first-lords.1.20",
       "verse_number": 20,
       "en": "And the Lord commanded the male I'hins, old and young, to be circumcised, that woman might not be deceived by the druks. And the I'hins circumcised one another, old and young; for it was the testimony of the Lord unto woman that seed of their seed was born to everlasting life.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主命令年老與年少的男性伊欣人受割禮，使女人不致受德魯克們欺騙。伊欣人彼此為年老與年少者行割禮；因這是眾主向女人作的見證，即他們的種子之種子生於永生。",
+      "zh_hans": "众主命令年老与年少的男性伊欣人受割礼，使女人不致受德鲁克们欺骗。伊欣人彼此为年老与年少者行割礼；因这是众主向女人作的见证，即他们的种子之种子生于永生。",
+      "ja": "衆主は、年老いた者も若い者も、男のイヒン人に割礼を受けるよう命じられた。女がドルクたちに欺かれぬためであった。イヒン人は、年老いた者にも若い者にも互いに割礼を施した。それは、その種の種が永遠の命へ生まれたことを、衆主が女に示す証しであった。",
+      "glossary_terms": [
+        "Lord",
+        "I'hin",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -235,10 +293,14 @@
       "id": "first-lords.1.21",
       "verse_number": 21,
       "en": "And the druks (Cain) went away into the wilderness, and dwelt with the asu'ans and with one another.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "德魯克們（凱因）離去進入荒野，與阿蘇安人及彼此同住。",
+      "zh_hans": "德鲁克们（凯因）离去进入荒野，与阿苏安人及彼此同住。",
+      "ja": "ドルクたち（カイーン）は荒野へ去り、アスゥアン人と、また互いに共に住んだ。",
+      "glossary_terms": [
+        "Druk",
+        "Cain",
+        "Asu'an"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -246,10 +308,14 @@
       "id": "first-lords.1.22",
       "verse_number": 22,
       "en": "God said: A boundary line will I make betwixt the tribes of druks and the I'hins; and this is the line that I the Lord God make betwixt them:",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神說：我必在德魯克的支族與伊欣人之間設立一道界線；這就是我、眾主神在他們之間所設立的界線：",
+      "zh_hans": "神说：我必在德鲁克的支族与伊欣人之间设立一道界线；这就是我、众主神在他们之间所设立的界线：",
+      "ja": "神は言われた。『我はドルクの部族とイヒン人との間に境界線を設ける。これが、我、衆主なる神が彼らの間に設ける線である。』",
+      "glossary_terms": [
+        "Druk",
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -257,10 +323,13 @@
       "id": "first-lords.1.23",
       "verse_number": 23,
       "en": "The I'hins shall labor and clothe themselves, and I will abide with them; but the druks shall wander in the wilderness, neither laboring nor clothing themselves.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人必勞作並穿上衣服，我必與他們同在；但德魯克們必在荒野流浪，不勞作，也不穿衣服。",
+      "zh_hans": "伊欣人必劳作并穿上衣服，我必与他们同在；但德鲁克们必在荒野流浪，不劳作，也不穿衣服。",
+      "ja": "イヒン人は労し、衣をまとうであろう。我は彼らと共にある。しかしドルクたちは荒野をさまよい、労せず、衣もまとわないであろう。",
+      "glossary_terms": [
+        "I'hin",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -268,9 +337,9 @@
       "id": "first-lords.1.24",
       "verse_number": 24,
       "en": "And it was so.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "事情就如此。",
+      "zh_hans": "事情就如此。",
+      "ja": "事はそのとおりになった。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []

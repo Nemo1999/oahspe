@@ -15,9 +15,9 @@
       "id": "first-lords.4.1",
       "verse_number": 1,
       "en": "About this time man began to use his lip and tongue in enunciating words, prior to which he spoke in the thorax.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "約在此時，人開始用唇舌發出言詞；此前，他乃是在胸腔中說話。",
+      "zh_hans": "约在此时，人开始用唇舌发出言词；此前，他乃是在胸腔中说话。",
+      "ja": "この頃、人は唇と舌を用いて言葉を発するようになった。それ以前には、胸郭で語っていたのである。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -26,10 +26,15 @@
       "id": "first-lords.4.2",
       "verse_number": 2,
       "en": "And the Lord spake unto the I'hin, saying: That the labor of the Lord thy God may be remembered on the earth, go provide me a stone and I will engrave it with mine own hand, and it shall be called Se'moin (see first tablet, BOOK OF SAPHAH) because it shall be a testimony unto all nations and peoples, on the earth, of the first written language in all the world.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主對伊欣人說：為使眾主、汝之神的勞作在大地上得以銘記，去為我備一塊石頭，我要親手在其上刻字；它將稱為瑟莫因（見《薩法書》第一石版），因它要向大地上萬國萬民見證全世界最初的文字語言。",
+      "zh_hans": "众主对伊欣人说：为使众主、汝之神的劳作在大地上得以铭记，去为我备一块石头，我要亲手在其上刻字；它将称为瑟莫因（见《萨法书》第一石版），因它要向大地上万国万民见证全世界最初的文字语言。",
+      "ja": "衆主はイヒン人に言った。衆主、すなわち汝の神の働きが地上で記憶されるよう、我のために石を一つ用意せよ。我は自らの手でこれに刻み、それはセモイン（『サファの書』第一の石板を見よ）と呼ばれるであろう。これは地上のすべての国と民に、全世界で最初の文字言語を証しするものとなるからである。",
+      "glossary_terms": [
+        "Lord",
+        "I'hin",
+        "Se'moin",
+        "Saphah"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -37,10 +42,14 @@
       "id": "first-lords.4.3",
       "verse_number": 3,
       "en": "And the I'hins prepared a stone, and hewed it flat and then polished it smooth; and the Lord came down in the night and engraved it. And the Lord explained it; through his angels taught he the I'hins the meaning of the characters engraved thereon.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊欣人預備了一塊石頭，將其削平，又磨得光滑。眾主在夜間降臨，在其上刻字。眾主解釋了此事，並藉著他的天使，把刻在上面的文字之意教給伊欣人。",
+      "zh_hans": "伊欣人预备了一块石头，将其削平，又磨得光滑。众主在夜间降临，在其上刻字。众主解释了它，并藉着他的天使们，把刻在上面的文字之意教给伊欣人。",
+      "ja": "イヒン人は石を用意し、それを平らに削り、さらに滑らかに磨いた。衆主は夜に降りてこれに刻んだ。衆主はそれを説明し、その天使たちを通して、そこに刻まれた文字の意味をイヒン人に教えた。",
+      "glossary_terms": [
+        "I'hin",
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -48,10 +57,15 @@
       "id": "first-lords.4.4",
       "verse_number": 4,
       "en": "And the Lord said: Go into all cities in all the countries of the world, and provide ye copies like unto the tablet I have given. So it came to pass, the angels of heaven inspired the I'hins to make tablets and to read them, that the first language of the earth (Panic) might be preserved to the races of men. And it was so.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主說：往全世界各國的一切城市去，照我所賜的石版製備副本。於是，天上的天使啟發伊欣人製作石版並誦讀它們，使大地最初的語言（潘尼克）得以保存給人類諸種族。事情便是如此。",
+      "zh_hans": "众主说：往全世界各国的一切城市去，照我所赐的石版制备副本。于是，天上的天使启发伊欣人制作石版并诵读它们，使大地最初的语言（潘尼克）得以保存给人类诸种族。事情便是如此。",
+      "ja": "衆主は言った。全世界のあらゆる国のすべての町へ行き、我が与えた石板にならう写しを用意せよ。こうして、天の天使たちはイヒン人を導き、石板を作り、それを読むようにした。それにより、大地の最初の言語、パニクが人の諸種族のために保存された。かくしてそうなったのである。",
+      "glossary_terms": [
+        "Lord",
+        "Angel",
+        "I'hin",
+        "Panic"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -59,10 +73,13 @@
       "id": "first-lords.4.5",
       "verse_number": 5,
       "en": "Now the I'huans partly obeyed the Lord and partly obeyed the way of the flesh; and they became warriors and destroyers; nevertheless they harmed not the I'hins, nor suffered harm to come upon them.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "此時，伊胡安人一部分順從眾主，一部分順從肉身之道；他們成了戰士和毀滅者；然而他們沒有傷害伊欣人，也不容傷害臨到他們。",
+      "zh_hans": "此时，伊胡安人一部分顺从众主，一部分顺从肉身之道；他们成了战士和毁灭者；然而他们没有伤害伊欣人，也不容伤害临到他们。",
+      "ja": "この時、イフアン人は一部では衆主に従い、一部では肉の道に従った。そして彼らは戦士となり、破壊者となった。それでもイヒン人を害せず、彼らに害が及ぶことも許さなかった。",
+      "glossary_terms": [
+        "Lord",
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -70,10 +87,14 @@
       "id": "first-lords.4.6",
       "verse_number": 6,
       "en": "God had commanded the I'hins to make eunuchs of the Yaks, the monstrosities, and use them as servants; for the Lord saw that the Yaks were not capable of everlasting life in heaven.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神命伊欣人將亞克和怪異者閹割，作為僕人使用；因為眾主看見亞克沒有在天上得永生的能力。",
+      "zh_hans": "神命伊欣人将亚克和怪异者阉割，作为仆人使用；因为众主看见亚克没有在天上得永生的能力。",
+      "ja": "神はイヒン人に命じ、ヤクと怪異な者たちを去勢して僕とした。衆主は、ヤクには天で永遠の命を得る力がないと見たからである。",
+      "glossary_terms": [
+        "I'hin",
+        "Yak",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -81,10 +102,13 @@
       "id": "first-lords.4.7",
       "verse_number": 7,
       "en": "Now the I'huans also served the Yaks in the same way; but they disobeyed God in inflicting the neutral gender on their enemies whom they captured in war. And although they were themselves half-breeds with the druks, yet they hated the druks, and pursued them with vengeance.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "伊胡安人也以同樣的方式役使亞克；但他們在把中性之性加於戰爭中俘獲的敵人身上時，違背了神。他們自己雖是與德魯克的混血，卻憎恨德魯克，以復仇追逐他們。",
+      "zh_hans": "伊胡安人也以同样的方式役使亚克；但他们在把中性之性加于战争中俘获的敌人身上时，违背了神。他们自己虽是与德鲁克的混血，却憎恨德鲁克，以复仇追逐他们。",
+      "ja": "イフアン人も同じようにヤクに仕えさせた。しかし戦で捕らえた敵に中性の性を負わせることでは、彼らは神に背いた。彼ら自身はドルクとの混血であったにもかかわらず、ドルクを憎み、復讐して追った。",
+      "glossary_terms": [
+        "Yak",
+        "Druk"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -92,10 +116,15 @@
       "id": "first-lords.4.8",
       "verse_number": 8,
       "en": "In those days the relative proportion of the races of men were: I'hins, one hundred; I'huans, three hundred; druks, five thousand; Yaks, five thousand; and of monstrosities betwixt man and beast, three thousand; but the latter died each generation, for they had not the power of procreation amongst themselves.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "那些日子，人類諸種族的相對數目是：伊欣人一百，伊胡安人三百，德魯克五千，亞克五千；人與獸之間的怪異者三千。但後者每一代都死去，因為他們沒有彼此生育的能力。",
+      "zh_hans": "那些日子，人类诸种族的相对数目是：伊欣人一百，伊胡安人三百，德鲁克五千，亚克五千；人与兽之间的怪异者三千。但后者每一代都死去，因为他们没有彼此生育的能力。",
+      "ja": "その時代、人の諸種族の相対的な数は、イヒン人百、イフアン人三百、ドルク五千、ヤク五千、そして人と獣の間の怪異な者たち三千であった。しかし後者は、自らの間で生殖する力を持たなかったため、世代ごとに死に絶えた。",
+      "glossary_terms": [
+        "I'hin",
+        "Druk",
+        "Yak",
+        "Beast"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -103,10 +132,12 @@
       "id": "first-lords.4.9",
       "verse_number": 9,
       "en": "And God saw the work of destruction going on (of the I'huans slaughtering right and left), and he sent the I'hins to preach amongst them, saying to the I'hins.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "神看見毀滅之事正在進行，就是伊胡安人四處屠殺，便差遣伊欣人在他們中間宣講，對伊欣人說。",
+      "zh_hans": "神看见毁灭之事正在进行，就是伊胡安人四处屠杀，便差遣伊欣人在他们中间宣讲，对伊欣人说。",
+      "ja": "神は破壊の業、すなわちイフアン人が手当たり次第に殺戮するのを見て、彼らの間で説かせるためイヒン人を遣わし、イヒン人に言った。",
+      "glossary_terms": [
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -114,10 +145,12 @@
       "id": "first-lords.4.10",
       "verse_number": 10,
       "en": "Thus say ye to the I'huans: Whomsoever is created alive, kill not, for it is the commandment of the Lord.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "你們要如此對伊胡安人說：凡被創造而活著的，不可殺，因為這是眾主的誡命。",
+      "zh_hans": "你们要如此对伊胡安人说：凡被创造而活着的，不可杀，因为这是众主的诫命。",
+      "ja": "汝らはイフアン人にこのように言え。生きて創られた者は、誰であれ殺してはならぬ。それは衆主の戒めである。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -125,10 +158,12 @@
       "id": "first-lords.4.11",
       "verse_number": 11,
       "en": "For in the time of your most success in slaughtering your fellow-man, ye are also peopling heaven with the spirits of vengeance. And they will return upon you, and even the I'huans shall turn upon one another; thus saith God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "因為當你們屠殺同胞最為得意之時，也正以復仇的靈充滿天上。它們必歸向你們，連伊胡安人也要彼此相向；神如此說。",
+      "zh_hans": "因为当你们屠杀同胞最为得意之时，也正以复仇的灵充满天上。它们必归向你们，连伊胡安人也要彼此相向；神如此说。",
+      "ja": "汝らが同胞を殺戮して最も成功する時、汝らはまた復讐の霊で天を満たしている。それらは汝らに帰って来る。そしてイフアン人さえ互いに向き合うであろう。神はこのように言った。",
+      "glossary_terms": [
+        "Spirit"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -136,10 +171,12 @@
       "id": "first-lords.4.12",
       "verse_number": 12,
       "en": "But the I'huans understood not; believed not. And it came to pass that great darkness covered the earth. And man, save the few I'hins, gave up to wickedness all his days.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "但伊胡安人不明白，也不相信。後來大黑暗遮蓋了大地。除了少數伊欣人以外，人終日沉溺於邪惡。",
+      "zh_hans": "但伊胡安人不明白，也不相信。后来大黑暗遮盖了大地。除了少数伊欣人以外，人终日沉溺于邪恶。",
+      "ja": "しかしイフアン人は理解せず、信じなかった。やがて大いなる闇が大地を覆った。少数のイヒン人を除き、人は生涯を悪に委ねた。",
+      "glossary_terms": [
+        "I'hin"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -147,10 +184,12 @@
       "id": "first-lords.4.13",
       "verse_number": 13,
       "en": "And the Lord's people worshipped and preached in the temples, and the Lord and his heavenly hosts manifested unto them; but all the other races of men heard not, would not come to learn of God.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主的人民在神殿中敬拜並宣講，眾主和他的天軍向他們顯現；但其餘一切人類種族都不聽，也不肯來學習神。",
+      "zh_hans": "众主的人民在圣殿中敬拜并宣讲，众主和他的天军向他们显现；但其余一切人类种族都不听，也不肯来学习神。",
+      "ja": "衆主の民は神殿で礼拝し説教した。衆主とその天の軍勢は彼らに姿を現した。しかし他のすべての人の諸種族は聞かず、神を学ぼうとして来なかった。",
+      "glossary_terms": [
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -158,10 +197,13 @@
       "id": "first-lords.4.14",
       "verse_number": 14,
       "en": "And the Lord became tired in his labor, and He called his angels to him, and he said unto them: Behold, man on the earth hath gone so far from my ways he will not heed my commandments; he cannot hear my voice.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主在勞苦中疲乏，便召他的天使到他那裡，對他們說：看哪，大地上的人離我的道路太遠，不肯留意我的誡命，也不能聽見我的聲音。",
+      "zh_hans": "众主在劳苦中疲乏，便召他的天使到他那里，对他们说：看哪，大地上的人离我的道路太远，不肯留意我的诫命，也不能听见我的声音。",
+      "ja": "衆主はその労苦に疲れ、その天使たちを呼び寄せて言った。見よ、大地の人は我が道からあまりにも遠く離れ、我が戒めに耳を貸さず、我が声を聞くこともできない。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -169,9 +211,9 @@
       "id": "first-lords.4.15",
       "verse_number": 15,
       "en": "And your labor is in vain also. For which reason we will tarry no longer on the earth till man hath exhausted the evil that is in him.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "你們的勞苦也是徒然。因此，在人耗盡其內在的邪惡以前，我們不再停留於大地。",
+      "zh_hans": "你们的劳苦也是徒然。因此，在人耗尽其内在的邪恶以前，我们不再停留于大地。",
+      "ja": "汝らの労苦もまた無益である。ゆえに、人が己の内なる悪を尽くすまで、我らはもはや大地にとどまらない。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -180,10 +222,13 @@
       "id": "first-lords.4.16",
       "verse_number": 16,
       "en": "So the Lord and his angel hosts departed away from the earth. And clouds came over the face of the earth; the moon shone not, and the sun was only as a red coal of fire; and the stars stood in the firmament as well in the day as at night.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "於是眾主和他的天使軍離開了大地。雲遮蓋大地的表面；月不發光，太陽只如一塊赤紅的火炭；星辰在白晝和黑夜都立於穹蒼。",
+      "zh_hans": "于是众主和他的天使军离开了大地。云遮盖大地的表面；月不发光，太阳只如一块赤红的火炭；星辰在白昼和黑夜都立于穹苍。",
+      "ja": "そこで衆主とその天使の軍勢は大地を去った。雲が大地の面を覆い、月は輝かず、太陽はただ赤い火の炭のようであり、星々は昼も夜も天空に立っていた。",
+      "glossary_terms": [
+        "Lord",
+        "Angel"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -191,9 +236,9 @@
       "id": "first-lords.4.17",
       "verse_number": 17,
       "en": "The harvests failed; the trees yielded no nuts, and the roots on which man feedeth ceased to grow.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
+      "zh_hant": "收成歉收，樹木不結堅果，人所食的根莖也停止生長。",
+      "zh_hans": "收成歉收，树木不结坚果，人所食的根茎也停止生长。",
+      "ja": "収穫は失敗し、木々は実を結ばず、人が食べる根菜は生えなくなった。",
       "glossary_terms": [],
       "plate_ref": null,
       "notes": []
@@ -202,10 +247,15 @@
       "id": "first-lords.4.18",
       "verse_number": 18,
       "en": "And the monstrosities, and the Yaks, and the druks, died off, tens of millions of them. And even yet they were not extinct. Nevertheless, the I'huans suffered less; and the I'hins not at all. For the Lord had previously inspired them to provide against the coming famine.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "怪異者、亞克和德魯克數以千萬計地死去；即使如此，他們仍未絕種。然而伊胡安人所受的苦較少，伊欣人則全然沒有；因為眾主早已啟發他們預備將來的飢荒。",
+      "zh_hans": "怪异者、亚克和德鲁克数以千万计地死去；即使如此，他们仍未绝种。然而伊胡安人所受的苦较少，伊欣人则全然没有；因为众主早已启发他们预备将来的饥荒。",
+      "ja": "怪異な者たち、ヤク、そしてドルクは、数千万も死に絶えた。しかもなお絶滅してはいなかった。それでもイフアン人の被害はより少なく、イヒン人には全くなかった。衆主が来たる飢饉に備えるよう、あらかじめ彼らを啓発していたからである。",
+      "glossary_terms": [
+        "Yak",
+        "Druk",
+        "I'hin",
+        "Lord"
+      ],
       "plate_ref": null,
       "notes": []
     },
@@ -213,10 +263,13 @@
       "id": "first-lords.4.19",
       "verse_number": 19,
       "en": "And the Lord bewailed the earth and the generations of man: I made man upright and walked by his side, but he slipped aside and fell, said the Lord. I admonished him, but he would not heed. I showed him that every living creature brought forth its own kind; but he understood not, believed not; and he dwelt with beasts; falling lower than all the rest.",
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null,
-      "glossary_terms": [],
+      "zh_hant": "眾主為大地和人類的世代哀嘆：我造人本為正直，又在他身旁行走；但他偏離而跌倒，眾主說。我勸誡他，他卻不肯聽從。我向他顯明，每一種活物都生出自己的同類；但他不明白，也不相信；他與獸同住，墮落得比其餘一切都低。",
+      "zh_hans": "众主为大地和人类的世代哀叹：我造人本为正直，又在他身旁行走；但他偏离而跌倒，众主说。我劝诫他，他却不肯听从。我向他显明，每一种活物都生出自己的同类；但他不明白，也不相信；他与兽同住，堕落得比其余一切都低。",
+      "ja": "衆主は大地と人の世代を嘆いた。『我は人をまっすぐに造り、その傍らを歩んだ。しかし彼は道をそれて倒れた』と衆主は言った。『我は彼を戒めたが、彼は耳を貸さなかった。我はすべての生き物がそれぞれ同じ種を生むことを示したが、彼は理解せず、信じなかった。そして彼は獣と共に住み、他のすべてよりも低く堕ちた。』",
+      "glossary_terms": [
+        "Lord",
+        "Beast"
+      ],
       "plate_ref": null,
       "notes": [],
       "images": [
@@ -225,9 +278,9 @@
           "edition": "1882",
           "caption": {
             "en": "Races",
-            "zh_hant": null,
-            "zh_hans": null,
-            "ja": null
+            "zh_hant": "種族",
+            "zh_hans": "种族",
+            "ja": "諸種族"
           }
         },
         {
@@ -235,9 +288,9 @@
           "edition": "1882",
           "caption": {
             "en": "Races",
-            "zh_hant": null,
-            "zh_hans": null,
-            "ja": null
+            "zh_hant": "種族",
+            "zh_hans": "种族",
+            "ja": "諸種族"
           }
         }
       ]

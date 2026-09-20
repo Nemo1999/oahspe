@@ -115,9 +115,9 @@
     "slug": "angel",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "天使",
+      "zh_hans": "天使",
+      "ja": "天使"
     },
     "source_def": "A spirit man or woman. (The word \"spirit\" does not define whether man or animal, but is often erroneously used instead of angel.)",
     "source_def_literal": {
@@ -126,15 +126,19 @@
       "ja": "霊の男または女。（「霊」という語は人か動物かを定めないが、しばしば誤って天使の代わりに用いられる。）"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "In Oahspe, an angel is specifically a spirit person, male or female, rather than an unspecified spirit. The established scriptural term is used for this defined class of spirit beings.",
+      "zh_hant": "在奧阿斯佩中，天使特指靈性的人，可為男子或女子，並非未加界定的靈。此處以既有經典用語指稱這一明確的靈性存在類別。",
+      "zh_hans": "在奥阿斯佩中，天使特指灵性的人，可为男子或女子，并非未加界定的灵。此处以既有经典用语指称这一明确的灵性存在类别。",
+      "ja": "オアスペにおける天使は、漠然とした霊ではなく、男または女である霊的人格を特に指す。ここでは、この定義された霊的存在の類を既存の宗教語「天使」で表す。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "angel",
+      "angels"
+    ]
   },
   {
     "term": "Apollo",
@@ -1270,9 +1274,9 @@
     "slug": "spirit",
     "category": "term",
     "translit": {
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "zh_hant": "靈",
+      "zh_hans": "灵",
+      "ja": "霊"
     },
     "source_def": "Synonymous (but not correctly) with angel. When we Say angel, we mean a spirit; but when we say spirit, we may not mean an angel.",
     "source_def_literal": {
@@ -1281,15 +1285,19 @@
       "ja": "天使と同義（ただし正しくは同じではない）。天使と言うとき、我々は霊を意味するが、霊と言うとき、必ずしも天使を意味するとは限らない。"
     },
     "editor_note": {
-      "en": null,
-      "zh_hant": null,
-      "zh_hans": null,
-      "ja": null
+      "en": "Spirit is broader than angel in Oahspe: every angel is a spirit, but a spirit need not be an angel. It is rendered by the ordinary religious term for an immaterial being.",
+      "zh_hant": "在奧阿斯佩中，「靈」的範圍較天使廣：每一位天使皆是靈，但靈未必是天使。以通行的宗教用語譯之。",
+      "zh_hans": "在奥阿斯佩中，「灵」的范围较天使广：每一位天使皆是灵，但灵未必是天使。以通行的宗教用语译之。",
+      "ja": "オアスペでは霊は天使より広い概念である。すべての天使は霊であるが、霊が必ずしも天使であるとは限らない。非物質的な存在を指す一般的な宗教語で訳した。"
     },
     "appears_in": [],
     "cross_refs": [],
-    "locked": false,
-    "first_seen": null
+    "locked": true,
+    "first_seen": null,
+    "source_forms": [
+      "spirit",
+      "spirits"
+    ]
   },
   {
     "term": "Su-be",
@@ -6032,5 +6040,328 @@
     "cross_refs": [],
     "locked": true,
     "first_seen": "sethantes"
+  },
+  {
+    "term": "Adam",
+    "slug": "adam",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿達姆",
+      "zh_hans": "阿达姆",
+      "ja": "アダーム"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The parenthetical alternate name for Asu in this book; it remains distinct from the Oahspe name Asu.",
+      "zh_hant": "本書附於阿蘇之後的括號別名；與奧阿斯佩名稱「阿蘇」分別保留。",
+      "zh_hans": "本书附于阿苏之后的括号别名；与奥阿斯佩名称「阿苏」分别保留。",
+      "ja": "本書でアスゥに括弧書きで添えられる別名。オアスペの名アスゥとは区別して保持する。"
+    },
+    "source_forms": [
+      "adam",
+      "adams"
+    ],
+    "occurrences": [
+      "first-lords.1.4",
+      "first-lords.1.10",
+      "first-lords.1.13",
+      "first-lords.2.2"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "asu"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Abel",
+    "slug": "abel",
+    "category": "name",
+    "translit": {
+      "zh_hant": "阿貝爾",
+      "zh_hans": "阿贝尔",
+      "ja": "アベール"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The parenthetical alternate name for I'hin in this book; it remains distinct from the Oahspe name I'hin.",
+      "zh_hant": "本書附於伊欣人之後的括號別名；與奧阿斯佩名稱「伊欣人」分別保留。",
+      "zh_hans": "本书附于伊欣人之后的括号别名；与奥阿斯佩名称「伊欣人」分别保留。",
+      "ja": "本書でイヒン人に括弧書きで添えられる別名。オアスペの名イヒン人とは区別して保持する。"
+    },
+    "source_forms": [
+      "abel"
+    ],
+    "occurrences": [
+      "first-lords.1.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "i-hin"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Cain",
+    "slug": "cain",
+    "category": "name",
+    "translit": {
+      "zh_hant": "凱因",
+      "zh_hans": "凯因",
+      "ja": "カイーン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The parenthetical alternate name for Druk in this book; it remains distinct from the Oahspe name Druk and is transliterated independently.",
+      "zh_hant": "本書附於德魯克之後的括號別名；與奧阿斯佩名稱「德魯克」分別保留，並獨立按音譯寫。",
+      "zh_hans": "本书附于德鲁克之后的括号别名；与奥阿斯佩名称「德鲁克」分别保留，并独立按音译写。",
+      "ja": "本書でドルクに括弧書きで添えられる別名。オアスペの名ドルクとは区別し、独立して音訳する。"
+    },
+    "source_forms": [
+      "cain"
+    ],
+    "occurrences": [
+      "first-lords.1.13",
+      "first-lords.1.21"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "druk"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Asu'an",
+    "slug": "asu-an",
+    "category": "term",
+    "translit": {
+      "zh_hant": "阿蘇安人",
+      "zh_hans": "阿苏安人",
+      "ja": "アスゥアン人"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The Asu people, named after Asu; in this book they intermix with I'hins and Druks. Rendered by sound with a people suffix in Chinese and Japanese.",
+      "zh_hant": "以阿蘇為名的阿蘇族人；本書中他們與伊欣人及德魯克人混居。依聲音音譯，漢語與日語加上族人後綴。",
+      "zh_hans": "以阿苏为名的阿苏族人；本书中他们与伊欣人及德鲁克人混居。依声音音译，汉语与日语加上族人后缀。",
+      "ja": "アスゥに由来するアスゥの民。本書ではイヒン人およびドルクと混じり住む。音訳し、中国語と日本語では民を示す接尾語を加えた。"
+    },
+    "source_forms": [
+      "asu'ans"
+    ],
+    "occurrences": [
+      "first-lords.1.13",
+      "first-lords.1.21",
+      "first-lords.2.5"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "asu",
+      "druk",
+      "i-hin"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Druk",
+    "slug": "druk",
+    "category": "term",
+    "translit": {
+      "zh_hant": "德魯克",
+      "zh_hans": "德鲁克",
+      "ja": "ドルク"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "An Oahspe race born from the intermixture of I'hins and Asu'ans; this book gives Cain as its parenthetical alternate name. Rendered by sound.",
+      "zh_hant": "奧阿斯佩所述由伊欣人與阿蘇安人混居而生的種族；本書以凱因作為括號中的別名。依聲音音譯。",
+      "zh_hans": "奥阿斯佩所述由伊欣人与阿苏安人混居而生的种族；本书以凯因作为括号中的别名。依声音音译。",
+      "ja": "イヒン人とアスゥアン人の混交から生まれたと本書が述べるオアスペの種族。カイーンが括弧書きの別名として与えられる。音によって訳した。"
+    },
+    "source_forms": [
+      "druk",
+      "druks"
+    ],
+    "occurrences": [
+      "first-lords.1.13",
+      "first-lords.1.14",
+      "first-lords.1.15",
+      "first-lords.1.16",
+      "first-lords.1.17",
+      "first-lords.1.20",
+      "first-lords.1.21",
+      "first-lords.1.22",
+      "first-lords.1.23",
+      "first-lords.2.3",
+      "first-lords.2.4",
+      "first-lords.2.5",
+      "first-lords.2.6",
+      "first-lords.2.13",
+      "first-lords.2.17",
+      "first-lords.2.18",
+      "first-lords.2.19",
+      "first-lords.2.21",
+      "first-lords.3.12",
+      "first-lords.3.13",
+      "first-lords.3.14",
+      "first-lords.3.18",
+      "first-lords.3.20",
+      "first-lords.3.21",
+      "first-lords.3.24",
+      "first-lords.4.7",
+      "first-lords.4.8",
+      "first-lords.4.18"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "i-hin",
+      "asu-an",
+      "cain",
+      "yak"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Yak",
+    "slug": "yak",
+    "category": "term",
+    "translit": {
+      "zh_hant": "亞克",
+      "zh_hans": "亚克",
+      "ja": "ヤク"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "A half-breed race called “ground people” in this book, described as burrowing and partly quadrupedal. This Oahspe term is rendered by sound.",
+      "zh_hant": "本書稱為「地上之民」的混種族群，描述其掘地而居，且部分以四足行走。此奧阿斯佩術語依聲音音譯。",
+      "zh_hans": "本书称为「地上之民」的混种族群，描述其掘地而居，且部分以四足行走。此奥阿斯佩术语依声音音译。",
+      "ja": "本書で「地の民」と呼ばれる混血の種族。穴を掘って住み、部分的には四足で歩くと描写される。オアスペのこの語を音によって訳した。"
+    },
+    "source_forms": [
+      "yak",
+      "yaks"
+    ],
+    "occurrences": [
+      "first-lords.2.5",
+      "first-lords.2.6",
+      "first-lords.2.7",
+      "first-lords.2.8",
+      "first-lords.2.9",
+      "first-lords.4.6",
+      "first-lords.4.7",
+      "first-lords.4.8",
+      "first-lords.4.18"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "druk",
+      "i-hin"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Se'moin",
+    "slug": "se-moin",
+    "category": "term",
+    "translit": {
+      "zh_hant": "瑟莫因",
+      "zh_hans": "瑟莫因",
+      "ja": "セモイン"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The inscribed stone named in this book as a testimony to the first written language. It is associated with the first tablet in the Book of Saphah. Rendered by sound.",
+      "zh_hant": "本書所命名的刻石，用作世上第一種書寫語言的見證；與《薩法書》的第一塊泥板相關。依聲音音譯。",
+      "zh_hans": "本书所命名的刻石，用作世上第一种书写语言的见证；与《萨法书》的第一块泥板相关。依声音音译。",
+      "ja": "世で最初の書記言語の証しとして本書に名づけられる刻まれた石。《サファの書》の第一の板と関係づけられる。音によって訳した。"
+    },
+    "source_forms": [
+      "se'moin"
+    ],
+    "occurrences": [
+      "first-lords.4.2"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "saphah",
+      "panic"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
+  },
+  {
+    "term": "Panic",
+    "slug": "panic",
+    "category": "term",
+    "translit": {
+      "zh_hant": "潘尼克",
+      "zh_hans": "潘尼克",
+      "ja": "パニク"
+    },
+    "source_def": null,
+    "source_def_literal": {
+      "zh_hant": null,
+      "zh_hans": null,
+      "ja": null
+    },
+    "editor_note": {
+      "en": "The name given in this book to the first language of the earth. It is rendered by sound, not as the modern English word “panic.”",
+      "zh_hant": "本書給予大地第一種語言的名稱。依聲音音譯，不取現代英語 panic 的詞義。",
+      "zh_hans": "本书给予大地第一种语言的名称。依声音音译，不取现代英语 panic 的词义。",
+      "ja": "本書で地上最初の言語に与えられる名。現代英語 panic の意味には取らず、音によって訳した。"
+    },
+    "source_forms": [
+      "panic"
+    ],
+    "occurrences": [
+      "first-lords.4.4"
+    ],
+    "appears_in": [],
+    "cross_refs": [
+      "se-moin"
+    ],
+    "locked": true,
+    "first_seen": "first-lords"
   }
 ]
