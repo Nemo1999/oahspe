@@ -104,6 +104,12 @@ def build_prompt(book: str, chapter: int, vmin: int | None = None, vmax: int | N
         if not all(note.get(l) for l in LANG_KEYS): nulls.append("note")
         digest_rows.append(f"  {t['slug']} | {t['term']} | {t.get('category','')} | null: {','.join(nulls) or 'none'}")
     glossary_digest = "\n".join(digest_rows) if digest_rows else "  (none yet)"
+    preamble_en = (chap.get("preamble") or {}).get("en") or "(none)"
+    captions_json = json.dumps(
+        [{"verse_id": v["id"], "en": (im.get("caption") or {}).get("en")}
+         for v in chap["verses"] for im in (v.get("images") or []) if (im.get("caption") or {}).get("en")],
+        ensure_ascii=False,
+    )
 
     return f"""You are translating one chapter of the Oahspe Bible. Follow the guideline EXACTLY.
 
@@ -126,10 +132,10 @@ If a term you meet is NOT listed here, COIN it in new_glossary. If it IS listed,
 
 === CHAPTER TO TRANSLATE: {book} chapter {chapter} (id={chap['id']}) ===
 Preamble to translate (chapter epigraph; translate its English into all 3 languages):
-{(chap.get('preamble') or {{}}).get('en') or '(none)'}
+{preamble_en}
 
 Image captions to translate (verse_id → English caption):
-{json.dumps([{{"verse_id": v["id"], "en": (im.get("caption") or {{}}).get("en")}} for v in chap["verses"] for im in (v.get("images") or []) if (im.get("caption") or {{}}).get("en")], ensure_ascii=False)}
+{captions_json}
 
 Verses ({len(src_verses)} total):
 {json.dumps(src_verses, ensure_ascii=False, indent=1)}
@@ -198,6 +204,9 @@ def build_review_prompt(book: str, chapter: int) -> str:
             "ja": tv.get("ja"),
             "glossary_terms": tv.get("glossary_terms"),
         })
+    pre_en = (chap.get("preamble") or {}).get("en") or "(none)"
+    pre_tr_json = json.dumps(result.get("preamble") or {}, ensure_ascii=False)
+    caps_json = json.dumps(result.get("captions") or [], ensure_ascii=False)
 
     return f"""You are an INDEPENDENT reviewer of an Oahspe Bible translation. You did NOT
 produce this translation. Judge it strictly and fairly against the guideline and the
@@ -211,9 +220,9 @@ locked dictionary. Your job is to catch real defects, not to rewrite to taste.
 
 === CHAPTER: {book} chapter {chapter} (id={chap['id']}) ===
 Translated preamble (English → 3 langs), captions, and verses to review:
-preamble_en: {(chap.get('preamble') or {{}}).get('en') or '(none)'}
-preamble_translation: {json.dumps(result.get('preamble') or {{}}, ensure_ascii=False)}
-captions: {json.dumps(result.get('captions') or [], ensure_ascii=False)}
+preamble_en: {pre_en}
+preamble_translation: {pre_tr_json}
+captions: {caps_json}
 
 verses (source en paired with translation):
 {json.dumps(pairs, ensure_ascii=False, indent=1)}
