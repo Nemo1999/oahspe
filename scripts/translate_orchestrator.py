@@ -50,6 +50,14 @@ def read_result(book: str, chapter: int) -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def read_review(book: str, chapter: int) -> dict:
+    """Read an independent reviewer's verdict file for this chapter."""
+    p = RESULT_DIR / f"ch{chapter}.review.json"
+    if not p.exists():
+        raise FileNotFoundError(p)
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
 def build_prompt(book: str, chapter: int, vmin: int | None = None, vmax: int | None = None) -> str:
     """Assemble the full self-contained instruction for one chapter's subagent.
     Optional vmin/vmax (inclusive verse_number bounds) split a large chapter into
@@ -119,6 +127,12 @@ COIN (a brand-new entry). Collect distinctive verbs / formulaic phrases into new
 
 Write your result — a single JSON object — using your Write tool to this EXACT path:
   {RESULT_DIR}/ch{chapter}.json
+
+⛔ HARD SCOPE — DO EXACTLY THIS AND NOTHING ELSE. You are ONE step in a central pipeline.
+  - Write ONLY the result file above. Do NOT run git (no add/commit/push), validate.py,
+    json-to-mdx.py, or any build. Do NOT edit chapter JSON, terms.json, or any other file.
+    Do NOT translate verses outside the set given below. Do NOT ask for approval or pause.
+  - The driver (not you) validates, merges, and commits. Overstepping corrupts the run.
 Do NOT return the JSON in your chat reply (it is large and gets truncated). After writing,
 reply only with the word "written". The JSON object must match:
 {{
@@ -132,6 +146,111 @@ reply only with the word "written". The JSON object must match:
   "conflict_notes": []
 }}
 (omit preamble/captions keys if the chapter has none.) verses MUST cover all {len(src_verses)} input verses, same ids, same order."""
+
+
+def build_review_prompt(book: str, chapter: int) -> str:
+    """Assemble instructions for an INDEPENDENT reviewer of one chapter's translation.
+    The reviewer sees the source English + the produced translation + the authoritative
+    guideline and locked dictionary, and emits a verdict file listing concrete issues."""
+    guide = GUIDE_MD.read_text(encoding="utf-8")
+    terms = load_json(TERMS_JSON, [])
+    chap = load_json(chapter_path(book, chapter), None)
+    if chap is None:
+        raise FileNotFoundError(chapter_path(book, chapter))
+    result = read_result(book, chapter)
+
+    locked_rows = []
+    for t in terms:
+        tl = t.get("translit", {})
+        if any(tl.get(l) for l in LANG_KEYS):
+            locked_rows.append(
+                f"  {t['term']}  →  zh_hant={tl.get('zh_hant')}  zh_hans={tl.get('zh_hans')}  ja={tl.get('ja')}"
+            )
+    locked_block = "\n".join(locked_rows) if locked_rows else "  (none yet)"
+
+    # Pair each translated verse with its English source so the reviewer can judge fidelity.
+    by_id = {v["id"]: v for v in chap["verses"]}
+    pairs = []
+    for tv in result.get("verses", []):
+        src = by_id.get(tv["id"], {})
+        pairs.append({
+            "id": tv["id"],
+            "en": src.get("en"),
+            "zh_hant": tv.get("zh_hant"),
+            "zh_hans": tv.get("zh_hans"),
+            "ja": tv.get("ja"),
+            "glossary_terms": tv.get("glossary_terms"),
+        })
+
+    return f"""You are an INDEPENDENT reviewer of an Oahspe Bible translation. You did NOT
+produce this translation. Judge it strictly and fairly against the guideline and the
+locked dictionary. Your job is to catch real defects, not to rewrite to taste.
+
+=== TRANSLATION GUIDELINE (authoritative) ===
+{guide}
+
+=== LOCKED TRANSLITERATIONS (must appear CHARACTER-FOR-CHARACTER where the English term occurs) ===
+{locked_block}
+
+=== CHAPTER: {book} chapter {chapter} (id={chap['id']}) ===
+Translated preamble (English → 3 langs), captions, and verses to review:
+preamble_en: {(chap.get('preamble') or {{}}).get('en') or '(none)'}
+preamble_translation: {json.dumps(result.get('preamble') or {{}}, ensure_ascii=False)}
+captions: {json.dumps(result.get('captions') or [], ensure_ascii=False)}
+
+verses (source en paired with translation):
+{json.dumps(pairs, ensure_ascii=False, indent=1)}
+
+=== WHAT TO CHECK (report only real problems) ===
+1. FIDELITY: does each translation convey the English meaning? Flag omissions, additions,
+   reversed meaning, dropped clauses, mistranslated theology.
+2. LOCKED TERMS: if the English verse contains a locked term (whole word), its exact locked
+   transliteration MUST appear in that language's text. Flag drift (e.g. 柯珀 vs 珂珀).
+3. NAMES: transliterated by SOUND per §2; never an existing real-world deity/figure name
+   (e.g. Jehovih is 耶霍維/ジェホヴィ, NOT 耶和華; Moses is NOT 摩西). Flag violations.
+4. JAPANESE PURITY: ja must not borrow Chinese-only transliterations; names in katakana.
+   Flag zh characters leaking into ja names.
+5. REGISTER: elevated modern scripture (書面語 / である調), consistent across verses.
+6. COMPLETENESS: every verse present in all 3 langs; preamble & captions translated.
+
+Write your verdict — a single JSON object — using your Write tool to this EXACT path:
+  {RESULT_DIR}/ch{chapter}.review.json
+
+⛔ HARD SCOPE — write ONLY the verdict file above. Do NOT run git, validate.py, json-to-mdx.py,
+  or any build; do NOT edit the translation or any content file; do NOT fix it yourself. You
+  only judge and report. The driver handles revision and merge.
+Reply only with the word "reviewed". The JSON object MUST match:
+{{
+  "chapter_id": "{chap['id']}",
+  "pass": true,
+  "issues": [
+    {{"id": "<verse_id | 'preamble' | 'caption:<verse_id>'>", "lang": "zh_hant|zh_hans|ja",
+      "severity": "major|minor", "problem": "<what is wrong>", "suggestion": "<concrete fix>"}}
+  ]
+}}
+Set "pass": true and "issues": [] ONLY if the translation is fully correct. List EVERY real
+issue you find; be specific (quote the offending text). Do NOT invent issues to seem thorough."""
+
+
+def build_revise_prompt(book: str, chapter: int, issues: list[dict], vmin: int | None = None, vmax: int | None = None) -> str:
+    """Assemble instructions to REVISE a translation given a reviewer's issue list.
+    Reuses the full translate prompt (guideline, locked table, schema) and appends the
+    concrete defects plus the current (flawed) result so the agent produces a fixed file."""
+    base = build_prompt(book, chapter, vmin, vmax)
+    result = read_result(book, chapter)
+    return f"""{base}
+
+=== ⚠ THIS IS A REVISION PASS ===
+An independent reviewer found problems in the PREVIOUS translation of this chapter. Your
+PREVIOUS output was:
+{json.dumps(result, ensure_ascii=False)}
+
+The reviewer's issues (fix EVERY one; keep everything else that was already correct):
+{json.dumps(issues, ensure_ascii=False, indent=1)}
+
+Produce a COMPLETE corrected result JSON (same schema, all verses, preamble, captions) and
+Write it to the SAME path {RESULT_DIR}/ch{chapter}.json, overwriting the previous file.
+Reply only with the word "written"."""
 
 
 # ---------------------------------------------------------------------------
