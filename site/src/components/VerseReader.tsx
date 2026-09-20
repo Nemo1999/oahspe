@@ -315,6 +315,25 @@ export default function VerseReader({ chapter, glossary = {}, hidePreamble = fal
     setBookmarks(loadBookmarks());
     setHydrated(true);
   }, []);
+  // Keep the sticky toolbar flush under the navbar — including when Docusaurus's
+  // hideOnScroll slides the navbar away (otherwise the toolbar floats at a fixed
+  // navbar-height offset, leaving a gap). Track the navbar's live bottom edge.
+  useEffect(() => {
+    const navbar = document.querySelector<HTMLElement>('.navbar');
+    if (!navbar) return;
+    const sync = () => {
+      const bottom = Math.max(0, navbar.getBoundingClientRect().bottom);
+      document.documentElement.style.setProperty('--oahspe-toolbar-top', `${bottom}px`);
+    };
+    sync();
+    window.addEventListener('scroll', sync, { passive: true });
+    window.addEventListener('resize', sync);
+    return () => {
+      window.removeEventListener('scroll', sync);
+      window.removeEventListener('resize', sync);
+      document.documentElement.style.removeProperty('--oahspe-toolbar-top');
+    };
+  }, []);
 
   const handleLangChange = useCallback((l: Lang) => {
     setLang(l);

@@ -129,10 +129,8 @@ const config: Config = {
           type: 'search',
           position: 'right',
         },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        // Locale dropdown removed: the in-page verse toolbox controls reading language
+        // (navbar dropdown had no effect on the reader). Reading language persists via localStorage.
         {
           href: 'https://github.com/Nemo1999/oahspe',
           label: 'GitHub',
